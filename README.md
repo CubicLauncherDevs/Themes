@@ -9,7 +9,7 @@ Este repositorio funciona como un **registro centralizado de temas visuales** cr
 Los temas se distribuyen como archivos `.zip` que contienen:
 
 - `theme.json` → Definición de todas las variables CSS del tema
-- `bg.png` / `bg.jpg` → Imagen de fondo personalizada
+- `bg.png` / `bg.jpg`/ `bg.gif` → Imagen de fondo personalizada
 - `Showcase.png` → Vista previa del tema
 - `font.woff2` → Fuente personalizada (opcional)
 
@@ -45,7 +45,7 @@ Cada tema se organiza bajo `src/` con el formato `Autor/NombreDelTema/`.
 
 4. Incluye una imagen de fondo (máx. 25 MB, formatos: PNG, JPG, GIF, WEBP).
 5. Incluye un `Showcase.png` como vista previa.
-6. Empaqueta todo en un `.zip` con el nombre `TuTema:TuNombre.zip`.
+6. Empaqueta todo en un `.zip` con el nombre `TuTema_TuNombre.zip`.
 
 Puedes usar la [herramienta de generación de colores](src/Notstaff/Lain%20Theme%3ANotstaff/generate_colors.py) de Lain Theme como inspiración para automatizar la creación de paletas.
 
