@@ -1,0 +1,39 @@
+name: Generate themes.json
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate themes.json
+        run: node .github/scripts/generate-themes-json.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Cubic Themes"
+          git config user.email "themes@cubiclauncher.org"
+          git add themes.json
+          if git diff --cached --quiet; then
+            echo "No changes to themes.json"
+          else
+            git commit -m "Actualizar themes.json [skip ci]"
+            git push
+          fi
