@@ -97,7 +97,10 @@ for (const authorDir of authorDirs) {
 
       const files = fs.readdirSync(vPath);
 
-      const zipFile = files.find((f) => f.toLowerCase().endsWith(".zip"));
+      const zipFile = files.find((f) => {
+        const lower = f.toLowerCase();
+        return lower.endsWith(".zip") || lower.endsWith(".cbth");
+      });
       const previewFile = files.find((f) => f.toLowerCase() === "showcase.png");
       const changelogFile = files.find(
         (f) => f.toLowerCase() === "changelog.md",
