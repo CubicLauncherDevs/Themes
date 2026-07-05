@@ -176,6 +176,15 @@
     "description": null,
     "versions": [
       {
+        "version": "V2",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
+        "zipName": "lain_theme_notstaff.cbth",
+        "dirPath": "src/Notstaff/Lain Theme/V2",
+        "date": "2026-07-05T03:29:04-04:00",
+        "changelog": "# Migracion a Themes V2\n"
+      },
+      {
         "version": "V1",
         "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
         "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/lain_theme_notstaff.zip",
@@ -185,11 +194,11 @@
         "changelog": null
       }
     ],
-    "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/lain_theme_notstaff.zip",
-    "zipName": "lain_theme_notstaff.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "latestVersion": "V2",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
+    "zipName": "lain_theme_notstaff.cbth",
+    "date": "2026-07-05T03:29:04-04:00"
   },
   {
     "id": "santiagolxx-gengar",
