@@ -194,20 +194,20 @@
     "description": "# Clang\n\nUn tema oscuro y acogedor con acentos teal, inspirado en una estética cálida y nostálgica. Los colores están extraídos del arte de fondo, creando una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento teal suave:** Detalles en tonos teal que guían la atención sin ser agresivos\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos teal\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
     "versions": [
       {
-        "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Notstaff_Clang.cbth",
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Notstaff_Clang.cbth",
         "zipName": "Notstaff_Clang.cbth",
-        "dirPath": "src/Notstaff/Clang/V2",
-        "date": "2026-07-07T23:01:47-06:00",
+        "dirPath": "src/Notstaff/Clang/V1",
+        "date": "2026-07-07T23:05:21-06:00",
         "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n"
       }
     ],
-    "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Notstaff_Clang.cbth",
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Notstaff_Clang.cbth",
     "zipName": "Notstaff_Clang.cbth",
-    "date": "2026-07-07T23:01:47-06:00"
+    "date": "2026-07-07T23:05:21-06:00"
   },
   {
     "id": "notstaff-lain-theme",
