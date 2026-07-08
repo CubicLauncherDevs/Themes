@@ -195,19 +195,19 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Showcase.png",
         "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Notstaff_Clang.cbth",
         "zipName": "Notstaff_Clang.cbth",
         "dirPath": "src/Notstaff/Clang/V2",
-        "date": null,
+        "date": "2026-07-07T23:01:47-06:00",
         "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n"
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Showcase.png",
     "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V2/Notstaff_Clang.cbth",
     "zipName": "Notstaff_Clang.cbth",
-    "date": null
+    "date": "2026-07-07T23:01:47-06:00"
   },
   {
     "id": "notstaff-lain-theme",
