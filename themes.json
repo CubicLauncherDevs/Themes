@@ -267,6 +267,30 @@
     "date": "2026-07-05T02:32:50-04:00"
   },
   {
+    "id": "santiagolxx-laroja",
+    "slug": "santiagolxx-laroja",
+    "name": "LaRoja",
+    "author": "Santiagolxx",
+    "dirPath": "src/Santiagolxx/LaRoja",
+    "description": null,
+    "versions": [
+      {
+        "version": "v1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/LaRoja_Santiagolxx.cbth",
+        "zipName": "LaRoja_Santiagolxx.cbth",
+        "dirPath": "src/Santiagolxx/LaRoja/v1",
+        "date": "2026-07-15T00:53:39-04:00",
+        "changelog": null
+      }
+    ],
+    "latestVersion": "v1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/LaRoja_Santiagolxx.cbth",
+    "zipName": "LaRoja_Santiagolxx.cbth",
+    "date": "2026-07-15T00:53:39-04:00"
+  },
+  {
     "id": "santiagolxx-lain",
     "slug": "santiagolxx-lain",
     "name": "Lain",
@@ -385,5 +409,29 @@
     "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/running_santiagolxx.zip",
     "zipName": "running_santiagolxx.zip",
     "date": "2026-07-05T02:32:50-04:00"
+  },
+  {
+    "id": "santiagolxx-worldcupafa",
+    "slug": "santiagolxx-worldcupafa",
+    "name": "WorldCupAFA",
+    "author": "Santiagolxx",
+    "dirPath": "src/Santiagolxx/WorldCupAFA",
+    "description": null,
+    "versions": [
+      {
+        "version": "v1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/WorldCupAfa_Santiagolxx.cbth",
+        "zipName": "WorldCupAfa_Santiagolxx.cbth",
+        "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
+        "date": "2026-07-15T00:53:39-04:00",
+        "changelog": null
+      }
+    ],
+    "latestVersion": "v1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/WorldCupAfa_Santiagolxx.cbth",
+    "zipName": "WorldCupAfa_Santiagolxx.cbth",
+    "date": "2026-07-15T00:53:39-04:00"
   }
 ]
