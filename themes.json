@@ -248,32 +248,23 @@
     "name": "Louise",
     "author": "Notstaff",
     "dirPath": "src/Notstaff/Louise",
-    "description": "# Louise\n\nUn tema claro y vibrante inspirado en Louise, construido únicamente con tonos blancos y rosados extraídos de su ilustración de fondo. La paleta es sólida, limpia y coherente, con acentos rosas vivos que resaltan sobre superficies blancas y cremosas.\n\n## Características\n\n- **Paleta blanco y rosa:** Colores tomados directamente del arte de Louise, sin tonos ajenos.\n- **Tema claro y luminoso:** Fondos blancos con tintes rosados muy suaves.\n- **Acento rosa sólido:** Detalles en `#f06292` que dan fuerza a los elementos interactivos.\n- **Fondo nítido:** Sin desenfoque (`0px`) para mostrar `bg.jpg` con total claridad.\n- **Scrollbar personalizada:** Indicador rosa vibrante sobre fondo blanco rosado.\n- **V1 legacy:** Compatible con el sistema de themes JSON de CubicLauncher.\n- **V2 recomendado:** Usa `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias, logrando una experiencia clara realmente limpia.\n",
+    "description": "# Louise\n\nUn tema claro y vibrante inspirado en Louise, construido únicamente con tonos blancos y rosados extraídos de su ilustración de fondo. La paleta es sólida, limpia y coherente, con acentos rosas vivos que resaltan sobre superficies blancas y cremosas.\n\n## Características\n\n- **Paleta blanco y rosa:** Colores tomados directamente del arte de Louise, sin tonos ajenos.\n- **Tema claro y luminoso:** Fondos blancos con tintes rosados muy suaves.\n- **Acento rosa sólido:** Detalles en `#f06292` que dan fuerza a los elementos interactivos.\n- **Fondo nítido:** Sin desenfoque (`0px`) para mostrar `bg.jpg` con total claridad.\n- **Scrollbar personalizada:** Indicador rosa vibrante sobre fondo blanco rosado.\n- **V1:** Usa `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias, logrando una experiencia clara realmente limpia.\n",
     "versions": [
-      {
-        "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V2/Notstaff_Louise.cbth",
-        "zipName": "Notstaff_Louise.cbth",
-        "dirPath": "src/Notstaff/Louise/V2",
-        "date": null,
-        "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n"
-      },
       {
         "version": "V1",
         "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Notstaff_Louise.zip",
-        "zipName": "Notstaff_Louise.zip",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Notstaff_Louise.cbth",
+        "zipName": "Notstaff_Louise.cbth",
         "dirPath": "src/Notstaff/Louise/V1",
-        "date": null,
-        "changelog": "# V1\n\n- Lanzamiento inicial del tema Louise.\n- Tema claro con paleta restringida a blancos y rosados, extraída del fondo `bg.jpg`.\n- Acento principal en rosa vibrante `#f06292`.\n- Fondo principal `#fff5f7` y sidebar `#ffeef1`.\n- Fondo sin desenfoque (`0px`) y opacidad completa (`1.0`).\n- Formato legacy V1 (`theme.json` + `bg.jpg`).\n"
+        "date": "2026-07-16T01:14:46-06:00",
+        "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n"
       }
     ],
-    "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V2/Notstaff_Louise.cbth",
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Notstaff_Louise.cbth",
     "zipName": "Notstaff_Louise.cbth",
-    "date": null
+    "date": "2026-07-16T01:14:46-06:00"
   },
   {
     "id": "notstaff-chill",
