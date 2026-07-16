@@ -253,18 +253,18 @@
       {
         "version": "V1",
         "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Notstaff_Louise.cbth",
-        "zipName": "Notstaff_Louise.cbth",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/louise_notstaff.cbth",
+        "zipName": "louise_notstaff.cbth",
         "dirPath": "src/Notstaff/Louise/V1",
-        "date": "2026-07-16T01:14:46-06:00",
+        "date": "2026-07-16T02:50:17-06:00",
         "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n"
       }
     ],
     "latestVersion": "V1",
     "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Notstaff_Louise.cbth",
-    "zipName": "Notstaff_Louise.cbth",
-    "date": "2026-07-16T01:14:46-06:00"
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/louise_notstaff.cbth",
+    "zipName": "louise_notstaff.cbth",
+    "date": "2026-07-16T02:50:17-06:00"
   },
   {
     "id": "notstaff-chill",
