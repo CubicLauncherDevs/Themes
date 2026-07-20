@@ -490,5 +490,29 @@
     "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/WorldCupAfa_Santiagolxx.cbth",
     "zipName": "WorldCupAfa_Santiagolxx.cbth",
     "date": "2026-07-15T00:53:39-04:00"
+  },
+  {
+    "id": "unr4n-dark-theme",
+    "slug": "unr4n-dark-theme",
+    "name": "Dark Theme",
+    "author": "Unr4n",
+    "dirPath": "src/Unr4n/Dark Theme:Unr4n",
+    "description": null,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme:Unr4n/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme:Unr4n/Dark%20Theme:Unr4n.zip",
+        "zipName": "Dark Theme:Unr4n.zip",
+        "dirPath": "src/Unr4n/Dark Theme:Unr4n",
+        "date": "2026-07-20T15:16:00-06:00",
+        "changelog": null
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme:Unr4n/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme:Unr4n/Dark%20Theme:Unr4n.zip",
+    "zipName": "Dark Theme:Unr4n.zip",
+    "date": "2026-07-20T15:16:00-06:00"
   }
 ]
