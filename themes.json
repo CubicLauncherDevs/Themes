@@ -96,6 +96,30 @@
     "date": "2026-07-23T00:20:31-06:00"
   },
   {
+    "id": "cubiclauncher-signature-classic",
+    "slug": "cubiclauncher-signature-classic",
+    "name": "Signature Classic",
+    "author": "CubicLauncher",
+    "dirPath": "src/CubicLauncher/Signature Classic",
+    "description": "# Signature Classic\n\nTema claro oficial del **CubicLauncher Signature Pack**. Diseñado para ofrecer una experiencia limpia, moderna y legible durante el día, con acentos azules que mantienen la identidad visual de CubicLauncher.\n\n## Características\n\n- **Paleta clara y profesional**: fondos en tonos gris-azulados muy suaves.\n- **Acento azul signature**: `#2563eb` para botones, estados activos y glows.\n- **Alto contraste**: texto oscuro `#0f172a` sobre superficies claras.\n- **Fondo sutil**: degradado generado con un toque del color de acento.\n- **Formato v2 (TOML)**: aprovecha el sistema de themes recomendado por CubicLauncher.\n",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/CubicLauncher_Signature-Classic.cbth",
+        "zipName": "CubicLauncher_Signature-Classic.cbth",
+        "dirPath": "src/CubicLauncher/Signature Classic/V1",
+        "date": "2026-07-23T00:37:43-06:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n"
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/CubicLauncher_Signature-Classic.cbth",
+    "zipName": "CubicLauncher_Signature-Classic.cbth",
+    "date": "2026-07-23T00:37:43-06:00"
+  },
+  {
     "id": "edgajuman-cyberpunk",
     "slug": "edgajuman-cyberpunk",
     "name": "Cyberpunk",
