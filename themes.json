@@ -72,6 +72,30 @@
     "date": "2026-07-05T02:32:50-04:00"
   },
   {
+    "id": "cubiclauncher-signature-amber",
+    "slug": "cubiclauncher-signature-amber",
+    "name": "Signature Amber",
+    "author": "CubicLauncher",
+    "dirPath": "src/CubicLauncher/Signature Amber",
+    "description": "# Signature Amber\n\nTema oscuro cálido oficial del **CubicLauncher Signature Pack**. Con tonos marrón-grisáceos y acentos ámbar, transmite una sensación acogedora y energética sin perder profesionalismo.\n\n## Características\n\n- **Paleta cálida**: fondos `#1c1917` con superficies `#292524`.\n- **Acento ámbar**: `#f59e0b` para llamar la atención sin ser agresivo.\n- **Contraste cálido**: texto `#fafaf9` con matices `#d6d3d1`.\n- **Fondo sutil**: degradado oscuro con glow ámbar.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/CubicLauncher_Signature-Amber.cbth",
+        "zipName": "CubicLauncher_Signature-Amber.cbth",
+        "dirPath": "src/CubicLauncher/Signature Amber/V1",
+        "date": "2026-07-23T00:20:31-06:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/CubicLauncher_Signature-Amber.cbth",
+    "zipName": "CubicLauncher_Signature-Amber.cbth",
+    "date": "2026-07-23T00:20:31-06:00"
+  },
+  {
     "id": "edgajuman-cyberpunk",
     "slug": "edgajuman-cyberpunk",
     "name": "Cyberpunk",
