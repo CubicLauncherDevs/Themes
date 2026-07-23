@@ -144,6 +144,30 @@
     "date": "2026-07-23T00:56:50-06:00"
   },
   {
+    "id": "cubiclauncher-signature-frost",
+    "slug": "cubiclauncher-signature-frost",
+    "name": "Signature Frost",
+    "author": "CubicLauncher",
+    "dirPath": "src/CubicLauncher/Signature Frost",
+    "description": "# Signature Frost\n\nTema oscuro frío oficial del **CubicLauncher Signature Pack**. Inspirado en tonos de hielo y noche invernal, con fondos azul-petróleo y acentos cyan que dan una estética moderna e inmersiva.\n\n## Características\n\n- **Paleta fría**: fondos `#082f49` con superficies `#0c4a6e`.\n- **Acento cyan brillante**: `#22d3ee` para acciones y estados activos.\n- **Legibilidad fría**: texto `#f0f9ff` con tonos secundarios `#bae6fd`.\n- **Fondo sutil**: degradado oscuro con glow cyan.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/CubicLauncher_Signature-Frost.cbth",
+        "zipName": "CubicLauncher_Signature-Frost.cbth",
+        "dirPath": "src/CubicLauncher/Signature Frost/V1",
+        "date": "2026-07-23T01:10:01-06:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/CubicLauncher_Signature-Frost.cbth",
+    "zipName": "CubicLauncher_Signature-Frost.cbth",
+    "date": "2026-07-23T01:10:01-06:00"
+  },
+  {
     "id": "edgajuman-cyberpunk",
     "slug": "edgajuman-cyberpunk",
     "name": "Cyberpunk",
