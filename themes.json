@@ -120,6 +120,30 @@
     "date": "2026-07-23T00:37:43-06:00"
   },
   {
+    "id": "cubiclauncher-signature-dark",
+    "slug": "cubiclauncher-signature-dark",
+    "name": "Signature Dark",
+    "author": "CubicLauncher",
+    "dirPath": "src/CubicLauncher/Signature Dark",
+    "description": "# Signature Dark\n\nTema oscuro oficial del **CubicLauncher Signature Pack**. Ideal para sesiones nocturnas, con una paleta azulada elegante y un acento vibrante que mantiene la legibilidad sin fatigar la vista.\n\n## Características\n\n- **Paleta oscura profunda**: fondos `#0f172a` y tarjetas `#1e293b`.\n- **Acento azul brillante**: `#3b82f6` para resaltar acciones principales.\n- **Contraste cuidado**: texto claro sobre superficies oscuras con estados bien diferenciados.\n- **Fondo sutil**: degradado oscuro con glow azul suave.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
+        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/CubicLauncher_Signature-Dark.cbth",
+        "zipName": "CubicLauncher_Signature-Dark.cbth",
+        "dirPath": "src/CubicLauncher/Signature Dark/V1",
+        "date": "2026-07-23T00:56:50-06:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
+    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/CubicLauncher_Signature-Dark.cbth",
+    "zipName": "CubicLauncher_Signature-Dark.cbth",
+    "date": "2026-07-23T00:56:50-06:00"
+  },
+  {
     "id": "edgajuman-cyberpunk",
     "slug": "edgajuman-cyberpunk",
     "name": "Cyberpunk",
