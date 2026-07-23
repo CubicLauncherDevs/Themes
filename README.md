@@ -69,6 +69,10 @@ El repositorio incluye un **GitHub Action** (`.github/workflows/generate-themes.
 
 El archivo `themes.json` es servido estáticamente y usado por la web de CubicLauncher para mostrar y descargar temas.
 
+## Paquetes
+
+Los paquetes temáticos se mantienen de forma manual en `packages.json`. Cada paquete es solo una lista de temas ya existentes (por sus `id`/`slug`) para mostrarlos agrupados.
+
 ## Licencia
 
 [CC0 1.0 Universal](LICENSE) — dominio público.
