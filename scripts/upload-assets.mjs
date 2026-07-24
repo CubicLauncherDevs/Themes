@@ -38,9 +38,15 @@ if (missing.length) {
 
 // ---- S3 client ----
 
+// R2_S3_URL includes the bucket path, extract bucket name
+const r2Url = new URL(R2_S3_URL);
+const r2Endpoint = `${r2Url.protocol}//${r2Url.host}`;
+const r2Bucket = r2Url.pathname.replace(/^\//, "").replace(/\/$/, "");
+
 const s3 = new S3Client({
-  endpoint: R2_S3_URL,
+  endpoint: r2Endpoint,
   region: "auto",
+  forcePathStyle: true,
   credentials: {
     accessKeyId: R2_ACCESS_KEY_ID,
     secretAccessKey: R2_SECRET_ACCESS_KEY,
@@ -128,14 +134,14 @@ for (const theme of themes) {
       // Check if already uploaded
       let needsUpload = true;
       try {
-        await s3.send(new HeadObjectCommand({ Bucket: "", Key: r2Key }));
+        await s3.send(new HeadObjectCommand({ Bucket: r2Bucket, Key: r2Key }));
         needsUpload = false;
       } catch { /* not found, upload */ }
 
       if (needsUpload) {
         const body = readFileSync(abs);
         await s3.send(new PutObjectCommand({
-          Bucket: "",
+          Bucket: r2Bucket,
           Key: r2Key,
           Body: body,
           ContentType: mimeType(rel),
