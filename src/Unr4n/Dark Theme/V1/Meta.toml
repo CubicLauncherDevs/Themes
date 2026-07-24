@@ -1,5 +1,3 @@
 name = "Dark Theme"
 author = "Unr4n"
-version = "V1"
-description = ""
 injects_css = false

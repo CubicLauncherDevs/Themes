@@ -1,63 +1,56 @@
 [background]
 reference_path = "waguri.png"
-
-[colors]
-accent = "#8a46e6"
-accent-rgb = "138,70,230"
-accent-hover = "#a266f0"
-accent-active = "#7333c9"
-accent-text = "#ffffff"
-accent-subtle = "rgba(138, 70, 230, 0.25)"
-accent-primary = "#8a46e6"
-color-success = "#3fb950"
-color-success-rgb = "63,185,80"
-color-error = "#f85149"
-color-error-rgb = "248,81,73"
-color-warning = "#d29922"
-color-warning-rgb = "210,153,34)"
-color-status-starting = "#a266f0"
-color-status-started = "#3fb950"
-
-[text]
-primary = "#f3eef7"
-secondary = "#c3b4d6"
-muted = "#7a698f"
-accent = "#b886f8"
+image_blur = 10px
+image_opacity = 0.85
 
 [backgrounds]
-main = "#120a1c"
-sidebar = "#1a0f29"
-card = "rgba(38, 22, 59, 0.6)"
-item-active = "#4c2875"
-overlay = "rgba(18, 10, 28, 0.85)"
-input = "#221333"
+  main = "#120a1c"
+  sidebar = "#1a0f29"
+  card = "rgba(38, 22, 59, 0.6)"
+  item-active = "#4c2875"
+  input = "#221333"
+  overlay = "rgba(18, 10, 28, 0.85)"
+
+[colors]
+  accent = "#8a46e6"
+  accent-rgb = "138,70,230"
+  accent-hover = "#a266f0"
+  accent-active = "#7333c9"
+  accent-text = "#ffffff"
+  accent-subtle = "rgba(138, 70, 230, 0.25)"
+  color-success = "#3fb950"
+  color-success-rgb = "63,185,80"
+  color-error = "#f85149"
+  color-error-rgb = "248,81,73"
+  color-warning = "#d29922"
+  color-warning-rgb = "210,153,34)"
+  color-status-starting = "#a266f0"
+  color-status-started = "#3fb950"
+
+[text]
+  primary = "#f3eef7"
+  secondary = "#c3b4d6"
+  muted = "#7a698f"
+  accent = "#b886f8"
 
 [borders]
-color = "#3d245c"
-border = "#3d245c"
-color-hover = "#5c378a"
-width = "1px"
-radius = "10px"
-radius-sm = "5px"
-radius-lg = "15px"
+  color = "#3d245c"
+  color-hover = "#5c378a"
+  radius = "10px"
+  radius-sm = "5px"
+  radius-lg = "15px"
 
 [shadows]
-shadow-sm = "0 2px 4px rgba(0,0,0,0.5)"
-shadow-md = "0 4px 8px rgba(0,0,0,0.6)"
-shadow-lg = "0 8px 16px rgba(0,0,0,0.7)"
-glow-accent = "0 0 8px rgba(138, 70, 230, 0.6)"
-glow-accent-strong = "0 0 16px rgba(138, 70, 230, 0.9)"
-glow-error = "0 0 8px rgba(248, 81, 73, 0.6)"
-glow-success = "0 0 8px rgba(63, 185, 80, 0.6)"
-
-[layout]
-font-family = "sans-serif"
-font-size-base = "14px"
+  shadow-sm = "0 2px 4px rgba(0,0,0,0.5)"
+  shadow-md = "0 4px 8px rgba(0,0,0,0.6)"
+  shadow-lg = "0 8px 16px rgba(0,0,0,0.7)"
+  glow-accent = "0 0 8px rgba(138, 70, 230, 0.6)"
+  glow-accent-strong = "0 0 16px rgba(138, 70, 230, 0.9)"
 
 [others]
-scrollbar-track = "#120a1c"
-scrollbar-thumb = "#3d245c"
-scrollbar-thumb-hover = "#5c378a"
-sidebar-width = "260px"
-bg-sidebar-gradient = "linear-gradient(180deg, #1a0f29 0%, #120a1c 100%)"
-bg-card-gradient = "linear-gradient(135deg, rgba(38, 22, 59, 0.7) 0%, rgba(26, 15, 41, 0.7) 100%)"
+  bg-sidebar-gradient = "linear-gradient(180deg, #1a0f29 0%, #120a1c 100%)"
+  bg-card-gradient = "linear-gradient(135deg, rgba(38, 22, 59, 0.7) 0%, rgba(26, 15, 41, 0.7) 100%)"
+  scrollbar-track = "#120a1c"
+  scrollbar-thumb = "#3d245c"
+  scrollbar-thumb-hover = "#5c378a"
+

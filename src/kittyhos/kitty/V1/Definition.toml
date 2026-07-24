@@ -1,0 +1,87 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#E38C8F"
+"accent-rgb" = "227, 140, 143"
+"accent-hover" = "#D47A7D"
+"accent-active" = "#C46669"
+"accent-text" = "#1A1A20"
+"accent-subtle" = "rgba(227, 140, 143, 0.12)"
+
+[text]
+primary = "#F0EAEA"
+secondary = "#B0A8A8"
+muted = "#A09898"
+accent = "#E38C8F"
+
+[borders]
+color = "#3A3436"
+"color-hover" = "#E38C8F"
+radius = "10px"
+"radius-sm" = "6px"
+"radius-lg" = "14px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.5)"
+"shadow-md" = "0 4px 8px rgba(0,0,0,0.4)"
+"shadow-lg" = "0 8px 24px rgba(0,0,0,0.5)"
+"glow-accent" = "0 0 12px rgba(227, 140, 143, 0.25)"
+"glow-accent-strong" = "0 0 20px rgba(227, 140, 143, 0.4)"
+"glow-error" = "0 0 12px rgba(197, 108, 108, 0.25)"
+"glow-success" = "0 0 12px rgba(126, 191, 142, 0.25)"
+
+[backgrounds]
+main = "#1A1A20"
+sidebar = "#16161C"
+"sidebar-gradient" = "linear-gradient(180deg, #16161C 0%, #121216 100%)"
+card = "#1E1E24"
+"item-active" = "#E38C8F"
+overlay = "rgba(0,0,0,0.7)"
+input = "#14141A"
+
+[layout]
+"font-family" = "'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "16px"
+
+[others]
+"icon-filter" = "brightness(0) invert(0.92)"
+"icon-filter-accent" = "brightness(0) invert(0.6) sepia(1) saturate(3) hue-rotate(320deg)"
+"icon-filter-error" = "brightness(0) invert(0.4) sepia(1) saturate(10) hue-rotate(316deg)"
+"icon-filter-success" = "brightness(0) invert(0.65) sepia(1) saturate(3) hue-rotate(85deg)"
+"icon-filter-warning" = "brightness(0) invert(0.6) sepia(1) saturate(5) hue-rotate(5deg)"
+"icon-filter-info" = "brightness(0) invert(0.65) sepia(0.5) saturate(4) hue-rotate(190deg)"
+"icon-filter-muted" = "brightness(0) invert(0.55)"
+"color-success" = "#4ADE80"
+"color-success-rgb" = "74, 222, 128"
+"color-error" = "#F87171"
+"color-error-rgb" = "248, 113, 113"
+"color-warning" = "#FBBF24"
+"color-warning-rgb" = "251, 191, 36"
+"color-info" = "#E38C8F"
+"color-info-rgb" = "227, 140, 143"
+"color-status-starting" = "#FBBF24"
+"color-status-started" = "#4ADE80"
+"color-status-stopped" = "#F87171"
+"color-status-error" = "#F87171"
+"scrollbar-track" = "#121216"
+"scrollbar-thumb" = "#E38C8F"
+"scrollbar-thumb-hover" = "#D47A7D"
+"sidebar-width" = "240px"
+"transition-fast" = "0.12s ease"
+"transition-base" = "0.2s ease"
+"transition-slow" = "0.35s ease"
+
+[backdrop]
+dropdown = 8.0
+modal = 4.0
+overlay = 4.0
+viewer = 8.0
+float = 8.0
+panel = 5.0
+button = 4.0

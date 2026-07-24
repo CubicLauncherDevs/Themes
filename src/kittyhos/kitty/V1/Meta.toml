@@ -1,0 +1,5 @@
+name = "Kitty"
+author = "kittyhos"
+version = "1.0.0"
+description = "Tema minimalista y elegante con acentos rosados suaves. Inspirado en tonos pastel y una estética limpia y calmada."
+injects_css = true

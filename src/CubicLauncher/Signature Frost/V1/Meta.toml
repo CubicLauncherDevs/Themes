@@ -3,5 +3,3 @@ author = "CubicLauncher"
 version = "1.0.0"
 description = "Tema oscuro frío oficial de CubicLauncher con acentos cyan. Fresco, inmersivo y con una estética moderna."
 injects_css = false
-tags = ["oscuro", "frío", "cyan", "oficial"]
-date = "2026-07-23T01:10:01-06:00"
