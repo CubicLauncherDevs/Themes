@@ -9,7 +9,7 @@ const OUT = path.join(__dirname, "..", "..", "themes.json");
 const GITHUB_OWNER = "santiagolxx";
 const GITHUB_REPO = "asdasd";
 const GITHUB_BRANCH = "master";
-const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}`;
+const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/refs/heads/${GITHUB_BRANCH}`;
 
 function rawUrl(relativePath) {
   const segments = relativePath.split("/").map(encodeURIComponent);
@@ -180,13 +180,24 @@ for (const authorDir of authorDirs) {
       }
       mergedTags = [...new Set([...mergedTags, ...tags])];
 
-      // Collect files available for download
-      const versionFiles = fs.readdirSync(vPath).filter((f) => {
-        const lower = f.toLowerCase();
-        // Include Meta.toml, Definition.toml, Inject.css, bg.*, fonts, etc.
-        // Exclude changelog.md, Showcase.png
-        return !lower.startsWith(".") && lower !== "changelog.md" && lower !== "showcase.png";
-      });
+      // Collect files available for download (recursive)
+      function collectFiles(dir, base = "") {
+        const entries = fs.readdirSync(dir, { withFileTypes: true });
+        const result = [];
+        for (const entry of entries) {
+          if (entry.name.startsWith(".")) continue;
+          const lower = entry.name.toLowerCase();
+          if (lower === "changelog.md" || lower === "showcase.png") continue;
+          const relPath = base ? `${base}/${entry.name}` : entry.name;
+          if (entry.isDirectory()) {
+            result.push(...collectFiles(path.join(dir, entry.name), relPath));
+          } else {
+            result.push(relPath);
+          }
+        }
+        return result;
+      }
+      const versionFiles = collectFiles(vPath);
 
       const palettePreview = previewFile
         ? rawUrl(`${relativeDir}/${previewFile}`)

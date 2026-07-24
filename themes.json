@@ -10,9 +10,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Colorful/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Colorful/V1/Showcase.png",
         "dirPath": "src/4xnl/Colorful/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -23,8 +23,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Colorful/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Colorful/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "4xnl-jadol",
@@ -37,9 +37,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Jadol/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Showcase.png",
         "dirPath": "src/4xnl/Jadol/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -50,8 +50,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Jadol/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "4xnl-kayoko",
@@ -64,9 +64,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Kayoko/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Showcase.png",
         "dirPath": "src/4xnl/Kayoko/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -80,8 +80,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Kayoko/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "cubiclauncher-signature-amber",
@@ -99,7 +99,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Amber/V1",
         "date": "2026-07-23T00:20:31-06:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
@@ -112,7 +112,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
     "date": "2026-07-23T00:20:31-06:00"
   },
   {
@@ -131,7 +131,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Classic/V1",
         "date": "2026-07-23T00:37:43-06:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n",
@@ -144,7 +144,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
     "date": "2026-07-23T00:37:43-06:00"
   },
   {
@@ -163,7 +163,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Dark/V1",
         "date": "2026-07-23T00:56:50-06:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
@@ -176,7 +176,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
     "date": "2026-07-23T00:56:50-06:00"
   },
   {
@@ -195,7 +195,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Frost/V1",
         "date": "2026-07-23T01:10:01-06:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
@@ -208,7 +208,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
     "date": "2026-07-23T01:10:01-06:00"
   },
   {
@@ -222,9 +222,9 @@
     "versions": [
       {
         "version": "V3",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V3",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n",
         "files": [
           "Audiowide.ttf",
@@ -237,9 +237,9 @@
       },
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V2",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n",
         "files": [
           "Audiowide.ttf",
@@ -252,9 +252,9 @@
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Audiowide.ttf",
@@ -267,8 +267,8 @@
       }
     ],
     "latestVersion": "V3",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "mpg-waguri",
@@ -281,9 +281,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/Waguri/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/Waguri/V1/Showcase.png",
         "dirPath": "src/MPG/Waguri/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -294,8 +294,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/Waguri/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/Waguri/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "mpg-zerotwo",
@@ -308,9 +308,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/ZeroTwo/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/ZeroTwo/V1/Showcase.png",
         "dirPath": "src/MPG/ZeroTwo/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -321,8 +321,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/ZeroTwo/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/ZeroTwo/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-blur",
@@ -335,9 +335,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Blur/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Showcase.png",
         "dirPath": "src/Notstaff/Blur/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -348,8 +348,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Blur/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-clang",
@@ -362,9 +362,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Clang/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Showcase.png",
         "dirPath": "src/Notstaff/Clang/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n",
         "files": [
           "Definition.toml",
@@ -376,8 +376,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Clang/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-lain-theme",
@@ -390,9 +390,9 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
         "dirPath": "src/Notstaff/Lain Theme/V2",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Migracion a Themes V2\n",
         "files": [
           "Definition.toml",
@@ -406,9 +406,9 @@
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
         "dirPath": "src/Notstaff/Lain Theme/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -421,8 +421,8 @@
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-louise",
@@ -435,9 +435,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Louise/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Showcase.png",
         "dirPath": "src/Notstaff/Louise/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n",
         "files": [
           "Definition.toml",
@@ -449,8 +449,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Louise/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-chill",
@@ -463,9 +463,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/chill/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Showcase.png",
         "dirPath": "src/Notstaff/chill/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n",
         "files": [
           "Definition.toml",
@@ -477,8 +477,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/chill/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-gengar",
@@ -491,9 +491,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Gengar/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Gengar/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -506,8 +506,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Gengar/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-laroja",
@@ -520,9 +520,9 @@
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
         "dirPath": "src/Santiagolxx/LaRoja/v1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -534,8 +534,8 @@
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-lain",
@@ -548,9 +548,9 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V2/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/Showcase.png",
         "dirPath": "src/Santiagolxx/Lain/V2",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -563,9 +563,9 @@
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Lain/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -578,8 +578,8 @@
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V2/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-marron",
@@ -592,9 +592,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Marron/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Marron/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Marron/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -605,8 +605,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Marron/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Marron/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-moon",
@@ -619,9 +619,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Moon/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Moon/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Moon/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -632,8 +632,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Moon/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Moon/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-rei",
@@ -646,9 +646,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Rei/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Rei/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Rei/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -659,8 +659,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Rei/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Rei/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-running",
@@ -673,9 +673,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Running/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Running/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Running/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -686,8 +686,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Running/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Running/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-worldcupafa",
@@ -700,9 +700,9 @@
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
         "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -714,8 +714,8 @@
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "unr4n-dark-theme",
@@ -728,9 +728,9 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
         "dirPath": "src/Unr4n/Dark Theme/V1",
-        "date": null,
+        "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
           "Definition.toml",
@@ -741,7 +741,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
-    "date": null
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
+    "date": "2026-07-24T00:00:59-04:00"
   }
 ]
