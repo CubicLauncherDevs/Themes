@@ -141,7 +141,7 @@ for (const theme of themes) {
           const name = typeof existing === "string" ? existing : existing.name;
           if (!processed.has(name)) {
             // Only keep if it has an R2 URL (binary already uploaded)
-            if (typeof existing === "object" && existing.url?.startsWith(R2_PUBLIC_BASE)) {
+            if (typeof existing === "object" && existing.url && (existing.url.startsWith(R2_PUBLIC_BASE) || existing.url.startsWith(R2_PUBLIC_BASE.replace(/^https?:\/\//, "")))) {
               newFiles.push(existing);
             }
             // Text files not on disk are dropped (they should always exist)
