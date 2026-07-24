@@ -388,7 +388,7 @@ for (const authorDir of authorDirs) {
             await s3.send(new DeleteObjectCommand({ Bucket: r2Bucket, Key: r2Old.Key }));
             console.log(`  ✗ R2 remove old: ${r2Old.Key}`);
           }
-          const result = await pushR2(abs, `${relativeDir}/${rel}`, mimeType(rel), r2DirFiles);
+          const result = await pushR2(abs, `${relativeDir}/${rel}`, mimeType(rel));
           if (result.skipped) skipped++; else uploaded++;
           if (result.publicUrl) {
             newFiles.push({ name: rel, url: result.publicUrl });
