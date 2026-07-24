@@ -1020,8 +1020,8 @@
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.5a5c3496.png",
-        "showcaseUrl": null,
+        "previewUrl": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png",
+        "showcaseUrl": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.74235c55.png",
         "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -1035,15 +1035,19 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.74235c55.png"
+          },
+          {
             "name": "preview.png",
-            "url": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.5a5c3496.png"
+            "url": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.5a5c3496.png",
+    "previewUrl": "themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
