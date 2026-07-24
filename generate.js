@@ -329,11 +329,11 @@ async function generate(configPathOrDir, outPath) {
 
   if (cfg.backgroundImage && cfg.backgroundImage !== "__gradient__" && fs.existsSync(cfg.backgroundImage)) {
     const img = await loadImage(cfg.backgroundImage);
-    const scale = Math.min((artWidth * 0.9) / img.width, (cfg.height * 0.95) / img.height);
+    const scale = Math.max(artWidth / img.width, cfg.height / img.height);
     const dw = img.width * scale;
     const dh = img.height * scale;
     const dx = (artWidth - dw) / 2;
-    const dy = cfg.height - dh;
+    const dy = (cfg.height - dh) / 2;
     ctx.drawImage(img, dx, dy, dw, dh);
   } else if (cfg.backgroundImage === "__gradient__" || !cfg.backgroundImage) {
     // Generate abstract gradient from theme colors
@@ -353,24 +353,24 @@ async function generate(configPathOrDir, outPath) {
   ctx.fillStyle = cfg.sidebarBg;
   ctx.fillRect(sx, 0, cfg.sidebarWidth, cfg.height);
 
-  const padX = 72;
-  let cursorY = 110;
+  const padX = 60;
+  let cursorY = 90;
 
   ctx.fillStyle = cfg.titleColor;
-  ctx.font = "bold 56px sans-serif";
+  ctx.font = "bold 40px sans-serif";
   ctx.textBaseline = "alphabetic";
   ctx.fillText(cfg.title, sx + padX, cursorY);
 
-  cursorY += 46;
+  cursorY += 32;
   ctx.fillStyle = cfg.metaColor;
-  ctx.font = "26px sans-serif";
+  ctx.font = "18px sans-serif";
   const metaParts = [cfg.author && `by ${cfg.author}`, cfg.tag].filter(Boolean).join("   ·   ");
   ctx.fillText(metaParts, sx + padX, cursorY);
 
-  cursorY += 70;
+  cursorY += 44;
 
-  const rowH = 66;
-  const swatchR = 20;
+  const rowH = 42;
+  const swatchR = 13;
 
   for (const color of cfg.colors) {
     const cy = cursorY + swatchR;
@@ -379,19 +379,23 @@ async function generate(configPathOrDir, outPath) {
     ctx.arc(sx + padX + swatchR, cy, swatchR, 0, Math.PI * 2);
     ctx.fillStyle = color.hex;
     ctx.fill();
-    ctx.lineWidth = 2;
+    ctx.lineWidth = 1.5;
     ctx.strokeStyle = "rgba(0,0,0,0.06)";
     ctx.stroke();
 
     ctx.fillStyle = cfg.swatchLabelColor;
-    ctx.font = "24px sans-serif";
-    ctx.fillText(color.label, sx + padX + swatchR * 2 + 24, cy + 8);
+    ctx.font = "16px sans-serif";
+    ctx.fillText(color.label, sx + padX + swatchR * 2 + 16, cy + 5);
 
     ctx.fillStyle = cfg.swatchHexColor;
-    ctx.font = "24px monospace";
+    ctx.font = "15px monospace";
     const hexText = color.hex.toUpperCase();
     const hexW = ctx.measureText(hexText).width;
-    ctx.fillText(hexText, sx + cfg.sidebarWidth - padX - hexW, cy + 8);
+    ctx.fillText(
+      hexText,
+      sx + cfg.sidebarWidth - padX - hexW,
+      cy + 5
+    );
 
     cursorY += rowH;
   }
