@@ -10,8 +10,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.de8182aa.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.be18a8e6.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/Showcase.421aa1be.png",
         "dirPath": "src/4xnl/Colorful/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -25,15 +25,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Colorful/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/Showcase.421aa1be.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/bg.8ec2d9a9.png"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.de8182aa.png"
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.be18a8e6.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.de8182aa.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.be18a8e6.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -47,8 +55,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9165b3ac.png",
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.6ec35d67.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.72a815c2.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png",
         "dirPath": "src/4xnl/Jadol/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -62,15 +70,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg.132191b1.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9165b3ac.png"
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.72a815c2.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9165b3ac.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.72a815c2.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -84,8 +100,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.ca1a021b.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.017fe79b.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Showcase.274a6d94.png",
         "dirPath": "src/4xnl/Kayoko/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -95,27 +111,39 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Definition.toml"
           },
           {
+            "name": "Fonts/NotoSansJP-VariableFont_wght.ttf",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Fonts/README.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/README.txt"
+          },
+          {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Meta.toml"
           },
           {
-            "name": "OFL.txt",
-            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/OFL.txt"
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Showcase.274a6d94.png"
           },
           {
-            "name": "README.txt",
-            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/README.txt"
+            "name": "kayoko_bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/kayoko_bg.163c68a4.webp"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.ca1a021b.png"
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.017fe79b.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.ca1a021b.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.017fe79b.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -313,8 +341,8 @@
     "versions": [
       {
         "version": "V3",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.5a6ea83c.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.6227a71b.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/Showcase.fc1a15f3.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V3",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n",
@@ -332,20 +360,32 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/Showcase.fc1a15f3.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/bg.c33fcb52.gif"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/changelog.md"
           },
           {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/fonts/Audiowide.97742178.ttf"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.5a6ea83c.png"
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.6227a71b.png"
           }
         ],
         "injectsCss": true
       },
       {
         "version": "V2",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.4c772cf6.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.4bc20808.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/Showcase.03d50dee.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V2",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n",
@@ -363,20 +403,32 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/Showcase.03d50dee.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/bg.020e5c7e.gif"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/changelog.md"
           },
           {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/fonts/Audiowide.97742178.ttf"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.4c772cf6.png"
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.4bc20808.png"
           }
         ],
         "injectsCss": true
       },
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.96839a5e.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.0f4aaf58.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/Showcase.9bb7e2f7.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -394,15 +446,27 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/Showcase.9bb7e2f7.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/bg.cb2396bc.gif"
+          },
+          {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/fonts/Audiowide.97742178.ttf"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.96839a5e.png"
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.0f4aaf58.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V3",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.5a6ea83c.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.6227a71b.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -416,8 +480,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.1b80cbf4.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.d4894c15.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/Showcase.3f711601.png",
         "dirPath": "src/MPG/Waguri/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -431,15 +495,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/Waguri/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/Showcase.3f711601.png"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.1b80cbf4.png"
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.d4894c15.png"
+          },
+          {
+            "name": "waguri.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/waguri.cc73570c.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.1b80cbf4.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.d4894c15.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -453,8 +525,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.c85fdfc1.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.033706bb.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/Showcase.e03d857f.png",
         "dirPath": "src/MPG/ZeroTwo/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -468,15 +540,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/ZeroTwo/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/Showcase.e03d857f.png"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.c85fdfc1.png"
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.033706bb.png"
+          },
+          {
+            "name": "zerotwo.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/zerotwo.75713eb9.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.c85fdfc1.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.033706bb.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -490,8 +570,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.f3bb98c6.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.cc9cb88f.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/Showcase.a369462b.png",
         "dirPath": "src/Notstaff/Blur/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -505,15 +585,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/Showcase.a369462b.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/bg.6f770919.png"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.f3bb98c6.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.cc9cb88f.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.f3bb98c6.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.cc9cb88f.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -527,8 +615,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.5320b7b9.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.77db6aa3.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/Showcase.3d59426e.png",
         "dirPath": "src/Notstaff/Clang/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n",
@@ -546,19 +634,27 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/Showcase.3d59426e.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/bg.8f9c094b.png"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/changelog.md"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.5320b7b9.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.77db6aa3.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.5320b7b9.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.77db6aa3.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -656,8 +752,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2e4105f2.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2062b947.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png",
         "dirPath": "src/Notstaff/Louise/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n",
@@ -675,19 +771,27 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/bg.6b43ac00.jpg"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/changelog.md"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2e4105f2.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2062b947.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2e4105f2.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.2062b947.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -701,8 +805,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.e6a00188.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.c426318a.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/Showcase.99eb9a6b.png",
         "dirPath": "src/Notstaff/chill/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n",
@@ -720,19 +824,27 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/Showcase.99eb9a6b.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/bg.364f1276.png"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/changelog.md"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.e6a00188.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.c426318a.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.e6a00188.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.c426318a.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -746,8 +858,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.eb5e3adb.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.870f5f49.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Showcase.90679796.png",
         "dirPath": "src/Santiagolxx/Gengar/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -755,6 +867,10 @@
           {
             "name": "Definition.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/Definition.toml"
+          },
+          {
+            "name": "Grotesk.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Grotesk.9c2ab5aa.woff2"
           },
           {
             "name": "Meta.toml",
@@ -765,15 +881,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/OFL.txt"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Showcase.90679796.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/bg.fd5dd9f7.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.eb5e3adb.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.870f5f49.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.eb5e3adb.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.870f5f49.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -787,8 +911,8 @@
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5236acc1.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.708ac155.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Showcase.2bcd7a64.png",
         "dirPath": "src/Santiagolxx/LaRoja/v1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -798,19 +922,31 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Definition.toml"
           },
           {
+            "name": "Fonts/Satoshi.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Fonts/Satoshi.93330866.otf"
+          },
+          {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Showcase.2bcd7a64.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/bg.7fe58b33.png"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5236acc1.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.708ac155.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5236acc1.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.708ac155.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -824,8 +960,8 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8491c2d0.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.11b505d0.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Showcase.5626f971.png",
         "dirPath": "src/Santiagolxx/Lain/V2",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -843,16 +979,28 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/OFL.txt"
           },
           {
+            "name": "Pixelbasel.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Pixelbasel.c2771e60.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Showcase.5626f971.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/bg.e18f08aa.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8491c2d0.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.11b505d0.png"
           }
         ],
         "injectsCss": false
       },
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.a31f2007.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.8efb68da.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Showcase.581f4a60.png",
         "dirPath": "src/Santiagolxx/Lain/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -870,15 +1018,27 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/OFL.txt"
           },
           {
+            "name": "Pixelbasel.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Pixelbasel.c2771e60.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Showcase.581f4a60.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/bg.b290e091.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.a31f2007.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.8efb68da.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8491c2d0.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.11b505d0.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -892,8 +1052,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.8a6a9a78.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.49070b26.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/Showcase.34b70d60.png",
         "dirPath": "src/Santiagolxx/Marron/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -907,15 +1067,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Marron/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/Showcase.34b70d60.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/bg.fa38bdc0.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.8a6a9a78.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.49070b26.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.8a6a9a78.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.49070b26.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -929,8 +1097,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.0330d668.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.28de87b4.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/Showcase.fef6bbd9.png",
         "dirPath": "src/Santiagolxx/Moon/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -944,15 +1112,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Moon/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/Showcase.fef6bbd9.png"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/bg.3d04266e.jpeg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.0330d668.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.28de87b4.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.0330d668.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.28de87b4.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -966,8 +1142,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.435269e2.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.1749bcf6.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/Showcase.5e2c669e.png",
         "dirPath": "src/Santiagolxx/Rei/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -981,15 +1157,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Rei/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/Showcase.5e2c669e.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/bg.82e1680e.jpg"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.435269e2.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.1749bcf6.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.435269e2.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.1749bcf6.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -1003,8 +1187,8 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.e5b654d7.png",
-        "showcaseUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.f2388e68.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/Showcase.672a0bbf.png",
         "dirPath": "src/Santiagolxx/Running/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -1018,15 +1202,23 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Running/V1/Meta.toml"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/Showcase.672a0bbf.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/bg.593bd757.gif"
+          },
+          {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.e5b654d7.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.f2388e68.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.e5b654d7.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.f2388e68.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -1040,8 +1232,8 @@
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png",
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.74235c55.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.6d0d6742.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.c2ce66ce.png",
         "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
@@ -1051,23 +1243,31 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Definition.toml"
           },
           {
+            "name": "Fonts/Satoshi.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Fonts/Satoshi.93330866.otf"
+          },
+          {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Meta.toml"
           },
           {
             "name": "Showcase.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.74235c55.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.c2ce66ce.png"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/bg.41f26327.jpeg"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png"
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.6d0d6742.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.4351a824.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.6d0d6742.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -1106,5 +1306,54 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.af433be6.png",
     "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "kittyhos-kitty",
+    "slug": "kittyhos-kitty",
+    "name": "kitty",
+    "author": "kittyhos",
+    "tags": [],
+    "dirPath": "src/kittyhos/kitty",
+    "description": "Tema minimalista y elegante con acentos rosados suaves. Inspirado en tonos pastel y una estética limpia y calmada.",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.cc987f38.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/Showcase.2abb23c9.png",
+        "dirPath": "src/kittyhos/kitty/V1",
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/Showcase.2abb23c9.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/bg.737e275a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.cc987f38.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.cc987f38.png",
+    "date": "2026-07-24T02:34:20-04:00"
   }
 ]
