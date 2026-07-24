@@ -58,7 +58,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.72a815c2.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png",
         "dirPath": "src/4xnl/Jadol/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:33:49-04:00",
         "changelog": null,
         "files": [
           {
@@ -68,6 +68,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Meta.toml"
+          },
+          {
+            "name": "bg_r2_temp.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg_r2_temp.132191b1.jpg"
           },
           {
             "name": "Showcase.png",
@@ -87,7 +91,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.72a815c2.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:33:49-04:00"
   },
   {
     "id": "4xnl-kayoko",
