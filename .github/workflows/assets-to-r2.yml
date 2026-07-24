@@ -50,7 +50,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.regenerate_previews }}" = "true" ]; then
             ALL=$(find src -mindepth 3 -maxdepth 3 -type d | sort)
-            ASSET_DIRS=$(echo "$ALL" | tr '\n' ' ')
+            ASSET_DIRS="$ALL"
             PREVIEW_DIRS="$ASSET_DIRS"
           else
             if [ "${{ github.event_name }}" = "pull_request" ]; then
@@ -61,25 +61,35 @@ jobs:
             ALL=$(git diff --name-only "$BASE" HEAD -- src/)
             ASSET_DIRS=$(echo "$ALL" \
               | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
-              | sort -u | tr '\n' ' ')
+              | sort -u)
             PREVIEW_DIRS=$(echo "$ALL" \
               | grep -P '(bg\.|\.toml$|\.css$|\.md$|\.txt$)' \
               | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
-              | sort -u | tr '\n' ' ')
+              | sort -u)
           fi
-          echo "assetdirs=$ASSET_DIRS" >> "$GITHUB_OUTPUT"
-          echo "previewdirs=$PREVIEW_DIRS" >> "$GITHUB_OUTPUT"
-          echo "Asset dirs: $ASSET_DIRS"
-          echo "Preview dirs: $PREVIEW_DIRS"
+          {
+            echo "assetdirs<<EOF_ASSET"
+            echo "$ASSET_DIRS"
+            echo "EOF_ASSET"
+            echo "previewdirs<<EOF_PREVIEW"
+            echo "$PREVIEW_DIRS"
+            echo "EOF_PREVIEW"
+          } >> "$GITHUB_OUTPUT"
+          echo "Asset dirs:"
+          echo "$ASSET_DIRS"
+          echo "Preview dirs:"
+          echo "$PREVIEW_DIRS"
 
       - name: Optimize PNGs
         run: |
           if [ -n "${{ steps.changed.outputs.previewdirs }}" ]; then
             sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
-            for dir in ${{ steps.changed.outputs.previewdirs }}; do
-              find "$dir" -name '*.png' -exec oxipng -o 3 --strip safe {} \; 2>/dev/null || true
-            done
+            while IFS= read -r dir; do
+              [ -n "$dir" ] && find "$dir" -name '*.png' -exec oxipng -o 3 --strip safe {} + 2>/dev/null || true
+            done <<< "$PREVIEW_DIRS"
           fi
+        env:
+          PREVIEW_DIRS: ${{ steps.changed.outputs.previewdirs }}
 
       - name: Merge collections
         run: |
@@ -112,8 +122,9 @@ jobs:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+          TARGET_DIRS: ${{ steps.changed.outputs.assetdirs }}
           PREVIEW_DIRS: ${{ steps.changed.outputs.previewdirs }}
-        run: node scripts/upload-assets.mjs ${{ steps.changed.outputs.assetdirs }}
+        run: node scripts/upload-assets.mjs
 
       - name: Commit and push
         run: |

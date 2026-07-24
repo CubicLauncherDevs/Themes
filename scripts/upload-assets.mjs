@@ -38,9 +38,9 @@ const TEXT_RE = /\.(toml|css|md|txt)$/i;
 const SKIP_BINARIES = new Set(["preview.png", "Showcase.png"]);
 const MAX_UPLOAD_SIZE = 25 * 1024 * 1024;
 
-const targetDirs = process.argv.slice(2).filter(a => a && !a.startsWith("--"));
+const targetDirs = (process.env.TARGET_DIRS || process.argv.slice(2).join("\n")).split("\n").filter(Boolean);
 const targetSet = targetDirs.length ? new Set(targetDirs.map(d => d.replace(/\/+$/, ""))) : null;
-const previewDirs = (PREVIEW_DIRS || "").split(/\s+/).filter(Boolean);
+const previewDirs = (PREVIEW_DIRS || "").split("\n").filter(Boolean);
 const previewSet = previewDirs.length ? new Set(previewDirs.map(d => d.replace(/\/+$/, ""))) : null;
 
 // ---- Helpers ----
@@ -341,7 +341,19 @@ for (const authorDir of authorDirs) {
 
       // Colle ct files from R2 + disk
       await deduplicateR2Files(relativeDir);
-      const r2DirFiles = await getR2DirFiles(relativeDir);
+      let r2DirFiles = await getR2DirFiles(relativeDir);
+
+      // Clean up legacy bg_r2_temp files from R2
+      const tempToDelete = r2DirFiles.filter(f => {
+        const n = f.Key.replace(relativeDir + "/", "");
+        return n.startsWith("bg_r2_temp");
+      });
+      if (tempToDelete.length) {
+        await s3.send(new DeleteObjectsCommand({ Bucket: r2Bucket, Delete: { Objects: tempToDelete.map(f => ({ Key: f.Key })) } }));
+        for (const f of tempToDelete) console.log(`  ✗ R2 cleanup legacy: ${f.Key}`);
+        r2DirFiles = r2DirFiles.filter(f => !tempToDelete.includes(f));
+      }
+
       const r2ByCleanName = {};
       for (const f of r2DirFiles) {
         const rName = f.Key.replace(relativeDir + "/", "");
