@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 
-import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command } from "@aws-sdk/client-s3";
+import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, DeleteObjectCommand } from "@aws-sdk/client-s3";
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, mkdirSync, createWriteStream } from "node:fs";
 import { join, relative } from "node:path";
 import { execSync } from "node:child_process";
+import { get } from "node:https";
 
 // ---- ENV ----
 
-let { R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE } = process.env;
+let { R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE, PREVIEW_DIRS } = process.env;
 if (!R2_S3_URL || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY || !R2_PUBLIC_BASE) {
   console.error("Missing env vars: R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE");
   process.exit(1);
@@ -53,13 +54,95 @@ function isText(name) { return TEXT_RE.test(name); }
 
 const GH_BASE = "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master";
 
+function download(url, dest) {
+  return new Promise((resolve, reject) => {
+    const file = createWriteStream(dest);
+    get(url, (res) => {
+      if (res.statusCode === 302 || res.statusCode === 301) {
+        file.close(); unlinkSync(dest);
+        return download(res.headers.location, dest).then(resolve).catch(reject);
+      }
+      if (res.statusCode !== 200) {
+        file.close(); unlinkSync(dest);
+        return reject(new Error(`HTTP ${res.statusCode}`));
+      }
+      res.pipe(file);
+      file.on("finish", () => { file.close(); resolve(); });
+    }).on("error", (e) => { file.close(); try { unlinkSync(dest); } catch {} reject(e); });
+  });
+}
+
+async function findAndDownloadBg(s3, versionDir, vDir) {
+  const list = await s3.send(new ListObjectsV2Command({
+    Bucket: r2Bucket, Prefix: `${versionDir}/bg.`, MaxKeys: 5,
+  }));
+  const match = list.Contents?.[0];
+  if (!match) return null;
+  const ext = match.Key.split(".").pop();
+  const dest = join(vDir, `bg_r2_temp.${ext}`);
+  const url = `${R2_PUBLIC_BASE}/${match.Key}`;
+  try { await download(url, dest); return dest; } catch { return null; }
+}
+
+async function cleanupOldObjects(s3, r2Key) {
+  const prefix = r2Key.substring(0, r2Key.lastIndexOf(".") + 1);
+  const list = await s3.send(new ListObjectsV2Command({
+    Bucket: r2Bucket, Prefix: prefix, MaxKeys: 20,
+  }));
+  if (!list.Contents) return;
+  const toDelete = list.Contents.filter(o => o.Key !== r2Key);
+  if (!toDelete.length) return;
+  await s3.send(new DeleteObjectCommand({
+    Bucket: r2Bucket, Key: toDelete[0].Key,
+  }));
+  console.log(`  ✗ R2 cleanup: ${toDelete[0].Key}`);
+}
+
+async function pushR2(abs, r2Key, mime, existingFiles) {
+  const hash = hashFile(abs);
+  const ext = r2Key.split(".").pop();
+  const base = r2Key.slice(0, -ext.length - 1);
+  const hashedKey = `${base}.${hash}.${ext}`;
+  const publicUrl = `${R2_PUBLIC_BASE}/${hashedKey}`;
+
+  // Already on R2 with same content?
+  const existing = existingFiles?.find(f => f.Key === hashedKey || f.Key === r2Key);
+  if (existing) return { publicUrl, r2Key: hashedKey, skipped: true };
+
+  try {
+    await s3.send(new HeadObjectCommand({ Bucket: r2Bucket, Key: hashedKey }));
+    return { publicUrl, r2Key: hashedKey, skipped: true };
+  } catch { /* upload */ }
+
+  const body = readFileSync(abs);
+  await s3.send(new PutObjectCommand({
+    Bucket: r2Bucket, Key: hashedKey, Body: body,
+    ContentType: mime, CacheControl: "public, max-age=31536000, immutable",
+  }));
+  console.log(`  ↑ ${hashedKey}`);
+
+  // Cleanup old objects with same prefix
+  await cleanupOldObjects(s3, hashedKey);
+
+  return { publicUrl, r2Key: hashedKey, skipped: false };
+}
+
+function getR2DirFiles(versionDir) {
+  // Returns a promise that resolves to the list of R2 objects for this dir
+  return s3.send(new ListObjectsV2Command({
+    Bucket: r2Bucket, Prefix: `${versionDir}/`, MaxKeys: 100,
+  })).then(r => r.Contents || []);
+}
+
 // ---- Main ----
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const THEMES_JSON = join(ROOT, "themes.json");
 
-const targetDirs = process.argv.slice(2).filter(a => !a.startsWith("--"));
+const targetDirs = process.argv.slice(2).filter(a => a && !a.startsWith("--"));
 const targetSet = targetDirs.length ? new Set(targetDirs.map(d => d.replace(/\/+$/, ""))) : null;
+const previewDirs = (PREVIEW_DIRS || "").split(/\s+/).filter(Boolean);
+const previewSet = previewDirs.length ? new Set(previewDirs.map(d => d.replace(/\/+$/, ""))) : null;
 
 if (!existsSync(THEMES_JSON)) {
   console.error("themes.json not found");
@@ -68,20 +151,43 @@ if (!existsSync(THEMES_JSON)) {
 
 const themes = JSON.parse(readFileSync(THEMES_JSON, "utf-8"));
 
-let uploaded = 0, skipped = 0, deleted = 0;
+let uploaded = 0, skipped = 0, deleted = 0, cleaned = 0;
+
+// ─── Phase 1: Download bg from R2 for preview dirs ───
+
+const tempFiles = [];
+if (previewSet) {
+  for (const vDirPath of previewSet) {
+    const vDir = join(ROOT, vDirPath);
+    if (!existsSync(join(vDir, "Meta.toml")) || !existsSync(join(vDir, "Definition.toml"))) continue;
+    const hasBg = ["bg.png", "bg.jpg", "bg.jpeg", "bg.gif", "bg.webp"].some(n => existsSync(join(vDir, n)));
+    if (hasBg) continue;
+    console.log(`  ↓ downloading bg from R2 for ${vDirPath}`);
+    const bg = await findAndDownloadBg(s3, vDirPath, vDir);
+    if (bg) tempFiles.push(bg);
+  }
+}
+
+// ─── Phase 2: Generate previews for preview dirs ───
+
+if (previewSet && previewSet.size > 0) {
+  const args = [...previewSet].join(" ");
+  console.log(`\n  Generating previews for: ${args}`);
+  execSync(`node generate.js --dirs ${args}`, { cwd: ROOT, stdio: "inherit" });
+}
+
+// ─── Phase 3: Process each version ───
 
 for (const theme of themes) {
   for (const version of theme.versions) {
     if (targetSet && !targetSet.has(version.dirPath)) continue;
-
     const vDir = join(ROOT, version.dirPath);
 
-    // Scan ALL files on disk for this version
     const diskFiles = [];
     if (existsSync(vDir)) {
       function scan(dir, base) {
         for (const entry of readdirSync(dir, { withFileTypes: true })) {
-          if (entry.name.startsWith(".")) continue;
+          if (entry.name.startsWith(".") && !entry.name.startsWith("bg_r2_temp")) continue;
           const rel = base ? `${base}/${entry.name}` : entry.name;
           if (entry.isDirectory()) scan(join(dir, entry.name), rel);
           else diskFiles.push({ rel, abs: join(dir, entry.name) });
@@ -90,82 +196,55 @@ for (const theme of themes) {
       scan(vDir, "");
     }
 
-    // For target dirs: merge disk files with existing R2 entries
-    // For non-target dirs: keep existing files[] as-is
-    if (!targetSet || targetSet.has(version.dirPath)) {
-      const newFiles = [];
-      const processed = new Set();
+    const newFiles = [];
+    const processed = new Set();
 
-      for (const { rel, abs } of diskFiles) {
-        processed.add(rel);
-        if (isText(rel)) {
-          newFiles.push({ name: rel, url: `${GH_BASE}/${version.dirPath}/${rel}` });
-        } else if (isBinary(rel)) {
-          const hash = hashFile(abs);
-          const ext = rel.split(".").pop();
-          const nameWithoutExt = rel.slice(0, -ext.length - 1);
-          const hashedName = `${nameWithoutExt}.${hash}.${ext}`;
-          const r2Key = `${version.dirPath}/${hashedName}`;
-          const publicUrl = `${R2_PUBLIC_BASE}/${r2Key}`;
+    // Fetch existing R2 files for this dir (for skip detection + cleanup)
+    const r2DirFiles = await getR2DirFiles(version.dirPath);
 
-          let needsUpload = true;
-          try {
-            await s3.send(new HeadObjectCommand({ Bucket: r2Bucket, Key: r2Key }));
-            needsUpload = false;
-          } catch { /* not found */ }
-
-          if (needsUpload) {
-            const body = readFileSync(abs);
-            await s3.send(new PutObjectCommand({
-              Bucket: r2Bucket, Key: r2Key, Body: body,
-              ContentType: mimeType(rel),
-              CacheControl: "public, max-age=31536000, immutable",
-            }));
-            uploaded++;
-            console.log(`  ↑ ${r2Key}`);
-          } else {
-            skipped++;
-          }
-
-          newFiles.push({ name: rel, url: publicUrl });
-
-          unlinkSync(abs);
-          deleted++;
-          console.log(`  ✗ deleted ${rel}`);
-        }
+    for (const { rel, abs } of diskFiles) {
+      if (rel.startsWith("bg_r2_temp")) {
+        // Temp bg files — skip, will be cleaned up
+        continue;
       }
-
-      // Preserve existing entries for files NOT on disk (e.g. previously uploaded binaries)
-      if (Array.isArray(version.files)) {
-        for (const existing of version.files) {
-          const name = typeof existing === "string" ? existing : existing.name;
-          if (!processed.has(name)) {
-            // Only keep if it has an R2 URL (binary already uploaded)
-            if (typeof existing === "object" && existing.url && (existing.url.startsWith(R2_PUBLIC_BASE) || existing.url.startsWith(R2_PUBLIC_BASE.replace(/^https?:\/\//, "")))) {
-              newFiles.push(existing);
-            }
-            // Text files not on disk are dropped (they should always exist)
-          }
-        }
+      processed.add(rel);
+      if (isText(rel)) {
+        newFiles.push({ name: rel, url: `${GH_BASE}/${version.dirPath}/${rel}` });
+      } else if (isBinary(rel)) {
+        const result = await pushR2(abs, `${version.dirPath}/${rel}`, mimeType(rel), r2DirFiles);
+        if (result.skipped) skipped++; else uploaded++;
+        newFiles.push({ name: rel, url: result.publicUrl });
+        unlinkSync(abs); deleted++;
+        console.log(`  ✗ deleted ${rel}`);
       }
-
-      version.files = newFiles;
-
-      // Update previewUrl & showcaseUrl
-      const hasPreview = newFiles.find(f => f.name === "preview.png");
-      if (hasPreview) version.previewUrl = hasPreview.url;
-      const hasShowcase = newFiles.find(f => f.name === "Showcase.png");
-      if (hasShowcase) version.showcaseUrl = hasShowcase.url;
     }
+
+    // Preserve existing entries for files NOT on disk (previously uploaded)
+    if (Array.isArray(version.files)) {
+      for (const existing of version.files) {
+        const name = typeof existing === "string" ? existing : existing.name;
+        if (!processed.has(name)) {
+          if (typeof existing === "object" && (existing.url?.includes(R2_PUBLIC_BASE) || existing.url?.includes("themes.cubiclauncher.org"))) {
+            newFiles.push(existing);
+          }
+        }
+      }
+    }
+
+    version.files = newFiles;
+
+    // Update previewUrl & showcaseUrl  
+    const hasPreview = newFiles.find(f => f.name === "preview.png");
+    if (hasPreview) version.previewUrl = hasPreview.url;
+    const hasShowcase = newFiles.find(f => f.name === "Showcase.png");
+    if (hasShowcase) version.showcaseUrl = hasShowcase.url;
   }
 }
 
-// ─── Discover NEW themes/versions not yet in themes.json ───
+// ─── Phase 4: Discover NEW themes/versions ───
 
 const existingDirs = new Set();
-for (const t of themes) {
-  for (const v of t.versions) existingDirs.add(v.dirPath);
-}
+for (const t of themes) for (const v of t.versions) existingDirs.add(v.dirPath);
 
 function generateSlug(author, name) {
   return `${author}-${name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -177,11 +256,9 @@ function fileMtime(fp) {
 }
 
 function parseToml(text) {
-  const result = {};
-  let sec = result;
+  const result = {}; let sec = result;
   for (const line of text.split("\n")) {
-    const t = line.trim();
-    if (!t || t.startsWith("#")) continue;
+    const t = line.trim(); if (!t || t.startsWith("#")) continue;
     const m = t.match(/^\[(.+)\]$/);
     if (m) { result[m[1]] = result[m[1]] || {}; sec = result[m[1]]; continue; }
     const eq = t.indexOf("="); if (eq === -1) continue;
@@ -209,7 +286,6 @@ if (existsSync(SRC)) {
 
         console.log(`\n  NEW: ${vDir}`);
 
-        // Process files
         const diskFiles = [];
         function scan(dir, base) {
           for (const e of readdirSync(dir, { withFileTypes: true })) {
@@ -221,31 +297,15 @@ if (existsSync(SRC)) {
         }
         scan(vPath, "");
 
+        const r2DirFiles = await getR2DirFiles(vDir);
         const newFiles = [];
         for (const { rel, abs } of diskFiles) {
           if (isText(rel)) {
             newFiles.push({ name: rel, url: `${GH_BASE}/${vDir}/${rel}` });
           } else if (isBinary(rel)) {
-            const hash = hashFile(abs);
-            const ext = rel.split(".").pop();
-            const baseName = rel.slice(0, -ext.length - 1);
-            const hashedName = `${baseName}.${hash}.${ext}`;
-            const r2Key = `${vDir}/${hashedName}`;
-            const publicUrl = `${R2_PUBLIC_BASE}/${r2Key}`;
-
-            let needsUpload = true;
-            try { await s3.send(new HeadObjectCommand({ Bucket: r2Bucket, Key: r2Key })); needsUpload = false; } catch {}
-            if (needsUpload) {
-              const body = readFileSync(abs);
-              await s3.send(new PutObjectCommand({
-                Bucket: r2Bucket, Key: r2Key, Body: body,
-                ContentType: mimeType(rel),
-                CacheControl: "public, max-age=31536000, immutable",
-              }));
-              uploaded++;
-              console.log(`  ↑ ${r2Key}`);
-            } else { skipped++; }
-            newFiles.push({ name: rel, url: publicUrl });
+            const result = await pushR2(abs, `${vDir}/${rel}`, mimeType(rel), r2DirFiles);
+            if (result.skipped) skipped++; else uploaded++;
+            newFiles.push({ name: rel, url: result.publicUrl });
             unlinkSync(abs); deleted++;
             console.log(`  ✗ deleted ${rel}`);
           }
@@ -302,21 +362,20 @@ if (existsSync(SRC)) {
   }
 }
 
-// Convert any remaining string entries in files[] to { name, url }
-// (preserves existing R2 URLs for non-target, non-new themes)
+// ─── Phase 5: Convert remaining string entries, sync previewUrl ───
+
 const existingJson = targetSet ? JSON.parse(readFileSync(THEMES_JSON, "utf-8")) : null;
 for (const theme of themes) {
   for (const version of theme.versions) {
     if (!Array.isArray(version.files)) continue;
     version.files = version.files.map((f) => {
       if (typeof f === "string") {
-        // Check if the previous themes.json had an R2 URL for this file
         if (existingJson) {
           for (const oldT of existingJson) {
             for (const oldV of oldT.versions) {
               if (oldV.dirPath === version.dirPath && Array.isArray(oldV.files)) {
                 for (const oldF of oldV.files) {
-                  if (typeof oldF === "object" && oldF.name === f && oldF.url?.startsWith(R2_PUBLIC_BASE)) {
+                  if (typeof oldF === "object" && oldF.name === f && oldF.url?.includes(R2_PUBLIC_BASE)) {
                     return { name: f, url: oldF.url };
                   }
                 }
@@ -331,13 +390,19 @@ for (const theme of themes) {
   }
 }
 
-// Sync theme-level previewUrl to latest version
 for (const theme of themes) {
   const latest = theme.versions?.[0];
   if (latest?.previewUrl) theme.previewUrl = latest.previewUrl;
 }
 
 writeFileSync(THEMES_JSON, JSON.stringify(themes, null, 2));
+
+// ─── Cleanup temp files ───
+
+for (const tf of tempFiles) {
+  try { unlinkSync(tf); } catch {}
+}
+
 console.log(`\n✓ themes.json updated`);
 console.log(`  Uploaded: ${uploaded}`);
 console.log(`  Skipped: ${skipped}`);

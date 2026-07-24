@@ -47,26 +47,26 @@ jobs:
           else
             BASE="HEAD~1"
           fi
-          CHANGED_DIRS=$(git diff --name-only "$BASE" HEAD -- src/ \
+          ALL=$(git diff --name-only "$BASE" HEAD -- src/)
+          ASSET_DIRS=$(echo "$ALL" \
             | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
-            | sort -u \
-            | tr '\n' ' ')
-          echo "dirs=$CHANGED_DIRS" >> "$GITHUB_OUTPUT"
-          echo "Changed dirs: $CHANGED_DIRS"
+            | sort -u | tr '\n' ' ')
+          PREVIEW_DIRS=$(echo "$ALL" \
+            | grep -P '(bg\.|\.toml$|\.css$|\.md$|\.txt$)' \
+            | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
+            | sort -u | tr '\n' ' ')
+          echo "assetdirs=$ASSET_DIRS" >> "$GITHUB_OUTPUT"
+          echo "previewdirs=$PREVIEW_DIRS" >> "$GITHUB_OUTPUT"
+          echo "Asset dirs: $ASSET_DIRS"
+          echo "Preview dirs: $PREVIEW_DIRS"
 
-      - name: Optimize PNGs (tolerate failure)
+      - name: Optimize PNGs
         run: |
-          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
+          if [ -n "${{ steps.changed.outputs.previewdirs }}" ]; then
             sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
-            for dir in ${{ steps.changed.outputs.dirs }}; do
+            for dir in ${{ steps.changed.outputs.previewdirs }}; do
               find "$dir" -name '*.png' -exec oxipng -o 3 --strip safe {} \; 2>/dev/null || true
             done
-          fi
-
-      - name: Generate previews
-        run: |
-          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
-            node generate.js --dirs ${{ steps.changed.outputs.dirs }}
           fi
 
       - name: Merge collections
@@ -100,10 +100,8 @@ jobs:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
-        run: |
-          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
-            node scripts/upload-assets.mjs ${{ steps.changed.outputs.dirs }}
-          fi
+          PREVIEW_DIRS: ${{ steps.changed.outputs.previewdirs }}
+        run: node scripts/upload-assets.mjs ${{ steps.changed.outputs.assetdirs }}
 
       - name: Commit and push
         run: |

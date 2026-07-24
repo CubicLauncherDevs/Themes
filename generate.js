@@ -282,9 +282,9 @@ async function generate(configPathOrDir, outPath) {
     const versionDir = outPath;
     outPath = path.join(versionDir, "preview.png");
     cfg = deepMerge(DEFAULTS, buildConfigFromDir(versionDir));
-    // If there's no background image, generate an abstract gradient
+    // Skip if no background image available
     if (!cfg.backgroundImage) {
-      cfg.backgroundImage = "__gradient__";
+      throw new Error(`No background image found in ${versionDir}`);
     }
   } else if (configPathOrDir === "--all") {
     // Process all versions under the given directory
@@ -335,9 +335,6 @@ async function generate(configPathOrDir, outPath) {
     const dx = (artWidth - dw) / 2;
     const dy = (cfg.height - dh) / 2;
     ctx.drawImage(img, dx, dy, dw, dh);
-  } else if (cfg.backgroundImage === "__gradient__" || !cfg.backgroundImage) {
-    // Generate abstract gradient from theme colors
-    createAbstractGradient(ctx, 0, 0, artWidth, cfg.height, cfg.colors);
   }
 
   if (cfg.mockup) {
