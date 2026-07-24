@@ -8,11 +8,13 @@ import { execSync } from "node:child_process";
 
 // ---- ENV ----
 
-const { R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE } = process.env;
+let { R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE } = process.env;
 if (!R2_S3_URL || !R2_ACCESS_KEY_ID || !R2_SECRET_ACCESS_KEY || !R2_PUBLIC_BASE) {
   console.error("Missing env vars: R2_S3_URL, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_BASE");
   process.exit(1);
 }
+if (!R2_PUBLIC_BASE.startsWith("http")) R2_PUBLIC_BASE = `https://${R2_PUBLIC_BASE}`;
+R2_PUBLIC_BASE = R2_PUBLIC_BASE.replace(/\/+$/, "");
 
 // ---- S3 client ----
 
