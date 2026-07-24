@@ -13,7 +13,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.be18a8e6.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/Showcase.421aa1be.png",
         "dirPath": "src/4xnl/Colorful/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:38:50-04:00",
         "changelog": null,
         "files": [
           {
@@ -42,7 +42,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.be18a8e6.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:38:50-04:00"
   },
   {
     "id": "4xnl-jadol",
@@ -70,16 +70,16 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Meta.toml"
           },
           {
-            "name": "bg_r2_temp.jpg",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg_r2_temp.132191b1.jpg"
-          },
-          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png"
           },
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg.132191b1.jpg"
+          },
+          {
+            "name": "bg_r2_temp.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg_r2_temp.132191b1.jpg"
           },
           {
             "name": "preview.png",
@@ -483,7 +483,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.d4894c15.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/Showcase.3f711601.png",
         "dirPath": "src/MPG/Waguri/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -512,7 +512,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.d4894c15.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "mpg-zerotwo",
@@ -528,7 +528,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.033706bb.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/Showcase.e03d857f.png",
         "dirPath": "src/MPG/ZeroTwo/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -557,7 +557,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.033706bb.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "notstaff-blur",
@@ -573,7 +573,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.cc9cb88f.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/Showcase.a369462b.png",
         "dirPath": "src/Notstaff/Blur/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -583,6 +583,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Meta.toml"
+          },
+          {
+            "name": "bg_r2_temp.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/bg_r2_temp.6f770919.png"
           },
           {
             "name": "Showcase.png",
@@ -602,7 +606,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.cc9cb88f.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "notstaff-clang",
@@ -869,7 +873,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.870f5f49.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Showcase.90679796.png",
         "dirPath": "src/Santiagolxx/Gengar/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -883,6 +887,10 @@
           {
             "name": "OFL.txt",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/OFL.txt"
+          },
+          {
+            "name": "bg_r2_temp.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/bg_r2_temp.fd5dd9f7.jpg"
           },
           {
             "name": "Grotesk.woff2",
@@ -906,7 +914,7 @@
     ],
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.870f5f49.png",
-    "date": "2026-07-24T02:34:20-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "santiagolxx-laroja",
@@ -922,7 +930,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.708ac155.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Showcase.2bcd7a64.png",
         "dirPath": "src/Santiagolxx/LaRoja/v1",
-        "date": "2026-07-24T00:00:59-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -932,6 +940,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Meta.toml"
+          },
+          {
+            "name": "bg_r2_temp.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/bg_r2_temp.7fe58b33.png"
           },
           {
             "name": "Fonts/Satoshi.otf",
@@ -955,7 +967,7 @@
     ],
     "latestVersion": "v1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.708ac155.png",
-    "date": "2026-07-24T00:00:59-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "santiagolxx-lain",
@@ -1010,7 +1022,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.8efb68da.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Showcase.581f4a60.png",
         "dirPath": "src/Santiagolxx/Lain/V1",
-        "date": "2026-07-24T02:34:20-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -1024,6 +1036,10 @@
           {
             "name": "OFL.txt",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/OFL.txt"
+          },
+          {
+            "name": "bg_r2_temp.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/bg_r2_temp.b290e091.jpg"
           },
           {
             "name": "Pixelbasel.ttf",
@@ -1243,7 +1259,7 @@
         "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.6d0d6742.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.c2ce66ce.png",
         "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
-        "date": "2026-07-24T00:00:59-04:00",
+        "date": "2026-07-24T03:40:25-04:00",
         "changelog": null,
         "files": [
           {
@@ -1253,6 +1269,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Meta.toml"
+          },
+          {
+            "name": "bg_r2_temp.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/bg_r2_temp.41f26327.jpeg"
           },
           {
             "name": "Fonts/Satoshi.otf",
@@ -1276,7 +1296,7 @@
     ],
     "latestVersion": "v1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.6d0d6742.png",
-    "date": "2026-07-24T00:00:59-04:00"
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "unr4n-dark-theme",
