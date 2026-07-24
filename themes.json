@@ -1299,6 +1299,47 @@
     "date": "2026-07-24T03:40:25-04:00"
   },
   {
+    "id": "santiagolxx-yuuki",
+    "slug": "santiagolxx-yuuki",
+    "name": "Yuuki",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/Yuuki",
+    "description": "A Theme",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.a54bd851.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/Yuuki/V1",
+        "date": "2026-07-24T04:24:55-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Yuuki/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Yuuki/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/bg.cd339e06.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.a54bd851.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.a54bd851.png",
+    "date": "2026-07-24T04:24:55-04:00"
+  },
+  {
     "id": "unr4n-dark-theme",
     "slug": "unr4n-dark-theme",
     "name": "Dark Theme",
