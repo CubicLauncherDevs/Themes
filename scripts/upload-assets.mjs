@@ -2,8 +2,8 @@
 
 import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, DeleteObjectCommand, DeleteObjectsCommand } from "@aws-sdk/client-s3";
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, createWriteStream, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, createWriteStream, statSync, mkdirSync } from "node:fs";
+import { join, relative, dirname } from "node:path";
 import { execSync } from "node:child_process";
 import { get } from "node:https";
 
@@ -165,15 +165,30 @@ async function deduplicateR2Files(versionDir) {
 }
 
 async function findAndDownloadBg(versionDir, vDir) {
-  const list = await s3.send(new ListObjectsV2Command({
-    Bucket: r2Bucket, Prefix: `${versionDir}/bg.`, MaxKeys: 5,
-  }));
-  const match = list.Contents?.[0];
-  if (!match) return null;
-  const ext = match.Key.split(".").pop();
-  const dest = join(vDir, `bg_r2_temp.${ext}`);
-  const url = `${R2_PUBLIC_BASE}/${match.Key}`;
-  try { await download(url, dest); return dest; } catch { return null; }
+  const defPath = join(vDir, "Definition.toml");
+  let refName = "";
+  if (existsSync(defPath)) {
+    const def = parseToml(readFileSync(defPath, "utf-8"));
+    refName = (def.background?.reference_path || "").trim();
+  }
+  const candidates = refName ? [refName] : [];
+  for (const n of ["bg.png", "bg.jpg", "bg.jpeg", "bg.gif", "bg.webp"]) {
+    if (n !== refName) candidates.push(n);
+  }
+  const allR2 = await getR2DirFiles(versionDir);
+  for (const name of candidates) {
+    const match = allR2.find(f => {
+      const fName = f.Key.replace(versionDir + "/", "");
+      const fClean = fName.replace(/\.[a-f0-9]{8}(?=\.[^.]+$)/, "");
+      return fClean === name;
+    });
+    if (!match) continue;
+    const dest = join(vDir, name);
+    mkdirSync(dirname(dest), { recursive: true });
+    const url = `${R2_PUBLIC_BASE}/${match.Key}`;
+    try { await download(url, dest); return dest; } catch { return null; }
+  }
+  return null;
 }
 
 async function cleanupOldObjects(r2Key) {
@@ -229,7 +244,14 @@ if (previewSet) {
   for (const vDirPath of previewSet) {
     const vDir = join(ROOT, vDirPath);
     if (!existsSync(join(vDir, "Meta.toml")) || !existsSync(join(vDir, "Definition.toml"))) continue;
-    const hasBg = ["bg.png", "bg.jpg", "bg.jpeg", "bg.gif", "bg.webp"].some(n => existsSync(join(vDir, n)));
+    const defRaw = readFileSync(join(vDir, "Definition.toml"), "utf-8");
+    const def = parseToml(defRaw);
+    const refName = (def.background?.reference_path || "").trim();
+    const bgNames = refName ? [refName] : [];
+    for (const n of ["bg.png", "bg.jpg", "bg.jpeg", "bg.gif", "bg.webp"]) {
+      if (!bgNames.includes(n)) bgNames.push(n);
+    }
+    const hasBg = bgNames.some(n => existsSync(join(vDir, n)));
     if (hasBg) continue;
     console.log(`  ↓ downloading bg from R2 for ${vDirPath}`);
     const bg = await findAndDownloadBg(vDirPath, vDir);
@@ -244,6 +266,13 @@ if (previewSet && previewSet.size > 0) {
   console.log(`\n  Generating previews for: ${args}`);
   execSync(`node generate.js --dirs ${args}`, { cwd: ROOT, stdio: "inherit" });
 }
+
+// Phase 2b: Clean up temp bg files downloaded for preview generation
+
+for (const tf of tempFiles) {
+  try { unlinkSync(tf); console.log(`  ✗ cleaned temp bg: ${tf}`); } catch {}
+}
+tempFiles.length = 0;
 
 // Phase 3: Scan src/ and build themes from scratch
 
@@ -328,7 +357,7 @@ for (const authorDir of authorDirs) {
       const diskEntries = [];
       function scanDisk(dir, base) {
         for (const entry of readdirSync(dir, { withFileTypes: true })) {
-          if (entry.name.startsWith(".") && !entry.name.startsWith("bg_r2_temp")) continue;
+          if (entry.name.startsWith(".") || entry.name.startsWith("bg_r2_temp")) continue;
           const rel = base ? `${base}/${entry.name}` : entry.name;
           if (entry.isDirectory()) scanDisk(join(dir, entry.name), rel);
           else diskEntries.push({ rel, abs: join(dir, entry.name) });
