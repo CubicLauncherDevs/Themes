@@ -1,7 +1,7 @@
 [background]
 reference_path = "bg.jpg"
 image_blur = 0.0
-image_opacity = 0.7
+image_opacity = 0.8
 
 [backgrounds]
   main = "#282629"
@@ -62,4 +62,3 @@ image_opacity = 0.7
   scrollbar-track = "#282629"
   scrollbar-thumb = "#473b39"
   scrollbar-thumb-hover = "#6a5248"
-
