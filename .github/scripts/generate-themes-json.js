@@ -158,7 +158,8 @@ for (const authorDir of authorDirs) {
       const hasDef = fs.existsSync(path.join(vPath, "Definition.toml"));
       if (!hasMeta || !hasDef) continue;
 
-      const previewFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "showcase.png");
+      const previewFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "preview.png");
+      const showcaseFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "showcase.png");
       const changelogFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "changelog.md");
 
       const relativeDir = path.relative(path.join(__dirname, "..", ".."), vPath);
@@ -187,7 +188,7 @@ for (const authorDir of authorDirs) {
         for (const entry of entries) {
           if (entry.name.startsWith(".")) continue;
           const lower = entry.name.toLowerCase();
-          if (lower === "changelog.md" || lower === "showcase.png") continue;
+          if (lower === "changelog.md" || lower === "showcase.png" || lower === "preview.png") continue;
           const relPath = base ? `${base}/${entry.name}` : entry.name;
           if (entry.isDirectory()) {
             result.push(...collectFiles(path.join(dir, entry.name), relPath));
@@ -202,6 +203,9 @@ for (const authorDir of authorDirs) {
       const palettePreview = previewFile
         ? rawUrl(`${relativeDir}/${previewFile}`)
         : null;
+      const showcaseUrl = showcaseFile
+        ? rawUrl(`${relativeDir}/${showcaseFile}`)
+        : null;
 
       const changelog = changelogFile
         ? readFileSafe(path.join(vPath, changelogFile))
@@ -215,7 +219,7 @@ for (const authorDir of authorDirs) {
       }
       if (!date) {
         // Try to get date from git on any version file
-        const anyFile = fs.readdirSync(vPath).find((f) => !f.startsWith(".") && f !== "Showcase.png");
+        const anyFile = fs.readdirSync(vPath).find((f) => !f.startsWith(".") && f !== "Showcase.png" && f !== "preview.png");
         if (anyFile) {
           date = getFileDate(path.join(vPath, anyFile));
         }
@@ -224,6 +228,7 @@ for (const authorDir of authorDirs) {
       versions.push({
         version: versionName,
         previewUrl: palettePreview,
+        showcaseUrl,
         dirPath: relativeDir,
         date,
         changelog,

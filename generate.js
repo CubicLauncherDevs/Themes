@@ -278,9 +278,9 @@ async function generate(configPathOrDir, outPath) {
   let cfg;
 
   if (configPathOrDir === "--dir" && outPath) {
-    // mode: --dir <versionDir> -> generates <versionDir>/Showcase.png
+    // mode: --dir <versionDir> -> generates <versionDir>/preview.png
     const versionDir = outPath;
-    outPath = path.join(versionDir, "Showcase.png");
+    outPath = path.join(versionDir, "preview.png");
     cfg = deepMerge(DEFAULTS, buildConfigFromDir(versionDir));
     // If there's no background image, generate an abstract gradient
     if (!cfg.backgroundImage) {
@@ -297,9 +297,9 @@ async function generate(configPathOrDir, outPath) {
         const themePath = path.join(authorPath, theme.name);
         for (const ver of fs.readdirSync(themePath, { withFileTypes: true }).filter((d) => d.isDirectory())) {
           const verPath = path.join(themePath, ver.name);
-          const showcasePath = path.join(verPath, "Showcase.png");
+          const previewPath = path.join(verPath, "preview.png");
           // Skip if already generated (but always regenerate if forced)
-          if (fs.existsSync(showcasePath) && !process.env.FORCE) continue;
+          if (fs.existsSync(previewPath) && !process.env.FORCE) continue;
           if (!fs.existsSync(path.join(verPath, "Meta.toml")) || !fs.existsSync(path.join(verPath, "Definition.toml"))) continue;
           try {
             await generate("--dir", verPath);
