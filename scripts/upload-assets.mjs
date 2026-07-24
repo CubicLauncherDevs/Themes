@@ -4,7 +4,7 @@ import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, De
 import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, createWriteStream, statSync, mkdirSync } from "node:fs";
 import { join, relative, dirname } from "node:path";
-import { execSync } from "node:child_process";
+import { execSync, spawnSync } from "node:child_process";
 import { get } from "node:https";
 
 // ---- ENV ----
@@ -262,9 +262,9 @@ if (previewSet) {
 // Phase 2: Generate previews for preview dirs
 
 if (previewSet && previewSet.size > 0) {
-  const args = [...previewSet].join(" ");
-  console.log(`\n  Generating previews for: ${args}`);
-  execSync(`node generate.js --dirs ${args}`, { cwd: ROOT, stdio: "inherit" });
+  const args = [...previewSet];
+  console.log(`\n  Generating previews for: ${args.join(" ")}`);
+  spawnSync("node", ["generate.js", "--dirs", ...args], { cwd: ROOT, stdio: "inherit" });
 }
 
 // Phase 2b: Clean up temp bg files downloaded for preview generation
