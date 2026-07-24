@@ -198,6 +198,14 @@ for (const theme of themes) {
   }
 }
 
+// Also update theme-level previewUrl to match latest version
+for (const theme of themes) {
+  const latest = theme.versions[0];
+  if (latest) {
+    theme.previewUrl = latest.previewUrl;
+  }
+}
+
 writeFileSync(THEMES_JSON, JSON.stringify(themes, null, 2));
 console.log(`\n✓ themes.json updated`);
 console.log(`  Uploaded: ${uploaded}`);
