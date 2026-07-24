@@ -2,6 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
+const { createHash } = require("node:crypto");
 
 const SRC = path.join(__dirname, "..", "..", "src");
 const OUT = path.join(__dirname, "..", "..", "themes.json");
@@ -10,10 +11,31 @@ const GITHUB_OWNER = "santiagolxx";
 const GITHUB_REPO = "asdasd";
 const GITHUB_BRANCH = "master";
 const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/refs/heads/${GITHUB_BRANCH}`;
+const CDN_BASE = `https://themes.cubiclauncher.org`;
 
 function rawUrl(relativePath) {
   const segments = relativePath.split("/").map(encodeURIComponent);
   return `${RAW_BASE}/${segments.join("/")}`;
+}
+
+function cdnUrl(relativePath) {
+  const segments = relativePath.split("/").map(encodeURIComponent);
+  return `${CDN_BASE}/${segments.join("/")}`;
+}
+
+function hashFile(fp) {
+  const h = createHash("sha256");
+  h.update(fs.readFileSync(fp));
+  return h.digest("hex").slice(0, 8);
+}
+
+function hashedCdnUrl(absDir, fileName, relDir) {
+  const ext = fileName.split(".").pop();
+  const base = fileName.slice(0, -(ext.length + 1));
+  const fp = path.join(absDir, fileName);
+  const hash = hashFile(fp);
+  const hashedName = `${base}.${hash}.${ext}`;
+  return cdnUrl(`${relDir}/${hashedName}`);
 }
 
 function generateSlug(author, name) {
@@ -182,6 +204,8 @@ for (const authorDir of authorDirs) {
       mergedTags = [...new Set([...mergedTags, ...tags])];
 
       // Collect files available for download (recursive)
+      const ROOT_DIR = path.join(__dirname, "..", "..");
+      const binaryExts = new Set(["png","jpg","jpeg","gif","webp","ttf","otf","woff","woff2","eot"]);
       function collectFiles(dir, base = "") {
         const entries = fs.readdirSync(dir, { withFileTypes: true });
         const result = [];
@@ -193,7 +217,14 @@ for (const authorDir of authorDirs) {
           if (entry.isDirectory()) {
             result.push(...collectFiles(path.join(dir, entry.name), relPath));
           } else {
-            result.push(relPath);
+            const ext = entry.name.split(".").pop().toLowerCase();
+            if (binaryExts.has(ext)) {
+              const entryRelDir = path.relative(ROOT_DIR, dir);
+              const url = hashedCdnUrl(dir, entry.name, entryRelDir);
+              result.push({ name: relPath, url });
+            } else {
+              result.push(relPath);
+            }
           }
         }
         return result;
@@ -201,10 +232,10 @@ for (const authorDir of authorDirs) {
       const versionFiles = collectFiles(vPath);
 
       const palettePreview = previewFile
-        ? rawUrl(`${relativeDir}/${previewFile}`)
+        ? hashedCdnUrl(vPath, previewFile, relativeDir)
         : null;
       const showcaseUrl = showcaseFile
-        ? rawUrl(`${relativeDir}/${showcaseFile}`)
+        ? hashedCdnUrl(vPath, showcaseFile, relativeDir)
         : null;
 
       const changelog = changelogFile

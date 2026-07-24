@@ -2,7 +2,7 @@
 
 import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, DeleteObjectCommand } from "@aws-sdk/client-s3";
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, mkdirSync, createWriteStream } from "node:fs";
+import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, mkdirSync, createWriteStream, statSync } from "node:fs";
 import { join, relative } from "node:path";
 import { execSync } from "node:child_process";
 import { get } from "node:https";
@@ -98,9 +98,16 @@ async function cleanupOldObjects(s3, r2Key) {
   console.log(`  ✗ R2 cleanup: ${toDelete[0].Key}`);
 }
 
+const MAX_UPLOAD_SIZE = 25 * 1024 * 1024;
+
 async function pushR2(abs, r2Key, mime, existingFiles) {
-  const hash = hashFile(abs);
   const ext = r2Key.split(".").pop();
+  const stat = statSync(abs);
+  if (stat.size > MAX_UPLOAD_SIZE) {
+    console.log(`  ⚠ skipped ${r2Key} (${(stat.size / 1024 / 1024).toFixed(1)}MB > 25MB)`);
+    return { publicUrl: null, r2Key: null, skipped: true };
+  }
+  const hash = hashFile(abs);
   const base = r2Key.slice(0, -ext.length - 1);
   const hashedKey = `${base}.${hash}.${ext}`;
   const publicUrl = `${R2_PUBLIC_BASE}/${hashedKey}`;
@@ -213,9 +220,13 @@ for (const theme of themes) {
       } else if (isBinary(rel)) {
         const result = await pushR2(abs, `${version.dirPath}/${rel}`, mimeType(rel), r2DirFiles);
         if (result.skipped) skipped++; else uploaded++;
-        newFiles.push({ name: rel, url: result.publicUrl });
-        unlinkSync(abs); deleted++;
-        console.log(`  ✗ deleted ${rel}`);
+        if (result.publicUrl) {
+          newFiles.push({ name: rel, url: result.publicUrl });
+          unlinkSync(abs); deleted++;
+          console.log(`  ✗ deleted ${rel}`);
+        } else {
+          newFiles.push({ name: rel, url: `${GH_BASE}/${version.dirPath}/${rel}` });
+        }
       }
     }
 
