@@ -157,7 +157,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.ec517aaa.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png",
         "dirPath": "src/CubicLauncher/Signature Amber/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -176,6 +176,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.ec517aaa.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png"
           },
@@ -188,7 +192,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.ec517aaa.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -202,7 +206,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.4c7fe03a.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png",
         "dirPath": "src/CubicLauncher/Signature Classic/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -221,6 +225,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.4c7fe03a.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png"
           },
@@ -233,7 +241,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.4c7fe03a.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -247,7 +255,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.0bf53366.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png",
         "dirPath": "src/CubicLauncher/Signature Dark/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -266,6 +274,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.0bf53366.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png"
           },
@@ -278,7 +290,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.0bf53366.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -292,7 +304,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.26aded5e.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png",
         "dirPath": "src/CubicLauncher/Signature Frost/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -311,6 +323,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.26aded5e.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png"
           },
@@ -323,7 +339,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.26aded5e.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -664,7 +680,7 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.7d298f67.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Showcase.e341be4f.png",
         "dirPath": "src/Notstaff/Lain Theme/V2",
         "date": "2026-07-24T00:00:59-04:00",
@@ -691,6 +707,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.7d298f67.png"
+          },
+          {
             "name": "Fonts/Syne.ttf",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Fonts/Syne.ee2de91f.ttf"
           },
@@ -707,7 +727,7 @@
       },
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/preview.dcc2ecdf.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png",
         "dirPath": "src/Notstaff/Lain Theme/V1",
         "date": "2026-07-24T02:34:20-04:00",
@@ -726,6 +746,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V1/OFL.txt"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/preview.dcc2ecdf.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png"
           },
@@ -742,7 +766,7 @@
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.7d298f67.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
@@ -1285,7 +1309,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.f4fc3374.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png",
         "dirPath": "src/Unr4n/Dark Theme/V1",
         "date": "2026-07-24T02:34:20-04:00",
@@ -1300,6 +1324,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Unr4n/Dark Theme/V1/Meta.toml"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.f4fc3374.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png"
           },
@@ -1312,7 +1340,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.f4fc3374.png",
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
