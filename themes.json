@@ -80,10 +80,6 @@
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg.132191b1.jpg"
-          },
-          {
-            "name": "bg_r2_temp.jpg",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg_r2_temp.132191b1.jpg"
           }
         ],
         "injectsCss": false
@@ -595,10 +591,6 @@
           {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/bg.6f770919.png"
-          },
-          {
-            "name": "bg_r2_temp.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/bg_r2_temp.6f770919.png"
           }
         ],
         "injectsCss": false
@@ -903,10 +895,6 @@
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/bg.fd5dd9f7.jpg"
-          },
-          {
-            "name": "bg_r2_temp.jpg",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/bg_r2_temp.fd5dd9f7.jpg"
           }
         ],
         "injectsCss": false
@@ -956,10 +944,6 @@
           {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/bg.7fe58b33.png"
-          },
-          {
-            "name": "bg_r2_temp.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/bg_r2_temp.7fe58b33.png"
           }
         ],
         "injectsCss": false
@@ -1052,10 +1036,6 @@
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/bg.b290e091.jpg"
-          },
-          {
-            "name": "bg_r2_temp.jpg",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/bg_r2_temp.b290e091.jpg"
           }
         ],
         "injectsCss": false
@@ -1285,10 +1265,6 @@
           {
             "name": "bg.jpeg",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/bg.41f26327.jpeg"
-          },
-          {
-            "name": "bg_r2_temp.jpeg",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/bg_r2_temp.41f26327.jpeg"
           }
         ],
         "injectsCss": false
