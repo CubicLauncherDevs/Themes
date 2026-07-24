@@ -233,7 +233,7 @@ for (const authorDir of authorDirs) {
 
       const palettePreview = previewFile
         ? hashedCdnUrl(vPath, previewFile, relativeDir)
-        : null;
+        : rawUrl(`${relativeDir}/preview.png`);
       const showcaseUrl = showcaseFile
         ? hashedCdnUrl(vPath, showcaseFile, relativeDir)
         : null;

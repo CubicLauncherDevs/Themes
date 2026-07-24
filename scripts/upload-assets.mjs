@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, DeleteObjectCommand } from "@aws-sdk/client-s3";
+import { S3Client, PutObjectCommand, HeadObjectCommand, ListObjectsV2Command, DeleteObjectCommand, DeleteObjectsCommand } from "@aws-sdk/client-s3";
 import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, mkdirSync, createWriteStream, statSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -92,10 +92,8 @@ async function cleanupOldObjects(s3, r2Key) {
   if (!list.Contents) return;
   const toDelete = list.Contents.filter(o => o.Key !== r2Key);
   if (!toDelete.length) return;
-  await s3.send(new DeleteObjectCommand({
-    Bucket: r2Bucket, Key: toDelete[0].Key,
-  }));
-  console.log(`  ✗ R2 cleanup: ${toDelete[0].Key}`);
+  await s3.send(new DeleteObjectsCommand({ Bucket: r2Bucket, Delete: { Objects: toDelete.map(o => ({ Key: o.Key })) } }));
+  for (const o of toDelete) console.log(`  ✗ R2 cleanup: ${o.Key}`);
 }
 
 const MAX_UPLOAD_SIZE = 25 * 1024 * 1024;
@@ -183,15 +181,51 @@ if (previewSet && previewSet.size > 0) {
   execSync(`node generate.js --dirs ${args}`, { cwd: ROOT, stdio: "inherit" });
 }
 
+// ─── Helper: clean duplicate R2 files (keep only latest per base name) ───
+
+async function deduplicateR2Files(versionDir) {
+  const all = await getR2DirFiles(versionDir);
+  const groups = {};
+  for (const f of all) {
+    const name = f.Key.replace(versionDir + "/", "");
+    const cleanName = name.replace(/\.[a-f0-9]{8}(?=\.[^.]+$)/, "");
+    if (!groups[cleanName]) groups[cleanName] = [];
+    groups[cleanName].push(f);
+  }
+  const toDelete = [];
+  for (const [cleanName, files] of Object.entries(groups)) {
+    if (files.length < 2) continue;
+    files.sort((a, b) => new Date(b.LastModified) - new Date(a.LastModified));
+    for (const old of files.slice(1)) toDelete.push({ Key: old.Key });
+  }
+  if (toDelete.length) {
+    await s3.send(new DeleteObjectsCommand({ Bucket: r2Bucket, Delete: { Objects: toDelete } }));
+    for (const d of toDelete) console.log(`  ✗ R2 dedup: ${d.Key}`);
+  }
+}
+
 // ─── Phase 3: Process each version ───
 
 for (const theme of themes) {
   for (const version of theme.versions) {
     if (targetSet && !targetSet.has(version.dirPath)) continue;
     const vDir = join(ROOT, version.dirPath);
+    const dirExists = existsSync(vDir);
+
+    // Deduplicate R2 files for this dir first
+    await deduplicateR2Files(version.dirPath);
+
+    // Fetch R2 files again after dedup
+    const r2DirFiles = await getR2DirFiles(version.dirPath);
+    const r2ByCleanName = {};
+    for (const f of r2DirFiles) {
+      const name = f.Key.replace(version.dirPath + "/", "");
+      const cleanName = name.replace(/\.[a-f0-9]{8}(?=\.[^.]+$)/, "");
+      r2ByCleanName[cleanName] = f;
+    }
 
     const diskFiles = [];
-    if (existsSync(vDir)) {
+    if (dirExists) {
       function scan(dir, base) {
         for (const entry of readdirSync(dir, { withFileTypes: true })) {
           if (entry.name.startsWith(".") && !entry.name.startsWith("bg_r2_temp")) continue;
@@ -206,37 +240,46 @@ for (const theme of themes) {
     const newFiles = [];
     const processed = new Set();
 
-    // Fetch existing R2 files for this dir (for skip detection + cleanup)
-    const r2DirFiles = await getR2DirFiles(version.dirPath);
-
     for (const { rel, abs } of diskFiles) {
-      if (rel.startsWith("bg_r2_temp")) {
-        // Temp bg files — skip, will be cleaned up
-        continue;
-      }
+      if (rel.startsWith("bg_r2_temp")) continue;
       processed.add(rel);
       if (isText(rel)) {
         newFiles.push({ name: rel, url: `${GH_BASE}/${version.dirPath}/${rel}` });
       } else if (isBinary(rel)) {
+        // Delete the old R2 entry for this file before uploading (ensures only one)
+        const r2Old = r2ByCleanName[rel];
+        if (r2Old) {
+          await s3.send(new DeleteObjectCommand({ Bucket: r2Bucket, Key: r2Old.Key }));
+          console.log(`  ✗ R2 remove old: ${r2Old.Key}`);
+        }
         const result = await pushR2(abs, `${version.dirPath}/${rel}`, mimeType(rel), r2DirFiles);
         if (result.skipped) skipped++; else uploaded++;
         if (result.publicUrl) {
           newFiles.push({ name: rel, url: result.publicUrl });
-          unlinkSync(abs); deleted++;
-          console.log(`  ✗ deleted ${rel}`);
+          if (dirExists) { unlinkSync(abs); deleted++; console.log(`  ✗ deleted ${rel}`); }
         } else {
           newFiles.push({ name: rel, url: `${GH_BASE}/${version.dirPath}/${rel}` });
         }
       }
     }
 
-    // Preserve existing entries for files NOT on disk (previously uploaded)
+    // Preserve R2-only binary files (not on disk)
+    for (const [cleanName, r2Obj] of Object.entries(r2ByCleanName)) {
+      if (processed.has(cleanName)) continue;
+      const url = `${R2_PUBLIC_BASE}/${r2Obj.Key}`;
+      newFiles.push({ name: cleanName, url });
+      processed.add(cleanName);
+      console.log(`  ✓ kept from R2: ${r2Obj.Key}`);
+    }
+
+    // Also preserve entries from themes.json for files not in R2 or disk
     if (Array.isArray(version.files)) {
       for (const existing of version.files) {
         const name = typeof existing === "string" ? existing : existing.name;
         if (!processed.has(name)) {
           if (typeof existing === "object" && (existing.url?.includes(R2_PUBLIC_BASE) || existing.url?.includes("themes.cubiclauncher.org"))) {
             newFiles.push(existing);
+            processed.add(name);
           }
         }
       }
@@ -244,7 +287,7 @@ for (const theme of themes) {
 
     version.files = newFiles;
 
-    // Update previewUrl & showcaseUrl  
+    // Update previewUrl & showcaseUrl
     const hasPreview = newFiles.find(f => f.name === "preview.png");
     if (hasPreview) version.previewUrl = hasPreview.url;
     const hasShowcase = newFiles.find(f => f.name === "Showcase.png");
