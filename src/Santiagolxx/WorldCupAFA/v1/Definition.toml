@@ -1,6 +1,6 @@
 [background]
 reference_path = "bg.jpeg"
-image_blur = 5
+image_blur = 5.0
 image_opacity = 0.7
 
 [[fonts]]

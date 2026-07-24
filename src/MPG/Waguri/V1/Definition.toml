@@ -1,6 +1,6 @@
 [background]
 reference_path = "waguri.png"
-image_blur = 10px
+image_blur = 10.0
 image_opacity = 0.85
 
 [backgrounds]

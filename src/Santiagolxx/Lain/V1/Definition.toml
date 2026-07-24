@@ -1,6 +1,6 @@
 [background]
 reference_path = "bg.jpg"
-image_blur = 1px
+image_blur = 1.0
 image_opacity = 0.8
 
 [backgrounds]
