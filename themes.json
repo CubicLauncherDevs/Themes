@@ -16,8 +16,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Colorful/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Colorful/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -43,8 +49,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Jadol/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -70,10 +82,22 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Fonts/OFL.txt",
-          "Fonts/README.txt",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Fonts/README.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/README.txt"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/4xnl/Kayoko/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -94,16 +118,30 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Amber/V1/Showcase.75c92b21.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png",
         "dirPath": "src/CubicLauncher/Signature Amber/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
         "files": [
-          "Definition.toml",
-          "Meta.toml",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png"
+          },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Amber/V1/bg.76614c3c.png"
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/bg.76614c3c.png"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/changelog.md"
           }
         ],
         "injectsCss": false
@@ -125,16 +163,30 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Classic/V1/Showcase.0236eac9.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png",
         "dirPath": "src/CubicLauncher/Signature Classic/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n",
         "files": [
-          "Definition.toml",
-          "Meta.toml",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png"
+          },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Classic/V1/bg.e843246b.png"
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/bg.e843246b.png"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/changelog.md"
           }
         ],
         "injectsCss": false
@@ -156,16 +208,30 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Dark/V1/Showcase.42d9affc.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png",
         "dirPath": "src/CubicLauncher/Signature Dark/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
         "files": [
-          "Definition.toml",
-          "Meta.toml",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png"
+          },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Dark/V1/bg.dedc4454.png"
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/bg.dedc4454.png"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/changelog.md"
           }
         ],
         "injectsCss": false
@@ -187,16 +253,30 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Frost/V1/Showcase.3cdb8150.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png",
         "dirPath": "src/CubicLauncher/Signature Frost/V1",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
         "files": [
-          "Definition.toml",
-          "Meta.toml",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png"
+          },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature%20Frost/V1/bg.4e52c8f5.png"
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/bg.4e52c8f5.png"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/changelog.md"
           }
         ],
         "injectsCss": false
@@ -223,9 +303,22 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n",
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V3/changelog.md"
+          }
         ],
         "injectsCss": true
       },
@@ -237,9 +330,22 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n",
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V2/changelog.md"
+          }
         ],
         "injectsCss": true
       },
@@ -251,9 +357,18 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Meta.toml"
+          }
         ],
         "injectsCss": true
       }
@@ -279,8 +394,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/Waguri/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/Waguri/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -306,8 +427,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/ZeroTwo/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/MPG/ZeroTwo/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -333,8 +460,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Blur/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -360,9 +493,22 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n",
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Clang/V1/changelog.md"
+          }
         ],
         "injectsCss": true
       }
@@ -383,22 +529,42 @@
       {
         "version": "V2",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V2/Showcase.e341be4f.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Showcase.e341be4f.png",
         "dirPath": "src/Notstaff/Lain Theme/V2",
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# Migracion a Themes V2\n",
         "files": [
-          "Definition.toml",
-          "Fonts/OFL.txt",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/Fonts/OFL.txt"
+          },
           {
             "name": "Fonts/Syne.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V2/Fonts/Syne.ee2de91f.ttf"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Fonts/Syne.ee2de91f.ttf"
           },
-          "Inject.css",
-          "Meta.toml",
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Showcase.e341be4f.png"
+          },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V2/bg.6bb4fd66.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/bg.6bb4fd66.png"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/changelog.md"
           }
         ],
         "injectsCss": true
@@ -406,21 +572,34 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V1/Showcase.98ebf4c1.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png",
         "dirPath": "src/Notstaff/Lain Theme/V1",
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml",
-          "OFL.txt",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V1/OFL.txt"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png"
+          },
           {
             "name": "Syne.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V1/Syne.ee2de91f.ttf"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Syne.ee2de91f.ttf"
           },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain%20Theme/V1/bg.6bb4fd66.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/bg.6bb4fd66.png"
           }
         ],
         "injectsCss": false
@@ -447,9 +626,22 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n",
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Louise/V1/changelog.md"
+          }
         ],
         "injectsCss": false
       }
@@ -475,9 +667,22 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n",
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/chill/V1/changelog.md"
+          }
         ],
         "injectsCss": true
       }
@@ -503,9 +708,18 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml",
-          "OFL.txt"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Gengar/V1/OFL.txt"
+          }
         ],
         "injectsCss": false
       }
@@ -531,8 +745,14 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/LaRoja/v1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -558,9 +778,18 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml",
-          "OFL.txt"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V2/OFL.txt"
+          }
         ],
         "injectsCss": false
       },
@@ -572,9 +801,18 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml",
-          "OFL.txt"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Lain/V1/OFL.txt"
+          }
         ],
         "injectsCss": false
       }
@@ -600,8 +838,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Marron/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Marron/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -627,8 +871,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Moon/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Moon/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -654,8 +904,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Rei/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Rei/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -681,8 +937,14 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Running/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/Running/V1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -708,8 +970,14 @@
         "date": "2026-07-24T00:00:59-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Meta.toml"
+          }
         ],
         "injectsCss": false
       }
@@ -730,16 +998,26 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark%20Theme/V1/Showcase.172975fc.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png",
         "dirPath": "src/Unr4n/Dark Theme/V1",
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Meta.toml",
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Unr4n/Dark Theme/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Unr4n/Dark Theme/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png"
+          },
           {
             "name": "bg.jpg",
-            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark%20Theme/V1/bg.99e80a87.jpg"
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/bg.99e80a87.jpg"
           }
         ],
         "injectsCss": false
@@ -766,9 +1044,18 @@
         "date": "2026-07-24T02:34:20-04:00",
         "changelog": null,
         "files": [
-          "Definition.toml",
-          "Inject.css",
-          "Meta.toml"
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/kittyhos/kitty/V1/Meta.toml"
+          }
         ],
         "injectsCss": true
       }
