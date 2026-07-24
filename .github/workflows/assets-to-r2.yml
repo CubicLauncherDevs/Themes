@@ -1,0 +1,90 @@
+name: Assets to R2
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  upload:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: |
+          npm install @napi-rs/canvas
+          npm install @aws-sdk/client-s3 --no-save
+
+      - name: Optimize PNGs (tolerate failure)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
+          oxipng -o 3 --strip safe $(find src/ -name '*.png') 2>/dev/null || true
+
+      - name: Generate previews
+        run: node generate.js --all src/
+
+      - name: Generate themes.json
+        run: node .github/scripts/generate-themes-json.js
+
+      - name: Upload assets to R2
+        env:
+          R2_S3_URL: ${{ secrets.R2_S3_URL }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+        run: node scripts/upload-assets.mjs
+
+      - name: Merge collections
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          const pkgPath = 'packages.json';
+          const collectionsDir = 'collections';
+          let existing = [];
+          try { existing = JSON.parse(fs.readFileSync(pkgPath, 'utf8')); } catch {}
+          const ids = new Set(existing.map(p => p.id));
+          if (fs.existsSync(collectionsDir)) {
+            for (const f of fs.readdirSync(collectionsDir)) {
+              if (f.endsWith('.json')) {
+                const col = JSON.parse(fs.readFileSync(path.join(collectionsDir, f), 'utf8'));
+                if (!ids.has(col.id)) {
+                  existing.push(col);
+                  ids.add(col.id);
+                }
+              }
+            }
+          }
+          fs.writeFileSync(pkgPath, JSON.stringify(existing, null, 2));
+          console.log('✓ packages.json merged with', existing.length, 'collections');
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "Cubic Themes"
+          git config user.email "themes@cubiclauncher.org"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: mover assets a R2 [skip ci]"
+            git push
+          fi
