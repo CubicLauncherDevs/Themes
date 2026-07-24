@@ -409,17 +409,44 @@ async function generate(configPathOrDir, outPath) {
 
 // ---------- CLI entry ----------
 
-const [, , arg1, arg2] = process.argv;
+const [, , arg1, ...rest] = process.argv;
 
 if (!arg1) {
   console.error("Usage:");
   console.error("  node generate.js config.json [salida.png]");
   console.error("  node generate.js --dir src/Autor/Theme/V1");
   console.error("  node generate.js --all [src/]");
+  console.error("  node generate.js --dirs src/Autor/Theme/V1 [src/Otro/Theme/V2]");
   process.exit(1);
 }
 
-generate(arg1, arg2).catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+if (arg1 === "--dirs") {
+  // Process specific version directories
+  (async () => {
+    let count = 0;
+    for (const dir of rest) {
+      const verPath = path.resolve(dir);
+      if (!fs.existsSync(verPath)) {
+        console.error(`  ✗ ${dir}: not found`);
+        continue;
+      }
+      if (!fs.existsSync(path.join(verPath, "Meta.toml")) || !fs.existsSync(path.join(verPath, "Definition.toml"))) {
+        console.error(`  ✗ ${dir}: missing Meta.toml or Definition.toml`);
+        continue;
+      }
+      try {
+        await generate("--dir", verPath);
+        count++;
+        console.log(`  ✓ ${dir}`);
+      } catch (e) {
+        console.error(`  ✗ ${dir}: ${e.message}`);
+      }
+    }
+    console.log(`Done! Generated ${count} previews.`);
+  })().catch((e) => { console.error(e); process.exit(1); });
+} else {
+  generate(arg1, rest[0]).catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

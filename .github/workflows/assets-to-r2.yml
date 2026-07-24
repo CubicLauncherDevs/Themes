@@ -1,6 +1,11 @@
-name: Assets to R2
+name: Generate + Assets to R2
 
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
   pull_request:
     paths:
       - 'src/**'
@@ -11,17 +16,17 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: pr-${{ github.event.pull_request.number }}
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'push-master' }}
   cancel-in-progress: true
 
 jobs:
   upload:
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -33,24 +38,35 @@ jobs:
           npm install @napi-rs/canvas
           npm install @aws-sdk/client-s3 --no-save
 
+      - name: Detect changed version directories
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="origin/${{ github.base_ref }}"
+          else
+            BASE="HEAD~1"
+          fi
+          CHANGED_DIRS=$(git diff --name-only "$BASE" HEAD -- src/ \
+            | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
+            | sort -u \
+            | tr '\n' ' ')
+          echo "dirs=$CHANGED_DIRS" >> "$GITHUB_OUTPUT"
+          echo "Changed dirs: $CHANGED_DIRS"
+
       - name: Optimize PNGs (tolerate failure)
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
-          oxipng -o 3 --strip safe $(find src/ -name '*.png') 2>/dev/null || true
+          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
+            for dir in ${{ steps.changed.outputs.dirs }}; do
+              find "$dir" -name '*.png' -exec oxipng -o 3 --strip safe {} \; 2>/dev/null || true
+            done
+          fi
 
       - name: Generate previews
-        run: node generate.js --all src/
-
-      - name: Generate themes.json
-        run: node .github/scripts/generate-themes-json.js
-
-      - name: Upload assets to R2
-        env:
-          R2_S3_URL: ${{ secrets.R2_S3_URL }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
-        run: node scripts/upload-assets.mjs
+        run: |
+          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
+            node generate.js --dirs ${{ steps.changed.outputs.dirs }}
+          fi
 
       - name: Merge collections
         run: |
@@ -77,6 +93,17 @@ jobs:
           console.log('✓ packages.json merged with', existing.length, 'collections');
           "
 
+      - name: Upload assets to R2
+        env:
+          R2_S3_URL: ${{ secrets.R2_S3_URL }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+        run: |
+          if [ -n "${{ steps.changed.outputs.dirs }}" ]; then
+            node scripts/upload-assets.mjs ${{ steps.changed.outputs.dirs }}
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "Cubic Themes"
@@ -85,6 +112,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: mover assets a R2 [skip ci]"
+            git commit -m "chore: generate + assets a R2 [skip ci]"
             git push
           fi
