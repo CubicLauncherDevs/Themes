@@ -149,6 +149,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/Meta.toml"
           },
           {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Amber/V1/changelog.md"
+          },
+          {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/bg.76614c3c.png"
           }
@@ -189,6 +193,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Classic/V1/changelog.md"
           },
           {
             "name": "bg.png",
@@ -233,6 +241,10 @@
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/Meta.toml"
           },
           {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Dark/V1/changelog.md"
+          },
+          {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/bg.dedc4454.png"
           }
@@ -273,6 +285,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/CubicLauncher/Signature Frost/V1/changelog.md"
           },
           {
             "name": "bg.png",
@@ -577,6 +593,10 @@
           {
             "name": "OFL.txt",
             "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/OFL.txt"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/santiagolxx/asdasd/refs/heads/master/src/Notstaff/Lain Theme/V2/changelog.md"
           },
           {
             "name": "Syne.ttf",
