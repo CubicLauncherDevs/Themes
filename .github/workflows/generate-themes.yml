@@ -23,17 +23,48 @@ jobs:
         with:
           node-version: 24
 
+      - name: Install canvas dependencies
+        run: npm install @napi-rs/canvas
+
+      - name: Generate previews
+        run: node generate.js --all src/
+
       - name: Generate themes.json
         run: node .github/scripts/generate-themes-json.js
+
+      - name: Merge collections
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          const pkgPath = 'packages.json';
+          const collectionsDir = 'collections';
+          let existing = [];
+          try { existing = JSON.parse(fs.readFileSync(pkgPath, 'utf8')); } catch {}
+          const ids = new Set(existing.map(p => p.id));
+          if (fs.existsSync(collectionsDir)) {
+            for (const f of fs.readdirSync(collectionsDir)) {
+              if (f.endsWith('.json')) {
+                const col = JSON.parse(fs.readFileSync(path.join(collectionsDir, f), 'utf8'));
+                if (!ids.has(col.id)) {
+                  existing.push(col);
+                  ids.add(col.id);
+                }
+              }
+            }
+          }
+          fs.writeFileSync(pkgPath, JSON.stringify(existing, null, 2));
+          console.log('✓ packages.json merged with', existing.length, 'collections');
+          "
 
       - name: Commit and push
         run: |
           git config user.name "Cubic Themes"
           git config user.email "themes@cubiclauncher.org"
-          git add themes.json
+          git add themes.json packages.json collections/ src/
           if git diff --cached --quiet; then
-            echo "No changes to themes.json"
+            echo "No changes to commit"
           else
-            git commit -m "Actualizar themes.json [skip ci]"
+            git commit -m "Actualizar themes.json y previews [skip ci]"
             git push
           fi

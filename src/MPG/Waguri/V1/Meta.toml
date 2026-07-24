@@ -1,0 +1,5 @@
+name = "Waguri Theme"
+author = "MPG"
+version = "1.0"
+description = ""
+injects_css = false

@@ -1,0 +1,7 @@
+name = "Signature Classic"
+author = "CubicLauncher"
+version = "1.0.0"
+description = "Tema claro oficial de CubicLauncher con acentos azules. Limpio, moderno y legible para uso diario."
+injects_css = false
+tags = ["claro", "azul", "oficial", "profesional"]
+date = "2026-07-23T00:37:43-06:00"

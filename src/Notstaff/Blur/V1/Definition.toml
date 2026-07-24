@@ -1,0 +1,73 @@
+[background]
+reference_path = "bg.png"
+image_blur = 32
+image_opacity = 1
+
+[colors]
+accent = "#5b8dee"
+accent-rgb = "91,141,238"
+accent-hover = "#7ba1f0"
+accent-active = "#4a7de0"
+accent-text = "#eef0f4"
+accent-subtle = "rgba(91,141,238,0.12)"
+color-success = "#6bcb7a"
+color-success-rgb = "107,203,122"
+color-error = "#e86060"
+color-error-rgb = "232,96,96"
+color-warning = "#e8b040"
+color-warning-rgb = "232,176,64"
+color-info = "#5b9bd5"
+color-info-rgb = "91,155,213"
+color-status-starting = "#5b8dee"
+color-status-started = "#6bcb7a"
+color-status-stopped = "#020202"
+color-status-error = "#e86060"
+
+[text]
+primary = "#d4d8e0"
+secondary = "#eef0f4"
+muted = "#6b7280"
+accent = "#8ab4f8"
+
+[backgrounds]
+main = "#020202"
+sidebar = "#050708"
+card = "#12171f"
+item-active = "#1a212d"
+overlay = "rgba(2,2,2,0.85)"
+input = "#0a0d12"
+
+[borders]
+color = "#1e2633"
+color-hover = "#3d506e"
+radius = "6px"
+radius-sm = "3px"
+radius-lg = "10px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.6)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.7)"
+shadow-lg = "0 8px 28px rgba(0,0,0,0.75)"
+glow-accent = "0 0 16px rgba(91,141,238,0.2)"
+glow-accent-strong = "0 0 28px rgba(91,141,238,0.35)"
+
+[layout]
+font-family = "Cantarell, sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[others]
+icon-filter = "invert(88%) sepia(8%) saturate(300%) hue-rotate(195deg) brightness(97%)"
+icon-filter-accent = "invert(55%) sepia(60%) saturate(600%) hue-rotate(200deg) brightness(105%)"
+icon-filter-success = "invert(65%) sepia(40%) saturate(600%) hue-rotate(90deg) brightness(105%)"
+icon-filter-error = "invert(45%) sepia(80%) saturate(4000%) hue-rotate(340deg) brightness(100%)"
+icon-filter-warning = "invert(70%) sepia(70%) saturate(700%) hue-rotate(5deg) brightness(108%)"
+icon-filter-info = "invert(55%) sepia(40%) saturate(500%) hue-rotate(190deg) brightness(105%)"
+icon-filter-muted = "invert(35%) sepia(10%) saturate(200%) hue-rotate(195deg) brightness(70%)"
+scrollbar-track = "#020202"
+scrollbar-thumb = "#1e2633"
+scrollbar-thumb-hover = "#2e3d55"

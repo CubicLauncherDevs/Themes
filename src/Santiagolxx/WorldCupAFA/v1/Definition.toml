@@ -1,0 +1,89 @@
+[background]
+reference_path = "bg.jpeg"
+image_blur = 5
+image_opacity = 0.7
+
+[[fonts]]
+family = "Satoshi"
+src = "Fonts/Satoshi.otf"
+format = "truetype"
+weight = "400"
+style = "normal"
+
+[colors]
+accent = "#35b3ef"
+accent-rgb = "53,179,239"
+accent-hover = "#1f9bd6"
+accent-active = "#232b78"
+accent-text = "#0a1330"
+accent-subtle = "rgba(53,179,239,0.08)"
+color-success = "#72c47e"
+color-success-rgb = "114,196,126"
+color-error = "#e86060"
+color-error-rgb = "232,96,96"
+color-warning = "#c9a227"
+color-warning-rgb = "201,162,39"
+color-info = "#98cef0"
+color-info-rgb = "152,206,240"
+color-status-starting = "#35b3ef"
+color-status-started = "#72c47e"
+color-status-stopped = "#0a1330"
+color-status-error = "#e86060"
+
+[text]
+primary = "#c9d6e8"
+secondary = "#ffffff"
+muted = "#5a6b8c"
+accent = "#35b3ef"
+
+[backgrounds]
+main = "#050a1a"
+sidebar = "#050a1a"
+card = "#101a3a"
+item-active = "#101a3a"
+overlay = "rgba(5,10,26,0.78)"
+input = "#0b1430"
+
+[backdrop]
+dropdown = 10
+modal = 4
+overlay = 4
+viewer = 8
+float = 8
+panel = 5
+button = 4
+
+[borders]
+color = "#233064"
+color-hover = "#35b3ef"
+radius = "5px"
+radius-sm = "2px"
+radius-lg = "8px"
+
+[layout]
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.6)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.7)"
+shadow-lg = "0 8px 28px rgba(0,0,0,0.75)"
+glow-accent = "0 0 16px rgba(53,179,239,0.25)"
+glow-accent-strong = "0 0 28px rgba(53,179,239,0.42)"
+
+[others]
+icon-filter = "invert(85%) sepia(10%) saturate(400%) hue-rotate(175deg) brightness(100%)"
+icon-filter-accent = "invert(65%) sepia(70%) saturate(1200%) hue-rotate(165deg) brightness(105%)"
+icon-filter-success = "invert(65%) sepia(40%) saturate(600%) hue-rotate(90deg) brightness(105%)"
+icon-filter-error = "invert(45%) sepia(80%) saturate(4000%) hue-rotate(340deg) brightness(100%)"
+icon-filter-warning = "invert(75%) sepia(55%) saturate(700%) hue-rotate(5deg) brightness(102%)"
+icon-filter-info = "invert(80%) sepia(20%) saturate(500%) hue-rotate(175deg) brightness(110%)"
+icon-filter-muted = "invert(45%) sepia(15%) saturate(300%) hue-rotate(180deg) brightness(85%)"
+scrollbar-track = "#050a1a"
+scrollbar-thumb = "#101a3a"
+scrollbar-thumb-hover = "#1f9bd6"
+font-family = "\"Satoshi\", \"Noto Sans SC\", \"Noto Sans CJK SC\", \"Source Han Sans SC\", Cantarell, sans-serif"
+font-size-base = "16px"
+font-size-sm = "18px"
+font-size-lg = "22px"

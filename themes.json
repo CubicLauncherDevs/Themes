@@ -4,95 +4,115 @@
     "slug": "4xnl-colorful",
     "name": "Colorful",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Colorful",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Colorful_4xnl.zip",
-        "zipName": "Colorful_4xnl.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Colorful/V1/Showcase.png",
         "dirPath": "src/4xnl/Colorful/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Colorful_4xnl.zip",
-    "zipName": "Colorful_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Colorful/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "4xnl-jadol",
     "slug": "4xnl-jadol",
     "name": "Jadol",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Jadol",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Jadol_4xnl.zip",
-        "zipName": "Jadol_4xnl.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Jadol/V1/Showcase.png",
         "dirPath": "src/4xnl/Jadol/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Jadol_4xnl.zip",
-    "zipName": "Jadol_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Jadol/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "4xnl-kayoko",
     "slug": "4xnl-kayoko",
     "name": "Kayoko",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Kayoko",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Kayoko_4xnl.zip",
-        "zipName": "Kayoko_4xnl.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Kayoko/V1/Showcase.png",
         "dirPath": "src/4xnl/Kayoko/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "NotoSansJP-VariableFont_wght.ttf",
+          "OFL.txt",
+          "README.txt",
+          "kayoko_bg.webp"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Kayoko_4xnl.zip",
-    "zipName": "Kayoko_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/4xnl/Kayoko/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "cubiclauncher-signature-amber",
     "slug": "cubiclauncher-signature-amber",
     "name": "Signature Amber",
     "author": "CubicLauncher",
+    "tags": [
+      "oscuro",
+      "cálido",
+      "ámbar",
+      "oficial"
+    ],
     "dirPath": "src/CubicLauncher/Signature Amber",
     "description": "# Signature Amber\n\nTema oscuro cálido oficial del **CubicLauncher Signature Pack**. Con tonos marrón-grisáceos y acentos ámbar, transmite una sensación acogedora y energética sin perder profesionalismo.\n\n## Características\n\n- **Paleta cálida**: fondos `#1c1917` con superficies `#292524`.\n- **Acento ámbar**: `#f59e0b` para llamar la atención sin ser agresivo.\n- **Contraste cálido**: texto `#fafaf9` con matices `#d6d3d1`.\n- **Fondo sutil**: degradado oscuro con glow ámbar.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/CubicLauncher_Signature-Amber.cbth",
-        "zipName": "CubicLauncher_Signature-Amber.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Amber/V1",
         "date": "2026-07-23T00:20:31-06:00",
-        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Amber/V1/CubicLauncher_Signature-Amber.cbth",
-    "zipName": "CubicLauncher_Signature-Amber.cbth",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Amber/V1/Showcase.png",
     "date": "2026-07-23T00:20:31-06:00"
   },
   {
@@ -100,23 +120,31 @@
     "slug": "cubiclauncher-signature-classic",
     "name": "Signature Classic",
     "author": "CubicLauncher",
+    "tags": [
+      "claro",
+      "azul",
+      "oficial",
+      "profesional"
+    ],
     "dirPath": "src/CubicLauncher/Signature Classic",
     "description": "# Signature Classic\n\nTema claro oficial del **CubicLauncher Signature Pack**. Diseñado para ofrecer una experiencia limpia, moderna y legible durante el día, con acentos azules que mantienen la identidad visual de CubicLauncher.\n\n## Características\n\n- **Paleta clara y profesional**: fondos en tonos gris-azulados muy suaves.\n- **Acento azul signature**: `#2563eb` para botones, estados activos y glows.\n- **Alto contraste**: texto oscuro `#0f172a` sobre superficies claras.\n- **Fondo sutil**: degradado generado con un toque del color de acento.\n- **Formato v2 (TOML)**: aprovecha el sistema de themes recomendado por CubicLauncher.\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/CubicLauncher_Signature-Classic.cbth",
-        "zipName": "CubicLauncher_Signature-Classic.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Classic/V1",
         "date": "2026-07-23T00:37:43-06:00",
-        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n"
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n",
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Classic/V1/CubicLauncher_Signature-Classic.cbth",
-    "zipName": "CubicLauncher_Signature-Classic.cbth",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Classic/V1/Showcase.png",
     "date": "2026-07-23T00:37:43-06:00"
   },
   {
@@ -124,23 +152,31 @@
     "slug": "cubiclauncher-signature-dark",
     "name": "Signature Dark",
     "author": "CubicLauncher",
+    "tags": [
+      "oscuro",
+      "azul",
+      "oficial",
+      "elegante"
+    ],
     "dirPath": "src/CubicLauncher/Signature Dark",
     "description": "# Signature Dark\n\nTema oscuro oficial del **CubicLauncher Signature Pack**. Ideal para sesiones nocturnas, con una paleta azulada elegante y un acento vibrante que mantiene la legibilidad sin fatigar la vista.\n\n## Características\n\n- **Paleta oscura profunda**: fondos `#0f172a` y tarjetas `#1e293b`.\n- **Acento azul brillante**: `#3b82f6` para resaltar acciones principales.\n- **Contraste cuidado**: texto claro sobre superficies oscuras con estados bien diferenciados.\n- **Fondo sutil**: degradado oscuro con glow azul suave.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/CubicLauncher_Signature-Dark.cbth",
-        "zipName": "CubicLauncher_Signature-Dark.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Dark/V1",
         "date": "2026-07-23T00:56:50-06:00",
-        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Dark/V1/CubicLauncher_Signature-Dark.cbth",
-    "zipName": "CubicLauncher_Signature-Dark.cbth",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Dark/V1/Showcase.png",
     "date": "2026-07-23T00:56:50-06:00"
   },
   {
@@ -148,23 +184,31 @@
     "slug": "cubiclauncher-signature-frost",
     "name": "Signature Frost",
     "author": "CubicLauncher",
+    "tags": [
+      "oscuro",
+      "frío",
+      "cyan",
+      "oficial"
+    ],
     "dirPath": "src/CubicLauncher/Signature Frost",
     "description": "# Signature Frost\n\nTema oscuro frío oficial del **CubicLauncher Signature Pack**. Inspirado en tonos de hielo y noche invernal, con fondos azul-petróleo y acentos cyan que dan una estética moderna e inmersiva.\n\n## Características\n\n- **Paleta fría**: fondos `#082f49` con superficies `#0c4a6e`.\n- **Acento cyan brillante**: `#22d3ee` para acciones y estados activos.\n- **Legibilidad fría**: texto `#f0f9ff` con tonos secundarios `#bae6fd`.\n- **Fondo sutil**: degradado oscuro con glow cyan.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/CubicLauncher_Signature-Frost.cbth",
-        "zipName": "CubicLauncher_Signature-Frost.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
         "dirPath": "src/CubicLauncher/Signature Frost/V1",
         "date": "2026-07-23T01:10:01-06:00",
-        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n"
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/CubicLauncher/Signature%20Frost/V1/CubicLauncher_Signature-Frost.cbth",
-    "zipName": "CubicLauncher_Signature-Frost.cbth",
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/CubicLauncher/Signature%20Frost/V1/Showcase.png",
     "date": "2026-07-23T01:10:01-06:00"
   },
   {
@@ -172,443 +216,532 @@
     "slug": "edgajuman-cyberpunk",
     "name": "Cyberpunk",
     "author": "Edgajuman",
+    "tags": [],
     "dirPath": "src/Edgajuman/Cyberpunk",
-    "description": null,
+    "description": "Un tema futurista y con animaciones, fondo GIF y fuente personalizada Air Millhouse.",
     "versions": [
       {
         "version": "V3",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V3/cyberpunk_v3_edgajuman.zip",
-        "zipName": "cyberpunk_v3_edgajuman.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V3",
-        "date": "2026-07-07T03:48:36-05:00",
-        "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n"
+        "date": null,
+        "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n",
+        "files": [
+          "Audiowide.ttf",
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.gif"
+        ],
+        "injectsCss": true
       },
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/cyberpunk_v2_edgajuman.zip",
-        "zipName": "cyberpunk_v2_edgajuman.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V2",
-        "date": "2026-07-05T19:19:35-05:00",
-        "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n"
+        "date": null,
+        "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n",
+        "files": [
+          "Audiowide.ttf",
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.gif"
+        ],
+        "injectsCss": true
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V1/cyberpunkv1_edgajuman.zip",
-        "zipName": "cyberpunkv1_edgajuman.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V1/Showcase.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Audiowide.ttf",
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.gif"
+        ],
+        "injectsCss": true
       }
     ],
     "latestVersion": "V3",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V3/cyberpunk_v3_edgajuman.zip",
-    "zipName": "cyberpunk_v3_edgajuman.zip",
-    "date": "2026-07-07T03:48:36-05:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Edgajuman/Cyberpunk/V3/Showcase.png",
+    "date": null
   },
   {
     "id": "mpg-waguri",
     "slug": "mpg-waguri",
     "name": "Waguri",
     "author": "MPG",
+    "tags": [],
     "dirPath": "src/MPG/Waguri",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Waguri_MPG.zip",
-        "zipName": "Waguri_MPG.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/Waguri/V1/Showcase.png",
         "dirPath": "src/MPG/Waguri/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "waguri.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Waguri_MPG.zip",
-    "zipName": "Waguri_MPG.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/Waguri/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "mpg-zerotwo",
     "slug": "mpg-zerotwo",
     "name": "ZeroTwo",
     "author": "MPG",
+    "tags": [],
     "dirPath": "src/MPG/ZeroTwo",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/ZeroTwo_MPG.zip",
-        "zipName": "ZeroTwo_MPG.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/ZeroTwo/V1/Showcase.png",
         "dirPath": "src/MPG/ZeroTwo/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "zerotwo.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/ZeroTwo_MPG.zip",
-    "zipName": "ZeroTwo_MPG.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/MPG/ZeroTwo/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "notstaff-blur",
     "slug": "notstaff-blur",
     "name": "Blur",
     "author": "Notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Blur",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/blur_notstaff.zip",
-        "zipName": "blur_notstaff.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Blur/V1/Showcase.png",
         "dirPath": "src/Notstaff/Blur/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/blur_notstaff.zip",
-    "zipName": "blur_notstaff.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Blur/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "notstaff-clang",
     "slug": "notstaff-clang",
     "name": "Clang",
     "author": "Notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Clang",
     "description": "# Clang\n\nUn tema oscuro y acogedor con acentos teal, inspirado en una estética cálida y nostálgica. Los colores están extraídos del arte de fondo, creando una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento teal suave:** Detalles en tonos teal que guían la atención sin ser agresivos\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos teal\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Notstaff_Clang.cbth",
-        "zipName": "Notstaff_Clang.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Clang/V1/Showcase.png",
         "dirPath": "src/Notstaff/Clang/V1",
-        "date": "2026-07-07T23:05:21-06:00",
-        "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n"
+        "date": null,
+        "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n",
+        "files": [
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Clang/V1/Notstaff_Clang.cbth",
-    "zipName": "Notstaff_Clang.cbth",
-    "date": "2026-07-07T23:05:21-06:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Clang/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "notstaff-lain-theme",
     "slug": "notstaff-lain-theme",
     "name": "Lain Theme",
     "author": "Notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Lain Theme",
-    "description": null,
+    "description": "A Lain Theme",
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
-        "zipName": "lain_theme_notstaff.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
         "dirPath": "src/Notstaff/Lain Theme/V2",
-        "date": "2026-07-05T03:29:04-04:00",
-        "changelog": "# Migracion a Themes V2\n"
+        "date": null,
+        "changelog": "# Migracion a Themes V2\n",
+        "files": [
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "OFL.txt",
+          "Syne.ttf",
+          "bg.png"
+        ],
+        "injectsCss": true
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/lain_theme_notstaff.zip",
-        "zipName": "lain_theme_notstaff.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
         "dirPath": "src/Notstaff/Lain Theme/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "OFL.txt",
+          "Syne.ttf",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
-    "zipName": "lain_theme_notstaff.cbth",
-    "date": "2026-07-05T03:29:04-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
+    "date": null
   },
   {
     "id": "notstaff-louise",
     "slug": "notstaff-louise",
     "name": "Louise",
     "author": "Notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Louise",
     "description": "# Louise\n\nUn tema claro y vibrante inspirado en Louise, construido únicamente con tonos blancos y rosados extraídos de su ilustración de fondo. La paleta es sólida, limpia y coherente, con acentos rosas vivos que resaltan sobre superficies blancas y cremosas.\n\n## Características\n\n- **Paleta blanco y rosa:** Colores tomados directamente del arte de Louise, sin tonos ajenos.\n- **Tema claro y luminoso:** Fondos blancos con tintes rosados muy suaves.\n- **Acento rosa sólido:** Detalles en `#f06292` que dan fuerza a los elementos interactivos.\n- **Fondo nítido:** Sin desenfoque (`0px`) para mostrar `bg.jpg` con total claridad.\n- **Scrollbar personalizada:** Indicador rosa vibrante sobre fondo blanco rosado.\n- **V1:** Usa `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias, logrando una experiencia clara realmente limpia.\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/louise_notstaff.cbth",
-        "zipName": "louise_notstaff.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Louise/V1/Showcase.png",
         "dirPath": "src/Notstaff/Louise/V1",
-        "date": "2026-07-16T02:50:17-06:00",
-        "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n"
+        "date": null,
+        "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n",
+        "files": [
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Louise/V1/louise_notstaff.cbth",
-    "zipName": "louise_notstaff.cbth",
-    "date": "2026-07-16T02:50:17-06:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/Louise/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "notstaff-chill",
     "slug": "notstaff-chill",
     "name": "chill",
     "author": "Notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/chill",
     "description": "# Chill\n\nUn tema relajante con tonos fríos azulados y una estética calmada. Los colores están extraídos del arte de fondo para una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento azul-cian frío:** Detalles en tonos azulados que guían la atención sin ser agresivos\n- **Fondos azul-grisáceos:** Tonos fríos en todas las superficies para una experiencia visual coherente\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos azul-cian\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/chill/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/chill/V1/Notstaff_Chill.cbth",
-        "zipName": "Notstaff_Chill.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/chill/V1/Showcase.png",
         "dirPath": "src/Notstaff/chill/V1",
-        "date": "2026-07-14T23:15:10-06:00",
-        "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n"
+        "date": null,
+        "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n",
+        "files": [
+          "Definition.toml",
+          "Inject.css",
+          "Meta.toml",
+          "bg.png"
+        ],
+        "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/chill/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/chill/V1/Notstaff_Chill.cbth",
-    "zipName": "Notstaff_Chill.cbth",
-    "date": "2026-07-14T23:15:10-06:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Notstaff/chill/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-gengar",
     "slug": "santiagolxx-gengar",
     "name": "Gengar",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Gengar",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/gengar_santiagolxx.zip",
-        "zipName": "gengar_santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Gengar/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Gengar/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Grotesk.woff2",
+          "Meta.toml",
+          "OFL.txt",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/gengar_santiagolxx.zip",
-    "zipName": "gengar_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Gengar/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-laroja",
     "slug": "santiagolxx-laroja",
     "name": "LaRoja",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/LaRoja",
-    "description": null,
+    "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/LaRoja_Santiagolxx.cbth",
-        "zipName": "LaRoja_Santiagolxx.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
         "dirPath": "src/Santiagolxx/LaRoja/v1",
-        "date": "2026-07-15T00:53:39-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "Satoshi.otf",
+          "bg.png"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/LaRoja/v1/LaRoja_Santiagolxx.cbth",
-    "zipName": "LaRoja_Santiagolxx.cbth",
-    "date": "2026-07-15T00:53:39-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/LaRoja/v1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-lain",
     "slug": "santiagolxx-lain",
     "name": "Lain",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Lain",
-    "description": null,
+    "description": "Let's all love Lain",
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V2/lain_santiagolxx.cbth",
-        "zipName": "lain_santiagolxx.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V2/Showcase.png",
         "dirPath": "src/Santiagolxx/Lain/V2",
-        "date": "2026-07-16T05:16:03-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "OFL.txt",
+          "Pixelbasel.ttf",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/lain_santiagolxx.zip",
-        "zipName": "lain_santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Lain/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "OFL.txt",
+          "Pixelbasel.ttf",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V2/lain_santiagolxx.cbth",
-    "zipName": "lain_santiagolxx.cbth",
-    "date": "2026-07-16T05:16:03-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Lain/V2/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-marron",
     "slug": "santiagolxx-marron",
     "name": "Marron",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Marron",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Marron_Santiagolxx.zip",
-        "zipName": "Marron_Santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Marron/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Marron/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Marron_Santiagolxx.zip",
-    "zipName": "Marron_Santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Marron/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-moon",
     "slug": "santiagolxx-moon",
     "name": "Moon",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Moon",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/moon_santiagolxx.zip",
-        "zipName": "moon_santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Moon/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Moon/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.jpeg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/moon_santiagolxx.zip",
-    "zipName": "moon_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Moon/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-rei",
     "slug": "santiagolxx-rei",
     "name": "Rei",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Rei",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/rei_santiagolxx.zip",
-        "zipName": "rei_santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Rei/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Rei/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/rei_santiagolxx.zip",
-    "zipName": "rei_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Rei/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-running",
     "slug": "santiagolxx-running",
     "name": "Running",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Running",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/running_santiagolxx.zip",
-        "zipName": "running_santiagolxx.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Running/V1/Showcase.png",
         "dirPath": "src/Santiagolxx/Running/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.gif"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/running_santiagolxx.zip",
-    "zipName": "running_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/Running/V1/Showcase.png",
+    "date": null
   },
   {
     "id": "santiagolxx-worldcupafa",
     "slug": "santiagolxx-worldcupafa",
     "name": "WorldCupAFA",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/WorldCupAFA",
-    "description": null,
+    "description": "Tema inspirado en la Asociacion del Futbol Argentino (AFA)",
     "versions": [
       {
         "version": "v1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/WorldCupAfa_Santiagolxx.cbth",
-        "zipName": "WorldCupAfa_Santiagolxx.cbth",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
         "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
-        "date": "2026-07-15T00:53:39-04:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "Satoshi.otf",
+          "bg.jpeg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "v1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/WorldCupAFA/v1/WorldCupAfa_Santiagolxx.cbth",
-    "zipName": "WorldCupAfa_Santiagolxx.cbth",
-    "date": "2026-07-15T00:53:39-04:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Santiagolxx/WorldCupAFA/v1/Showcase.png",
+    "date": null
   },
   {
     "id": "unr4n-dark-theme",
     "slug": "unr4n-dark-theme",
     "name": "Dark Theme",
     "author": "Unr4n",
+    "tags": [],
     "dirPath": "src/Unr4n/Dark Theme",
     "description": null,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme/V1/Dark%20Theme_Unr4n.zip",
-        "zipName": "Dark Theme_Unr4n.zip",
+        "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
         "dirPath": "src/Unr4n/Dark Theme/V1",
-        "date": "2026-07-20T15:34:11-06:00",
-        "changelog": null
+        "date": null,
+        "changelog": null,
+        "files": [
+          "Definition.toml",
+          "Meta.toml",
+          "bg.jpg"
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Unr4n/Dark%20Theme/V1/Dark%20Theme_Unr4n.zip",
-    "zipName": "Dark Theme_Unr4n.zip",
-    "date": "2026-07-20T15:34:11-06:00"
+    "previewUrl": "https://raw.githubusercontent.com/santiagolxx/asdasd/master/src/Unr4n/Dark%20Theme/V1/Showcase.png",
+    "date": null
   }
 ]

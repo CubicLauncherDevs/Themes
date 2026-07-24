@@ -1,0 +1,5 @@
+name = "Lain"
+author = "Santiagolxx"
+version = "2.0.0"
+description = "Let's all love Lain"
+injects_css = false

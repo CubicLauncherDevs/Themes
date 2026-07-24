@@ -1,0 +1,7 @@
+name = "Signature Amber"
+author = "CubicLauncher"
+version = "1.0.0"
+description = "Tema oscuro cálido oficial de CubicLauncher con acentos ámbar. Acogedor, energético y con excelente contraste."
+injects_css = false
+tags = ["oscuro", "cálido", "ámbar", "oficial"]
+date = "2026-07-23T00:20:31-06:00"

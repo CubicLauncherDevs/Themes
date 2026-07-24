@@ -1,0 +1,5 @@
+name = "Chill"
+author = "Notstaff"
+version = "1.0.0"
+description = "Un tema relajante con tonos fríos azulados y una estética calmada."
+injects_css = true

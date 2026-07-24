@@ -1,0 +1,7 @@
+name = "Signature Dark"
+author = "CubicLauncher"
+version = "1.0.0"
+description = "Tema oscuro oficial de CubicLauncher con acentos azules. Elegante, moderno y cómodo para sesiones largas."
+injects_css = false
+tags = ["oscuro", "azul", "oficial", "elegante"]
+date = "2026-07-23T00:56:50-06:00"

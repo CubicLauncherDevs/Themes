@@ -1,0 +1,63 @@
+[background]
+reference_path = "zerotwo.png"
+
+[colors]
+accent = "#9e1b2b"
+accent-rgb = "158,27,43"
+accent-hover = "#c92a3e"
+accent-active = "#7a111e"
+accent-text = "#ffffff"
+accent-subtle = "rgba(158, 27, 43, 0.25)"
+accent-primary = "#9e1b2b"
+color-success = "#3fb950"
+color-success-rgb = "63,185,80"
+color-error = "#f85149"
+color-error-rgb = "248,81,73"
+color-warning = "#d29922"
+color-warning-rgb = "210,153,34"
+color-status-starting = "#c92a3e"
+color-status-started = "#3fb950"
+
+[text]
+primary = "#fdf2f4"
+secondary = "#e3c8cd"
+muted = "#96787e"
+accent = "#ff4d6d"
+
+[backgrounds]
+main = "#140c0e"
+sidebar = "#1c1013"
+card = "rgba(41, 22, 26, 0.65)"
+item-active = "#6e2029"
+overlay = "rgba(20, 12, 14, 0.88)"
+input = "#261619"
+
+[borders]
+color = "#541e24"
+border = "#541e24"
+color-hover = "#802b35"
+width = "1px"
+radius = "10px"
+radius-sm = "5px"
+radius-lg = "15px"
+
+[shadows]
+shadow-sm = "0 2px 4px rgba(0,0,0,0.5)"
+shadow-md = "0 4px 8px rgba(0,0,0,0.6)"
+shadow-lg = "0 8px 16px rgba(0,0,0,0.7)"
+glow-accent = "0 0 8px rgba(158, 27, 43, 0.6)"
+glow-accent-strong = "0 0 16px rgba(158, 27, 43, 0.9)"
+glow-error = "0 0 8px rgba(248, 81, 73, 0.6)"
+glow-success = "0 0 8px rgba(63, 185, 80, 0.6)"
+
+[layout]
+font-family = "sans-serif"
+font-size-base = "14px"
+
+[others]
+scrollbar-track = "#140c0e"
+scrollbar-thumb = "#541e24"
+scrollbar-thumb-hover = "#802b35"
+sidebar-width = "260px"
+bg-sidebar-gradient = "linear-gradient(180deg, #1c1013 0%, #140c0e 100%)"
+bg-card-gradient = "linear-gradient(135deg, rgba(41, 22, 26, 0.7) 0%, rgba(28, 16, 19, 0.7) 100%)"

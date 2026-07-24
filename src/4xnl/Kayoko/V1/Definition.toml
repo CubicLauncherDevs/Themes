@@ -1,0 +1,79 @@
+[background]
+reference_path = "kayoko_bg.webp"
+
+[colors]
+accent = "#ff6b9d"
+accent-rgb = "255,107,157"
+accent-hover = "#ff8ab3"
+accent-active = "#d94d7a"
+accent-text = "#1a0510"
+accent-subtle = "rgba(255,107,157,0.12)"
+accent-primary = "#ff6b9d"
+color-success = "#3fb950"
+color-success-rgb = "63,185,80"
+color-error = "#f85149"
+color-error-rgb = "248,81,73"
+color-warning = "#d29922"
+color-warning-rgb = "210,153,34"
+color-info = "#58a6ff"
+color-info-rgb = "88,166,255"
+color-status-starting = "#d29922"
+color-status-started = "#3fb950"
+color-status-stopped = "#f85149"
+color-status-error = "#f85149"
+
+[text]
+primary = "#ece4f2"
+secondary = "#b8a9d4"
+muted = "#6b5b7a"
+accent = "#ffb7c5"
+
+[backgrounds]
+main = "#0a0711"
+sidebar = "#0f0b1a"
+card = "#161126"
+item-active = "#231840"
+overlay = "rgba(10, 7, 17, 0.88)"
+input = "#161126"
+
+[borders]
+color = "#2a1a3d"
+border = "#2a1a3d"
+color-hover = "#ff6b9d"
+width = "1px"
+radius = "12px"
+radius-sm = "6px"
+radius-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 8px rgba(0,0,0,0.4)"
+shadow-md = "0 4px 20px rgba(0,0,0,0.5)"
+shadow-lg = "0 8px 40px rgba(0,0,0,0.6)"
+glow-accent = "0 0 25px rgba(255,107,157,0.35)"
+glow-accent-strong = "0 0 50px rgba(255,107,157,0.55)"
+glow-error = "0 0 20px rgba(248,81,73,0.3)"
+glow-success = "0 0 20px rgba(63,185,80,0.3)"
+
+[layout]
+font-family = "'Noto Sans JP', 'Cantarell', sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[others]
+icon-filter = "brightness(0) saturate(100%) invert(85%) sepia(8%) saturate(350%) hue-rotate(210deg)"
+icon-filter-accent = "brightness(0) saturate(100%) invert(60%) sepia(80%) saturate(500%) hue-rotate(325deg)"
+icon-filter-success = "brightness(0) saturate(100%) invert(70%) sepia(30%) saturate(500%) hue-rotate(90deg)"
+icon-filter-error = "brightness(0) saturate(100%) invert(30%) sepia(80%) saturate(5000%) hue-rotate(350deg)"
+icon-filter-warning = "brightness(0) saturate(100%) invert(60%) sepia(80%) saturate(500%) hue-rotate(10deg)"
+icon-filter-info = "brightness(0) saturate(100%) invert(60%) sepia(60%) saturate(500%) hue-rotate(180deg)"
+icon-filter-muted = "brightness(0) saturate(100%) invert(50%) sepia(10%) saturate(200%) hue-rotate(210deg)"
+scrollbar-track = "#0a0711"
+scrollbar-thumb = "#2a1a3d"
+scrollbar-thumb-hover = "#ff6b9d"
+sidebar-width = "260px"
+bg-sidebar-gradient = "linear-gradient(180deg, #140e22 0%, #0a0711 100%)"
+bg-card-gradient = "linear-gradient(180deg, #1c1530 0%, #161126 100%)"

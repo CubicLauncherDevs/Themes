@@ -1,0 +1,5 @@
+name = "Cyberpunk v3"
+author = "Edgajuman"
+version = "3.0.0"
+description = "Un tema futurista y con animaciones, fondo GIF y fuente personalizada Air Millhouse."
+injects_css = true

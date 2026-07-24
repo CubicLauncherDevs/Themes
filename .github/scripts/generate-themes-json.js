@@ -6,8 +6,8 @@ const { execSync } = require("child_process");
 const SRC = path.join(__dirname, "..", "..", "src");
 const OUT = path.join(__dirname, "..", "..", "themes.json");
 
-const GITHUB_OWNER = "CubicLauncherDevs";
-const GITHUB_REPO = "Themes";
+const GITHUB_OWNER = "santiagolxx";
+const GITHUB_REPO = "asdasd";
 const GITHUB_BRANCH = "master";
 const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}`;
 
@@ -17,8 +17,7 @@ function rawUrl(relativePath) {
 }
 
 function generateSlug(author, name) {
-  const s = `${author}-${name}`;
-  return s
+  return `${author}-${name}`
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
@@ -66,6 +65,60 @@ function readFileSafe(filePath) {
   }
 }
 
+// ─── TOML parser (minimal, only for Meta.toml) ──────────────
+
+function parseTomlArray(str) {
+  // Parse TOML inline array: ["a", "b", "c"]
+  const inner = str.replace(/^\[|\]$/g, "").trim();
+  if (!inner) return [];
+  const items = [];
+  let current = "";
+  let inQuote = false;
+  for (const ch of inner) {
+    if (ch === '"') { inQuote = !inQuote; continue; }
+    if (ch === "," && !inQuote) {
+      items.push(current.trim());
+      current = "";
+      continue;
+    }
+    current += ch;
+  }
+  if (current.trim()) items.push(current.trim());
+  return items;
+}
+
+function parseTomlValue(val) {
+  const trimmed = val.trim();
+  if (trimmed === "true") return true;
+  if (trimmed === "false") return false;
+  if (trimmed.startsWith('"') && trimmed.endsWith('"')) return trimmed.slice(1, -1);
+  if (trimmed.startsWith("[") && trimmed.endsWith("]")) return parseTomlArray(trimmed);
+  return trimmed;
+}
+
+function parseToml(text) {
+  const result = {};
+  let currentSection = result;
+  for (const line of text.split("\n")) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const sectionMatch = trimmed.match(/^\[(.+)\]$/);
+    if (sectionMatch) {
+      result[sectionMatch[1]] = result[sectionMatch[1]] || {};
+      currentSection = result[sectionMatch[1]];
+      continue;
+    }
+    const eqIdx = trimmed.indexOf("=");
+    if (eqIdx === -1) continue;
+    const key = trimmed.slice(0, eqIdx).trim();
+    const val = parseTomlValue(trimmed.slice(eqIdx + 1));
+    currentSection[key] = val;
+  }
+  return result;
+}
+
+// ─── Build theme index ──────────────────────────────────────
+
 const themes = [];
 
 const authorDirs = fs
@@ -83,6 +136,7 @@ for (const authorDir of authorDirs) {
     const themePath = path.join(SRC, author, name);
     const slug = generateSlug(author, name);
 
+    // Read theme description from theme.md or Meta.toml of latest version
     const themeMd = readFileSafe(path.join(themePath, "theme.md"));
 
     const versionDirs = fs
@@ -90,47 +144,80 @@ for (const authorDir of authorDirs) {
       .filter((d) => d.isDirectory() && !d.name.startsWith("."));
 
     const versions = [];
+    let mergedTags = [];
+    let metaAuthor = author;
+    let metaName = name;
+    let metaDescription = null;
 
     for (const vDir of versionDirs) {
       const versionName = vDir.name;
       const vPath = path.join(themePath, versionName);
 
-      const files = fs.readdirSync(vPath);
+      // Check for raw TOML files
+      const hasMeta = fs.existsSync(path.join(vPath, "Meta.toml"));
+      const hasDef = fs.existsSync(path.join(vPath, "Definition.toml"));
+      if (!hasMeta || !hasDef) continue;
 
-      const zipFile = files.find((f) => {
+      const previewFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "showcase.png");
+      const changelogFile = fs.readdirSync(vPath).find((f) => f.toLowerCase() === "changelog.md");
+
+      const relativeDir = path.relative(path.join(__dirname, "..", ".."), vPath);
+
+      // Read Meta.toml for tags
+      const metaContent = readFileSafe(path.join(vPath, "Meta.toml"));
+      let tags = [];
+
+      let injectsCss = false;
+      if (metaContent) {
+        const meta = parseToml(metaContent);
+        if (Array.isArray(meta.tags)) {
+          tags = meta.tags;
+        }
+        if (meta.author) metaAuthor = meta.author;
+        if (meta.name) metaName = meta.name;
+        if (meta.description) metaDescription = meta.description;
+        if (meta.injects_css) injectsCss = meta.injects_css === true || meta.injects_css === "true";
+      }
+      mergedTags = [...new Set([...mergedTags, ...tags])];
+
+      // Collect files available for download
+      const versionFiles = fs.readdirSync(vPath).filter((f) => {
         const lower = f.toLowerCase();
-        return lower.endsWith(".zip") || lower.endsWith(".cbth");
+        // Include Meta.toml, Definition.toml, Inject.css, bg.*, fonts, etc.
+        // Exclude changelog.md, Showcase.png
+        return !lower.startsWith(".") && lower !== "changelog.md" && lower !== "showcase.png";
       });
-      const previewFile = files.find((f) => f.toLowerCase() === "showcase.png");
-      const changelogFile = files.find(
-        (f) => f.toLowerCase() === "changelog.md",
-      );
 
-      if (!zipFile) continue;
-
-      const filePath = path.join(vPath, zipFile);
-      const zipDate = getFileDate(filePath);
-
-      const relativeDir = path.relative(
-        path.join(__dirname, "..", ".."),
-        vPath,
-      );
-      const previewUrl = previewFile
+      const palettePreview = previewFile
         ? rawUrl(`${relativeDir}/${previewFile}`)
-        : "";
-      const zipUrl = rawUrl(`${relativeDir}/${zipFile}`);
+        : null;
+
       const changelog = changelogFile
         ? readFileSafe(path.join(vPath, changelogFile))
         : null;
 
+      // Use date from Meta.toml or git
+      let date = null;
+      if (metaContent) {
+        const meta = parseToml(metaContent);
+        if (meta.date) date = meta.date;
+      }
+      if (!date) {
+        // Try to get date from git on any version file
+        const anyFile = fs.readdirSync(vPath).find((f) => !f.startsWith(".") && f !== "Showcase.png");
+        if (anyFile) {
+          date = getFileDate(path.join(vPath, anyFile));
+        }
+      }
+
       versions.push({
         version: versionName,
-        previewUrl,
-        zipUrl,
-        zipName: zipFile,
+        previewUrl: palettePreview,
         dirPath: relativeDir,
-        date: zipDate,
+        date,
         changelog,
+        files: versionFiles,
+        injectsCss,
       });
     }
 
@@ -144,13 +231,12 @@ for (const authorDir of authorDirs) {
       slug,
       name,
       author,
+      tags: mergedTags,
       dirPath: path.relative(path.join(__dirname, "..", ".."), themePath),
-      description: themeMd || null,
+      description: themeMd || metaDescription || null,
       versions,
       latestVersion: latest.version,
       previewUrl: latest.previewUrl,
-      zipUrl: latest.zipUrl,
-      zipName: latest.zipName,
       date: latest.date,
     });
   }

@@ -1,0 +1,73 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 8
+image_opacity = 0.45
+
+[colors]
+accent = "#f5a86a"
+accent-rgb = "245,168,106"
+accent-hover = "#e09050"
+accent-active = "#c87838"
+accent-text = "#0a0807"
+accent-subtle = "rgba(245,168,106,0.08)"
+color-success = "#72c47e"
+color-success-rgb = "114,196,126"
+color-error = "#e86060"
+color-error-rgb = "232,96,96"
+color-warning = "#e8b040"
+color-warning-rgb = "232,176,64"
+color-info = "#6aaed4"
+color-info-rgb = "106,174,212"
+color-status-starting = "#c87838"
+color-status-started = "#72c47e"
+color-status-stopped = "#604e42"
+color-status-error = "#e86060"
+
+[text]
+primary = "#ede4d8"
+secondary = "#9a8878"
+muted = "#604e42"
+accent = "#f5a86a"
+
+[backgrounds]
+main = "#0a0807"
+sidebar = "#0e0b09"
+card = "#161210"
+item-active = "#1e1814"
+overlay = "rgba(5,2,0,0.78)"
+input = "#120f0d"
+
+[borders]
+color = "#2e2318"
+color-hover = "#4a3526"
+radius = "5px"
+radius-sm = "2px"
+radius-lg = "8px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.6)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.7)"
+shadow-lg = "0 8px 28px rgba(0,0,0,0.75)"
+glow-accent = "0 0 16px rgba(245,168,106,0.22)"
+glow-accent-strong = "0 0 28px rgba(245,168,106,0.38)"
+
+[layout]
+font-family = "Cantarell, sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[others]
+icon-filter = "invert(85%) sepia(15%) saturate(400%) hue-rotate(340deg) brightness(95%)"
+icon-filter-accent = "invert(70%) sepia(60%) saturate(800%) hue-rotate(330deg) brightness(105%)"
+icon-filter-success = "invert(65%) sepia(40%) saturate(600%) hue-rotate(90deg) brightness(105%)"
+icon-filter-error = "invert(45%) sepia(80%) saturate(4000%) hue-rotate(340deg) brightness(100%)"
+icon-filter-warning = "invert(70%) sepia(70%) saturate(700%) hue-rotate(5deg) brightness(108%)"
+icon-filter-info = "invert(65%) sepia(30%) saturate(600%) hue-rotate(180deg) brightness(110%)"
+icon-filter-muted = "invert(35%) sepia(10%) saturate(300%) hue-rotate(340deg) brightness(80%)"
+scrollbar-track = "#0a0807"
+scrollbar-thumb = "#2e2318"
+scrollbar-thumb-hover = "#4a3526"

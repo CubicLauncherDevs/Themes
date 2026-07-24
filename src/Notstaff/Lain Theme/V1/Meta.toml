@@ -1,0 +1,5 @@
+name = "Lain Theme"
+author = "notstaff"
+version = "V1"
+description = ""
+injects_css = false
