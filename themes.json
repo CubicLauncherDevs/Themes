@@ -1340,6 +1340,59 @@
     "date": "2026-07-24T04:24:55-04:00"
   },
   {
+    "id": "santiagolxx-angel-santiagolxx",
+    "slug": "santiagolxx-angel-santiagolxx",
+    "name": "Angel",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/angel_santiagolxx",
+    "description": "An Angel.",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/preview.91cfc6c4.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/angel_santiagolxx/V1",
+        "date": "2026-07-25T05:57:46-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/bg.fc36c27c.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/preview.91cfc6c4.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/preview.91cfc6c4.png",
+    "date": "2026-07-25T05:57:46-04:00"
+  },
+  {
     "id": "unr4n-dark-theme",
     "slug": "unr4n-dark-theme",
     "name": "Dark Theme",
