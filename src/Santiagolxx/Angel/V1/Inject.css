@@ -35,7 +35,7 @@
     background: rgba(239, 235, 236, 0.55);
 }
 
-* {
+*:not(.notification-toast, .notification-toast *) {
     border-radius: 0 !important;
 }
 
@@ -79,8 +79,64 @@ body,
 .qm-root,
 .app-container {
     color: var(--text-primary);
-    text-shadow:
-        0 0 2px rgba(255, 255, 255, 0.6),
-        0 0 4px rgba(255, 230, 240, 0.45),
-        0 0 8px rgba(168, 68, 106, 0.25);
+}
+
+/* Selects adaptados al theme */
+.select-trigger {
+    background: var(--surface-input) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.select-trigger:hover:not(.disabled) {
+    background: var(--surface-hover) !important;
+    border-color: var(--text-tertiary) !important;
+}
+
+.select-trigger.open {
+    background: var(--surface-active) !important;
+    box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.08) !important;
+}
+
+.select-dropdown {
+    background: var(--surface-dropdown) !important;
+    border-color: var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+.select-option {
+    color: var(--text-secondary) !important;
+}
+
+.select-option:hover {
+    background: var(--surface-hover) !important;
+    color: var(--text-primary) !important;
+}
+
+.select-option.selected {
+    background: var(--surface-selected) !important;
+    color: var(--accent) !important;
+    border-color: rgba(var(--accent-rgb), 0.25) !important;
+}
+
+.select-option-badge {
+    background: var(--surface-card) !important;
+    color: var(--text-muted) !important;
+}
+
+.select-option:hover .select-option-badge {
+    background: var(--surface-active) !important;
+    color: var(--text-secondary) !important;
+}
+
+.check-icon {
+    color: var(--accent) !important;
+}
+
+.chevron-icon {
+    color: var(--text-secondary) !important;
+}
+
+.select-trigger.open .chevron-icon {
+    color: var(--accent) !important;
 }
