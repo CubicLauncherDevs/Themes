@@ -876,6 +876,59 @@
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
+    "id": "santiagolxx-engel",
+    "slug": "santiagolxx-engel",
+    "name": "Engel",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/Engel",
+    "description": "0xFF",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/Engel/V1",
+        "date": "2026-07-25T06:35:48-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/bg.0c4369d7.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png",
+    "date": "2026-07-25T06:35:48-04:00"
+  },
+  {
     "id": "santiagolxx-gengar",
     "slug": "santiagolxx-gengar",
     "name": "gengar",
@@ -1361,10 +1414,6 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Definition.toml"
           },
           {
-            "name": "Fonts/BIZUDPGothic-Regular.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
-          },
-          {
             "name": "Fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Fonts/OFL.txt"
           },
@@ -1375,6 +1424,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/angel_santiagolxx/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/angel_santiagolxx/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
           },
           {
             "name": "bg.jpg",
