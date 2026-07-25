@@ -27,6 +27,12 @@ surface = "#ded8da"
 overlay = "rgba(26, 20, 24, 0.45)"
 "sidebar-gradient" = "#e4dfe1"
 "card-gradient" = "#f6f3f4"
+"surface-input" = "#faf8f9"
+"surface-dropdown" = "#f6f3f4"
+"surface-hover" = "rgba(0, 0, 0, 0.06)"
+"surface-active" = "rgba(0, 0, 0, 0.08)"
+"surface-selected" = "rgba(168, 68, 106, 0.10)"
+"surface-card" = "rgba(0, 0, 0, 0.02)"
 
 [borders]
 color = "#b9b1b5"
@@ -47,7 +53,7 @@ width = "1px"
 "font-family" = "\"BIZ UDPGothic\", Tahoma, Verdana, sans-serif"
 "font-size-base" = "12px"
 "font-size-sm" = "11px"
-"font-size-lg" = "15px"
+"font-size-lg" = "13px"
 "sidebar-width" = "240px"
 
 [others]
