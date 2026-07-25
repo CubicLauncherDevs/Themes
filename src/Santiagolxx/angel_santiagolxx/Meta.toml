@@ -1,0 +1,5 @@
+name = "Angel"
+author = "Santiagolxx"
+version = "1.0.0"
+description = "An Angel."
+injects_css = true
