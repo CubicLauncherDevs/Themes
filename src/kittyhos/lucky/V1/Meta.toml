@@ -1,0 +1,5 @@
+name = "lucky"
+author = "kittyhos"
+version = "1.0.0"
+description = "Este tema fue generado por la herramienta Cubiclauncher-editor creado por kittyhos"
+injects_css = false
