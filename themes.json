@@ -897,10 +897,6 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Definition.toml"
           },
           {
-            "name": "Fonts/BIZUDPGothic-Regular.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
-          },
-          {
             "name": "Fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Fonts/OFL.txt"
           },
@@ -911,6 +907,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
           },
           {
             "name": "bg.jpg",
@@ -1538,5 +1538,46 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.52d66ec4.png",
     "date": "2026-07-24T02:34:20-04:00"
+  },
+  {
+    "id": "kittyhos-lucky",
+    "slug": "kittyhos-lucky",
+    "name": "lucky",
+    "author": "kittyhos",
+    "tags": [],
+    "dirPath": "src/kittyhos/lucky",
+    "description": "Este tema fue generado por la herramienta Cubiclauncher-editor creado por kittyhos",
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
+        "showcaseUrl": null,
+        "dirPath": "src/kittyhos/lucky/V1",
+        "date": "2026-07-25T21:41:57-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/lucky/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/lucky/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/bg.211b765c.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
+    "date": "2026-07-25T21:41:57-06:00"
   }
 ]
