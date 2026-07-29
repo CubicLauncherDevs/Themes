@@ -898,7 +898,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Angel",
     "description": "An Angel.",
-    "verified": false,
+    "verified": True,
     "versions": [
       {
         "version": "V1",
