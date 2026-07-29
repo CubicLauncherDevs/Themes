@@ -490,6 +490,40 @@
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
+    "id": "edgajuman-shoko",
+    "slug": "edgajuman-shoko",
+    "name": "Shoko",
+    "author": "Edgajuman",
+    "tags": [],
+    "dirPath": "src/Edgajuman/Shoko",
+    "description": "# Shōko\r\n\r\nA Silent Voice Theme\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": null,
+        "showcaseUrl": null,
+        "dirPath": "src/Edgajuman/Shoko/V1",
+        "date": "2026-07-29T00:28:36-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Shoko/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Shoko/V1/Meta.toml"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": null,
+    "date": "2026-07-29T00:28:36-05:00"
+  },
+  {
     "id": "mpg-waguri",
     "slug": "mpg-waguri",
     "name": "Waguri Theme",
