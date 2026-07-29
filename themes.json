@@ -1650,5 +1650,47 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
     "date": "2026-07-25T21:41:57-06:00"
+  },
+  {
+    "id": "staff6773-shirobako",
+    "slug": "staff6773-shirobako",
+    "name": "shirobako",
+    "author": "staFF6773",
+    "tags": [],
+    "dirPath": "src/staFF6773/shirobako",
+    "description": "# shirobako\r\n\r\n**Autor:** staFF6773\r\n**Versión:** 1.0.0\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/staFF6773/shirobako/V1/preview.c7858f03.png",
+        "showcaseUrl": null,
+        "dirPath": "src/staFF6773/shirobako/V1",
+        "date": "2026-07-29T00:06:44-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/staFF6773/shirobako/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/staFF6773/shirobako/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/staFF6773/shirobako/V1/bg.11a3c4a4.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/staFF6773/shirobako/V1/preview.c7858f03.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/staFF6773/shirobako/V1/preview.c7858f03.png",
+    "date": "2026-07-29T00:06:44-06:00"
   }
 ]
