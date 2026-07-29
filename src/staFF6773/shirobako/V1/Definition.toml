@@ -1,0 +1,56 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 0
+image_opacity = 1
+
+[colors]
+accent = "#3da8b8"
+"accent-rgb" = "61, 168, 184"
+"accent-hover" = "#64a9c3"
+"accent-text" = "#0b0b10"
+
+[text]
+primary = "#eaebeb"
+secondary = "#bcbdbd"
+muted = "#939494"
+
+[borders]
+color = "rgba(255, 255, 255, 0.08)"
+radius = "8px"
+"radius-sm" = "4px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.5)"
+"shadow-md" = "0 4px 6px rgba(0,0,0,0.3)"
+"glow-accent" = "0 0 14px rgba(61, 168, 184, 0.22)"
+
+[layout]
+"font-family" = "'Inter', sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "18px"
+
+[others]
+"icon-filter" = "invert(1)"
+"color-success" = "#22c55e"
+"color-success-rgb" = "34, 197, 94"
+"color-error" = "#ef4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#f59e0b"
+"color-warning-rgb" = "245, 158, 11"
+"color-status-starting" = "#f97316"
+"color-status-started" = "#22c55e"
+"scrollbar-track" = "#0e1010"
+"scrollbar-thumb" = "#3da8b8"
+
+[backdrop]
+dropdown = 10
+modal = 4
+
+[backgrounds]
+main = "#0e1010"
+sidebar = "#1e2122"
+card = "#2d3334"
+"item-active" = "#3da8b8"
+overlay = "rgba(0,0,0,0.7)"
+input = "#141717"
