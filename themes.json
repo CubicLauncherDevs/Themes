@@ -501,10 +501,10 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png",
         "showcaseUrl": null,
         "dirPath": "src/Edgajuman/Shoko/V1",
-        "date": "2026-07-29T00:28:36-05:00",
+        "date": "2026-07-28T23:49:06-06:00",
         "changelog": null,
         "files": [
           {
@@ -514,14 +514,22 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Shoko/V1/Meta.toml"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/bg.4984ce1d.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-07-29T00:28:36-05:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png",
+    "date": "2026-07-28T23:49:06-06:00"
   },
   {
     "id": "mpg-waguri",
