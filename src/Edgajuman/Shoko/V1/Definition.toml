@@ -1,3 +1,8 @@
+[background]
+reference_path = "bg.gif"
+image_blur = 0.0
+image_opacity = 0.8
+
 [colors]
 accent = "#e94560"
 "accent-rgb" = "233, 69, 96"
