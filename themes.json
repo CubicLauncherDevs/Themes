@@ -7,7 +7,7 @@
     "tags": [],
     "dirPath": "src/4xnl/Colorful",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -53,7 +53,7 @@
     "tags": [],
     "dirPath": "src/4xnl/Jadol",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -99,7 +99,7 @@
     "tags": [],
     "dirPath": "src/4xnl/Kayoko",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -357,7 +357,7 @@
     "tags": [],
     "dirPath": "src/Edgajuman/Cyberpunk",
     "description": "Un tema futurista y con animaciones, fondo GIF y fuente personalizada Air Millhouse.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V3",
@@ -497,7 +497,7 @@
     "tags": [],
     "dirPath": "src/MPG/Waguri",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -543,7 +543,7 @@
     "tags": [],
     "dirPath": "src/MPG/ZeroTwo",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -589,7 +589,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/Blur",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -635,7 +635,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/Clang",
     "description": "# Clang\n\nUn tema oscuro y acogedor con acentos teal, inspirado en una estética cálida y nostálgica. Los colores están extraídos del arte de fondo, creando una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento teal suave:** Detalles en tonos teal que guían la atención sin ser agresivos\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos teal\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -689,7 +689,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/Lain Theme",
     "description": "A Lain Theme",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V2",
@@ -790,7 +790,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/Louise",
     "description": "# Louise\n\nUn tema claro y vibrante inspirado en Louise, construido únicamente con tonos blancos y rosados extraídos de su ilustración de fondo. La paleta es sólida, limpia y coherente, con acentos rosas vivos que resaltan sobre superficies blancas y cremosas.\n\n## Características\n\n- **Paleta blanco y rosa:** Colores tomados directamente del arte de Louise, sin tonos ajenos.\n- **Tema claro y luminoso:** Fondos blancos con tintes rosados muy suaves.\n- **Acento rosa sólido:** Detalles en `#f06292` que dan fuerza a los elementos interactivos.\n- **Fondo nítido:** Sin desenfoque (`0px`) para mostrar `bg.jpg` con total claridad.\n- **Scrollbar personalizada:** Indicador rosa vibrante sobre fondo blanco rosado.\n- **V1:** Usa `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias, logrando una experiencia clara realmente limpia.\n",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -844,7 +844,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/chill",
     "description": "# Chill\n\nUn tema relajante con tonos fríos azulados y una estética calmada. Los colores están extraídos del arte de fondo para una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento azul-cian frío:** Detalles en tonos azulados que guían la atención sin ser agresivos\n- **Fondos azul-grisáceos:** Tonos fríos en todas las superficies para una experiencia visual coherente\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos azul-cian\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -952,7 +952,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Engel",
     "description": "0xFF",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1006,7 +1006,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Gengar",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1060,7 +1060,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/LaRoja",
     "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "v1",
@@ -1110,7 +1110,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Lain",
     "description": "Let's all love Lain",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V2",
@@ -1203,7 +1203,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Marron",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1249,7 +1249,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Moon",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1295,7 +1295,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Rei",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1341,7 +1341,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Running",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1387,7 +1387,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/WorldCupAFA",
     "description": "Tema inspirado en la Asociacion del Futbol Argentino (AFA)",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "v1",
@@ -1437,7 +1437,7 @@
     "tags": [],
     "dirPath": "src/Santiagolxx/Yuuki",
     "description": "A Theme",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1479,7 +1479,7 @@
     "tags": [],
     "dirPath": "src/Unr4n/Dark Theme",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1525,7 +1525,7 @@
     "tags": [],
     "dirPath": "src/kittyhos/kitty",
     "description": "Tema minimalista y elegante con acentos rosados suaves. Inspirado en tonos pastel y una estética limpia y calmada.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1575,7 +1575,7 @@
     "tags": [],
     "dirPath": "src/kittyhos/lucky",
     "description": "Este tema fue generado por la herramienta Cubiclauncher-editor creado por kittyhos",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",

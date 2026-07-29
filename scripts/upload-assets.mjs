@@ -34,13 +34,6 @@ const SRC = join(ROOT, "src");
 const THEMES_JSON = join(ROOT, "themes.json");
 const GH_BASE = "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master";
 
-const VERIFIED_AUTHORS = new Set([
-  "CubicLauncher",
-]);
-const VERIFIED_IDS = new Set([
-  // Add specific theme IDs/slugs here when needed.
-]);
-
 const BINARY_RE = /\.(png|jpg|jpeg|webp|gif|svg|mp4|webm|zip|ttf|woff|woff2|otf|eot)$/i;
 const TEXT_RE = /\.(toml|css|md|txt)$/i;
 const SKIP_BINARIES = new Set(["preview.png", "Showcase.png"]);
@@ -457,7 +450,7 @@ for (const authorDir of authorDirs) {
       tags: mergedTags,
       dirPath: relative(ROOT, themePath),
       description: themeMd || metaDescription || null,
-      verified: VERIFIED_AUTHORS.has(metaAuthor) || VERIFIED_IDS.has(slug),
+      verified: true,
       versions,
       latestVersion: latest.version,
       previewUrl: latest.previewUrl,
