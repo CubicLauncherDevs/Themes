@@ -1,0 +1,5 @@
+name = "Mi Tema"
+author = "Edgajuman"
+version = "1.0.0"
+description = ""
+injects_css = false
