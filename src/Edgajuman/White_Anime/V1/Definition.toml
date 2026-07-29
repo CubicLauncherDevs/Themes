@@ -1,0 +1,68 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 0
+image_opacity = 1
+
+[colors]
+accent = "#2478d6"
+"accent-rgb" = "36, 120, 214"
+"accent-hover" = "#3b8ce8"
+"accent-text" = "#ffffff"
+
+[text]
+primary = "#172130"
+secondary = "#4f6175"
+muted = "#7d8b9a"
+
+[borders]
+color = "#c8d4df"
+radius = "8px"
+"radius-sm" = "4px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.5)"
+"shadow-md" = "0 4px 6px rgba(0,0,0,0.3)"
+"glow-accent" = "0 0 14px rgba(36,120,214,0.32)"
+
+[layout]
+"font-family" = "'NotoSansJP VariableFont wght', sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "18px"
+
+[others]
+"icon-filter" = "none"
+"color-success" = "#22c55e"
+"color-success-rgb" = "34, 197, 94"
+"color-error" = "#ef4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#f59e0b"
+"color-warning-rgb" = "245, 158, 11"
+"color-status-starting" = "#f97316"
+"color-status-started" = "#22c55e"
+"scrollbar-track" = "#eaf0f5"
+"scrollbar-thumb" = "#9eb4ca"
+
+[backdrop]
+dropdown = 10
+modal = 4
+
+[backgrounds]
+main = "#eaf0f5"
+sidebar = "#f6f9fb"
+card = "#ffffff"
+"item-active" = "#d7e7f8"
+overlay = "rgba(24,40,58,0.42)"
+input = "#f0f5f9"
+
+[[fonts]]
+
+family = "NotoSansJP VariableFont wght"
+
+src = "fonts/NotoSansJP-VariableFont_wght.ttf"
+
+format = "ttf"
+
+weight = "400"
+
+style = "normal"
