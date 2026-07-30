@@ -1,0 +1,5 @@
+name = "Yuuki"
+author = "Santiagolxx"
+version = "1.0.0"
+description = "A Theme"
+injects_css = false

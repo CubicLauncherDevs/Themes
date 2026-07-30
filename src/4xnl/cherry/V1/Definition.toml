@@ -1,0 +1,78 @@
+#
+
+[background]
+reference_path = "bg.jpg"
+image_blur = 10.0
+image_opacity = 0.75
+
+[colors]
+accent = "#ff7aa2"
+"accent-rgb" = "255, 122, 162"
+"accent-hover" = "#e05a82"
+"accent-text" = "#fff8fa"
+
+[text]
+primary = "#5c3b49"
+secondary = "#7e5e6a"
+tertiary = "#9f828b"
+muted = "#b8a0a7"
+
+[backgrounds]
+main = "#fff5f8"
+sidebar = "rgba(255, 240, 245, 0.72)"
+card = "rgba(255, 248, 250, 0.78)"
+input = "rgba(255, 252, 253, 0.85)"
+"item-active" = "rgba(255, 214, 226, 0.65)"
+surface = "rgba(235, 220, 225, 0.65)"
+overlay = "rgba(255, 245, 248, 0.60)"
+"sidebar-gradient" = "linear-gradient(180deg, rgba(255, 240, 245, 0.80) 0%, rgba(255, 232, 238, 0.70) 100%)"
+"card-gradient" = "linear-gradient(180deg, rgba(255, 248, 250, 0.85) 0%, rgba(255, 240, 245, 0.75) 100%)"
+"surface-input" = "rgba(255, 252, 253, 0.85)"
+"surface-dropdown" = "rgba(255, 248, 250, 0.78)"
+"surface-hover" = "rgba(0, 0, 0, 0.04)"
+"surface-active" = "rgba(0, 0, 0, 0.06)"
+"surface-selected" = "rgba(255, 122, 162, 0.12)"
+"surface-card" = "rgba(255, 255, 255, 0.20)"
+
+[borders]
+color = "rgba(200, 170, 180, 0.6)"
+radius = "12px"
+"radius-sm" = "6px"
+"radius-lg" = "18px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 2px 8px rgba(80, 30, 55, 0.10)"
+"shadow-md" = "0 6px 20px rgba(80, 30, 55, 0.14)"
+"shadow-lg" = "0 10px 32px rgba(80, 30, 55, 0.18)"
+"glow-accent" = "0 0 14px rgba(255, 122, 162, 0.40)"
+"glow-error" = "0 0 0 1px #d65c65"
+"glow-success" = "0 0 0 1px #6bb585"
+
+[layout]
+"font-family" = "\"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif"
+"font-size-base" = "12.5px"
+"font-size-sm" = "11px"
+"font-size-lg" = "13.5px"
+"sidebar-width" = "240px"
+
+[others]
+"surface-rgb" = "0, 0, 0"
+"icon-filter" = "none"
+"icon-filter-error" = "none"
+"color-success" = "#6bb585"
+"color-success-rgb" = "107, 181, 133"
+"color-error" = "#d65c65"
+"color-error-rgb" = "214, 92, 101"
+"color-warning" = "#d9a446"
+"color-warning-rgb" = "217, 164, 70"
+"color-info" = "#6ba3b8"
+"color-info-rgb" = "107, 163, 184"
+"color-status-starting" = "#d9a446"
+"color-status-started" = "#6bb585"
+"scrollbar-track" = "rgba(255, 240, 245, 0.55)"
+"scrollbar-thumb" = "rgba(255, 170, 195, 0.85)"
+
+[backdrop]
+dropdown = 0.0
+modal = 0.0

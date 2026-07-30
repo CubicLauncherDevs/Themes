@@ -1,0 +1,139 @@
+name: Generate + Assets to R2
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/**'
+  pull_request:
+    paths:
+      - 'src/**'
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      regenerate_previews:
+        description: 'Regenerate previews for all version dirs'
+        type: choice
+        options: ['false', 'true']
+        default: 'false'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'push-master' }}
+  cancel-in-progress: true
+
+jobs:
+  upload:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: |
+          npm install @napi-rs/canvas
+          npm install @aws-sdk/client-s3 --no-save
+
+      - name: Detect changed version directories
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.regenerate_previews }}" = "true" ]; then
+            ALL=$(find src -mindepth 3 -maxdepth 3 -type d | sort)
+            ASSET_DIRS="$ALL"
+            PREVIEW_DIRS="$ASSET_DIRS"
+          else
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              BASE="origin/${{ github.base_ref }}"
+            else
+              BASE="HEAD~1"
+            fi
+            ALL=$(git diff --name-only "$BASE" HEAD -- src/)
+            ASSET_DIRS=$(echo "$ALL" \
+              | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
+              | sort -u)
+            PREVIEW_DIRS=$(echo "$ALL" \
+              | grep -P '(bg\.|\.toml$|\.css$|\.md$|\.txt$)' \
+              | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
+              | sort -u)
+          fi
+          {
+            echo "assetdirs<<EOF_ASSET"
+            echo "$ASSET_DIRS"
+            echo "EOF_ASSET"
+            echo "previewdirs<<EOF_PREVIEW"
+            echo "$PREVIEW_DIRS"
+            echo "EOF_PREVIEW"
+          } >> "$GITHUB_OUTPUT"
+          echo "Asset dirs:"
+          echo "$ASSET_DIRS"
+          echo "Preview dirs:"
+          echo "$PREVIEW_DIRS"
+
+      - name: Optimize PNGs
+        run: |
+          if [ -n "${{ steps.changed.outputs.previewdirs }}" ]; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq oxipng 2>/dev/null || true
+            while IFS= read -r dir; do
+              [ -n "$dir" ] && find "$dir" -name '*.png' -exec oxipng -o 3 --strip safe {} + 2>/dev/null || true
+            done <<< "$PREVIEW_DIRS"
+          fi
+        env:
+          PREVIEW_DIRS: ${{ steps.changed.outputs.previewdirs }}
+
+      - name: Merge collections
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          const pkgPath = 'packages.json';
+          const collectionsDir = 'collections';
+          let existing = [];
+          try { existing = JSON.parse(fs.readFileSync(pkgPath, 'utf8')); } catch {}
+          const ids = new Set(existing.map(p => p.id));
+          if (fs.existsSync(collectionsDir)) {
+            for (const f of fs.readdirSync(collectionsDir)) {
+              if (f.endsWith('.json')) {
+                const col = JSON.parse(fs.readFileSync(path.join(collectionsDir, f), 'utf8'));
+                if (!ids.has(col.id)) {
+                  existing.push(col);
+                  ids.add(col.id);
+                }
+              }
+            }
+          }
+          fs.writeFileSync(pkgPath, JSON.stringify(existing, null, 2));
+          console.log('✓ packages.json merged with', existing.length, 'collections');
+          "
+
+      - name: Upload assets to R2
+        env:
+          R2_S3_URL: ${{ secrets.R2_S3_URL }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_PUBLIC_BASE: ${{ secrets.R2_PUBLIC_BASE }}
+          TARGET_DIRS: ${{ steps.changed.outputs.assetdirs }}
+          PREVIEW_DIRS: ${{ steps.changed.outputs.previewdirs }}
+        run: node scripts/upload-assets.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "Cubic Themes"
+          git config user.email "themes@cubiclauncher.org"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: generate + assets a R2 [skip ci]"
+            git push
+          fi

@@ -4,353 +4,1751 @@
     "slug": "4xnl-colorful",
     "name": "Colorful",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Colorful",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Colorful_4xnl.zip",
-        "zipName": "Colorful_4xnl.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.57b5e255.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/Showcase.421aa1be.png",
         "dirPath": "src/4xnl/Colorful/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:38:50-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Colorful/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Colorful/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/Showcase.421aa1be.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/bg.8ec2d9a9.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.57b5e255.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Colorful/V1/Colorful_4xnl.zip",
-    "zipName": "Colorful_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Colorful/V1/preview.57b5e255.png",
+    "date": "2026-07-24T03:38:50-04:00"
   },
   {
     "id": "4xnl-jadol",
     "slug": "4xnl-jadol",
     "name": "Jadol",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Jadol",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Jadol_4xnl.zip",
-        "zipName": "Jadol_4xnl.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9e670f57.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png",
         "dirPath": "src/4xnl/Jadol/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:55:33-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Jadol/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Jadol/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/Showcase.43776474.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/bg.132191b1.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9e670f57.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Jadol/V1/Jadol_4xnl.zip",
-    "zipName": "Jadol_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Jadol/V1/preview.9e670f57.png",
+    "date": "2026-07-24T03:55:33-04:00"
   },
   {
     "id": "4xnl-kayoko",
     "slug": "4xnl-kayoko",
     "name": "Kayoko",
     "author": "4xnl",
+    "tags": [],
     "dirPath": "src/4xnl/Kayoko",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Kayoko_4xnl.zip",
-        "zipName": "Kayoko_4xnl.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.5a9a1de1.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Showcase.274a6d94.png",
         "dirPath": "src/4xnl/Kayoko/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Kayoko/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Fonts/README.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Kayoko/V1/Fonts/README.txt"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Kayoko/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/NotoSansJP-VariableFont_wght.ttf",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/Showcase.274a6d94.png"
+          },
+          {
+            "name": "kayoko_bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/kayoko_bg.163c68a4.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.5a9a1de1.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/4xnl/Kayoko/V1/Kayoko_4xnl.zip",
-    "zipName": "Kayoko_4xnl.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Kayoko/V1/preview.5a9a1de1.png",
+    "date": "2026-07-24T02:34:20-04:00"
+  },
+  {
+    "id": "4xnl-cherry",
+    "slug": "4xnl-cherry",
+    "name": "Cherry",
+    "author": "4xnl",
+    "tags": [],
+    "dirPath": "src/4xnl/cherry",
+    "description": "A cherry blossom garden for your launcher.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png",
+        "showcaseUrl": null,
+        "dirPath": "src/4xnl/cherry/V1",
+        "date": "2026-07-29T22:15:35-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Meta.toml"
+          },
+          {
+            "name": "showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/showcase.bad6d1cc.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/bg.a8c97100.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png",
+    "date": "2026-07-29T22:15:35-06:00"
+  },
+  {
+    "id": "cubiclauncher-signature-amber",
+    "slug": "cubiclauncher-signature-amber",
+    "name": "Signature Amber",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/Signature Amber",
+    "description": "# Signature Amber\n\nTema oscuro cálido oficial del **CubicLauncher Signature Pack**. Con tonos marrón-grisáceos y acentos ámbar, transmite una sensación acogedora y energética sin perder profesionalismo.\n\n## Características\n\n- **Paleta cálida**: fondos `#1c1917` con superficies `#292524`.\n- **Acento ámbar**: `#f59e0b` para llamar la atención sin ser agresivo.\n- **Contraste cálido**: texto `#fafaf9` con matices `#d6d3d1`.\n- **Fondo sutil**: degradado oscuro con glow ámbar.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.0fe64801.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png",
+        "dirPath": "src/CubicLauncher/Signature Amber/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Amber.\n- Tema oscuro cálido con acentos ámbar.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Amber/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Amber/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Amber/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/Showcase.75c92b21.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/bg.76614c3c.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.0fe64801.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Amber/V1/preview.0fe64801.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "cubiclauncher-signature-classic",
+    "slug": "cubiclauncher-signature-classic",
+    "name": "Signature Classic",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/Signature Classic",
+    "description": "# Signature Classic\n\nTema claro oficial del **CubicLauncher Signature Pack**. Diseñado para ofrecer una experiencia limpia, moderna y legible durante el día, con acentos azules que mantienen la identidad visual de CubicLauncher.\n\n## Características\n\n- **Paleta clara y profesional**: fondos en tonos gris-azulados muy suaves.\n- **Acento azul signature**: `#2563eb` para botones, estados activos y glows.\n- **Alto contraste**: texto oscuro `#0f172a` sobre superficies claras.\n- **Fondo sutil**: degradado generado con un toque del color de acento.\n- **Formato v2 (TOML)**: aprovecha el sistema de themes recomendado por CubicLauncher.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.c2966020.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png",
+        "dirPath": "src/CubicLauncher/Signature Classic/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Classic.\n- Tema claro con acentos azules oficiales.\n- Paleta pulida: sidebar blanca pura `#ffffff`, fondo `#f5f5f5`, textos más neutros `#1a1a1a` / `#666666` / `#999999`.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de iconos para tema claro.\n- Incluye fondo degradado y preview generado.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Classic/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Classic/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Classic/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/Showcase.0236eac9.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/bg.e843246b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.c2966020.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Classic/V1/preview.c2966020.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "cubiclauncher-signature-dark",
+    "slug": "cubiclauncher-signature-dark",
+    "name": "Signature Dark",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/Signature Dark",
+    "description": "# Signature Dark\n\nTema oscuro oficial del **CubicLauncher Signature Pack**. Ideal para sesiones nocturnas, con una paleta azulada elegante y un acento vibrante que mantiene la legibilidad sin fatigar la vista.\n\n## Características\n\n- **Paleta oscura profunda**: fondos `#0f172a` y tarjetas `#1e293b`.\n- **Acento azul brillante**: `#3b82f6` para resaltar acciones principales.\n- **Contraste cuidado**: texto claro sobre superficies oscuras con estados bien diferenciados.\n- **Fondo sutil**: degradado oscuro con glow azul suave.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.08568e46.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png",
+        "dirPath": "src/CubicLauncher/Signature Dark/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Dark.\n- Tema oscuro con acentos azules brillantes.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Dark/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Dark/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Dark/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/Showcase.42d9affc.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/bg.dedc4454.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.08568e46.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Dark/V1/preview.08568e46.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "cubiclauncher-signature-frost",
+    "slug": "cubiclauncher-signature-frost",
+    "name": "Signature Frost",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/Signature Frost",
+    "description": "# Signature Frost\n\nTema oscuro frío oficial del **CubicLauncher Signature Pack**. Inspirado en tonos de hielo y noche invernal, con fondos azul-petróleo y acentos cyan que dan una estética moderna e inmersiva.\n\n## Características\n\n- **Paleta fría**: fondos `#082f49` con superficies `#0c4a6e`.\n- **Acento cyan brillante**: `#22d3ee` para acciones y estados activos.\n- **Legibilidad fría**: texto `#f0f9ff` con tonos secundarios `#bae6fd`.\n- **Fondo sutil**: degradado oscuro con glow cyan.\n- **Formato v2 (TOML)**: sistema de themes recomendado.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.0665e59b.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png",
+        "dirPath": "src/CubicLauncher/Signature Frost/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial del pack Signature Frost.\n- Tema oscuro frío con acentos cyan.\n- Incluye fondo degradado y preview generado.\n- Fix de sidebar: agregados `--bg-sidebar-gradient`, `--surface-rgb`, `--bg-surface` y variables de superficie.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Frost/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Frost/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/Signature Frost/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/Showcase.3cdb8150.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/bg.4e52c8f5.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.0665e59b.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.0665e59b.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "edgajuman-cyberpunk",
     "slug": "edgajuman-cyberpunk",
-    "name": "Cyberpunk",
+    "name": "Cyberpunk v3",
     "author": "Edgajuman",
+    "tags": [],
     "dirPath": "src/Edgajuman/Cyberpunk",
-    "description": null,
+    "description": "Un tema futurista y con animaciones, fondo GIF y fuente personalizada Air Millhouse.",
+    "verified": true,
     "versions": [
       {
+        "version": "V3",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.fe4afb5f.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/Showcase.fc1a15f3.png",
+        "dirPath": "src/Edgajuman/Cyberpunk/V3",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# Cyberpunk V3\n\n<sub>Advertencia: este tema usa animaciones, efectos SVG embebidos y overlays visuales que pueden aumentar el consumo de recursos del launcher. Recomendado como experiencia visual o para PCs con buen rendimiento, no necesariamente para uso cotidiano.</sub>\n\nUna evolución grande de Cyberpunk V2, manteniendo la interfaz familiar pero elevando la experiencia visual con una estética más pulida, efectos inmersivos, cursor de mira y señales holográficas animadas.\n\n## Características\n\n* **Paleta Neo Mejorada:** Colores cyberpunk más suaves y menos toscos, con mejor contraste entre cian, violeta, rojo neón y fondos oscuros.\n* **Cursor Mira de Arma:** Nuevo puntero SVG tipo mira; se agranda al pasar sobre botones o enlaces y cambia a modo disparo al hacer clic.\n* **Disparo Visual:** Al hacer clic, la mira hace un giro rápido y la pantalla parpadea con un flash blanco.\n* **Secuencia Holográfica SVG:** Siete efectos SVG aparecen en orden fijo con parpadeos, pausas irregulares y baja superposición visual para dar sensación de HUD futurista.\n* **Logo Central Intensificado:** El primer SVG funciona como logo central \"Cyberpunk\" con parpadeo más fuerte y presencia visual superior al resto de señales.\n* **CRT y Ruido Ambiental:** Mantiene scanlines, textura sutil, brillo ambiental y capas de glitch para una vibra neo-retro más inmersiva.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V3/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V3/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/Showcase.fc1a15f3.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/bg.c33fcb52.gif"
+          },
+          {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/fonts/Audiowide.97742178.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.fe4afb5f.png"
+          }
+        ],
+        "injectsCss": true
+      },
+      {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/cyberpunk_v2_edgajuman.zip",
-        "zipName": "cyberpunk_v2_edgajuman.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.2773c933.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/Showcase.03d50dee.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V2",
-        "date": "2026-07-05T19:19:35-05:00",
-        "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n"
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# Cyberpunk V2\n\nUna actualización masiva que transforma por completo la interfaz con una estética neo-retro, animaciones fluidas y detalles visuales inmersivos.\n\n## Características\n\n* **Fondo Animado:** Nuevo background dinámico con vibras cyberpunk estilo anime.\n* **Paleta Neo:** Colores y estilos completamente renovados para un look más vibrante y futurista.\n* **Cursor Cibernético:** Puntero circular geométrico que gira de forma continua y reacciona visualmente al hacer clic o pasar por botones.\n* **Efecto CRT (Retro TV):** Filtro visual inmersivo con líneas de escaneo (scanlines) simulando un televisor de tubo antiguo.\n* **Nueva Sidebar (Barra Lateral):** Menú de navegación reubicado al lado derecho para mejorar la legibilidad y gestión de la información de **Mods, Recursos y Shaders**.\n* **Menús y Overlays Vivos:** Nuevas animaciones suaves y reactivas para todos los botones y menús desplegables.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V2/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V2/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/Showcase.03d50dee.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/bg.020e5c7e.gif"
+          },
+          {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/fonts/Audiowide.97742178.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V2/preview.2773c933.png"
+          }
+        ],
+        "injectsCss": true
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V1/cyberpunkv1_edgajuman.zip",
-        "zipName": "cyberpunkv1_edgajuman.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.d1395ca7.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/Showcase.9bb7e2f7.png",
         "dirPath": "src/Edgajuman/Cyberpunk/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Cyberpunk/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/Showcase.9bb7e2f7.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/bg.cb2396bc.gif"
+          },
+          {
+            "name": "fonts/Audiowide.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/fonts/Audiowide.97742178.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V1/preview.d1395ca7.png"
+          }
+        ],
+        "injectsCss": true
       }
     ],
-    "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Edgajuman/Cyberpunk/V2/cyberpunk_v2_edgajuman.zip",
-    "zipName": "cyberpunk_v2_edgajuman.zip",
-    "date": "2026-07-05T19:19:35-05:00"
+    "latestVersion": "V3",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Cyberpunk/V3/preview.fe4afb5f.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "edgajuman-shoko",
+    "slug": "edgajuman-shoko",
+    "name": "Shoko",
+    "author": "Edgajuman",
+    "tags": [],
+    "dirPath": "src/Edgajuman/Shoko",
+    "description": "# Shōko\r\n\r\nA Silent Voice Theme\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Edgajuman/Shoko/V1",
+        "date": "2026-07-28T23:49:06-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Shoko/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/Shoko/V1/Meta.toml"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/bg.4984ce1d.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/Shoko/V1/preview.cf62fadd.png",
+    "date": "2026-07-28T23:49:06-06:00"
+  },
+  {
+    "id": "edgajuman-white-anime",
+    "slug": "edgajuman-white-anime",
+    "name": "White Anime",
+    "author": "Edgajuman",
+    "tags": [],
+    "dirPath": "src/Edgajuman/White_Anime",
+    "description": "# White Anime\r\n\r\nThema estilo claro\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png",
+        "dirPath": "src/Edgajuman/White_Anime/V1",
+        "date": "2026-07-29T21:17:01-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/bg.17221fe4.jpg"
+          },
+          {
+            "name": "fonts/NotoSansJP-VariableFont_wght.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png",
+    "date": "2026-07-29T21:17:01-06:00"
   },
   {
     "id": "mpg-waguri",
     "slug": "mpg-waguri",
-    "name": "Waguri",
+    "name": "Waguri Theme",
     "author": "MPG",
+    "tags": [],
     "dirPath": "src/MPG/Waguri",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Waguri_MPG.zip",
-        "zipName": "Waguri_MPG.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.0a8c4cb4.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/Showcase.3f711601.png",
         "dirPath": "src/MPG/Waguri/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/Waguri/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/Waguri/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/Showcase.3f711601.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.0a8c4cb4.png"
+          },
+          {
+            "name": "waguri.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/waguri.cc73570c.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/Waguri/V1/Waguri_MPG.zip",
-    "zipName": "Waguri_MPG.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/Waguri/V1/preview.0a8c4cb4.png",
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "mpg-zerotwo",
     "slug": "mpg-zerotwo",
-    "name": "ZeroTwo",
+    "name": "Zero Two Theme",
     "author": "MPG",
+    "tags": [],
     "dirPath": "src/MPG/ZeroTwo",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/ZeroTwo_MPG.zip",
-        "zipName": "ZeroTwo_MPG.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.0d2501bc.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/Showcase.e03d857f.png",
         "dirPath": "src/MPG/ZeroTwo/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/ZeroTwo/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/ZeroTwo/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/Showcase.e03d857f.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.0d2501bc.png"
+          },
+          {
+            "name": "zerotwo.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/zerotwo.75713eb9.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/MPG/ZeroTwo/V1/ZeroTwo_MPG.zip",
-    "zipName": "ZeroTwo_MPG.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.0d2501bc.png",
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "notstaff-blur",
     "slug": "notstaff-blur",
-    "name": "Blur",
-    "author": "Notstaff",
+    "name": "blur",
+    "author": "notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Blur",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/blur_notstaff.zip",
-        "zipName": "blur_notstaff.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.2817af50.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/Showcase.a369462b.png",
         "dirPath": "src/Notstaff/Blur/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Blur/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Blur/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/Showcase.a369462b.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/bg.6f770919.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.2817af50.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Blur/V1/blur_notstaff.zip",
-    "zipName": "blur_notstaff.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.2817af50.png",
+    "date": "2026-07-24T03:40:25-04:00"
+  },
+  {
+    "id": "notstaff-clang",
+    "slug": "notstaff-clang",
+    "name": "Clang",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/Clang",
+    "description": "# Clang\n\nUn tema oscuro y acogedor con acentos teal, inspirado en una estética cálida y nostálgica. Los colores están extraídos del arte de fondo, creando una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento teal suave:** Detalles en tonos teal que guían la atención sin ser agresivos\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos teal\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.124cd8e8.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/Showcase.3d59426e.png",
+        "dirPath": "src/Notstaff/Clang/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V2\n\n- Migración completa a sistema V2 (Meta.toml + Definition.toml + Inject.css)\n- Paleta de colores extraída del arte de fondo\n- Animaciones sutiles con Inject.css\n- Scrollbar personalizada\n- Transiciones suaves en elementos interactivos\n- Efecto de glow en elementos con acento\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Clang/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Clang/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Clang/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Clang/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/Showcase.3d59426e.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/bg.8f9c094b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.124cd8e8.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.124cd8e8.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "notstaff-lain-theme",
     "slug": "notstaff-lain-theme",
     "name": "Lain Theme",
-    "author": "Notstaff",
+    "author": "notstaff",
+    "tags": [],
     "dirPath": "src/Notstaff/Lain Theme",
-    "description": null,
+    "description": "A Lain Theme",
+    "verified": true,
     "versions": [
       {
         "version": "V2",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
-        "zipName": "lain_theme_notstaff.cbth",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.dd5b69e8.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Showcase.e341be4f.png",
         "dirPath": "src/Notstaff/Lain Theme/V2",
-        "date": "2026-07-05T03:29:04-04:00",
-        "changelog": "# Migracion a Themes V2\n"
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# Migracion a Themes V2\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V2/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V2/Fonts/OFL.txt"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V2/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V2/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V2/changelog.md"
+          },
+          {
+            "name": "Fonts/Syne.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Fonts/Syne.ee2de91f.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/Showcase.e341be4f.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/bg.6bb4fd66.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.dd5b69e8.png"
+          }
+        ],
+        "injectsCss": true
       },
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V1/lain_theme_notstaff.zip",
-        "zipName": "lain_theme_notstaff.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/preview.69a643e4.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png",
         "dirPath": "src/Notstaff/Lain Theme/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Lain Theme/V1/OFL.txt"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Showcase.98ebf4c1.png"
+          },
+          {
+            "name": "Syne.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/Syne.ee2de91f.ttf"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/bg.6bb4fd66.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V1/preview.69a643e4.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Notstaff/Lain%20Theme/V2/lain_theme_notstaff.cbth",
-    "zipName": "lain_theme_notstaff.cbth",
-    "date": "2026-07-05T03:29:04-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Lain Theme/V2/preview.dd5b69e8.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "notstaff-louise",
+    "slug": "notstaff-louise",
+    "name": "Louise",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/Louise",
+    "description": "# Louise\n\nUn tema claro y vibrante inspirado en Louise, construido únicamente con tonos blancos y rosados extraídos de su ilustración de fondo. La paleta es sólida, limpia y coherente, con acentos rosas vivos que resaltan sobre superficies blancas y cremosas.\n\n## Características\n\n- **Paleta blanco y rosa:** Colores tomados directamente del arte de Louise, sin tonos ajenos.\n- **Tema claro y luminoso:** Fondos blancos con tintes rosados muy suaves.\n- **Acento rosa sólido:** Detalles en `#f06292` que dan fuerza a los elementos interactivos.\n- **Fondo nítido:** Sin desenfoque (`0px`) para mostrar `bg.jpg` con total claridad.\n- **Scrollbar personalizada:** Indicador rosa vibrante sobre fondo blanco rosado.\n- **V1:** Usa `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias, logrando una experiencia clara realmente limpia.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png",
+        "dirPath": "src/Notstaff/Louise/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V2\n\n- Migración al sistema V2 de CubicLauncher (`Meta.toml` + `Definition.toml` + `Inject.css`).\n- Misma paleta blanco/rosado del V1.\n- Fondo nítido sin desenfoque (`image_blur = 0.0`) y opacidad completa (`image_opacity = 1.0`).\n- `Inject.css` para eliminar el `brightness(0.4)` forzado del fondo y el `blur(12px)` del header de instancias.\n- Fondos sólidos en dropdowns, inputs y selects para evitar transparencias inconsistentes con el tema claro.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Louise/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Louise/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Louise/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Louise/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/bg.6b43ac00.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "notstaff-chill",
+    "slug": "notstaff-chill",
+    "name": "Chill",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/chill",
+    "description": "# Chill\n\nUn tema relajante con tonos fríos azulados y una estética calmada. Los colores están extraídos del arte de fondo para una experiencia visual coherente y envolvente.\n\n## Características\n\n- **Paleta extraída del fondo:** Colores que armonizan perfectamente con la imagen de fondo\n- **Acento azul-cian frío:** Detalles en tonos azulados que guían la atención sin ser agresivos\n- **Fondos azul-grisáceos:** Tonos fríos en todas las superficies para una experiencia visual coherente\n- **Animaciones sutiles:** Transiciones suaves y efectos de glow en elementos interactivos\n- **Scrollbar personalizada:** Scrollbar delgada y elegante en tonos azul-cian\n- **Modales animados:** Transición de entrada suave para ventanas modales\n- **V2 con Inject.css:** Usa el nuevo sistema de inyección CSS para personalización avanzada\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.23807eaa.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/Showcase.99eb9a6b.png",
+        "dirPath": "src/Notstaff/chill/V1",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": "# V1\n\n- Lanzamiento inicial\n- Tema chill con tonos fríos azulados y teal\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/chill/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/chill/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/chill/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/chill/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/Showcase.99eb9a6b.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/bg.364f1276.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.23807eaa.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.23807eaa.png",
+    "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "santiagolxx-angel",
+    "slug": "santiagolxx-angel",
+    "name": "Angel",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/Angel",
+    "description": "An Angel.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/preview.91cfc6c4.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/Angel/V1",
+        "date": "2026-07-25T17:29:05-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Angel/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/bg.fc36c27c.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/preview.91cfc6c4.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Angel/V1/preview.91cfc6c4.png",
+    "date": "2026-07-25T17:29:05-04:00"
+  },
+  {
+    "id": "santiagolxx-engel",
+    "slug": "santiagolxx-engel",
+    "name": "Engel",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/Engel",
+    "description": "0xFF",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/Engel/V1",
+        "date": "2026-07-25T06:35:48-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Fonts/OFL.txt"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Engel/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/BIZUDPGothic-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/Fonts/BIZUDPGothic-Regular.22f41ce6.ttf"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/bg.0c4369d7.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Engel/V1/preview.04c828ee.png",
+    "date": "2026-07-25T06:35:48-04:00"
   },
   {
     "id": "santiagolxx-gengar",
     "slug": "santiagolxx-gengar",
-    "name": "Gengar",
-    "author": "Santiagolxx",
+    "name": "gengar",
+    "author": "santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Gengar",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/gengar_santiagolxx.zip",
-        "zipName": "gengar_santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.9e06d8a8.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Showcase.90679796.png",
         "dirPath": "src/Santiagolxx/Gengar/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Gengar/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Gengar/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Gengar/V1/OFL.txt"
+          },
+          {
+            "name": "Grotesk.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Grotesk.9c2ab5aa.woff2"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/Showcase.90679796.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/bg.fd5dd9f7.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.9e06d8a8.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Gengar/V1/gengar_santiagolxx.zip",
-    "zipName": "gengar_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Gengar/V1/preview.9e06d8a8.png",
+    "date": "2026-07-24T03:40:25-04:00"
+  },
+  {
+    "id": "santiagolxx-laroja",
+    "slug": "santiagolxx-laroja",
+    "name": "La Roja",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/LaRoja",
+    "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
+    "verified": true,
+    "versions": [
+      {
+        "version": "v1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5b184efb.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Showcase.2bcd7a64.png",
+        "dirPath": "src/Santiagolxx/LaRoja/v1",
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/LaRoja/v1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/LaRoja/v1/Meta.toml"
+          },
+          {
+            "name": "Fonts/Satoshi.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Fonts/Satoshi.93330866.otf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/Showcase.2bcd7a64.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/bg.7fe58b33.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5b184efb.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "v1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/LaRoja/v1/preview.5b184efb.png",
+    "date": "2026-07-24T03:40:25-04:00"
   },
   {
     "id": "santiagolxx-lain",
     "slug": "santiagolxx-lain",
     "name": "Lain",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Lain",
-    "description": null,
+    "description": "Let's all love Lain",
+    "verified": true,
     "versions": [
       {
+        "version": "V2",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8c5c147c.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Showcase.5626f971.png",
+        "dirPath": "src/Santiagolxx/Lain/V2",
+        "date": "2026-07-24T00:00:59-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V2/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V2/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V2/OFL.txt"
+          },
+          {
+            "name": "Pixelbasel.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Pixelbasel.c2771e60.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/Showcase.5626f971.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/bg.e18f08aa.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8c5c147c.png"
+          }
+        ],
+        "injectsCss": false
+      },
+      {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/lain_santiagolxx.zip",
-        "zipName": "lain_santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.137149b6.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Showcase.581f4a60.png",
         "dirPath": "src/Santiagolxx/Lain/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V1/Meta.toml"
+          },
+          {
+            "name": "OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Lain/V1/OFL.txt"
+          },
+          {
+            "name": "Pixelbasel.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Pixelbasel.c2771e60.ttf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/Showcase.581f4a60.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/bg.b290e091.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V1/preview.137149b6.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
-    "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Lain/V1/lain_santiagolxx.zip",
-    "zipName": "lain_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "latestVersion": "V2",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Lain/V2/preview.8c5c147c.png",
+    "date": "2026-07-24T00:00:59-04:00"
   },
   {
     "id": "santiagolxx-marron",
     "slug": "santiagolxx-marron",
     "name": "Marron",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Marron",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Marron_Santiagolxx.zip",
-        "zipName": "Marron_Santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.a7ec9d57.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/Showcase.34b70d60.png",
         "dirPath": "src/Santiagolxx/Marron/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Marron/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Marron/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/Showcase.34b70d60.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/bg.fa38bdc0.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.a7ec9d57.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Marron/V1/Marron_Santiagolxx.zip",
-    "zipName": "Marron_Santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Marron/V1/preview.a7ec9d57.png",
+    "date": "2026-07-24T02:34:20-04:00"
   },
   {
     "id": "santiagolxx-moon",
     "slug": "santiagolxx-moon",
-    "name": "Moon",
+    "name": "ReiMoon",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Moon",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/moon_santiagolxx.zip",
-        "zipName": "moon_santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.8700f499.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/Showcase.fef6bbd9.png",
         "dirPath": "src/Santiagolxx/Moon/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Moon/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Moon/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/Showcase.fef6bbd9.png"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/bg.3d04266e.jpeg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.8700f499.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Moon/V1/moon_santiagolxx.zip",
-    "zipName": "moon_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Moon/V1/preview.8700f499.png",
+    "date": "2026-07-24T02:34:20-04:00"
   },
   {
     "id": "santiagolxx-rei",
     "slug": "santiagolxx-rei",
     "name": "Rei",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Rei",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/rei_santiagolxx.zip",
-        "zipName": "rei_santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.5b0058f4.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/Showcase.5e2c669e.png",
         "dirPath": "src/Santiagolxx/Rei/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Rei/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Rei/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/Showcase.5e2c669e.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/bg.82e1680e.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.5b0058f4.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Rei/V1/rei_santiagolxx.zip",
-    "zipName": "rei_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Rei/V1/preview.5b0058f4.png",
+    "date": "2026-07-24T02:34:20-04:00"
   },
   {
     "id": "santiagolxx-running",
     "slug": "santiagolxx-running",
     "name": "Running",
     "author": "Santiagolxx",
+    "tags": [],
     "dirPath": "src/Santiagolxx/Running",
     "description": null,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/Showcase.png",
-        "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/running_santiagolxx.zip",
-        "zipName": "running_santiagolxx.zip",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.d8edf0ef.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/Showcase.672a0bbf.png",
         "dirPath": "src/Santiagolxx/Running/V1",
-        "date": "2026-07-05T02:32:50-04:00",
-        "changelog": null
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Running/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Running/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/Showcase.672a0bbf.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/bg.593bd757.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.d8edf0ef.png"
+          }
+        ],
+        "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/Showcase.png",
-    "zipUrl": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/master/src/Santiagolxx/Running/V1/running_santiagolxx.zip",
-    "zipName": "running_santiagolxx.zip",
-    "date": "2026-07-05T02:32:50-04:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Running/V1/preview.d8edf0ef.png",
+    "date": "2026-07-24T02:34:20-04:00"
+  },
+  {
+    "id": "santiagolxx-worldcupafa",
+    "slug": "santiagolxx-worldcupafa",
+    "name": "World Cup AFA",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/WorldCupAFA",
+    "description": "Tema inspirado en la Asociacion del Futbol Argentino (AFA)",
+    "verified": true,
+    "versions": [
+      {
+        "version": "v1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.006aa7d0.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.c2ce66ce.png",
+        "dirPath": "src/Santiagolxx/WorldCupAFA/v1",
+        "date": "2026-07-24T03:40:25-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/WorldCupAFA/v1/Meta.toml"
+          },
+          {
+            "name": "Fonts/Satoshi.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Fonts/Satoshi.93330866.otf"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/Showcase.c2ce66ce.png"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/bg.41f26327.jpeg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.006aa7d0.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "v1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/WorldCupAFA/v1/preview.006aa7d0.png",
+    "date": "2026-07-24T03:40:25-04:00"
+  },
+  {
+    "id": "santiagolxx-yuuki",
+    "slug": "santiagolxx-yuuki",
+    "name": "Yuuki",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/Yuuki",
+    "description": "A Theme",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.0f896ae0.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/Yuuki/V1",
+        "date": "2026-07-24T04:24:55-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Yuuki/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/Yuuki/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/bg.cd339e06.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.0f896ae0.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/Yuuki/V1/preview.0f896ae0.png",
+    "date": "2026-07-24T04:24:55-04:00"
+  },
+  {
+    "id": "unr4n-dark-theme",
+    "slug": "unr4n-dark-theme",
+    "name": "Dark Theme",
+    "author": "Unr4n",
+    "tags": [],
+    "dirPath": "src/Unr4n/Dark Theme",
+    "description": null,
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.e05db763.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png",
+        "dirPath": "src/Unr4n/Dark Theme/V1",
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Unr4n/Dark Theme/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Unr4n/Dark Theme/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/Showcase.172975fc.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/bg.99e80a87.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.e05db763.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Unr4n/Dark Theme/V1/preview.e05db763.png",
+    "date": "2026-07-24T02:34:20-04:00"
+  },
+  {
+    "id": "kittyhos-kitty",
+    "slug": "kittyhos-kitty",
+    "name": "Kitty",
+    "author": "kittyhos",
+    "tags": [],
+    "dirPath": "src/kittyhos/kitty",
+    "description": "Tema minimalista y elegante con acentos rosados suaves. Inspirado en tonos pastel y una estética limpia y calmada.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.52d66ec4.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/Showcase.2abb23c9.png",
+        "dirPath": "src/kittyhos/kitty/V1",
+        "date": "2026-07-24T02:34:20-04:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/kitty/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/kitty/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/kitty/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/Showcase.2abb23c9.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/bg.737e275a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.52d66ec4.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/kitty/V1/preview.52d66ec4.png",
+    "date": "2026-07-24T02:34:20-04:00"
+  },
+  {
+    "id": "kittyhos-lucky",
+    "slug": "kittyhos-lucky",
+    "name": "lucky",
+    "author": "kittyhos",
+    "tags": [],
+    "dirPath": "src/kittyhos/lucky",
+    "description": "Este tema fue generado por la herramienta Cubiclauncher-editor creado por kittyhos",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
+        "showcaseUrl": null,
+        "dirPath": "src/kittyhos/lucky/V1",
+        "date": "2026-07-25T21:41:57-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/lucky/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/kittyhos/lucky/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/bg.211b765c.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
+    "date": "2026-07-25T21:41:57-06:00"
   }
 ]

@@ -1,0 +1,81 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 0.85
+
+[colors]
+accent = "#5E9BA7"
+"accent-rgb" = "94, 155, 167"
+"accent-hover" = "#70AFC2"
+"accent-active" = "#4C8691"
+"accent-text" = "#F8E5DD"
+"accent-subtle" = "rgba(94, 155, 167, 0.15)"
+
+[text]
+primary = "#F8E5DD"
+secondary = "#B9B0A8"
+muted = "#767F76"
+accent = "#5E9BA7"
+
+[borders]
+color = "#535D6B"
+"color-hover" = "#5E9BA7"
+radius = "10px"
+"radius-sm" = "6px"
+"radius-lg" = "14px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.4)"
+"shadow-md" = "0 4px 8px rgba(0,0,0,0.35)"
+"shadow-lg" = "0 8px 24px rgba(0,0,0,0.45)"
+"glow-accent" = "0 0 12px rgba(94, 155, 167, 0.25)"
+"glow-accent-strong" = "0 0 20px rgba(94, 155, 167, 0.4)"
+"glow-error" = "0 0 12px rgba(197, 108, 108, 0.25)"
+"glow-success" = "0 0 12px rgba(126, 191, 142, 0.25)"
+
+[backgrounds]
+main = "#2D3438"
+sidebar = "#232A2E"
+card = "#3A4348"
+"item-active" = "#5E9BA7"
+overlay = "rgba(0,0,0,0.7)"
+input = "#1E2225"
+
+[layout]
+"font-family" = "'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "16px"
+
+[others]
+"icon-filter" = "brightness(0) invert(0.88)"
+"icon-filter-accent" = "brightness(0) invert(0.6) sepia(1) saturate(3) hue-rotate(148deg)"
+"icon-filter-error" = "brightness(0) invert(0.4) sepia(1) saturate(10) hue-rotate(316deg)"
+"icon-filter-success" = "brightness(0) invert(0.65) sepia(1) saturate(3) hue-rotate(82deg)"
+"icon-filter-warning" = "brightness(0) invert(0.6) sepia(1) saturate(5) hue-rotate(5deg)"
+"icon-filter-info" = "brightness(0) invert(0.65) sepia(0.5) saturate(4) hue-rotate(180deg)"
+"icon-filter-muted" = "brightness(0) invert(0.5)"
+"color-success" = "#7EBF8E"
+"color-success-rgb" = "126, 191, 142"
+"color-error" = "#C56C6C"
+"color-error-rgb" = "197, 108, 108"
+"color-warning" = "#D4A86A"
+"color-warning-rgb" = "212, 168, 106"
+"color-info" = "#5E9BA7"
+"color-info-rgb" = "94, 155, 167"
+"color-status-starting" = "#D4A86A"
+"color-status-started" = "#7EBF8E"
+"color-status-stopped" = "#C56C6C"
+"color-status-error" = "#C56C6C"
+"scrollbar-track" = "#232A2E"
+"scrollbar-thumb" = "#5E9BA7"
+"scrollbar-thumb-hover" = "#70AFC2"
+"sidebar-width" = "260px"
+"transition-fast" = "0.12s ease"
+"transition-base" = "0.2s ease"
+"transition-slow" = "0.35s ease"
+
+[backdrop]
+dropdown = 8.0
+modal = 4.0

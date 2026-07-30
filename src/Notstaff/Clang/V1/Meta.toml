@@ -1,0 +1,5 @@
+name = "Clang"
+author = "Notstaff"
+version = "1.0.0"
+description = "Un tema oscuro y acogedor con acentos teal, inspirado en una estética cálida y nostálgica."
+injects_css = true

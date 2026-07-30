@@ -1,0 +1,91 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 0.20
+
+[colors]
+accent = "#f59e0b"
+accent-rgb = "245, 158, 11"
+accent-hover = "#d97706"
+accent-active = "#b45309"
+accent-text = "#1c1917"
+accent-primary = "#f59e0b"
+accent-subtle = "rgba(245, 158, 11, 0.10)"
+color-success = "#84cc16"
+color-success-rgb = "132, 204, 22"
+color-error = "#f87171"
+color-error-rgb = "248, 113, 113"
+color-warning = "#fbbf24"
+color-warning-rgb = "251, 191, 36"
+color-info = "#38bdf8"
+color-info-rgb = "56, 189, 248"
+color-status-starting = "#f97316"
+color-status-started = "#84cc16"
+color-status-stopped = "#78716c"
+color-status-error = "#f87171"
+
+[text]
+primary = "#fafaf9"
+secondary = "#d6d3d1"
+muted = "#78716c"
+tertiary = "#57534e"
+accent = "#f59e0b"
+
+[backgrounds]
+main = "#1c1917"
+sidebar = "#292524"
+card = "#292524"
+item-active = "#44403c"
+overlay = "rgba(28, 25, 23, 0.80)"
+input = "#44403c"
+
+[borders]
+color = "#44403c"
+border = "#44403c"
+color-hover = "#f59e0b"
+radius = "8px"
+radius-sm = "4px"
+radius-lg = "12px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0, 0, 0, 0.45)"
+shadow-md = "0 4px 12px rgba(0, 0, 0, 0.55)"
+shadow-lg = "0 8px 24px rgba(0, 0, 0, 0.65)"
+glow-accent = "0 0 14px rgba(245, 158, 11, 0.20)"
+glow-accent-strong = "0 0 28px rgba(245, 158, 11, 0.38)"
+
+[layout]
+font-family = "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "18px"
+transition-fast = "0.12s ease"
+transition-base = "0.20s ease"
+transition-slow = "0.35s ease"
+
+[backdrop]
+dropdown = 10.0
+modal = 4.0
+overlay = 4.0
+viewer = 8.0
+float = 8.0
+panel = 5.0
+button = 4.0
+
+[others]
+icon-filter = "invert(1)"
+icon-filter-accent = "invert(60%) sepia(95%) saturate(1200%) hue-rotate(10deg) brightness(105%)"
+icon-filter-success = "invert(70%) sepia(70%) saturate(500%) hue-rotate(60deg) brightness(105%)"
+icon-filter-error = "invert(50%) sepia(80%) saturate(1200%) hue-rotate(335deg) brightness(105%)"
+icon-filter-warning = "invert(70%) sepia(90%) saturate(900%) hue-rotate(10deg) brightness(110%)"
+icon-filter-info = "invert(65%) sepia(60%) saturate(700%) hue-rotate(175deg) brightness(110%)"
+icon-filter-muted = "invert(45%) sepia(15%) saturate(150%) hue-rotate(30deg) brightness(80%)"
+bg-sidebar-gradient = "linear-gradient(180deg, #292524 0%, #1c1917 100%)"
+bg-card-gradient = "linear-gradient(135deg, #292524 0%, #1c1917 100%)"
+surface-rgb = "255, 255, 255"
+surface-dropdown = "#292524"
+bg-surface = "#292524"
+toast-bg = "rgba(28, 25, 23, 0.92)"
+scrollbar-track = "#1c1917"
+scrollbar-thumb = "#44403c"
+scrollbar-thumb-hover = "#57534e"

@@ -1,0 +1,5 @@
+name = "World Cup AFA"
+author = "Santiagolxx"
+version = "1.0.0"
+description = "Tema inspirado en la Asociacion del Futbol Argentino (AFA)"
+injects_css = false

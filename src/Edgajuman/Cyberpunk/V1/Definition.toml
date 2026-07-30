@@ -1,0 +1,89 @@
+[background]
+reference_path = "bg.gif"
+image_blur = 1.2
+image_opacity = 0.95
+
+[colors]
+accent = "#ff2a6d"
+accent-rgb = "255, 42, 109"
+accent-hover = "#ff4d89"
+accent-active = "#ff6b9d"
+accent-text = "#fff2f8"
+accent-subtle = "rgba(255, 42, 109, 0.14)"
+color-success = "#00f5d4"
+color-success-rgb = "0, 245, 212"
+color-error = "#ff4d6d"
+color-error-rgb = "255, 77, 109"
+color-warning = "#ffb347"
+color-warning-rgb = "255, 179, 71"
+color-info = "#4ec9f5"
+color-info-rgb = "78, 201, 245"
+color-status-starting = "#ff8a5b"
+color-status-started = "#00f5d4"
+color-status-stopped = "#7a4f8f"
+color-status-error = "#ff4d6d"
+
+[text]
+primary = "#f9ebff"
+secondary = "#ff8dc0"
+muted = "#9a6ba5"
+accent = "#ff5da2"
+
+[backgrounds]
+main = "#08040f"
+sidebar = "#14081f"
+card = "#221132"
+item-active = "#ff2a6d"
+overlay = "rgba(8, 4, 15, 0.84)"
+input = "#160a24"
+
+[backdrop]
+dropdown = 12.0
+modal = 6.0
+overlay = 6.0
+viewer = 10.0
+float = 10.0
+panel = 6.0
+button = 6.0
+
+[borders]
+color = "#552b64"
+color-hover = "#ff5fa8"
+radius = "8px"
+radius-sm = "4px"
+radius-lg = "12px"
+
+[layout]
+font-family = "'Air Millhouse', 'Segoe UI', sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.65)"
+shadow-md = "0 4px 12px rgba(0,0,0,0.5)"
+shadow-lg = "0 8px 24px rgba(0,0,0,0.6)"
+glow-accent = "0 0 14px rgba(255, 42, 109, 0.38)"
+glow-accent-strong = "0 0 24px rgba(255, 42, 109, 0.5)"
+
+[others]
+icon-filter = "invert(1) brightness(1.08)"
+icon-filter-accent = "invert(67%) sepia(70%) saturate(1200%) hue-rotate(315deg) brightness(115%)"
+icon-filter-success = "invert(69%) sepia(30%) saturate(600%) hue-rotate(160deg) brightness(112%)"
+icon-filter-error = "invert(56%) sepia(70%) saturate(1400%) hue-rotate(330deg) brightness(110%)"
+icon-filter-warning = "invert(76%) sepia(70%) saturate(800%) hue-rotate(20deg) brightness(110%)"
+icon-filter-info = "invert(68%) sepia(40%) saturate(600%) hue-rotate(180deg) brightness(110%)"
+icon-filter-muted = "invert(45%) sepia(10%) saturate(280%) brightness(85%)"
+scrollbar-track = "#08040f"
+scrollbar-thumb = "#ff2a6d"
+scrollbar-thumb-hover = "#ff5fa8"
+
+[[fonts]]
+family = "Air Millhouse"
+src = "fonts/Audiowide.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"

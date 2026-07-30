@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Louise — V2 Inject.css
+   Elimina el oscurecimiento y blur forzado de CubicLauncher para que el
+   tema claro blanco/rosa se vea limpio y nítido.
+   ========================================================================== */
+
+/* Fondo general del launcher — quita el brightness(0.4) y blur forzado
+   sin ocultar la imagen de fondo */
+.background-overlay {
+    filter: none !important;
+}
+
+/* Header del apartado de instancias — transparente para mostrar la imagen */
+.header-bg {
+    background: transparent !important;
+    border-bottom: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+}
+
+/* Dropdowns */
+.select-dropdown {
+    background: var(--bg-card) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Inputs y selects */
+.text-input,
+.select-trigger {
+    background: var(--bg-input) !important;
+}
+
+/* Iconos de sidebar en tono rosa del acento para fondo claro */
+.sidebar .tools-btn img,
+.sidebar-sections img {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(58%) saturate(3600%) hue-rotate(320deg) brightness(95%) !important;
+}

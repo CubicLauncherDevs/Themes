@@ -1,0 +1,5 @@
+name = "Louise"
+author = "Notstaff"
+version = "2.0.0"
+description = "Tema claro blanco y rosa para CubicLauncher con fondo nítido, sin blur ni oscurecimiento forzado."
+injects_css = false

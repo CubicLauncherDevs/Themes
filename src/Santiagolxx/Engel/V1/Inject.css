@@ -1,0 +1,85 @@
+/*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⣤⣶⣾⠿⠛⠉⠛⠿⣷⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠉⠙⢿⣧⠀⠀⠀⣼⡿⠛⠉⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀⠀⢸⣿⡇⠀⢰⣿⡇⠀⠀⠀⠀⢰⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣿⣿⣄⠀⠀⠀⠈⣿⡇⠀⢸⣿⠁⠀⠀⠀⣠⣿⣿⡄⠀⠀⠀⠀⠀
+⠀⠀⢀⣠⣴⣿⠟⠙⠻⠿⠿⠿⠿⠿⠷⠀⠼⠿⠿⠿⠿⠿⠿⠃⠹⣿⣦⣄⡀⠀⠀
+⠚⠛⠿⣿⣿⣅⡀⠀⢀⣀⣀⣀⣀⣀⣀⠀⣀⣀⣀⣀⣀⣀⡀⠀⢀⣬⣿⣿⠿⠛⠒
+⠀⠀⠀⠀⠈⢻⣧⣴⡿⠟⠛⠛⠛⣿⣿⠀⣿⣿⠛⠛⠛⠻⢿⣧⣼⡟⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢿⡟⠁⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⢻⡟⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠸⠇⠀⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⠘⠷⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⡿⠀⢹⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡟⠀⠀⠀⢻⣿⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠻⠿⣿⣦⣄⠀⣠⣴⣿⠿⠟⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣶⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+*/
+
+.background-overlay {
+    filter: brightness(1.12) contrast(0.95) blur(0);
+}
+
+.background-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(239, 235, 236, 0.55);
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-left: 1px solid var(--border-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border: 1px solid var(--border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+.btn-primary,
+.btn-secondary {
+    border: 1px solid var(--text-primary);
+    box-shadow: 2px 2px 0 rgba(26, 20, 24, 0.22);
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 0;
+}
+
+html,
+body {
+    cursor:
+        url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABC0lEQVR42u2X2wrCMAyGv84pKOiFDMXDc/myvpJ64Wk65+pNJkWsVRfxprnJSP+VryFbE8Nrs85zF7gClXgVS0ICa+8MGTAAOiha8oF2DgyBniZA+oE2Ay7A/tcA5oW+DbSeaOy3ACa0ibUWY7xMjQsz9RQcobhAZUAOHMU3A3h20kAGZsBGstcYwABjYCQeYOmsL4BCCrGQWF9O39YqwgtwAnYefemkvLaTvKcCkEtKfems19cPsVwLoJBTHjz6s2Rn5cTqr0AFoN6s9OgrSfdZ6z+QBi4g3wVlUbKEP1sEiAARIAJEgAgQAYIATkdcNel8vh3NDDABpuJLzcn43dmwALbSem+dllzFbi0cTyfI9KL2AAAAAElFTkSuQmCC")
+            8 6,
+        auto;
+}

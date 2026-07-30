@@ -1,0 +1,77 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 0
+image_opacity = 0.3
+
+[colors]
+accent = "#8fa3bd"
+"accent-rgb" = "143, 163, 189"
+"accent-hover" = "#a8bad2"
+"accent-text" = "#0f1114"
+
+[text]
+primary = "#e6e4e8"
+secondary = "#a49fa8"
+tertiary = "#8b8690"
+muted = "#6b6670"
+
+[backgrounds]
+main = "#111114"
+sidebar = "#17171b"
+card = "#1c1c21"
+input = "#0d0d10"
+"item-active" = "#2b2b33"
+surface = "#23232a"
+overlay = "rgba(0, 0, 0, 0.65)"
+"sidebar-gradient" = "#17171b"
+"card-gradient" = "#1c1c21"
+
+[borders]
+color = "#3b3b44"
+radius = "0px"
+"radius-sm" = "0px"
+"radius-lg" = "0px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "1px 1px 0 rgba(0, 0, 0, 0.55)"
+"shadow-md" = "2px 2px 0 rgba(0, 0, 0, 0.60)"
+"shadow-lg" = "3px 3px 0 rgba(0, 0, 0, 0.65)"
+"glow-accent" = "0 0 0 1px #8fa3bd"
+"glow-error" = "0 0 0 1px #d4636d"
+"glow-success" = "0 0 0 1px #6fae7f"
+
+[layout]
+"font-family" = "\"BIZ UDPGothic\", Tahoma, Verdana, sans-serif"
+"font-size-base" = "12px"
+"font-size-sm" = "11px"
+"font-size-lg" = "15px"
+"sidebar-width" = "240px"
+
+[others]
+"surface-rgb" = "255, 255, 255"
+"icon-filter" = "invert(1)"
+"icon-filter-error" = "none"
+"color-success" = "#6fae7f"
+"color-success-rgb" = "111, 174, 127"
+"color-error" = "#d4636d"
+"color-error-rgb" = "212, 99, 109"
+"color-warning" = "#d9a441"
+"color-warning-rgb" = "217, 164, 65"
+"color-info" = "#7fa6d9"
+"color-info-rgb" = "127, 166, 217"
+"color-status-starting" = "#d9a441"
+"color-status-started" = "#6fae7f"
+"scrollbar-track" = "#17171b"
+"scrollbar-thumb" = "#3b3b44"
+
+[backdrop]
+dropdown = 0.0
+modal = 0.0
+
+[[fonts]]
+family = "BIZ UDPGothic"
+src = "Fonts/BIZUDPGothic-Regular.ttf"
+format = "truetype"
+weight = "400"
+style = "normal"

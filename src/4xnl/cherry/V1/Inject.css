@@ -1,0 +1,196 @@
+/*
+🌸 Cherry Glass Theme 🌸
+By 4xnl
+*/
+
+.background-overlay {
+    filter: brightness(1.18) contrast(0.90) saturate(1.08) blur(0);
+}
+
+.background-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: rgba(255, 245, 248, 0.60);
+}
+
+/* Glass effect on main surfaces */
+.sidebar,
+.card,
+.modal-content,
+.select-dropdown,
+.notification-toast {
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+}
+
+.card {
+    background: var(--card) !important;
+}
+
+.modal-content {
+    background: var(--card) !important;
+    box-shadow: var(--shadow-lg) !important;
+}
+
+.notification-toast {
+    background: var(--card) !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+    background-clip: content-box;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(180deg, #ff9aba 0%, #ff7aa2 100%);
+    color: #fff8fa;
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.15s ease;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.08);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.15s ease;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: var(--border-radius-sm);
+}
+
+body,
+.qm-root,
+.app-container {
+    color: var(--text-primary);
+}
+
+/* Selects glass */
+.select-trigger {
+    background: var(--surface-input) !important;
+    border-color: var(--border-color) !important;
+    color: var(--text-primary) !important;
+    border-radius: var(--border-radius) !important;
+    backdrop-filter: blur(8px) !important;
+    transition: all 0.15s ease;
+}
+
+.select-trigger:hover:not(.disabled) {
+    background: var(--surface-hover) !important;
+    border-color: var(--text-tertiary) !important;
+}
+
+.select-trigger.open {
+    background: var(--surface-active) !important;
+    box-shadow: var(--glow-accent) !important;
+}
+
+.select-dropdown {
+    background: var(--surface-dropdown) !important;
+    border-color: var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+    border-radius: var(--border-radius) !important;
+}
+
+.select-option {
+    color: var(--text-secondary) !important;
+    border-radius: var(--border-radius-sm) !important;
+}
+
+.select-option:hover {
+    background: var(--surface-hover) !important;
+    color: var(--text-primary) !important;
+}
+
+.select-option.selected {
+    background: var(--surface-selected) !important;
+    color: var(--accent) !important;
+    border-color: rgba(var(--accent-rgb), 0.25) !important;
+}
+
+.select-option-badge {
+    background: var(--surface-card) !important;
+    color: var(--text-muted) !important;
+}
+
+.select-option:hover .select-option-badge {
+    background: var(--surface-active) !important;
+    color: var(--text-secondary) !important;
+}
+
+.check-icon {
+    color: var(--accent) !important;
+}
+
+.chevron-icon {
+    color: var(--text-secondary) !important;
+}
+
+.select-trigger.open .chevron-icon {
+    color: var(--accent) !important;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+    background: var(--surface-input) !important;
+    border-color: var(--border-color) !important;
+    border-radius: var(--border-radius-sm) !important;
+    color: var(--text-primary) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: var(--glow-accent) !important;
+    border-color: rgba(var(--accent-rgb), 0.5) !important;
+}

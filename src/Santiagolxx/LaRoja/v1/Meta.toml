@@ -1,0 +1,5 @@
+name = "La Roja"
+author = "Santiagolxx"
+version = "1.0.0"
+description = "Tema inspirado en la Federación de Futbol de Chile (FFCh)"
+injects_css = false
