@@ -543,10 +543,10 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png",
         "dirPath": "src/Edgajuman/White_Anime/V1",
-        "date": "2026-07-29T01:16:58-05:00",
+        "date": "2026-07-29T21:17:01-06:00",
         "changelog": null,
         "files": [
           {
@@ -556,6 +556,10 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Meta.toml"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png"
           },
           {
             "name": "Showcase.png",
@@ -568,18 +572,14 @@
           {
             "name": "fonts/NotoSansJP-VariableFont_wght.ttf",
             "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png",
-    "date": "2026-07-29T01:16:58-05:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png",
+    "date": "2026-07-29T21:17:01-06:00"
   },
   {
     "id": "mpg-waguri",
