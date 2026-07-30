@@ -1,0 +1,5 @@
+name = "Cherry"
+author = "4xnl"
+version = "1.0.0"
+description = "A cherry blossom garden for your launcher."
+injects_css = true
