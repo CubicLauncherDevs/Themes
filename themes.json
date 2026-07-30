@@ -150,6 +150,52 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "4xnl-cherry",
+    "slug": "4xnl-cherry",
+    "name": "Cherry",
+    "author": "4xnl",
+    "tags": [],
+    "dirPath": "src/4xnl/cherry",
+    "description": "A cherry blossom garden for your launcher.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png",
+        "showcaseUrl": null,
+        "dirPath": "src/4xnl/cherry/V1",
+        "date": "2026-07-29T22:15:35-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/bg.a8c97100.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png",
+    "date": "2026-07-29T22:15:35-06:00"
+  },
+  {
     "id": "cubiclauncher-signature-amber",
     "slug": "cubiclauncher-signature-amber",
     "name": "Signature Amber",
@@ -558,10 +604,6 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Meta.toml"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png"
-          },
-          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png"
           },
@@ -572,6 +614,10 @@
           {
             "name": "fonts/NotoSansJP-VariableFont_wght.ttf",
             "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.f875d26c.png"
           }
         ],
         "injectsCss": false
