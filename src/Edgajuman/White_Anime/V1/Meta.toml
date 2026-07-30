@@ -1,0 +1,5 @@
+name = "White Anime"
+author = "Edgajuman"
+version = "1.0.0"
+description = "Thema estilo claro"
+injects_css = true
