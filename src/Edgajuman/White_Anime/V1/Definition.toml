@@ -7,31 +7,62 @@ image_opacity = 1
 accent = "#2478d6"
 "accent-rgb" = "36, 120, 214"
 "accent-hover" = "#3b8ce8"
+"accent-active" = "#1c60b8"
+"accent-primary" = "#2478d6"
+"accent-subtle" = "rgba(36, 120, 214, 0.08)"
 "accent-text" = "#ffffff"
+"color-success" = "#22c55e"
+"color-success-rgb" = "34, 197, 94"
+"color-error" = "#ef4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#f59e0b"
+"color-warning-rgb" = "245, 158, 11"
+"color-info" = "#3b82f6"
+"color-info-rgb" = "59, 130, 246"
+"color-status-starting" = "#f97316"
+"color-status-started" = "#22c55e"
+"color-status-stopped" = "#64748b"
+"color-status-error" = "#ef4444"
 
 [text]
 primary = "#172130"
 secondary = "#4f6175"
 muted = "#7d8b9a"
+tertiary = "#9eb4ca"
+accent = "#2478d6"
 
 [borders]
 color = "#c8d4df"
+border = "#c8d4df"
+"color-hover" = "#3b8ce8"
 radius = "8px"
 "radius-sm" = "4px"
+"radius-lg" = "12px"
 
 [shadows]
-"shadow-sm" = "0 1px 3px rgba(0,0,0,0.5)"
-"shadow-md" = "0 4px 6px rgba(0,0,0,0.3)"
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.08)"
+"shadow-md" = "0 4px 12px rgba(0,0,0,0.10)"
+"shadow-lg" = "0 8px 28px rgba(0,0,0,0.12)"
 "glow-accent" = "0 0 14px rgba(36,120,214,0.32)"
+"glow-accent-strong" = "0 0 24px rgba(36,120,214,0.28)"
 
 [layout]
 "font-family" = "'NotoSansJP VariableFont wght', sans-serif"
 "font-size-base" = "14px"
 "font-size-sm" = "12px"
 "font-size-lg" = "18px"
+"transition-fast" = "0.12s ease"
+"transition-base" = "0.20s ease"
+"transition-slow" = "0.35s ease"
 
 [others]
 "icon-filter" = "none"
+"icon-filter-accent" = "none"
+"icon-filter-success" = "none"
+"icon-filter-error" = "none"
+"icon-filter-warning" = "none"
+"icon-filter-info" = "none"
+"icon-filter-muted" = "none"
 "color-success" = "#22c55e"
 "color-success-rgb" = "34, 197, 94"
 "color-error" = "#ef4444"
@@ -42,27 +73,42 @@ radius = "8px"
 "color-status-started" = "#22c55e"
 "scrollbar-track" = "#eaf0f5"
 "scrollbar-thumb" = "#9eb4ca"
+"scrollbar-thumb-hover" = "#7d8b9a"
+"bg-sidebar-gradient" = "linear-gradient(180deg, #ffffff 0%, #eaf0f5 100%)"
+"bg-card-gradient" = "linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(240,245,249,1) 100%)"
+"bg-surface" = "#ffffff"
+"toast-bg" = "rgba(255, 255, 255, 0.92)"
+"surface-rgb" = "255, 255, 255"
 
 [backdrop]
 dropdown = 10
 modal = 4
+overlay = 4
+viewer = 8
+float = 8
+panel = 5
+button = 4
 
 [backgrounds]
 main = "#eaf0f5"
-sidebar = "#f6f9fb"
+sidebar = "#ffffff"
 card = "#ffffff"
 "item-active" = "#d7e7f8"
 overlay = "rgba(24,40,58,0.42)"
 input = "#f0f5f9"
+surface = "#f0f5f9"
+"sidebar-gradient" = "#ffffff"
+"card-gradient" = "#ffffff"
+"surface-dropdown" = "#ffffff"
+"surface-input" = "#f0f5f9"
+"surface-hover" = "rgba(0, 0, 0, 0.04)"
+"surface-active" = "rgba(0, 0, 0, 0.06)"
+"surface-selected" = "rgba(36, 120, 214, 0.10)"
+"surface-card" = "rgba(0, 0, 0, 0.02)"
 
 [[fonts]]
-
 family = "NotoSansJP VariableFont wght"
-
 src = "fonts/NotoSansJP-VariableFont_wght.ttf"
-
 format = "ttf"
-
 weight = "400"
-
 style = "normal"
