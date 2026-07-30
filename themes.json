@@ -532,6 +532,56 @@
     "date": "2026-07-28T23:49:06-06:00"
   },
   {
+    "id": "edgajuman-white-anime",
+    "slug": "edgajuman-white-anime",
+    "name": "White Anime",
+    "author": "Edgajuman",
+    "tags": [],
+    "dirPath": "src/Edgajuman/White_Anime",
+    "description": "# White Anime\r\n\r\nThema estilo claro\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png",
+        "dirPath": "src/Edgajuman/White_Anime/V1",
+        "date": "2026-07-29T01:16:58-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Edgajuman/White_Anime/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/Showcase.e6677d24.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/bg.17221fe4.jpg"
+          },
+          {
+            "name": "fonts/NotoSansJP-VariableFont_wght.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/fonts/NotoSansJP-VariableFont_wght.04b2ac92.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Edgajuman/White_Anime/V1/preview.cfcfe10d.png",
+    "date": "2026-07-29T01:16:58-05:00"
+  },
+  {
     "id": "mpg-waguri",
     "slug": "mpg-waguri",
     "name": "Waguri Theme",
