@@ -2416,6 +2416,52 @@
     "date": "2026-09-06T13:16:50-06:00"
   },
   {
+    "id": "holman-interstellar",
+    "slug": "holman-interstellar",
+    "name": "Interstellar_Gargantua_Black_Hole",
+    "author": "Holman",
+    "tags": [],
+    "dirPath": "src/holman/interstellar",
+    "description": "Tema animado inspirado en el agujero negro Gargantua de Interstellar, con estética oscura y detalles dorados/ámbar del disco de acreción.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/interstellar/V1",
+        "date": "2026-09-06T15:43:01-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
+    "date": "2026-09-06T15:43:01-05:00"
+  },
+  {
     "id": "holman-sweetie-fox",
     "slug": "holman-sweetie-fox",
     "name": "Sweetie Fox Minecraft",
@@ -2460,6 +2506,60 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/holman/sweetie_fox/V1/preview.289e8dd5.png",
     "date": "2026-09-05T18:42:53-05:00"
+  },
+  {
+    "id": "holman-tatsumaki",
+    "slug": "holman-tatsumaki",
+    "name": "Tatsumaki",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/tatsumaki",
+    "description": "Tema para CubicLauncher con imagen personalizada y tipografía Mojang.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/tatsumaki/V1",
+        "date": "2026-09-06T15:33:12-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/bg.d185268f.png"
+          },
+          {
+            "name": "fonts/Mojang-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/fonts/Mojang-Bold.90e8f7fe.ttf"
+          },
+          {
+            "name": "fonts/Mojang-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/fonts/Mojang-Regular.babe8021.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png",
+    "date": "2026-09-06T15:33:12-05:00"
   },
   {
     "id": "kittyhos-kitty",
