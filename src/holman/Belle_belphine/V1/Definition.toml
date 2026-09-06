@@ -1,61 +1,76 @@
 [background]
-reference_path = "bg.gif"
-image_blur = 0.0
-image_opacity = 1.0
+reference_path = "waguri.png"
+image_blur = 8.0
+image_opacity = 0.28
 
 [backgrounds]
-main = "#080409"
-sidebar = "#0d0710"
-card = "#1a0e1f"
-item-active = "#32153b"
-overlay = "rgba(8, 4, 9, 0.56)"
-input = "#110914"
+  main = "#160d1d"
+  sidebar = "#211126"
+  card = "rgba(57, 25, 58, 0.68)"
+  item-active = "#8f3d88"
+  input = "#2a1530"
+  overlay = "rgba(22, 13, 29, 0.82)"
 
 [colors]
-accent = "#c65adf"
-accent-rgb = "198,90,223"
-accent-hover = "#d976eb"
-accent-active = "#ae46c8"
-accent-text = "#fff6ff"
-accent-subtle = "rgba(198,90,223,0.12)"
-color-success = "#8fd6a8"
-color-success-rgb = "143,214,168"
-color-error = "#e86b8c"
-color-error-rgb = "232,107,140"
-color-warning = "#e2b56f"
-color-warning-rgb = "226,181,111"
-color-info = "#b7a0e3"
-color-info-rgb = "183,160,227"
-color-status-starting = "#c65adf"
-color-status-started = "#8fd6a8"
-color-status-stopped = "#080409"
-color-status-error = "#e86b8c"
+  accent = "#fa6cfe"
+  accent-rgb = "250,108,254"
+  accent-hover = "#ff8cff"
+  accent-active = "#d94fdd"
+  accent-text = "#1b0d1d"
+  accent-subtle = "rgba(250, 108, 254, 0.22)"
+  color-success = "#72d6a0"
+  color-success-rgb = "114,214,160"
+  color-error = "#ff7181"
+  color-error-rgb = "255,113,129"
+  color-warning = "#f3c969"
+  color-warning-rgb = "243,201,105"
+  color-status-starting = "#d79adf"
+  color-status-started = "#72d6a0"
 
 [text]
-primary = "#f5eaf6"
-secondary = "#dac5dd"
-muted = "#a687aa"
-accent = "#e39aef"
+  primary = "#fff4f8"
+  secondary = "#e8cfe2"
+  muted = "#b28da9"
+  accent = "#ff9cff"
 
 [borders]
-color = "#3a2141"
-color-hover = "#69436f"
-radius = "8px"
-radius-sm = "4px"
-radius-lg = "12px"
+  color = "#63395f"
+  color-hover = "#a45a9d"
+  radius = "10px"
+  radius-sm = "5px"
+  radius-lg = "15px"
 
 [shadows]
-shadow-sm = "0 1px 3px rgba(0,0,0,0.6)"
-shadow-md = "0 4px 14px rgba(0,0,0,0.7)"
-shadow-lg = "0 8px 28px rgba(0,0,0,0.78)"
-glow-accent = "0 0 16px rgba(198,90,223,0.22)"
-glow-accent-strong = "0 0 28px rgba(198,90,223,0.35)"
+  shadow-sm = "0 2px 4px rgba(20, 5, 22, 0.5)"
+  shadow-md = "0 4px 8px rgba(20, 5, 22, 0.6)"
+  shadow-lg = "0 8px 16px rgba(20, 5, 22, 0.72)"
+  glow-accent = "0 0 8px rgba(250, 108, 254, 0.55)"
+  glow-accent-strong = "0 0 16px rgba(250, 108, 254, 0.85)"
 
 [others]
-scrollbar-track = "#0d0710"
-scrollbar-thumb = "#3a2141"
-scrollbar-thumb-hover = "#69436f"
+  bg-sidebar-gradient = "linear-gradient(180deg, #211126 0%, #160d1d 100%)"
+  bg-card-gradient = "linear-gradient(135deg, rgba(57, 25, 58, 0.76) 0%, rgba(33, 17, 38, 0.76) 100%)"
+  scrollbar-track = "#160d1d"
+  scrollbar-thumb = "#63395f"
+  scrollbar-thumb-hover = "#a45a9d"
+
 
 [layout]
-font-size-base = "16px"
-sidebar-width = "260px"
+"font-family" = "'Mojang', 'Segoe UI', sans-serif"
+"font-size-lg" = "16px"
+"font-size-sm" = "12px"
+"font-size-base" = "14px"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Regular.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Bold.ttf"
+format = "ttf"
+weight = "bold"
+style = "normal"

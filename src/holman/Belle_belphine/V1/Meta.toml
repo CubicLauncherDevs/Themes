@@ -1,5 +1,3 @@
-name = "Porsche_Gt3_Rs_GIF"
-author = "holman"
-version = "1.0.0"
-description = "Tema animado del Porsche GT3 RS."
+name = "Waguri Theme"
+author = "Holman"
 injects_css = false
