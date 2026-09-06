@@ -1,0 +1,5 @@
+name = "Interstellar_Gargantua_Black_Hole"
+author = "Holman"
+version = "1.0.0"
+description = "Tema animado inspirado en el agujero negro Gargantua de Interstellar, con estética oscura y detalles dorados/ámbar del disco de acreción."
+injects_css = false

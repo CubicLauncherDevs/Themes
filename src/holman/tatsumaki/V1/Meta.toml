@@ -1,0 +1,5 @@
+name = "Tatsumaki"
+author = "holman"
+version = "1.0.0"
+description = "Tema para CubicLauncher con imagen personalizada y tipografía Mojang."
+injects_css = true
