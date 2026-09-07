@@ -52,10 +52,27 @@ glow-accent = "0 0 16px rgba(229,138,155,0.22)"
 glow-accent-strong = "0 0 28px rgba(229,138,155,0.34)"
 
 [layout]
-font-size-base = "16px"
+"font-family" = "'Mojang', 'Segoe UI', sans-serif"
+"font-size-lg" = "16px"
+"font-size-sm" = "12px"
+"font-size-base" = "14px"
 sidebar-width = "260px"
 
 [others]
 scrollbar-track = "#0b0b10"
 scrollbar-thumb = "#352b35"
 scrollbar-thumb-hover = "#664452"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Regular.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Bold.ttf"
+format = "ttf"
+weight = "bold"
+style = "normal"
