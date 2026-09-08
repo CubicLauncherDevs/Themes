@@ -1756,6 +1756,52 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "santiagolxx-systemofadown",
+    "slug": "santiagolxx-systemofadown",
+    "name": "System Of A Down",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/SystemOfADown",
+    "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/SystemOfADown/V1",
+        "date": "2026-09-07T22:50:19-03:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Definition.toml"
+          },
+          {
+            "name": "Fonts/Stf.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/Fonts/Stf.6b879ea3.otf"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/bg.79778d7b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
+    "date": "2026-09-07T22:50:19-03:00"
+  },
+  {
     "id": "santiagolxx-worldcupafa",
     "slug": "santiagolxx-worldcupafa",
     "name": "World Cup AFA",
@@ -2454,6 +2500,10 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
           },
           {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
+          },
+          {
             "name": "bg.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
           },
@@ -2464,10 +2514,6 @@
           {
             "name": "showcase.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/showcase.8306abc8.gif"
-          },
-          {
-            "name": "Showcase.gif",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
           }
         ],
         "injectsCss": false
