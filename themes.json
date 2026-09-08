@@ -2439,7 +2439,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.b4cd333c.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
         "showcaseUrl": null,
         "dirPath": "src/holman/interstellar/V1",
         "date": "2026-09-06T15:43:01-05:00",
@@ -2454,27 +2454,27 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
           },
           {
-            "name": "Showcase.gif",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
-          },
-          {
             "name": "bg.gif",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.3a0fe5a4.gif"
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.b4cd333c.png"
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
           },
           {
             "name": "showcase.gif",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/showcase.966935c5.gif"
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/showcase.8306abc8.gif"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.b4cd333c.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
     "date": "2026-09-06T15:43:01-05:00"
   },
   {
