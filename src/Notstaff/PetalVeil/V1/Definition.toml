@@ -1,0 +1,96 @@
+[background]
+reference_path = "background.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#8C426F"
+accent-primary = "#8C426F"
+accent-hover = "#71365C"
+accent-rgb = "140, 66, 111"
+accent-text = "#FFFFFF"
+border = "rgba(100,72,100,0.16)"
+bg-sidebar-gradient = "linear-gradient(150deg, rgba(255,255,255,0.84), rgba(241,231,246,0.68))"
+bg-card-gradient = "linear-gradient(140deg, rgba(255,255,255,0.86), rgba(251,239,245,0.72))"
+bg-item-active = "#EEDDED"
+bg-overlay = "rgba(56,35,60,0.26)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "rgba(112,81,112,0.28)"
+scrollbar-thumb-hover = "rgba(112,81,112,0.48)"
+surface-rgb = "57, 40, 64"
+color-success = "#217C48"
+color-success-rgb = "33, 124, 72"
+color-error = "#C3333B"
+color-error-rgb = "195, 51, 59"
+color-warning = "#926400"
+color-warning-rgb = "146, 100, 0"
+color-info = "#8C426F"
+color-info-rgb = "140, 66, 111"
+color-status-starting = "#926400"
+color-status-started = "#217C48"
+clr-loader-vanilla = "#42846B"
+clr-loader-fabric = "#887350"
+clr-loader-forge = "#B36926"
+clr-loader-quilt = "#8960B1"
+
+[backgrounds]
+main = "#F8F2F6"
+sidebar = "rgba(252,246,251,0.90)"
+card = "rgba(253,248,251,0.94)"
+input = "#F0E7EF"
+surface = "#FCF7FB"
+
+[text]
+primary = "#302335"
+secondary = "#55435A"
+muted = "#59465D"
+tertiary = "#59465D"
+
+[borders]
+color = "rgba(100,72,100,0.16)"
+width = "1px"
+radius = "18px"
+radius-sm = "12px"
+radius-lg = "28px"
+
+[layout]
+sidebar-width = "260px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 8px rgba(72,40,78,0.10)"
+shadow-md = "0 4px 12px rgba(72,40,78,0.12)"
+shadow-lg = "0 8px 24px rgba(72,40,78,0.16)"
+glow-accent = "0 0 0 3px rgba(140,66,111,0.14)"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, sans-serif"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "rgba(252,247,251,0.98)"
+surface-input = "#F0E7EF"
+surface-hover = "#F0E5EF"
+surface-active = "#E9DCEC"
+surface-selected = "#EEDDED"
+surface-card = "rgba(253,248,251,0.82)"
+toast-bg = "rgba(253,248,251,0.95)"
+toast-border = "rgba(116,84,116,0.26)"
+button-bg = "rgba(255,255,255,0.80)"
+button-hover-bg = "rgba(246,229,241,0.95)"
+btn-bg = "rgba(255,255,255,0.80)"
+item-bg = "rgba(255,255,255,0.64)"
+
+[icons]
+preview = "preview.svg"

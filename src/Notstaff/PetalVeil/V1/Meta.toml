@@ -1,0 +1,5 @@
+name = "Petal Veil"
+author = "Notstaff"
+version = "1.0.0"
+description = "Una suave combinación de tonos marfil, lavanda y rosa, con paneles de satén y detalles en color ciruela."
+injects_css = true

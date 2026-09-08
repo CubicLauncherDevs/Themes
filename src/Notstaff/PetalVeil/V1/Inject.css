@@ -1,0 +1,152 @@
+/* Petal Veil 1.1: clear wallpaper, lightweight surfaces, native control geometry. */
+:root { color-scheme: light; }
+:root .app-container {
+  color: var(--text-primary);
+  background-image: var(--bg-image, none);
+  background-size: cover;
+  background-position: center;
+}
+:root .background-overlay { background: transparent; filter: none; pointer-events: none; }
+/* Single painted surface: no extra blur layer behind navigation. */
+:root .sidebar, :root .sidebar-compact {
+  background: linear-gradient(160deg, rgba(253,248,251,0.94), rgba(242,231,245,0.88));
+  border-right: 1px solid var(--border);
+  box-shadow: 2px 0 8px rgba(72,40,78,0.06);
+}
+:root .sidebar .sidebar-header h1 {
+  text-transform: none; letter-spacing: 0.2px;
+  font-size: 0.88rem; color: var(--text-primary);
+}
+:root .sidebar .sidebar-sections {
+  width: 100%; margin: 6px 0;
+  border: 1px solid var(--border); border-radius: 16px;
+  background: rgba(255,255,255,0.50);
+}
+:root .sidebar .tools-btn, :root .sidebar-compact .sc-tool-btn {
+  background: transparent; border-color: transparent; color: var(--text-secondary);
+}
+:root .sidebar .tools-btn:hover, :root .sidebar-compact .sc-tool-btn:hover {
+  background: var(--surface-hover); color: var(--accent);
+}
+:root .sidebar .instance-item, :root .sidebar .instance-item.odd {
+  --item-bg: rgba(255,255,255,0.42);
+  border-radius: 12px; border-color: transparent; box-shadow: none;
+}
+:root .sidebar .instance-item:hover { --item-bg: var(--surface-hover); }
+:root .sidebar .instance-item.active {
+  --item-bg: var(--bg-item-active);
+  border-color: rgba(var(--accent-rgb),0.22);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.70);
+}
+:root .sidebar .instance-icon-strip { border-right-color: transparent; }
+:root .sidebar .instance-icon-strip::before { background: transparent; }
+:root .sidebar .instance-item.active .instance-icon-strip { color: var(--accent); }
+:root .sidebar .instance-item.active .instance-icon-strip::before {
+  background: rgba(var(--accent-rgb),0.08); filter: none;
+}
+:root .sidebar .user-profile, :root .sidebar-compact .sc-user {
+  background: rgba(255,255,255,0.55); color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 14px; margin-bottom: 10px;
+}
+:root .sidebar-compact .sc-user { width: calc(100% - 12px); }
+:root .sidebar .user-profile:hover, :root .sidebar-compact .sc-user:hover { background: var(--surface-hover); }
+:root .sidebar .user-avatar-wrapper, :root .sidebar-compact .sc-avatar-wrapper { border-radius: 50%; }
+:root .sidebar .collapse-btn, :root .sidebar-compact .expand-btn {
+  background: #FCF5FB; border-color: var(--border); color: var(--text-secondary);
+  box-shadow: 0 2px 8px rgba(72,40,78,0.14);
+}
+:root .sidebar .collapse-btn:hover, :root .sidebar-compact .expand-btn:hover {
+  background: var(--bg-item-active); color: var(--accent);
+}
+/* The selected-instance view no longer adds a full-window white veil. */
+:root .instance-view { background: transparent; }
+:root .profile-view { background: rgba(251,246,250,0.80); }
+:root .profile-hero { background: transparent; }
+:root .main-content > .empty-state { background: rgba(251,246,250,0.20); }
+:root .instance-header .header-bg {
+  background: linear-gradient(180deg, rgba(251,246,250,0.94) 0%, rgba(251,246,250,0.75) 45%, rgba(251,246,250,0) 100%);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  border: none;
+}
+:root .instance-header .path-row, :root .instance-header .last-played,
+:root .instance-header .inline-status {
+  background: rgba(253,248,251,0.92);
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+:root .nav-card { background: var(--bg-card); border-color: var(--border); box-shadow: var(--shadow-sm); }
+:root .nav-card:hover { box-shadow: var(--shadow-md); }
+:root .nav-card .nav-item:hover { background: var(--surface-hover); }
+:root .instance-header .meta-chip, :root .instance-header .compact-version {
+  border-radius: 8px; background: var(--surface-input);
+}
+:root .instance-header .launch-btn {
+  border-radius: 999px; text-transform: none; letter-spacing: 0; font-weight: 600;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.22), 0 3px 12px rgba(140,66,111,0.18);
+}
+:root .instance-header .launch-btn:hover:not(:disabled) { box-shadow: 0 5px 16px rgba(140,66,111,0.22); }
+:root .instance-header .launch-btn:disabled { box-shadow: none; }
+:root .drawer-overlay { background: var(--bg-overlay); }
+:root .drawer { background: var(--bg-sidebar); border-color: var(--border); border-style: solid; box-shadow: var(--shadow-lg); }
+:root .modal, :root .select-dropdown, :root .ctx-menu {
+  background: var(--surface-dropdown); border: 1px solid var(--border);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.90), var(--shadow-lg);
+}
+:root .ctx-menu, :root .select-dropdown { border-radius: 16px; }
+:root .ctx-menu .ctx-item { border-radius: 9px; }
+:root .qm-root { background: #F7F0F6; }
+:root .qm-header, :root .qm-tabs, :root .qm-footer, :root .save-footer { background: #FCF7FB; }
+:root .section-group { border-radius: 16px; background: var(--bg-card); }
+:root .qm-ram-stepper, :root .qm-console-limit-row, :root .jvm-args-textarea { box-shadow: inset 0 1px 2px rgba(72,40,78,0.04); }
+:root .btn-primary { color: var(--accent-text); border-radius: 999px; box-shadow: 0 3px 10px rgba(140,66,111,0.15); }
+:root .btn-secondary, :root .btn-danger { border-radius: 999px; }
+:root .select-trigger { border-radius: 12px; }
+:root button, :root input, :root select, :root textarea { font-family: var(--font-family); }
+:root button:focus-visible, :root input:focus-visible, :root textarea:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+::selection { background: #EACEE3; color: #302335; }
+
+/* Petal Veil: satin surfaces, plum text and rose accents. */
+:root .sidebar .sidebar-header {
+  border-bottom-color: rgba(var(--accent-rgb),0.18);
+}
+:root .sidebar .sidebar-header h1 {
+  font-weight: 700;
+  letter-spacing: 0.35px;
+}
+:root .sidebar .instance-item.active {
+  --item-bg: linear-gradient(110deg, #EBDDEC, #F6E5ED);
+}
+:root .sidebar .user-profile {
+  background: linear-gradient(120deg, rgba(255,255,255,0.8), rgba(245,229,241,0.78));
+}
+:root .instance-header .launch-btn:not(:disabled), :root .btn-primary:not(:disabled) {
+  background: linear-gradient(115deg, #86416D, #71538E);
+  color: #FFFFFF;
+  border: 1px solid rgba(255,255,255,0.22);
+}
+:root .instance-header .launch-btn:hover:not(:disabled), :root .btn-primary:hover:not(:disabled) {
+  background: linear-gradient(115deg, #74365D, #61457C);
+}
+:root .main-content > .empty-state h2,
+:root .main-content > .empty-state p {
+  background: rgba(253,248,251,0.94);
+  border: 1px solid rgba(140,66,111,0.12);
+  border-radius: 16px;
+  padding: 10px 18px;
+  color: var(--text-primary);
+  box-shadow: 0 4px 18px rgba(72,40,78,0.08);
+}
+:root .sidebar .tools-btn { border-radius: 10px; }
+:root .sidebar-compact .sc-instance-item.active {
+  background: #EEDDED;
+  border-color: rgba(var(--accent-rgb),0.30);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+:root .nav-card {
+  background: linear-gradient(135deg, rgba(255,251,253,0.96), rgba(244,233,245,0.96));
+}
