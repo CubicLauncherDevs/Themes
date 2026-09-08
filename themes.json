@@ -1121,6 +1121,44 @@
     "date": "2026-08-22T18:51:33-06:00"
   },
   {
+    "id": "notstaff-petalveil",
+    "slug": "notstaff-petalveil",
+    "name": "Petal Veil",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/PetalVeil",
+    "description": "# Petal Veil\n\nUn tema suave para CubicLauncher inspirado en el collage de anime incluido. Las superficies en tonos marfil y lavanda, los detalles en rosa, el texto en ciruela y los botones satinados crean un aspecto coherente en la barra lateral, los ajustes y los menús. El fondo de pantalla original se mantiene nítido, con una capa superpuesta más clara en la pantalla de bienvenida y superficies de lectura más opacas donde es necesario.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": null,
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/PetalVeil/V1",
+        "date": "2026-09-07T20:25:22-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Meta.toml"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": null,
+    "date": "2026-09-07T20:25:22-06:00"
+  },
+  {
     "id": "notstaff-yorha",
     "slug": "notstaff-yorha",
     "name": "YoRHa",
@@ -1778,20 +1816,20 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Definition.toml"
           },
           {
-            "name": "Fonts/Stf.otf",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/Fonts/Stf.6b879ea3.otf"
-          },
-          {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Meta.toml"
           },
           {
-            "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/bg.79778d7b.png"
-          },
-          {
             "name": "preview.png",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png"
+          },
+          {
+            "name": "Fonts/Stf.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/Fonts/Stf.6b879ea3.otf"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/bg.79778d7b.png"
           }
         ],
         "injectsCss": false
@@ -2500,16 +2538,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
+          },
+          {
             "name": "Showcase.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
           },
           {
             "name": "bg.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
           },
           {
             "name": "showcase.gif",
