@@ -1,0 +1,69 @@
+/* Memento: native layout and controls; monochrome component finishes. */
+.background-overlay {
+  background-image: linear-gradient(90deg, rgba(0,0,0,.28), rgba(0,0,0,.08)), var(--bg-image, none);
+  background-size: cover;
+  background-position: center top;
+  filter: brightness(.86);
+}
+.sidebar, .sidebar-compact {
+  border-right-color: rgba(216,214,206,.12);
+  box-shadow: 6px 0 24px rgba(0,0,0,.18);
+}
+.sidebar .section-label {
+  color: #a19f99;
+  letter-spacing: .09em;
+}
+.sidebar .instance-item, .sidebar-compact .sc-instance-item {
+  border-radius: 6px;
+}
+.sidebar .instance-item.active, .sidebar-compact .sc-instance-item.active {
+  background: #292928;
+  border-color: rgba(216,214,206,.24);
+  box-shadow: inset 2px 0 0 #d8d6ce;
+}
+.sidebar .instance-item.active .instance-icon-strip::before {
+  background: rgba(216,214,206,.06);
+  filter: none;
+}
+.sidebar .instance-item.active .instance-icon-strip {
+  color: #eeece5;
+}
+.sidebar .collapse-btn, .sidebar-compact .expand-btn {
+  background: #1e1e1d;
+  border-color: rgba(216,214,206,.22);
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+.sidebar .collapse-btn:hover, .sidebar-compact .expand-btn:hover {
+  background: #30302e;
+  color: #eeece5;
+}
+.modal {
+  background: #181818;
+  border: 1px solid rgba(216,214,206,.16);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+}
+.btn-primary {
+  background: #d8d6ce;
+  color: #131313;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  transition: background-color .15s ease;
+}
+.btn-primary:hover { background: #eeece5; opacity: 1; }
+.btn-secondary:hover {
+  background: rgba(216,214,206,.075);
+  border-color: rgba(216,214,206,.28);
+  color: #eeece5;
+}
+input[type="text"]:focus, input[type="search"]:focus,
+input[type="number"]:focus, textarea:focus {
+  border-color: rgba(216,214,206,.48);
+}
+:where(button, input, select, textarea, a):focus-visible {
+  outline: 2px solid #d8d6ce;
+  outline-offset: 2px;
+}
+::selection { background: #d8d6ce; color: #131313; }
+@media (prefers-reduced-motion: reduce) {
+  .background-overlay, .btn-primary { transition: none; }
+}
