@@ -870,6 +870,52 @@
     "date": "2026-07-24T03:40:25-04:00"
   },
   {
+    "id": "notstaff-bunnygirl",
+    "slug": "notstaff-bunnygirl",
+    "name": "Bunny Girl",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/BunnyGirl",
+    "description": "# BunnyGirl\n\nUn tema minimalista en oliva y crema, con fondos suaves y detalles delicados.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/BunnyGirl/V1",
+        "date": "2026-09-09T00:29:37-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/bg.0fcec66e.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png",
+    "date": "2026-09-09T00:29:37-06:00"
+  },
+  {
     "id": "notstaff-clang",
     "slug": "notstaff-clang",
     "name": "Clang",
@@ -1970,16 +2016,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/Meta.toml"
           },
           {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/changelog.md"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/Showcase.6970b370.png"
           },
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/bg.519c89aa.jpg"
-          },
-          {
-            "name": "changelog.md",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/changelog.md"
           },
           {
             "name": "icons/preview.png",
