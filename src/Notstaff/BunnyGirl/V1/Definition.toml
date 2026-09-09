@@ -1,0 +1,73 @@
+[background]
+reference_path = "bg.webp"
+image_blur = 0.0
+image_opacity = 0.95
+
+[colors]
+accent = "#c8c6a0"
+accent-rgb = "200, 198, 160"
+accent-hover = "#dfdcc0"
+accent-text = "#23251b"
+accent-primary = "#c8c6a0"
+surface-rgb = "222, 216, 188"
+surface-hover = "rgba(222, 216, 188, 0.09)"
+surface-active = "rgba(200, 198, 160, 0.14)"
+surface-selected = "rgba(200, 198, 160, 0.045)"
+surface-card = "rgba(27, 30, 23, 0.72)"
+surface-input = "rgba(19, 22, 16, 0.88)"
+surface-dropdown = "#25291f"
+toast-bg = "#25291f"
+toast-border = "rgba(200, 198, 160, 0.22)"
+border = "rgba(210, 209, 175, 0.13)"
+color-success = "#a7c48a"
+color-success-rgb = "167, 196, 138"
+color-error = "#e59c90"
+color-error-rgb = "229, 156, 144"
+color-warning = "#ddc38a"
+color-info = "#a4bcc3"
+color-status-starting = "#ddc38a"
+color-status-started = "#a7c48a"
+scrollbar-track = "transparent"
+scrollbar-thumb = "rgba(200, 198, 160, 0.25)"
+scrollbar-thumb-hover = "rgba(200, 198, 160, 0.48)"
+
+[backgrounds]
+main = "#171a14"
+sidebar = "#20241b"
+sidebar-gradient = "linear-gradient(180deg, rgba(34,38,28,0.98), rgba(23,26,20,0.99))"
+item-active = "#343929"
+card = "rgba(27, 30, 23, 0.76)"
+card-gradient = "linear-gradient(135deg, rgba(39,43,32,0.78), rgba(26,29,22,0.68))"
+input = "#1b1f17"
+overlay = "rgba(12, 15, 10, 0.70)"
+surface = "#292e22"
+
+[text]
+primary = "#f2efdf"
+secondary = "#cbc9b6"
+muted = "#afb29d"
+tertiary = "#afb29d"
+
+[borders]
+color = "rgba(210, 209, 175, 0.13)"
+radius = "14px"
+radius-sm = "8px"
+
+[shadows]
+shadow-sm = "0 2px 6px rgba(8, 12, 6, 0.16)"
+shadow-md = "0 6px 18px rgba(8, 12, 6, 0.23)"
+shadow-lg = "0 16px 48px rgba(8, 12, 6, 0.38)"
+glow-accent = "none"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 3.0
+overlay = 2.0
+dropdown = 0.0
+panel = 0.0
+float = 0.0
+viewer = 0.0
+
+[icons]
+preview = "bg.webp"
