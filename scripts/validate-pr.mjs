@@ -9,6 +9,18 @@ const guideUrl = 'https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes';
 
 const errors = [];
 
+function collectVersionDirs(themeDir) {
+  if (!fs.existsSync(themeDir) || !fs.statSync(themeDir).isDirectory()) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(themeDir)
+    .filter((entry) => /^V\d+$/.test(entry))
+    .filter((entry) => fs.statSync(path.join(themeDir, entry)).isDirectory())
+    .map((entry) => path.join(themeDir, entry));
+}
+
 function findAffectedVersionDirs() {
   let output;
   try {
@@ -28,11 +40,23 @@ function findAffectedVersionDirs() {
   const dirs = new Set();
 
   for (const file of files) {
-    // Expected pattern: src/Author/Theme/V1/...
     const parts = file.split('/');
-    if (parts.length >= 4) {
+    if (parts.length < 3 || parts[0] !== 'src') continue;
+
+    const themeDir = parts.slice(0, 3).join('/');
+
+    if (parts.length >= 4 && /^V\d+$/.test(parts[3])) {
+      // Version-level file: src/Author/Theme/V1/...
       const versionDir = parts.slice(0, 4).join('/');
-      dirs.add(versionDir);
+      if (fs.existsSync(versionDir) && fs.statSync(versionDir).isDirectory()) {
+        dirs.add(versionDir);
+      }
+    } else {
+      // Theme-level file: src/Author/Theme/theme.md, vflag.txt, etc.
+      // Validate all version directories under this theme.
+      for (const versionDir of collectVersionDirs(themeDir)) {
+        dirs.add(versionDir);
+      }
     }
   }
 
@@ -70,6 +94,28 @@ function validateVersionDir(versionDir) {
   const themeMdPath = path.join(themeDir, 'theme.md');
   if (!fs.existsSync(themeMdPath)) {
     localErrors.push(`Falta \`${path.join(themeDir, 'theme.md')}\`.`);
+  }
+
+  const fontsDirName = fs
+    .readdirSync(versionDir)
+    .find((entry) => entry.toLowerCase() === 'fonts' && fs.statSync(path.join(versionDir, entry)).isDirectory());
+
+  if (!fontsDirName) {
+    localErrors.push(
+      `Falta el directorio de fuentes en \`${versionDir}\`. Se espera una carpeta \`fonts/\` con archivos de fuente.`
+    );
+  } else {
+    const fontsDir = path.join(versionDir, fontsDirName);
+    const fontFiles = fs
+      .readdirSync(fontsDir)
+      .filter((entry) => fs.statSync(path.join(fontsDir, entry)).isFile())
+      .filter((entry) => /\.(ttf|otf|woff2?)$/i.test(entry));
+
+    if (fontFiles.length === 0) {
+      localErrors.push(
+        `El directorio \`${fontsDir}\` no contiene archivos de fuente válidos (.ttf, .otf, .woff, .woff2).`
+      );
+    }
   }
 
   return localErrors;

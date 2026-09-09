@@ -49,17 +49,21 @@ jobs:
           else
             echo "valid=false" >> "$GITHUB_OUTPUT"
           fi
-          {
-            echo "message<<EOF_MESSAGE"
-            if [ -f validation-message.md ]; then
+          if [ -f validation-message.md ]; then
+            {
+              echo "message<<EOF_MESSAGE"
               cat validation-message.md
-            else
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          else
+            {
+              echo "message<<EOF_MESSAGE"
               echo '❌ No se pudo completar la validación del tema. Por favor, revisá la estructura del PR.'
               echo ''
               echo '📚 Guía oficial: https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes'
-            fi
-            echo "EOF_MESSAGE"
-          } >> "$GITHUB_OUTPUT"
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Add Theme Pending label
         if: steps.result.outputs.valid == 'true'
