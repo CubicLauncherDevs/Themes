@@ -1082,7 +1082,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png",
         "dirPath": "src/Notstaff/Louise/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -1105,23 +1105,23 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Louise/V1/changelog.md"
           },
           {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png"
+          },
+          {
             "name": "Showcase.png",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png"
           },
           {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/bg.6b43ac00.jpg"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png",
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
