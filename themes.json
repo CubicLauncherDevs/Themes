@@ -1820,16 +1820,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Meta.toml"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png"
-          },
-          {
             "name": "Fonts/Stf.otf",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/Fonts/Stf.6b879ea3.otf"
           },
           {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/bg.79778d7b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png"
           }
         ],
         "injectsCss": false
@@ -2538,16 +2538,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
-          },
-          {
             "name": "Showcase.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
           },
           {
             "name": "bg.gif",
             "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
           },
           {
             "name": "showcase.gif",
