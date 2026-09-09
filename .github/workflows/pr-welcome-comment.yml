@@ -1,0 +1,94 @@
+name: PR Welcome Comment
+
+on:
+  workflow_run:
+    workflows: ['PR Welcome']
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.event.workflow_run.id }}
+  cancel-in-progress: true
+
+jobs:
+  comment-and-label:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion != 'cancelled'
+    steps:
+      - name: Download validation artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: validation-artifacts
+          path: validation-artifacts
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Read validation result
+        id: result
+        run: |
+          if [ -f validation-artifacts/validation-result.txt ]; then
+            echo "valid=$(cat validation-artifacts/validation-result.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "valid=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -f validation-artifacts/pr-number.txt ]; then
+            echo "pr-number=$(cat validation-artifacts/pr-number.txt)" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -f validation-artifacts/validation-message.md ]; then
+            {
+              echo "message<<EOF_MESSAGE"
+              cat validation-artifacts/validation-message.md
+              echo ""
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          else
+            {
+              echo "message<<EOF_MESSAGE"
+              echo '❌ No se pudo completar la validación del tema. Por favor, revisá la estructura del PR.'
+              echo ''
+              echo '📚 Guía oficial: https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes'
+              echo ""
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Add Theme Pending label
+        if: steps.result.outputs.valid == 'true' && steps.result.outputs.pr-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit ${{ steps.result.outputs.pr-number }} \
+             --repo ${{ github.repository }} \
+             --add-label "Theme Pending" \
+             --remove-label "Theme Needs Fix"
+
+      - name: Add Theme Needs Fix label
+        if: steps.result.outputs.valid == 'false' && steps.result.outputs.pr-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit ${{ steps.result.outputs.pr-number }} \
+             --repo ${{ github.repository }} \
+             --add-label "Theme Needs Fix" \
+             --remove-label "Theme Pending"
+
+      - name: Comment welcome message
+        if: always() && steps.result.outputs.pr-number
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ steps.result.outputs.pr-number }}
+          MESSAGE: ${{ steps.result.outputs.message }}
+        with:
+          script: |
+            const body = process.env.MESSAGE;
+            await github.rest.issues.createComment({
+              issue_number: parseInt(process.env.PR_NUMBER, 10),
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

@@ -8,14 +8,13 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
 
 concurrency:
   group: ${{ github.event_name == 'pull_request' && format('pr-welcome-{0}', github.event.pull_request.number) || 'pr-welcome' }}
   cancel-in-progress: true
 
 jobs:
-  validate-and-welcome:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR
@@ -40,60 +39,18 @@ jobs:
           MESSAGE_FILE: validation-message.md
         run: node scripts/validate-pr.mjs
 
-      - name: Read validation result
-        id: result
+      - name: Write PR number
         if: always()
-        run: |
-          if [ -f validation-result.txt ]; then
-            echo "valid=$(cat validation-result.txt)" >> "$GITHUB_OUTPUT"
-          else
-            echo "valid=false" >> "$GITHUB_OUTPUT"
-          fi
-          if [ -f validation-message.md ]; then
-            {
-              echo "message<<EOF_MESSAGE"
-              cat validation-message.md
-              echo "EOF_MESSAGE"
-            } >> "$GITHUB_OUTPUT"
-          else
-            {
-              echo "message<<EOF_MESSAGE"
-              echo '❌ No se pudo completar la validación del tema. Por favor, revisá la estructura del PR.'
-              echo ''
-              echo '📚 Guía oficial: https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes'
-              echo "EOF_MESSAGE"
-            } >> "$GITHUB_OUTPUT"
-          fi
+        run: printf '%s' '${{ github.event.pull_request.number }}' > pr-number.txt
 
-      - name: Add Theme Pending label
-        if: steps.result.outputs.valid == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh pr edit ${{ github.event.pull_request.number }} \
-             --repo ${{ github.repository }} \
-             --add-label "Theme Pending" \
-             --remove-label "Theme Needs Fix"
-
-      - name: Add Theme Needs Fix label
-        if: steps.result.outputs.valid == 'false'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh pr edit ${{ github.event.pull_request.number }} \
-             --repo ${{ github.repository }} \
-             --add-label "Theme Needs Fix" \
-             --remove-label "Theme Pending"
-
-      - name: Comment welcome message
+      - name: Upload validation artifacts
         if: always()
-        uses: actions/github-script@v7
+        uses: actions/upload-artifact@v4
         with:
-          script: |
-            const body = ${{ toJSON(steps.result.outputs.message) }};
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: body
-            });
+          name: validation-artifacts
+          path: |
+            validation-result.txt
+            validation-message.md
+            pr-number.txt
+          include-hidden-files: false
+          if-no-files-found: ignore
