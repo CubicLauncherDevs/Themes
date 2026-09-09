@@ -93,4 +93,4 @@ btn-bg = "rgba(255,255,255,0.80)"
 item-bg = "rgba(255,255,255,0.64)"
 
 [icons]
-preview = "preview.svg"
+preview = "icons/preview.svg"
