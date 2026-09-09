@@ -1944,6 +1944,60 @@
     "date": "2026-07-24T04:24:55-04:00"
   },
   {
+    "id": "stylesfx-mikunakano",
+    "slug": "stylesfx-mikunakano",
+    "name": "MikuNakano",
+    "author": "StyleSfx",
+    "tags": [],
+    "dirPath": "src/StyleSfx/MikuNakano",
+    "description": "# MikuNakano\n\nTema inspirado en Miku Nakano, de la serie *Gotoubun no Hanayome* (The Quintessential Quintuplets).\n\nFondo con una ilustración de Miku en vestido de novia, sobre un cielo celeste con pétalos flotando. La paleta acompaña esos tonos: celestes y azules suaves, para un look tranquilo y elegante.\n\nIdeal para fans de la serie o para quienes quieren un launcher con onda anime pastel.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/Showcase.6970b370.png",
+        "dirPath": "src/StyleSfx/MikuNakano/V1",
+        "date": "2026-09-08T20:18:55-06:00",
+        "changelog": "# V1\n- Primer lanzamiento del tema\n- Fondo con Miku Nakano (vestido de novia)\n- Paleta en tonos celeste/azul\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/Showcase.6970b370.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/bg.519c89aa.jpg"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/changelog.md"
+          },
+          {
+            "name": "icons/preview.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/icons/preview.def7d2ec.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png",
+    "date": "2026-09-08T20:18:55-06:00"
+  },
+  {
     "id": "toritopablo-mina",
     "slug": "toritopablo-mina",
     "name": "Mina",
