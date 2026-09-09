@@ -1,0 +1,5 @@
+name = "Memento"
+author = "Notstaff"
+version = "1.0.0"
+description = "Negro carbón, detalles marfil y un grabado de calavera. Minimalismo oscuro."
+injects_css = true
