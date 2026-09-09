@@ -1132,10 +1132,10 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png",
         "showcaseUrl": null,
         "dirPath": "src/Notstaff/PetalVeil/V1",
-        "date": "2026-09-07T20:25:22-06:00",
+        "date": "2026-09-08T20:17:29-06:00",
         "changelog": null,
         "files": [
           {
@@ -1149,14 +1149,26 @@
           {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Meta.toml"
+          },
+          {
+            "name": "background.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/background.e78b8633.png"
+          },
+          {
+            "name": "icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/icons/preview.975dd231.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-07T20:25:22-06:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png",
+    "date": "2026-09-08T20:17:29-06:00"
   },
   {
     "id": "notstaff-yorha",
