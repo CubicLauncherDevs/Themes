@@ -90,21 +90,11 @@ function validateVersionDir(versionDir) {
     );
   }
 
-  const themeDir = path.dirname(versionDir); // src/Author/Theme
-  const themeMdPath = path.join(themeDir, 'theme.md');
-  if (!fs.existsSync(themeMdPath)) {
-    localErrors.push(`Falta \`${path.join(themeDir, 'theme.md')}\`.`);
-  }
-
   const fontsDirName = fs
     .readdirSync(versionDir)
     .find((entry) => entry.toLowerCase() === 'fonts' && fs.statSync(path.join(versionDir, entry)).isDirectory());
 
-  if (!fontsDirName) {
-    localErrors.push(
-      `Falta el directorio de fuentes en \`${versionDir}\`. Se espera una carpeta \`fonts/\` con archivos de fuente.`
-    );
-  } else {
+  if (fontsDirName) {
     const fontsDir = path.join(versionDir, fontsDirName);
     const fontFiles = fs
       .readdirSync(fontsDir)
