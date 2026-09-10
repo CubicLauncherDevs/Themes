@@ -1,0 +1,3 @@
+# Petal Veil
+
+Un tema suave para CubicLauncher inspirado en el collage de anime incluido. Las superficies en tonos marfil y lavanda, los detalles en rosa, el texto en ciruela y los botones satinados crean un aspecto coherente en la barra lateral, los ajustes y los menús. El fondo de pantalla original se mantiene nítido, con una capa superpuesta más clara en la pantalla de bienvenida y superficies de lectura más opacas donde es necesario.
