@@ -2476,6 +2476,60 @@
     "date": "2026-09-05T19:31:52-05:00"
   },
   {
+    "id": "holman-ios-glass",
+    "slug": "holman-ios-glass",
+    "name": "iOS Glass",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/IOS Glass",
+    "description": "Tema de vidrio esmerilado inspirado en iOS: paneles translúcidos, bordes suaves, sombras sutiles, sidebar traslúcida incluso minimizada, texto blanco legible y tipografía SF Compact. Iconos originales intactos.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/Showcase.1f662352.png",
+        "dirPath": "src/holman/IOS Glass/V1",
+        "date": "2026-09-10T12:15:13-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/Showcase.1f662352.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/bg.752ca280.png"
+          },
+          {
+            "name": "fonts/SF-Compact.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/fonts/SF-Compact.d5902368.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png",
+    "date": "2026-09-10T12:15:13-05:00"
+  },
+  {
     "id": "holman-invincibles",
     "slug": "holman-invincibles",
     "name": "Invincibles Breaking Point",
