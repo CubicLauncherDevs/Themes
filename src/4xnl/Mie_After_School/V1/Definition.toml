@@ -1,0 +1,92 @@
+[background]
+reference_path = "bg.jpeg"
+image_blur = 0.0
+image_opacity = 0.85
+
+[colors]
+bg-main = "#201b1b"
+bg-sidebar = "#282122"
+bg-sidebar-gradient = "linear-gradient(180deg, #302627 0%, #231f20 100%)"
+bg-card = "rgba(40,33,34,0.90)"
+bg-input = "#251f20"
+bg-item-active = "#463236"
+bg-overlay = "rgba(18,14,15,0.72)"
+bg-surface = "#33292b"
+bg-card-gradient = "linear-gradient(135deg, rgba(61,45,46,0.94), rgba(38,31,32,0.88))"
+accent = "#e6b1a8"
+accent-rgb = "230, 177, 168"
+accent-hover = "#f2c5b9"
+accent-text = "#2b2021"
+accent-primary = "#e6b1a8"
+surface-rgb = "230, 177, 168"
+surface-hover = "rgba(230,177,168,0.12)"
+surface-active = "rgba(230,177,168,0.18)"
+surface-selected = "#3d2d31"
+surface-card = "rgba(40,33,34,0.91)"
+surface-input = "#2c2425"
+surface-dropdown = "#302628"
+toast-bg = "#302628"
+toast-border = "#584044"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#76575a"
+scrollbar-thumb-hover = "#c4928c"
+color-success = "#acc5a2"
+color-success-rgb = "172, 197, 162"
+color-error = "#ee9296"
+color-error-rgb = "238, 146, 150"
+color-warning = "#e1be83"
+color-info = "#adc4d2"
+color-status-starting = "#e1be83"
+color-status-started = "#acc5a2"
+
+[text]
+primary = "#f7e9df"
+secondary = "#d5bdb5"
+muted = "#b99f9b"
+tertiary = "#b99f9b"
+
+[borders]
+color = "#594246"
+radius = "12px"
+radius-sm = "7px"
+
+[layout]
+sidebar-width = "248px"
+font-size-base = "14px"
+
+[shadows]
+shadow-sm = "0 2px 6px rgba(17,12,13,0.18)"
+shadow-md = "0 6px 18px rgba(17,12,13,0.24)"
+shadow-lg = "0 16px 40px rgba(17,12,13,0.38)"
+glow-accent = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+border = "#594246"
+icon-filter = "none"
+font-family = "\"Cantarell\", \"Segoe UI\", system-ui, sans-serif"
+
+[icons]
+preview = "icons/preview.svg"
+
+[icons.nav]
+create = "icons/create.svg"
+settings = "icons/settings.svg"
+sliders = "icons/sliders.svg"
+edit = "icons/edit.svg"
+
+[icons.ui]
+download = "icons/download.svg"
+chevron-left = "icons/chevron-left.svg"
+chevron-right = "icons/chevron-right.svg"
+search = "icons/search.svg"
+play = "icons/play.svg"
+pin = "icons/pin.svg"
+
