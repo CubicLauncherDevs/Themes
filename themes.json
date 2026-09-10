@@ -150,6 +150,96 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "4xnl-mie-after-school",
+    "slug": "4xnl-mie-after-school",
+    "name": "Mie After School",
+    "author": "4xnl",
+    "tags": [],
+    "dirPath": "src/4xnl/Mie_After_School",
+    "description": "# Mie After School\r\n\r\nA minimalist theme inspired by *Suki na Ko ga Megane wo Wasureta*. It combines the warm light of the original image with cocoa-colored surfaces, powder pink, and ivory text. Mie's glasses appear in the preview and the search icon; the other icons feature soft lines and subtle references to school supplies.\r\n\r\n## Credits\r\nImage provided by the user; visible signature “zakizan.” The rights to the illustration and the anime belong to their respective owners. SVG icons drawn for this theme.\r\n\r\n## Compatibility\r\nPrepared following https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes and verified against the code in the launcher’s “develop” branch. Meta.toml uses root fields and Definition.toml uses root sections, as required by the separate file parser. Statically validated; has not been run within Tauri in this environment.\r\n\r\n## Version 1.0.0\r\nNo background blur or backdrop blur, including the fixed blur on headers. Microanimations when interacting with sidebar tools and the play button; brief transition when selecting instances. Durations of 140–180 ms, with no continuous decorative animations or permanent `will-change`. Respects the system’s and launcher’s reduced motion preference. Retains functional loading indicators.\r\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png",
+        "showcaseUrl": null,
+        "dirPath": "src/4xnl/Mie_After_School/V1",
+        "date": "2026-09-09T19:42:06-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/bg.44eb9054.jpeg"
+          },
+          {
+            "name": "icons/chevron-left.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/chevron-left.7004ece7.svg"
+          },
+          {
+            "name": "icons/chevron-right.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/chevron-right.1a2f6d5f.svg"
+          },
+          {
+            "name": "icons/create.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/create.6c491141.svg"
+          },
+          {
+            "name": "icons/download.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/download.20deda47.svg"
+          },
+          {
+            "name": "icons/edit.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/edit.bd735a32.svg"
+          },
+          {
+            "name": "icons/pin.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/pin.37d69c7b.svg"
+          },
+          {
+            "name": "icons/play.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/play.6304b26f.svg"
+          },
+          {
+            "name": "icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/preview.be0b3806.svg"
+          },
+          {
+            "name": "icons/search.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/search.f2163c3f.svg"
+          },
+          {
+            "name": "icons/settings.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/settings.0704ec55.svg"
+          },
+          {
+            "name": "icons/sliders.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/sliders.e513e1b2.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png",
+    "date": "2026-09-09T19:42:06-06:00"
+  },
+  {
     "id": "4xnl-cherry",
     "slug": "4xnl-cherry",
     "name": "Cherry",
