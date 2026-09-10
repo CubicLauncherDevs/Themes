@@ -1,0 +1,93 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#0A84FF"
+"accent-rgb" = "10, 132, 255"
+"accent-hover" = "#3F9BFF"
+"accent-active" = "#0064D1"
+"accent-text" = "#FFFFFF"
+"accent-subtle" = "rgba(10, 132, 255, 0.18)"
+
+[text]
+primary = "#FFFFFF"
+secondary = "rgba(255,255,255,0.82)"
+muted = "rgba(255,255,255,0.58)"
+accent = "#5AC8FA"
+
+[borders]
+color = "rgba(255,255,255,0.30)"
+"color-hover" = "rgba(255,255,255,0.75)"
+radius = "14px"
+"radius-sm" = "10px"
+"radius-lg" = "22px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 2px 8px rgba(0, 0, 0, 0.22)"
+"shadow-md" = "0 8px 24px rgba(0, 0, 0, 0.28)"
+"shadow-lg" = "0 18px 50px rgba(0, 0, 0, 0.34)"
+"glow-accent" = "0 0 18px rgba(10, 132, 255, 0.25)"
+"glow-accent-strong" = "0 0 30px rgba(10, 132, 255, 0.4)"
+"glow-error" = "0 0 16px rgba(255, 80, 80, 0.22)"
+"glow-success" = "0 0 16px rgba(52, 199, 89, 0.22)"
+
+[backgrounds]
+main = "rgba(12, 14, 18, 0.22)"
+sidebar = "rgba(16, 18, 22, 0.32)"
+card = "rgba(20, 22, 27, 0.30)"
+"item-active" = "rgba(255, 255, 255, 0.16)"
+overlay = "rgba(8, 9, 12, 0.55)"
+input = "rgba(255, 255, 255, 0.10)"
+
+[layout]
+"font-family" = "'SF Compact', 'Segoe UI', sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "16px"
+
+[others]
+"icon-filter" = "none"
+"icon-filter-accent" = "none"
+"icon-filter-error" = "none"
+"icon-filter-success" = "none"
+"icon-filter-warning" = "none"
+"icon-filter-info" = "none"
+"icon-filter-muted" = "none"
+"color-success" = "#34C759"
+"color-success-rgb" = "52, 199, 89"
+"color-error" = "#FF3B30"
+"color-error-rgb" = "255, 59, 48"
+"color-warning" = "#FF9F0A"
+"color-warning-rgb" = "255, 159, 10"
+"color-info" = "#0A84FF"
+"color-info-rgb" = "10, 132, 255"
+"color-status-starting" = "#FF9F0A"
+"color-status-started" = "#34C759"
+"color-status-stopped" = "#8E8E93"
+"color-status-error" = "#FF3B30"
+"scrollbar-track" = "rgba(255,255,255,0.10)"
+"scrollbar-thumb" = "rgba(255,255,255,0.32)"
+"scrollbar-thumb-hover" = "rgba(255,255,255,0.50)"
+"sidebar-width" = "260px"
+"transition-fast" = "0.12s ease"
+"transition-base" = "0.2s ease"
+"transition-slow" = "0.35s ease"
+
+[backdrop]
+dropdown = 20.0
+modal = 24.0
+overlay = 16.0
+viewer = 20.0
+float = 22.0
+panel = 20.0
+button = 14.0
+
+[[fonts]]
+family = "SF Compact"
+src = "fonts/SF-Compact.ttf"
+format = "ttf"
+weight = "900"
+style = "normal"

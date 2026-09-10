@@ -1,1 +1,5 @@
-
+name = "iOS Glass"
+author = "holman"
+version = "1.1.0"
+description = "Tema de vidrio esmerilado inspirado en iOS: paneles translúcidos, bordes suaves, sombras sutiles, sidebar traslúcida incluso minimizada, texto blanco legible y tipografía SF Compact. Iconos originales intactos."
+injects_css = true
