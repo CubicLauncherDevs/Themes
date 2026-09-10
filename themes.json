@@ -2483,7 +2483,7 @@
     "tags": [],
     "dirPath": "src/holman/IOS Glass",
     "description": "Tema de vidrio esmerilado inspirado en iOS: paneles translúcidos, bordes suaves, sombras sutiles, sidebar traslúcida incluso minimizada, texto blanco legible y tipografía SF Compact. Iconos originales intactos.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
