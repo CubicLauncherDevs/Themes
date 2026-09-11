@@ -1,0 +1,87 @@
+/* Frieren Aureole / V2. Components checked against CubicLauncher develop.
+   Only local assets, no scripts, no remote CSS or continuous animations. */
+:root { color-scheme: light; --aureole-gold: #98783e; --aureole-display: "Aureole Display", Georgia, serif; }
+.main-content > .background-overlay {
+  filter: none !important;
+  background-position: 61% center !important;
+  pointer-events: none;
+}
+/* A gentle paper gradient supplies contrast while keeping the character clear. */
+.main-content::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background: linear-gradient(90deg, rgba(249,245,229,.61), rgba(249,245,229,.12) 43%, transparent 68%);
+}
+.sidebar, .sidebar-compact { border-right-color: #bec8b2 !important; }
+.sidebar .sidebar-header { border-bottom: 1px solid #cbd0bd; }
+.sidebar .section-label { color: #647053; letter-spacing: .13em; font-size: .65rem; }
+.sidebar .instance-item { border-radius: 8px; }
+.sidebar .instance-item.active { border-color: #9eaf91 !important; box-shadow: inset -2px 0 0 #98783e; }
+.sidebar .instance-item.active .instance-icon-strip::before { filter: none !important; }
+.sidebar .tools-btn, .sidebar-compact .sc-tool-btn { color: #365c48; border-color: #cbd0bd; }
+.sidebar .tools-btn:hover, .sidebar-compact .sc-tool-btn:hover { background: #dfe6d6; }
+.sidebar .tools-btn .icon-svg, .sidebar-compact .sc-tool-btn .icon-svg { filter: none !important; }
+/* Keep the native positioning and transforms of the expand/collapse controls. */
+.sidebar .collapse-btn, .sidebar-compact .expand-btn { background: #f7f3e9; color: #365c48; border-color: #b5c0a5; }
+.instance-view .header-bg {
+  background: linear-gradient(180deg, rgba(249,246,234,.96), rgba(249,246,234,.75) 56%, rgba(249,246,234,0)) !important;
+  backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
+  mask-image: none !important; -webkit-mask-image: none !important; border: 0 !important;
+}
+.instance-view .instance-title { font-family: var(--aureole-display); font-weight: 600; font-size: 2.65rem; letter-spacing: -.025em; line-height: 1.12; }
+.instance-view .compact-title { font-family: var(--aureole-display); font-size: 1.45rem; font-weight: 600; }
+.instance-view .launch-btn { border-radius: 8px; box-shadow: 0 3px 0 rgba(34,66,45,.12); letter-spacing: .04em; }
+.instance-view .launch-btn:not(:disabled):hover { transform: translateY(-1px); }
+.instance-view .launch-btn:not(:disabled):active { transform: translateY(0); }
+.instance-view .meta-chip, .instance-view .compact-version { background: #f4f2e6; border-color: #c2cab4; }
+.instance-view .actions-row .action-btn { background: rgba(249,246,234,.8); }
+/* Editorial signature stays within the empty space at the left of the artwork. */
+.instance-view .details-section::before {
+  content: "AUREOLE / 01\A Beyond the journey.";
+  white-space: pre-line; display: block; width: fit-content; max-width: 52%;
+  position: relative; pointer-events: none;
+  margin: clamp(16px, 5vh, 54px) 0 0 10px;
+  padding-left: 18px; border-left: 2px solid #a48a53;
+  font-family: var(--aureole-display); font-weight: 500;
+  font-size: clamp(26px, 3.6vw, 52px); line-height: 1.25;
+  letter-spacing: -.025em; color: #344b38;
+  text-shadow: 0 1px 12px rgba(255,248,222,.7);
+  animation: aureole-arrive 420ms ease-out both;
+}
+.instance-view .nav-card {
+  background: rgba(248,246,235,.96); border-color: #bcc6ae;
+  border-radius: 14px 14px 5px 14px; box-shadow: 0 8px 28px rgba(45,59,39,.08);
+}
+.instance-view .nav-card:hover { box-shadow: 0 10px 30px rgba(45,59,39,.12); }
+.instance-view .nav-card-header { color: #6b704e; font-size: .65rem; letter-spacing: .14em; padding-top: 13px; padding-bottom: 13px; }
+.instance-view .nav-item:hover { background: #e6ebdc; color: #294a37; }
+.instance-view .nav-icon { color: #476447; opacity: 1; }
+.instance-view .nav-items { transition-duration: 180ms; }
+.instance-view .nav-card:focus-within .nav-items { max-height: 300px; }
+.instance-view .subview-section { background: #f7f3e9; border: 1px solid #cbd0bd; border-radius: 14px; padding: 12px; min-height: 100%; }
+.main-content > .empty-state { position: relative; z-index: 1; align-items: flex-start; padding: 42px; gap: 16px; }
+.main-content > .empty-state .empty-logo { width: 52px; height: 52px; opacity: .8; }
+.main-content > .empty-state::before {
+  content: "Aureole"; order: 1; font-family: var(--aureole-display);
+  font-size: clamp(64px, 8vw, 112px); font-weight: 500; line-height: .95; letter-spacing: -.055em;
+}
+.main-content > .empty-state::after {
+  content: "SOUSOU NO FRIEREN\A Beyond the journey."; order: 2; white-space: pre-line;
+  font-size: .8rem; line-height: 2.1; letter-spacing: .16em; color: #425740;
+  border-top: 1px solid #9aa884; padding-top: 18px;
+}
+.modal, .ctx-menu, .select-dropdown, .dropdown-menu, .instance-tooltip { background: #f8f5ed !important; color: #293c31; }
+.modal .modal-title, .modal h2 { font-family: var(--aureole-display); font-size: 1.8rem; font-weight: 600; }
+button:focus-visible, [role="button"]:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid #577449 !important; outline-offset: 2px; }
+button:disabled { cursor: not-allowed; }
+::selection { background: #d7dfc7; color: #293c31; }
+@keyframes aureole-arrive { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-height: 650px) { .instance-view .details-section::before { margin-top: 8px; font-size: 30px; } }
+@media (max-height: 520px), (max-width: 860px) { .instance-view .details-section::before { content: none; } }
+@media (max-width: 860px) { .main-content > .empty-state { padding: 24px; } .instance-view .instance-title { font-size: 2.15rem; } }
+@media (prefers-reduced-motion: reduce) {
+  .instance-view .details-section::before { animation: none; }
+  .instance-view .launch-btn, .instance-view .nav-items, .instance-view .nav-chevron,
+  .instance-view .instance-header, .instance-view .header-content, .instance-view .compact-content,
+  .sidebar-container, .sidebar .instance-item { transition: none !important; }
+  .instance-view .launch-btn:not(:disabled):hover { transform: none; }
+}

@@ -1,0 +1,105 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+bg-main = "#edeadb"
+bg-sidebar = "#f7f3e9"
+bg-sidebar-gradient = "linear-gradient(180deg, #f8f5ed 0%, #eeeede 100%)"
+bg-card = "#f7f3e9"
+bg-card-gradient = "linear-gradient(125deg, rgba(192,166,112,0.07), transparent 65%)"
+bg-item-active = "#dfe6d6"
+bg-input = "#eeeede"
+bg-overlay = "rgba(36,48,39,0.35)"
+bg-surface = "#f4f0e5"
+accent = "#365c48"
+accent-hover = "#294b39"
+accent-primary = "#365c48"
+accent-rgb = "54,92,72"
+accent-text = "#fffaf0"
+border = "#cbd0bd"
+surface-rgb = "42,58,44"
+surface-hover = "#e6e9db"
+surface-active = "#dce3cf"
+surface-selected = "#eeeee2"
+surface-card = "rgba(82,105,74,0.035)"
+surface-input = "#eeeee2"
+surface-dropdown = "#f8f5ed"
+toast-bg = "#f8f5ed"
+toast-border = "#cbd0bd"
+color-success = "#376547"
+color-success-rgb = "55,101,71"
+color-error = "#a23d38"
+color-error-rgb = "162,61,56"
+color-warning = "#886124"
+color-warning-rgb = "136,97,36"
+color-info = "#446b72"
+color-status-starting = "#886124"
+color-status-started = "#376547"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#a9b29a"
+scrollbar-thumb-hover = "#71826b"
+
+[text]
+primary = "#293c31"
+secondary = "#4c5f50"
+muted = "#596952"
+tertiary = "#617159"
+
+[borders]
+color = "#cbd0bd"
+width = "1px"
+radius = "12px"
+radius-sm = "7px"
+radius-lg = "18px"
+
+[layout]
+sidebar-width = "248px"
+font-size-base = "14px"
+
+[shadows]
+shadow-sm = "0 2px 6px rgba(46,60,40,0.04)"
+shadow-md = "0 8px 22px rgba(46,60,40,0.08)"
+shadow-lg = "0 18px 48px rgba(35,49,35,0.16)"
+glow-accent = "none"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+icon-filter = "none"
+icon-filter-error = "none"
+font-family = "\"Cantarell\", \"Segoe UI\", system-ui, sans-serif"
+
+[icons]
+preview = "icons/flower.svg"
+
+[icons.nav]
+create = "icons/grimoire.svg"
+settings = "icons/astrolabe.svg"
+edit = "icons/quill.svg"
+
+[icons.ui]
+download = "icons/download.svg"
+play = "icons/play.svg"
+chevron-left = "icons/left.svg"
+chevron-right = "icons/right.svg"
+
+[icons.instance]
+folder = "icons/folder.svg"
+clock = "icons/hourglass.svg"
+
+[[fonts]]
+family = "Aureole Display"
+src = "fonts/CormorantGaramond.ttf"
+format = "truetype"
+weight = "300 700"
+style = "normal"
