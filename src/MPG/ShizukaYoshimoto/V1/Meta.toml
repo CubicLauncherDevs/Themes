@@ -1,0 +1,5 @@
+name = "Shizuka Yoshimoto"
+author = "MPG"
+version = "1.0"
+description = "Tema azul y negro inspirado en Shizuka Yoshimoto"
+injects_css = true

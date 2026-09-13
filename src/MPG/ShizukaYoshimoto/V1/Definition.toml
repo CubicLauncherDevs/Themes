@@ -1,0 +1,88 @@
+[background]
+reference_path = "assets/bg.jpg"
+image_blur = 2.0
+image_opacity = 0.38
+
+[colors]
+accent = "#3aa0ff"
+accent-rgb = "58, 160, 255"
+accent-hover = "#5cb8ff"
+accent-active = "#1f7ecb"
+accent-text = "#04070c"
+accent-subtle = "rgba(58, 160, 255, 0.12)"
+color-success = "#4fd39a"
+color-success-rgb = "79, 211, 154"
+color-error = "#ff5c7a"
+color-error-rgb = "255, 92, 122"
+color-warning = "#e3b341"
+color-warning-rgb = "227, 179, 65"
+color-info = "#3aa0ff"
+color-info-rgb = "58, 160, 255"
+color-status-starting = "#e3b341"
+color-status-started = "#3aa0ff"
+color-status-stopped = "#4a5568"
+color-status-error = "#ff5c7a"
+
+[text]
+primary = "#eaf3fb"
+secondary = "#a9c1d9"
+muted = "rgba(234, 243, 251, 0.45)"
+accent = "#7cc4ff"
+
+[backgrounds]
+main = "#050709"
+sidebar = "#070a0f"
+card = "#0b0f16"
+item-active = "rgba(58, 160, 255, 0.14)"
+overlay = "rgba(3, 5, 8, 0.88)"
+input = "#0a0d13"
+
+[backdrop]
+dropdown = 12.0
+modal = 10.0
+overlay = 6.0
+viewer = 10.0
+float = 10.0
+panel = 6.0
+button = 4.0
+
+[borders]
+color = "rgba(58, 160, 255, 0.16)"
+color-hover = "rgba(58, 160, 255, 0.5)"
+radius = "12px"
+radius-sm = "8px"
+radius-lg = "20px"
+
+[layout]
+font-family = "'Inter', 'Segoe UI', sans-serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+sidebar-width = "260px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.6)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.55)"
+shadow-lg = "0 10px 30px rgba(0,0,0,0.65)"
+glow-accent = "0 0 14px rgba(58,160,255,0.30)"
+glow-accent-strong = "0 0 26px rgba(58,160,255,0.55)"
+glow-error = "0 0 18px rgba(255,92,122,0.5)"
+glow-success = "0 0 16px rgba(79,211,154,0.4)"
+
+[others]
+font-family = "'Inter', 'Segoe UI', sans-serif"
+icon-filter = "invert(85%) sepia(15%) saturate(1200%) hue-rotate(175deg) brightness(105%)"
+icon-filter-accent = "invert(60%) sepia(70%) saturate(2000%) hue-rotate(180deg) brightness(105%)"
+icon-filter-error = "invert(45%) sepia(70%) saturate(3000%) hue-rotate(320deg) brightness(105%)"
+icon-filter-success = "invert(70%) sepia(35%) saturate(700%) hue-rotate(100deg) brightness(100%)"
+icon-filter-warning = "invert(75%) sepia(55%) saturate(600%) hue-rotate(10deg) brightness(100%)"
+icon-filter-muted = "invert(55%) sepia(10%) saturate(300%) brightness(80%)"
+scrollbar-track = "#050709"
+scrollbar-thumb = "linear-gradient(180deg, #3aa0ff, #0d2a44)"
+scrollbar-thumb-hover = "#5cb8ff"
+
+[icons]
+preview = "assets/icons/preview.svg"
