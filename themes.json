@@ -874,6 +874,60 @@
     "date": "2026-07-29T21:17:01-06:00"
   },
   {
+    "id": "mpg-shizukayoshimoto",
+    "slug": "mpg-shizukayoshimoto",
+    "name": "Shizuka Yoshimoto",
+    "author": "MPG",
+    "tags": [],
+    "dirPath": "src/MPG/ShizukaYoshimoto",
+    "description": "# Tema de Shizuka Yoshimoto\n\nEs la Waifu bibliotecaria tímida de \"Kimi no Koto ga Dai Dai Dai Daisuki na 100-nin no Kanojo\"\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/preview.d7d46895.png",
+        "showcaseUrl": null,
+        "dirPath": "src/MPG/ShizukaYoshimoto/V1",
+        "date": "2026-09-13T11:57:24-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/ShizukaYoshimoto/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/ShizukaYoshimoto/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/MPG/ShizukaYoshimoto/V1/Meta.toml"
+          },
+          {
+            "name": "assets/bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/assets/bg.5bcc5eff.jpg"
+          },
+          {
+            "name": "assets/icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/assets/icons/preview.6d3fd6af.svg"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/bg.5bcc5eff.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/preview.d7d46895.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ShizukaYoshimoto/V1/preview.d7d46895.png",
+    "date": "2026-09-13T11:57:24-06:00"
+  },
+  {
     "id": "mpg-waguri",
     "slug": "mpg-waguri",
     "name": "Waguri Theme",
