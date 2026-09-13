@@ -1,0 +1,5 @@
+name = "Starlight Kitten"
+author = "holman"
+version = "1.0.0"
+description = "Tema con fondo celestial rosa/negro y fuente Mojangles"
+injects_css = true

@@ -1,0 +1,78 @@
+/* Bunny Girl 1.1 — preserve native sizing, positioning and sidebar controls. */
+.background-overlay {
+  background-image: linear-gradient(90deg, rgba(17,21,13,.34) 0%, rgba(17,21,13,.12) 50%, rgba(17,21,13,.06) 100%), var(--bg-image, none);
+  background-position: center;
+  filter: brightness(.90);
+}
+.sidebar, .sidebar-compact {
+  border-right-color: rgba(216,213,178,.12);
+  box-shadow: 6px 0 24px rgba(10,14,8,.10);
+}
+.sidebar .section-label {
+  color: #aeb39a;
+  letter-spacing: .08em;
+}
+.sidebar .instance-item,
+.sidebar-compact .sc-instance-item {
+  border-radius: 9px;
+}
+.sidebar .instance-item.active,
+.sidebar-compact .sc-instance-item.active {
+  background: #343929;
+  border-color: rgba(200,198,160,.28);
+  box-shadow: inset 2px 0 0 #c8c6a0;
+}
+.sidebar .instance-item.active .instance-icon-strip::before {
+  background: rgba(200,198,160,.08);
+  filter: none;
+}
+.sidebar .instance-item.active .instance-icon-strip {
+  color: var(--text-primary);
+}
+.sidebar .collapse-btn,
+.sidebar-compact .expand-btn {
+  background: #282d21;
+  border-color: rgba(200,198,160,.24);
+  box-shadow: 0 2px 8px rgba(8,12,6,.2);
+}
+.sidebar .collapse-btn:hover,
+.sidebar-compact .expand-btn:hover {
+  background: #3a402e;
+  color: #f2efdf;
+}
+.modal {
+  background: #23271d;
+  border: 1px solid rgba(210,209,175,.18);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+}
+.btn-primary {
+  background: #c8c6a0;
+  color: #23251b;
+  box-shadow: 0 2px 8px rgba(10,14,8,.15);
+  transition: background-color .15s ease, box-shadow .15s ease;
+}
+.btn-primary:hover {
+  background: #dfdcc0;
+  opacity: 1;
+  box-shadow: 0 3px 12px rgba(10,14,8,.22);
+}
+.btn-secondary:hover {
+  background: rgba(200,198,160,.10);
+  border-color: rgba(200,198,160,.30);
+  color: #f2efdf;
+}
+input[type="text"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: rgba(200,198,160,.55);
+}
+:where(button, input, select, textarea, a):focus-visible {
+  outline: 2px solid #c8c6a0;
+  outline-offset: 2px;
+}
+::selection { background: #c8c6a0; color: #23251b; }
+@media (prefers-reduced-motion: reduce) {
+  .background-overlay, .btn-primary { transition: none; }
+}

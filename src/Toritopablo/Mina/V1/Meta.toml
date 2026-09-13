@@ -1,0 +1,5 @@
+name = "Mina"
+author = "Toritopablo"
+version = "1.0.0"
+description = "Tema vampírico de Mina Ha (Deadlock). Fondo animado de murciélagos, intro MINA al abrir, glow rojo pulsante y mira de Mina como cursor."
+injects_css = true

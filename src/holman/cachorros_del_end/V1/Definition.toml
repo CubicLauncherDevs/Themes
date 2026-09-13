@@ -1,0 +1,56 @@
+[background]
+reference_path = "bg.png"
+image_blur = 2.0
+image_opacity = 0.8
+
+[colors]
+accent = "#a168ba"
+"accent-rgb" = "161, 104, 186"
+"accent-hover" = "#b47fcb"
+"accent-text" = "#1a1220"
+
+[text]
+primary = "#f0e9f5"
+secondary = "#c9b8d6"
+muted = "#9c8aa8"
+
+[borders]
+color = "#57425f"
+radius = "2px"
+"radius-sm" = "2px"
+
+[shadows]
+"shadow-sm" = "none"
+"shadow-md" = "none"
+"glow-accent" = "0 0 14px rgba(161, 104, 186, 0.45)"
+
+[backgrounds]
+main = "#2a213a"
+sidebar = "#211a2e"
+card = "#312342"
+"item-active" = "#6b3d8f"
+overlay = "rgba(26, 18, 32, 0.78)"
+input = "#241c33"
+
+[layout]
+"font-family" = "'Cantarell', sans-serif"
+"font-size-base" = "12px"
+"font-size-sm" = "10px"
+"font-size-lg" = "14px"
+
+[others]
+"icon-filter" = "invert(1)"
+"color-success" = "#22c55e"
+"color-success-rgb" = "34, 197, 94"
+"color-error" = "#ef4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#f59e0b"
+"color-warning-rgb" = "245, 158, 11"
+"color-status-starting" = "#f97316"
+"color-status-started" = "#22c55e"
+"scrollbar-track" = "#211a2e"
+"scrollbar-thumb" = "#a168ba"
+
+[backdrop]
+dropdown = 10.0
+modal = 5.0

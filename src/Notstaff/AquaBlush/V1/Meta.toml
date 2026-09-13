@@ -1,0 +1,5 @@
+name = "Aqua Blush"
+author = "Notstaff"
+version = "1.0.0"
+description = "Un bonito tema minimalista para Glass inspirado en el cabello de un suave tono aguamarina, con reflejos rosa palo y tonos blancos etéreos."
+injects_css = true

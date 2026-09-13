@@ -1,0 +1,5 @@
+name = "Windows 7 Aero"
+author = "Notstaff"
+version = "1.0.0"
+description = "Tema inspirado en el Aero Glass de Windows 7, con el clasico fondo azul y burbujas."
+injects_css = true

@@ -1,0 +1,76 @@
+[background]
+reference_path = "bg.png"
+image_blur = 8.0
+image_opacity = 0.28
+
+[backgrounds]
+  main = "#160d1d"
+  sidebar = "#211126"
+  card = "rgba(57, 25, 58, 0.68)"
+  item-active = "#8f3d88"
+  input = "#2a1530"
+  overlay = "rgba(22, 13, 29, 0.82)"
+
+[colors]
+  accent = "#fa6cfe"
+  accent-rgb = "250,108,254"
+  accent-hover = "#ff8cff"
+  accent-active = "#d94fdd"
+  accent-text = "#1b0d1d"
+  accent-subtle = "rgba(250, 108, 254, 0.22)"
+  color-success = "#72d6a0"
+  color-success-rgb = "114,214,160"
+  color-error = "#ff7181"
+  color-error-rgb = "255,113,129"
+  color-warning = "#f3c969"
+  color-warning-rgb = "243,201,105"
+  color-status-starting = "#d79adf"
+  color-status-started = "#72d6a0"
+
+[text]
+  primary = "#fff4f8"
+  secondary = "#e8cfe2"
+  muted = "#b28da9"
+  accent = "#ff9cff"
+
+[borders]
+  color = "#63395f"
+  color-hover = "#a45a9d"
+  radius = "10px"
+  radius-sm = "5px"
+  radius-lg = "15px"
+
+[shadows]
+  shadow-sm = "0 2px 4px rgba(20, 5, 22, 0.5)"
+  shadow-md = "0 4px 8px rgba(20, 5, 22, 0.6)"
+  shadow-lg = "0 8px 16px rgba(20, 5, 22, 0.72)"
+  glow-accent = "0 0 8px rgba(250, 108, 254, 0.55)"
+  glow-accent-strong = "0 0 16px rgba(250, 108, 254, 0.85)"
+
+[others]
+  bg-sidebar-gradient = "linear-gradient(180deg, #211126 0%, #160d1d 100%)"
+  bg-card-gradient = "linear-gradient(135deg, rgba(57, 25, 58, 0.76) 0%, rgba(33, 17, 38, 0.76) 100%)"
+  scrollbar-track = "#160d1d"
+  scrollbar-thumb = "#63395f"
+  scrollbar-thumb-hover = "#a45a9d"
+
+
+[layout]
+"font-family" = "'Mojang', 'Segoe UI', sans-serif"
+"font-size-lg" = "16px"
+"font-size-sm" = "12px"
+"font-size-base" = "14px"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Regular.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Bold.ttf"
+format = "ttf"
+weight = "bold"
+style = "normal"

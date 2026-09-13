@@ -1,0 +1,344 @@
+/* ============================================================
+   Windows 7 Aero — Inject.css
+   Toques de vidrio esmerilado (Aero Glass) que las variables
+   de Definition.toml solas no pueden lograr: gradientes,
+   backdrop-filter, pseudo-elementos y estados hover/active.
+   ============================================================ */
+
+/* ---------- Fondo / overlay sobre el wallpaper ---------- */
+.background-overlay {
+    filter: brightness(1.02) saturate(1.05);
+}
+
+.background-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 18, 36, 0.14),
+        rgba(0, 18, 36, 0.38)
+    );
+}
+
+/* ---------- Variables locales de reflejo Aero ---------- */
+:root {
+    --aero-highlight: rgba(191, 228, 255, 0.25);
+    --aero-highlight-soft: rgba(191, 228, 255, 0.10);
+    --aero-border: rgba(140, 206, 245, 0.35);
+    --aero-shadow: rgba(0, 12, 26, 0.35);
+}
+
+/* ---------- Sidebar — barra de tareas estilo Aero ---------- */
+.sidebar,
+.app-sidebar,
+.side-nav,
+aside,
+[class*="sidebar" i] {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 88, 170, 0.42),
+        rgba(0, 51, 102, 0.52)
+    ) !important;
+    border-right: 1px solid var(--aero-border) !important;
+    box-shadow:
+        inset 0 1px 0 var(--aero-highlight),
+        inset -1px 0 0 var(--aero-highlight-soft),
+        2px 0 10px var(--aero-shadow) !important;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    overflow: visible !important;
+}
+
+/* Botón de colapsar/expandir sidebar */
+.collapse-btn,
+.expand-btn {
+    z-index: 9999 !important;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 120, 212, 0.50),
+        rgba(0, 88, 170, 0.60)
+    ) !important;
+    border: 1px solid var(--aero-border) !important;
+    color: var(--accent-text) !important;
+    box-shadow:
+        0 0 8px rgba(0, 120, 212, 0.42),
+        inset 0 1px 0 var(--aero-highlight) !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.collapse-btn:hover,
+.expand-btn:hover {
+    background: linear-gradient(
+        180deg,
+        rgba(43, 136, 216, 0.58),
+        rgba(0, 120, 212, 0.68)
+    ) !important;
+    border-color: rgba(191, 228, 255, 0.55) !important;
+    box-shadow:
+        0 0 12px rgba(0, 120, 212, 0.55),
+        inset 0 1px 0 var(--aero-highlight) !important;
+}
+
+.sidebar a,
+.sidebar button,
+.app-sidebar a,
+.app-sidebar button,
+aside a,
+aside button,
+[class*="sidebar" i] a,
+[class*="sidebar" i] button {
+    border-radius: var(--border-radius-sm) !important;
+    color: var(--text-secondary) !important;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebar a:hover,
+.app-sidebar a:hover,
+aside a:hover,
+[class*="sidebar" i] a:hover {
+    background: rgba(0, 120, 212, 0.28) !important;
+    color: var(--text-primary) !important;
+}
+
+.sidebar a.active,
+.sidebar a[aria-current="page"],
+.app-sidebar a.active,
+.app-sidebar a[aria-current="page"],
+aside a.active,
+aside a[aria-current="page"],
+[class*="sidebar" i] a.active,
+[class*="sidebar" i] a[aria-current="page"] {
+    background: rgba(0, 120, 212, 0.32) !important;
+    color: var(--text-muted) !important;
+    border: 1px solid rgba(140, 206, 245, 0.50) !important;
+    box-shadow: inset 0 1px 0 var(--aero-highlight-soft);
+}
+
+/* ---------- Scrollbar — 7px minimalista ---------- */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: background-color 0.15s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+.sidebar ::-webkit-scrollbar,
+.app-sidebar ::-webkit-scrollbar,
+aside ::-webkit-scrollbar,
+[class*="sidebar" i] ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* ---------- Botones — glossy Aero ---------- */
+.btn-primary {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0) 55%),
+        var(--accent) !important;
+    border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    color: var(--accent-text) !important;
+    border-radius: var(--border-radius-sm) !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.40),
+        var(--shadow-sm);
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.10s ease;
+}
+
+.btn-primary:hover {
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.40), rgba(255, 255, 255, 0) 55%),
+        var(--accent-hover) !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.45),
+        0 0 12px rgba(0, 120, 212, 0.35);
+}
+
+.btn-secondary {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+    border-radius: var(--border-radius-sm) !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.10s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--bg-item-active) !important;
+    border-color: var(--accent) !important;
+}
+
+.btn-primary:active,
+.btn-secondary:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.35);
+    transform: translateY(1px);
+}
+
+/* ---------- Tooltips — mismo vidrio Aero que la sidebar ---------- */
+.tooltip,
+[role="tooltip"] {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 88, 170, 0.40),
+        rgba(0, 51, 102, 0.50)
+    ) !important;
+    border: 1px solid var(--aero-border) !important;
+    box-shadow:
+        0 4px 18px var(--aero-shadow),
+        inset 0 1px 0 var(--aero-highlight) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    color: var(--text-primary) !important;
+}
+
+.tooltip .instance-tooltip-name,
+[role="tooltip"] .instance-tooltip-name {
+    color: var(--text-primary) !important;
+}
+
+.tooltip .instance-tooltip-detail,
+[role="tooltip"] .instance-tooltip-detail {
+    color: var(--text-secondary) !important;
+}
+
+/* ---------- Enfoque / tipografía base ---------- */
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    transition: outline-color 0.15s ease;
+}
+
+body,
+.qm-root,
+.app-container {
+    color: var(--text-primary);
+    text-shadow: 0 1px 2px rgba(0, 12, 26, 0.35);
+}
+
+/* ---------- Selects adaptados al vidrio Aero ---------- */
+.select-trigger {
+    background: var(--bg-input) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+    border-radius: var(--border-radius-sm) !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.select-trigger:hover:not(.disabled) {
+    background: var(--bg-item-active) !important;
+    border-color: var(--accent) !important;
+}
+
+.select-trigger.open {
+    background: var(--bg-card) !important;
+    box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.35) !important;
+}
+
+.select-dropdown {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 88, 170, 0.34),
+        rgba(0, 51, 102, 0.44)
+    ) !important;
+    backdrop-filter: blur(var(--backdrop-blur-dropdown));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur-dropdown));
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+    border-radius: var(--border-radius) !important;
+}
+
+.select-option {
+    color: var(--text-secondary) !important;
+    transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+.select-option:hover {
+    background: var(--bg-item-active) !important;
+    color: var(--text-primary) !important;
+}
+
+.select-option.selected {
+    background: rgba(var(--accent-rgb), 0.25) !important;
+    color: var(--accent) !important;
+    border-color: rgba(var(--accent-rgb), 0.4) !important;
+}
+
+.select-option-badge {
+    background: var(--bg-card) !important;
+    color: var(--text-muted) !important;
+}
+
+.select-option:hover .select-option-badge {
+    background: var(--bg-item-active) !important;
+    color: var(--text-secondary) !important;
+}
+
+.check-icon {
+    color: var(--accent) !important;
+}
+
+.chevron-icon {
+    color: var(--text-secondary) !important;
+    transition: color 0.15s ease;
+}
+
+.select-trigger.open .chevron-icon {
+    color: var(--accent) !important;
+}
+
+/* ---------- Card de detalles (InstanceView) — estilo aéreo ---------- */
+.nav-card {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 88, 170, 0.34),
+        rgba(0, 51, 102, 0.44)
+    ) !important;
+    border: 1px solid var(--aero-border) !important;
+    box-shadow:
+        0 8px 24px rgba(0, 12, 26, 0.35),
+        inset 0 1px 0 var(--aero-highlight) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+}
+
+.nav-card-header,
+.nav-card-title {
+    color: var(--text-muted) !important;
+}
+
+/* ---------- Grises sueltos que no siguen la paleta del tema ---------- */
+::placeholder {
+    color: var(--text-muted) !important;
+    opacity: 0.85;
+}
+
+:disabled,
+[aria-disabled="true"],
+[disabled] {
+    color: var(--text-muted) !important;
+    opacity: 0.6;
+    transition: opacity 0.15s ease;
+}
+
+[class*="description" i],
+[class*="subtitle" i],
+[class*="hint" i],
+[class*="helper" i],
+[class*="caption" i],
+[class*="text-gray" i],
+[class*="text-muted" i] {
+    color: var(--text-secondary) !important;
+}

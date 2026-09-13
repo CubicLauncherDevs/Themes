@@ -1,0 +1,5 @@
+name = "Happy Birhday"
+author = "holman"
+version = "1.0.0"
+description = "Tema cálido con acentos dorados tipo vela, inspirado en una foto de cumpleaños con ambiente tenue."
+injects_css = true

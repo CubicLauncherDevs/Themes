@@ -1,0 +1,63 @@
+[background]
+reference_path = "bg.png"
+image_blur = 2.0
+image_opacity = 0.85
+
+[colors]
+accent = "#e39a99"
+"accent-rgb" = "227, 154, 153"
+"accent-hover" = "#f6b5ba"
+"accent-text" = "#1a0e12"
+
+[text]
+primary = "#fbeaea"
+secondary = "#e0b8bd"
+muted = "#9c8890"
+
+[borders]
+color = "#3a2a35"
+radius = "6px"
+"radius-sm" = "4px"
+
+[shadows]
+"shadow-sm" = "none"
+"shadow-md" = "0 4px 14px rgba(0,0,0,0.4)"
+"glow-accent" = "0 0 14px rgba(227, 154, 153, 0.45)"
+
+[backgrounds]
+main = "#0b0f1a"
+sidebar = "#080b14"
+card = "#131a2c"
+"item-active" = "#3a2030"
+overlay = "rgba(11, 15, 26, 0.78)"
+input = "#0f1522"
+
+[layout]
+"font-size-base" = "12px"
+"font-size-sm" = "10px"
+"font-size-lg" = "14px"
+
+[others]
+"font-family" = "'Mojangles', 'Cantarell', sans-serif"
+"icon-filter" = "invert(1)"
+"color-success" = "#22c55e"
+"color-success-rgb" = "34, 197, 94"
+"color-error" = "#ef4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#f59e0b"
+"color-warning-rgb" = "245, 158, 11"
+"color-status-starting" = "#f97316"
+"color-status-started" = "#22c55e"
+"scrollbar-track" = "#080b14"
+"scrollbar-thumb" = "#e39a99"
+
+[backdrop]
+dropdown = 10.0
+modal = 5.0
+
+[[fonts]]
+family = "Mojangles"
+src = "fonts/mojangles.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"

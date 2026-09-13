@@ -1,0 +1,100 @@
+[background]
+reference_path = "background.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#D6A432"
+accent-hover = "#E8B94D"
+accent-primary = "#D6A432"
+accent-rgb = "214, 164, 50"
+accent-text = "#191919"
+border = "#49463B"
+bg-sidebar-gradient = "linear-gradient(180deg, #20211D, #191A18)"
+bg-card-gradient = "linear-gradient(135deg, rgba(39,39,34,0.96), rgba(29,29,26,0.92))"
+bg-item-active = "#3A3424"
+bg-overlay = "rgba(12,12,10,0.80)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#665B3F"
+scrollbar-thumb-hover = "#D6A432"
+surface-rgb = "237, 225, 199"
+color-success = "#8CBF63"
+color-success-rgb = "140, 191, 99"
+color-error = "#E07872"
+color-error-rgb = "224, 120, 114"
+color-warning = "#D6A432"
+color-warning-rgb = "214, 164, 50"
+color-info = "#69B5D3"
+color-info-rgb = "105, 181, 211"
+color-status-starting = "#D6A432"
+color-status-started = "#8CBF63"
+clr-loader-vanilla = "#8CBF63"
+clr-loader-fabric = "#D6A432"
+clr-loader-forge = "#DF934A"
+clr-loader-quilt = "#BA8BC2"
+
+[backgrounds]
+main = "#191919"
+sidebar = "#20211D"
+card = "rgba(30,30,27,0.94)"
+input = "#25251F"
+surface = "#24241F"
+
+[text]
+primary = "#EDE1C7"
+secondary = "#C3BAA5"
+muted = "#A49D8C"
+tertiary = "#A49D8C"
+
+[borders]
+color = "#49463B"
+width = "1px"
+radius = "3px"
+radius-sm = "2px"
+radius-lg = "4px"
+
+[layout]
+sidebar-width = "260px"
+font-size-base = "16px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "2px 2px 0 rgba(0,0,0,0.35)"
+shadow-md = "4px 4px 0 rgba(0,0,0,0.40)"
+shadow-lg = "6px 6px 0 rgba(0,0,0,0.50)"
+glow-accent = "none"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "'VT323', monospace"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "#25251F"
+surface-input = "#25251F"
+surface-hover = "#343329"
+surface-active = "#403A29"
+surface-selected = "#403A29"
+surface-card = "rgba(30,30,27,0.94)"
+toast-bg = "#25251F"
+toast-border = "#665B3F"
+button-bg = "#2D2D25"
+button-hover-bg = "#403A29"
+btn-bg = "#2D2D25"
+item-bg = "#292923"
+
+[[fonts]]
+family = "VT323"
+src = "fonts/VT323-Regular.ttf"
+format = "truetype"
+weight = "400"
+style = "normal"

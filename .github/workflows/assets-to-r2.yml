@@ -59,13 +59,14 @@ jobs:
               BASE="HEAD~1"
             fi
             ALL=$(git diff --name-only "$BASE" HEAD -- src/)
+            # Only paths inside a version select assets or previews.
             ASSET_DIRS=$(echo "$ALL" \
-              | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
-              | sort -u)
+              | grep -oP '^src/[^/]+/[^/]+/[^/]+(?=/)' \
+              | sort -u || true)
             PREVIEW_DIRS=$(echo "$ALL" \
               | grep -P '(bg\.|\.toml$|\.css$|\.md$|\.txt$)' \
-              | grep -oP 'src/[^/]+/[^/]+/[^/]+' \
-              | sort -u)
+              | grep -oP '^src/[^/]+/[^/]+/[^/]+(?=/)' \
+              | sort -u || true)
           fi
           {
             echo "assetdirs<<EOF_ASSET"

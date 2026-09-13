@@ -1,0 +1,5 @@
+name = "BMW_Minecraft_Snow"
+author = "Holman"
+version = "1.0.0"
+description = "Tema animado inspirado en un BMW sobre un paisaje nevado de Minecraft, con estética oscura, plata, negro y detalles de iluminación púrpura."
+injects_css = false

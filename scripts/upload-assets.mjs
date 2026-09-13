@@ -39,8 +39,11 @@ const TEXT_RE = /\.(toml|css|md|txt)$/i;
 const SKIP_BINARIES = new Set(["preview.png", "Showcase.png"]);
 const MAX_UPLOAD_SIZE = 25 * 1024 * 1024;
 
-const targetDirs = (process.env.TARGET_DIRS || process.argv.slice(2).join("\n")).split("\n").filter(Boolean);
-const targetSet = targetDirs.length ? new Set(targetDirs.map(d => d.replace(/\/+$/, ""))) : null;
+const targetDirs = (process.env.TARGET_DIRS ?? process.argv.slice(2).join("\n")).split("\n").filter(Boolean);
+// An explicitly empty target list skips uploads and R2 cleanup.
+const targetSet = process.env.TARGET_DIRS !== undefined || targetDirs.length
+  ? new Set(targetDirs.map(d => d.replace(/\/+$/, "")))
+  : null;
 const previewDirs = (PREVIEW_DIRS || "").split("\n").filter(Boolean);
 const previewSet = previewDirs.length ? new Set(previewDirs.map(d => d.replace(/\/+$/, ""))) : null;
 
@@ -341,7 +344,7 @@ for (const authorDir of authorDirs) {
       const injectsCss = existsSync(join(vPath, "Inject.css"));
 
       // Colle ct files from R2 + disk
-      await deduplicateR2Files(relativeDir);
+      if (!targetSet || targetSet.size > 0) await deduplicateR2Files(relativeDir);
       let r2DirFiles = await getR2DirFiles(relativeDir);
 
       // Clean up legacy bg_r2_temp files from R2
@@ -350,8 +353,10 @@ for (const authorDir of authorDirs) {
         return n.startsWith("bg_r2_temp");
       });
       if (tempToDelete.length) {
-        await s3.send(new DeleteObjectsCommand({ Bucket: r2Bucket, Delete: { Objects: tempToDelete.map(f => ({ Key: f.Key })) } }));
-        for (const f of tempToDelete) console.log(`  ✗ R2 cleanup legacy: ${f.Key}`);
+        if (!targetSet || targetSet.size > 0) {
+          await s3.send(new DeleteObjectsCommand({ Bucket: r2Bucket, Delete: { Objects: tempToDelete.map(f => ({ Key: f.Key })) } }));
+          for (const f of tempToDelete) console.log(`  ✗ R2 cleanup legacy: ${f.Key}`);
+        }
         r2DirFiles = r2DirFiles.filter(f => !tempToDelete.includes(f));
       }
 
@@ -359,7 +364,10 @@ for (const authorDir of authorDirs) {
       for (const f of r2DirFiles) {
         const rName = f.Key.replace(relativeDir + "/", "");
         const cleanName = rName.replace(/\.[a-f0-9]{8}(?=\.[^.]+$)/, "");
-        if (!r2ByCleanName[cleanName]) r2ByCleanName[cleanName] = f;
+        const previous = r2ByCleanName[cleanName];
+        if (!previous || new Date(f.LastModified) > new Date(previous.LastModified)) {
+          r2ByCleanName[cleanName] = f;
+        }
       }
 
       const isTarget = !targetSet || targetSet.has(relativeDir);
@@ -450,7 +458,7 @@ for (const authorDir of authorDirs) {
       tags: mergedTags,
       dirPath: relative(ROOT, themePath),
       description: themeMd || metaDescription || null,
-      verified: true,
+      verified: statSync(join(themePath, "vflag.txt"), { throwIfNoEntry: false })?.isFile() === true,
       versions,
       latestVersion: latest.version,
       previewUrl: latest.previewUrl,

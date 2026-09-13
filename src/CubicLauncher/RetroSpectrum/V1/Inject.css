@@ -1,0 +1,26 @@
+/* Keep native positioning and click behavior intact. */
+.background-overlay {
+  filter: none;
+  background-position: center;
+  pointer-events: none;
+}
+
+/* Decorative stripe stays within the existing header box. */
+.sidebar .sidebar-header {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #4B9235 0% 16.66%, #C6921C 16.66% 33.33%, #C56414 33.33% 50%, #B62B30 50% 66.66%, #78327E 66.66% 83.33%, #0A84B0 83.33% 100%) 1;
+}
+
+.btn-primary {
+  color: var(--accent-text);
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+}
+
+.modal, .select-dropdown {
+  box-shadow: var(--shadow-lg);
+}
+
+::selection {
+  background: #D6A432;
+  color: #191919;
+}

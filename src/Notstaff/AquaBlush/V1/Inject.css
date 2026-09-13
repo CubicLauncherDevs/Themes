@@ -1,0 +1,31 @@
+/* Aqua Blush — lightweight glass finishing layer. */
+.background-overlay {
+  background-position: center;
+  filter: blur(var(--bg-image-blur, 0px)) brightness(1) saturate(0.94);
+}
+
+.modal,
+.select-dropdown {
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-lg);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-family);
+}
+
+button {
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+::selection {
+  background: rgba(var(--accent-rgb), 0.28);
+  color: var(--text-primary);
+}

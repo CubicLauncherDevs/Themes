@@ -1,0 +1,5 @@
+name = "fox en fogata"
+author = "holman"
+version = "1.0.0"
+description = "Tema inspirado en un zorro de Minecraft junto a una fogata."
+injects_css = false

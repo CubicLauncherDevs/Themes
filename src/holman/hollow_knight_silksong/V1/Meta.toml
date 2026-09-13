@@ -1,0 +1,5 @@
+name = "Hollow Knight Silksong"
+author = "holman"
+version = "1.0.0"
+description = "Tema morado/magenta con tonos de noche, inspirado en Silksong, usando la tipografía Mojang para todo el texto."
+injects_css = true

@@ -1,0 +1,46 @@
+::selection {
+  background: rgba(205, 160, 106, 0.35);
+  color: #EDE8E4;
+}
+
+:focus-visible {
+  outline: 2px solid #CDA06A;
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0E0D0D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CDA06A;
+  border-radius: 3px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DFB47C;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CDA06A #0E0D0D;
+}
+
+button, select, input, a, .clickable {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease;
+}
+
+button:active, .clickable:active {
+  transform: scale(0.97);
+}

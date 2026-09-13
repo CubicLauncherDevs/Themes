@@ -1,0 +1,96 @@
+[background]
+reference_path = "background.webp"
+image_blur = 0.0
+image_opacity = 0.92
+
+[colors]
+accent = "#69B9E8"
+accent-rgb = "105, 185, 232"
+accent-hover = "#4EA6DA"
+accent-primary = "#69B9E8"
+accent-text = "#FFFFFF"
+border = "rgba(116, 173, 210, 0.30)"
+bg-sidebar-gradient = "linear-gradient(180deg, rgba(250, 253, 255, 0.72) 0%, rgba(231, 244, 253, 0.62) 100%)"
+bg-card-gradient = "linear-gradient(135deg, rgba(255, 255, 255, 0.60) 0%, rgba(232, 246, 255, 0.42) 100%)"
+bg-item-active = "rgba(154, 211, 241, 0.36)"
+bg-overlay = "rgba(81, 126, 158, 0.24)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "rgba(105, 185, 232, 0.48)"
+scrollbar-thumb-hover = "rgba(78, 166, 218, 0.72)"
+surface-rgb = "78, 139, 179"
+color-success = "#55B99A"
+color-success-rgb = "85, 185, 154"
+color-error = "#E98B9B"
+color-error-rgb = "233, 139, 155"
+color-warning = "#D7A85B"
+color-warning-rgb = "215, 168, 91"
+color-info = "#69B9E8"
+color-info-rgb = "105, 185, 232"
+color-status-starting = "#8FAFE6"
+color-status-started = "#55B99A"
+clr-loader-vanilla = "#88A9BC"
+clr-loader-fabric = "#70BFA4"
+clr-loader-forge = "#E7A870"
+clr-loader-quilt = "#B99DDB"
+
+[backgrounds]
+main = "#EDF8FE"
+sidebar = "rgba(248, 252, 255, 0.70)"
+card = "rgba(255, 255, 255, 0.56)"
+input = "rgba(239, 248, 253, 0.76)"
+surface = "rgba(255, 255, 255, 0.58)"
+
+[text]
+primary = "#274B62"
+secondary = "#56778C"
+muted = "#7894A6"
+tertiary = "#94AABA"
+
+[borders]
+color = "rgba(116, 173, 210, 0.30)"
+width = "1px"
+radius = "14px"
+radius-sm = "10px"
+radius-lg = "18px"
+
+[layout]
+sidebar-width = "248px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 8px rgba(70, 128, 164, 0.10)"
+shadow-md = "0 8px 24px rgba(70, 128, 164, 0.14)"
+shadow-lg = "0 16px 42px rgba(70, 128, 164, 0.18)"
+glow-accent = "0 0 18px rgba(105, 185, 232, 0.28)"
+glow-error = "0 0 14px rgba(233, 139, 155, 0.22)"
+glow-success = "0 0 14px rgba(85, 185, 154, 0.22)"
+
+[backdrop]
+modal = 12.0
+dropdown = 12.0
+panel = 10.0
+overlay = 8.0
+float = 10.0
+viewer = 12.0
+
+[others]
+font-family = "Cantarell, system-ui, sans-serif"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "rgba(250, 253, 255, 0.88)"
+surface-input = "rgba(244, 251, 255, 0.76)"
+surface-hover = "rgba(154, 211, 241, 0.24)"
+surface-active = "rgba(154, 211, 241, 0.34)"
+surface-selected = "rgba(154, 211, 241, 0.40)"
+surface-card = "rgba(255, 255, 255, 0.56)"
+toast-bg = "rgba(250, 253, 255, 0.90)"
+toast-border = "rgba(116, 173, 210, 0.30)"
+button-bg = "rgba(255, 255, 255, 0.46)"
+button-hover-bg = "rgba(154, 211, 241, 0.28)"
+btn-bg = "rgba(255, 255, 255, 0.46)"
+item-bg = "rgba(255, 255, 255, 0.48)"
+
+[icons]
+preview = "icons/preview.webp"

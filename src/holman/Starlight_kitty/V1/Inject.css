@@ -1,0 +1,12 @@
+/* Forzar la fuente Mojangles en toda la interfaz, incluso donde el launcher
+   la tenga fija en su propio CSS */
+* ,
+*::before,
+*::after {
+  font-family: 'Mojangles', 'Cantarell', sans-serif !important;
+  font-synthesis: none;
+}
+
+html, body {
+  font-family: 'Mojangles', 'Cantarell', sans-serif !important;
+}

@@ -1,0 +1,5 @@
+name = "Frieren Aureole"
+author = "4xnl"
+version = "1.0.1"
+description = "Ivory, sage, and magic among the flowers."
+injects_css = true

@@ -1,0 +1,5 @@
+name = "YoRHa"
+author = "Notstaff"
+version = "1.0.0"
+description = "Tema minimalista de YoRHa con un fondo ilustrado muy llamativo y una vista previa personalizada."
+injects_css = false

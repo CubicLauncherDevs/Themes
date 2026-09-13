@@ -1,0 +1,102 @@
+name: PR Welcome
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+    paths:
+      - 'src/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request_target' && format('pr-welcome-{0}', github.event.pull_request.number) || 'pr-welcome' }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          allow-unsafe-pr-checkout: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Fetch base ref
+        run: git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Validate theme structure
+        id: validate
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+          RESULT_FILE: validation-result.txt
+          MESSAGE_FILE: validation-message.md
+        run: node scripts/validate-pr.mjs
+
+      - name: Read validation result
+        id: result
+        if: always()
+        run: |
+          if [ -f validation-result.txt ]; then
+            echo "valid=$(cat validation-result.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "valid=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -f validation-message.md ]; then
+            {
+              echo "message<<EOF_MESSAGE"
+              cat validation-message.md
+              echo ""
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          else
+            {
+              echo "message<<EOF_MESSAGE"
+              echo '❌ No se pudo completar la validación del tema. Por favor, revisá la estructura del PR.'
+              echo ''
+              echo '📚 Guía oficial: https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes'
+              echo ""
+              echo "EOF_MESSAGE"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Add Theme Pending label
+        if: steps.result.outputs.valid == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} \
+             --repo ${{ github.repository }} \
+             --add-label "Theme Pending" \
+             --remove-label "Theme Needs Fix"
+
+      - name: Add Theme Needs Fix label
+        if: steps.result.outputs.valid == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit ${{ github.event.pull_request.number }} \
+             --repo ${{ github.repository }} \
+             --add-label "Theme Needs Fix" \
+             --remove-label "Theme Pending"
+
+      - name: Comment welcome message
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = ${{ toJSON(steps.result.outputs.message) }};
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

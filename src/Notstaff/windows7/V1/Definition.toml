@@ -1,0 +1,57 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#0078d4"
+"accent-rgb" = "0, 120, 212"
+"accent-hover" = "#2b88d8"
+"accent-text" = "#ffffff"
+
+[text]
+primary = "#ffffff"
+secondary = "#d6eeff"
+muted = "#bfe4ff"
+
+[borders]
+color = "rgba(140, 206, 245, 0.32)"
+radius = "6px"
+"radius-sm" = "4px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0, 12, 26, 0.45)"
+"shadow-md" = "0 6px 18px rgba(0, 12, 26, 0.40)"
+"glow-accent" = "0 0 18px rgba(0, 120, 212, 0.55)"
+
+[backgrounds]
+main = "rgba(0, 24, 48, 0.42)"
+sidebar = "rgba(0, 51, 102, 0.38)"
+card = "rgba(0, 72, 130, 0.22)"
+"item-active" = "rgba(0, 120, 212, 0.32)"
+overlay = "rgba(0, 10, 20, 0.82)"
+input = "rgba(140, 206, 245, 0.12)"
+
+[layout]
+"font-family" = "'Segoe UI', 'Segoe UI Variable', Tahoma, Verdana, sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "18px"
+
+[others]
+"icon-filter" = "brightness(0) saturate(100%) invert(100%)"
+"icon-filter-error" = "brightness(0) saturate(100%) invert(43%) sepia(59%) saturate(1074%) hue-rotate(320deg) brightness(93%) contrast(92%)"
+"color-success" = "#2ea043"
+"color-success-rgb" = "46, 160, 67"
+"color-error" = "#d73a49"
+"color-error-rgb" = "215, 58, 73"
+"color-warning" = "#f9c513"
+"color-warning-rgb" = "249, 197, 19"
+"color-status-starting" = "#f9c513"
+"color-status-started" = "#2ea043"
+"scrollbar-track" = "rgba(140, 206, 245, 0.08)"
+"scrollbar-thumb" = "rgba(0, 120, 212, 0.72)"
+
+[backdrop]
+dropdown = 14.0
+modal = 22.0

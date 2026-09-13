@@ -1,0 +1,5 @@
+name = "Bunny Girl"
+author = "Notstaff"
+version = "1.0.0"
+description = "Un tema minimalista en oliva y crema, con fondos suaves y detalles delicados."
+injects_css = true

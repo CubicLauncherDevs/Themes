@@ -1,0 +1,83 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 4.0
+image_opacity = 0.36
+
+[colors]
+bg-main = "rgba(7, 14, 11, 0.74)"
+bg-sidebar = "rgba(10, 22, 17, 0.90)"
+bg-item-active = "rgba(183, 201, 178, 0.13)"
+bg-card = "rgba(20, 36, 29, 0.74)"
+bg-input = "rgba(183, 201, 178, 0.045)"
+bg-overlay = "rgba(3, 9, 6, 0.76)"
+bg-sidebar-gradient = "linear-gradient(180deg, rgba(17, 34, 26, 0.94) 0%, rgba(9, 20, 15, 0.92) 100%)"
+
+accent = "#B7C9B2"
+accent-rgb = "183, 201, 178"
+accent-hover = "#C8D7C4"
+accent-text = "#0A120E"
+accent-primary = "#B7C9B2"
+
+surface-rgb = "183, 201, 178"
+surface-hover = "rgba(183, 201, 178, 0.08)"
+surface-active = "rgba(183, 201, 178, 0.12)"
+surface-selected = "rgba(183, 201, 178, 0.09)"
+surface-card = "rgba(183, 201, 178, 0.055)"
+surface-input = "rgba(183, 201, 178, 0.05)"
+surface-dropdown = "rgba(14, 27, 21, 0.97)"
+bg-surface = "rgba(16, 30, 23, 0.97)"
+
+toast-bg = "rgba(16, 28, 22, 0.92)"
+toast-border = "rgba(183, 201, 178, 0.14)"
+
+border-color = "rgba(183, 201, 178, 0.14)"
+border = "rgba(183, 201, 178, 0.14)"
+
+color-success = "#8DBA98"
+color-success-rgb = "141, 186, 152"
+color-error = "#D98F8F"
+color-error-rgb = "217, 143, 143"
+color-warning = "#CDBA7B"
+color-info = "#91B0C8"
+color-status-starting = "#91B0C8"
+color-status-started = "#8DBA98"
+
+scrollbar-track = "rgba(5, 12, 9, 0.34)"
+scrollbar-thumb = "rgba(183, 201, 178, 0.18)"
+scrollbar-thumb-hover = "rgba(183, 201, 178, 0.30)"
+
+[text]
+primary = "#E7EEE8"
+secondary = "#B4C2B7"
+muted = "#829489"
+tertiary = "#9AAA9E"
+
+[borders]
+color = "rgba(183, 201, 178, 0.14)"
+radius = "8px"
+radius-sm = "6px"
+
+[layout]
+spacing = "0.70rem"
+sidebar-width = "232px"
+font-size-base = "14px"
+
+[shadows]
+shadow-sm = "0 3px 10px rgba(0, 0, 0, 0.14)"
+shadow-md = "0 8px 22px rgba(0, 0, 0, 0.18)"
+shadow-lg = "0 14px 34px rgba(0, 0, 0, 0.25)"
+
+[backgrounds]
+card-gradient = "linear-gradient(135deg, rgba(183, 201, 178, 0.05) 0%, rgba(183, 201, 178, 0) 100%)"
+
+[backdrop]
+overlay = 4.0
+modal = 8.0
+dropdown = 8.0
+panel = 4.0
+float = 8.0
+viewer = 3.0
+
+[others]
+font-family = "Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+icon-filter = "invert(0.92) sepia(0.08) saturate(0.45) hue-rotate(65deg) brightness(1.06)"

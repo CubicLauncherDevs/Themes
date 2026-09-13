@@ -1,0 +1,5 @@
+name = "Retro Spectrum"
+author = "CubicLauncher"
+version = "1.0.0"
+description = "Charcoal, warm ivory and vintage rainbow stripes. A restrained retro theme."
+injects_css = true

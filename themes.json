@@ -46,6 +46,104 @@
     "date": "2026-07-24T03:38:50-04:00"
   },
   {
+    "id": "4xnl-frieren-aureole",
+    "slug": "4xnl-frieren-aureole",
+    "name": "Frieren Aureole",
+    "author": "4xnl",
+    "tags": [],
+    "dirPath": "src/4xnl/Frieren_Aureole",
+    "description": "# Frieren Aureole\n\nA clean theme inspired by Sousou no Frieren and the editorial design of Chinese landing pages: asymmetrical composition, white space, serif headlines, and botanical details. The wallpaper retains its original colors. Warm ivory, sage, and forest green complement the landscape; small gold accents evoke Frieren’s staff.\n\nSVG icons by Lucide: book, settings controls, pen, flower, and hourglass. Brief animations, with no loops or blurring. Vendor logos and loaders retain their original appearance.\n\n## Installation\n\nImport Frieren_Aureole.cbth from the CubicLauncher themes section and select Frieren Aureole. No need to extract the package.\n\n## Compatibility\n\nV2 format, tested with the importer from the “develop” branch as of September 10, 2026. Meta.toml uses fields at the root; Definition.toml uses [colors], [background], [icons.nav], etc., without wrapping them in [theme]. Some examples in the guide show wrappers that the separate file importer does not use.\n\nThe TOML structure, paths, and package resources were validated. The visual review in the browser could not be performed, and the import was not tested on Tauri. Versions with other components may require selector adjustments.\n\n## Resources\n\nWallpaper: user-provided image, wallhaven-gpxo17_1920x1080.png; original author unidentified. Authorship is not attributed to the theme creator.\nCormorant Garamond: Christian Thalmann; licen\n\nTranslated with DeepL.com (free version)",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/preview.35bdf8ba.png",
+        "showcaseUrl": null,
+        "dirPath": "src/4xnl/Frieren_Aureole/V1",
+        "date": "2026-09-10T14:51:57-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Frieren_Aureole/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Frieren_Aureole/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Frieren_Aureole/V1/Meta.toml"
+          },
+          {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Frieren_Aureole/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "icons/LICENSE-Lucide.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Frieren_Aureole/V1/icons/LICENSE-Lucide.txt"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/bg.f4e99b41.png"
+          },
+          {
+            "name": "fonts/CormorantGaramond.ttf",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/fonts/CormorantGaramond.9a9861df.ttf"
+          },
+          {
+            "name": "icons/astrolabe.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/astrolabe.e8547495.svg"
+          },
+          {
+            "name": "icons/download.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/download.afc99c83.svg"
+          },
+          {
+            "name": "icons/flower.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/flower.0dc5e004.svg"
+          },
+          {
+            "name": "icons/folder.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/folder.3db09841.svg"
+          },
+          {
+            "name": "icons/grimoire.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/grimoire.a152e702.svg"
+          },
+          {
+            "name": "icons/hourglass.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/hourglass.ae6e9087.svg"
+          },
+          {
+            "name": "icons/left.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/left.0e720294.svg"
+          },
+          {
+            "name": "icons/play.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/play.06a25d7f.svg"
+          },
+          {
+            "name": "icons/quill.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/quill.69194d36.svg"
+          },
+          {
+            "name": "icons/right.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/icons/right.836cb51f.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/preview.35bdf8ba.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Frieren_Aureole/V1/preview.35bdf8ba.png",
+    "date": "2026-09-10T14:51:57-06:00"
+  },
+  {
     "id": "4xnl-jadol",
     "slug": "4xnl-jadol",
     "name": "Jadol",
@@ -150,6 +248,96 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "4xnl-mie-after-school",
+    "slug": "4xnl-mie-after-school",
+    "name": "Mie After School",
+    "author": "4xnl",
+    "tags": [],
+    "dirPath": "src/4xnl/Mie_After_School",
+    "description": "# Mie After School\r\n\r\nA minimalist theme inspired by *Suki na Ko ga Megane wo Wasureta*. It combines the warm light of the original image with cocoa-colored surfaces, powder pink, and ivory text. Mie's glasses appear in the preview and the search icon; the other icons feature soft lines and subtle references to school supplies.\r\n\r\n## Credits\r\nImage provided by the user; visible signature “zakizan.” The rights to the illustration and the anime belong to their respective owners. SVG icons drawn for this theme.\r\n\r\n## Compatibility\r\nPrepared following https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes and verified against the code in the launcher’s “develop” branch. Meta.toml uses root fields and Definition.toml uses root sections, as required by the separate file parser. Statically validated; has not been run within Tauri in this environment.\r\n\r\n## Version 1.0.0\r\nNo background blur or backdrop blur, including the fixed blur on headers. Microanimations when interacting with sidebar tools and the play button; brief transition when selecting instances. Durations of 140–180 ms, with no continuous decorative animations or permanent `will-change`. Respects the system’s and launcher’s reduced motion preference. Retains functional loading indicators.\r\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png",
+        "showcaseUrl": null,
+        "dirPath": "src/4xnl/Mie_After_School/V1",
+        "date": "2026-09-09T19:42:06-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/Mie_After_School/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpeg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/bg.44eb9054.jpeg"
+          },
+          {
+            "name": "icons/chevron-left.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/chevron-left.7004ece7.svg"
+          },
+          {
+            "name": "icons/chevron-right.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/chevron-right.1a2f6d5f.svg"
+          },
+          {
+            "name": "icons/create.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/create.6c491141.svg"
+          },
+          {
+            "name": "icons/download.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/download.20deda47.svg"
+          },
+          {
+            "name": "icons/edit.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/edit.bd735a32.svg"
+          },
+          {
+            "name": "icons/pin.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/pin.37d69c7b.svg"
+          },
+          {
+            "name": "icons/play.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/play.6304b26f.svg"
+          },
+          {
+            "name": "icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/preview.be0b3806.svg"
+          },
+          {
+            "name": "icons/search.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/search.f2163c3f.svg"
+          },
+          {
+            "name": "icons/settings.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/settings.0704ec55.svg"
+          },
+          {
+            "name": "icons/sliders.svg",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/icons/sliders.e513e1b2.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/Mie_After_School/V1/preview.00fa2a59.png",
+    "date": "2026-09-09T19:42:06-06:00"
+  },
+  {
     "id": "4xnl-cherry",
     "slug": "4xnl-cherry",
     "name": "Cherry",
@@ -180,16 +368,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/4xnl/cherry/V1/Meta.toml"
           },
           {
-            "name": "showcase.png",
-            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/showcase.bad6d1cc.png"
-          },
-          {
             "name": "bg.jpg",
             "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/bg.a8c97100.jpg"
           },
           {
             "name": "preview.png",
             "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png"
+          },
+          {
+            "name": "showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/showcase.bad6d1cc.png"
           }
         ],
         "injectsCss": true
@@ -198,6 +386,60 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/4xnl/cherry/V1/preview.58513513.png",
     "date": "2026-07-29T22:15:35-06:00"
+  },
+  {
+    "id": "cubiclauncher-retrospectrum",
+    "slug": "cubiclauncher-retrospectrum",
+    "name": "Retro Spectrum",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/RetroSpectrum",
+    "description": "# Retro Spectrum\n\nUn tema retro para CubicLauncher con fondos en tono carbón, texto en marfil cálido, detalles en mostaza y rayas vintage en los colores del arcoíris. La tipografía monoespaciada, las esquinas definidas y las sombras desplazadas evocan la informática clásica, al tiempo que mantienen visible el fondo de pantalla original.\n\nIncluye la fuente de estilo terminal VT323, distribuida bajo la licencia SIL Open Font License 1.1 (véase fonts/OFL.txt). No es necesario instalar ninguna fuente por separado.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/RetroSpectrum/V1/preview.4c0174a5.png",
+        "showcaseUrl": null,
+        "dirPath": "src/CubicLauncher/RetroSpectrum/V1",
+        "date": "2026-09-05T10:08:37-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/RetroSpectrum/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/RetroSpectrum/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/RetroSpectrum/V1/Meta.toml"
+          },
+          {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/RetroSpectrum/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "background.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/RetroSpectrum/V1/background.96c6dc96.png"
+          },
+          {
+            "name": "fonts/VT323-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/RetroSpectrum/V1/fonts/VT323-Regular.cf4de751.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/RetroSpectrum/V1/preview.4c0174a5.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/RetroSpectrum/V1/preview.4c0174a5.png",
+    "date": "2026-09-05T10:08:37-06:00"
   },
   {
     "id": "cubiclauncher-signature-amber",
@@ -407,7 +649,7 @@
     "tags": [],
     "dirPath": "src/Edgajuman/Cyberpunk",
     "description": "Un tema futurista y con animaciones, fondo GIF y fuente personalizada Air Millhouse.",
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V3",
@@ -547,7 +789,7 @@
     "tags": [],
     "dirPath": "src/Edgajuman/Shoko",
     "description": "# Shōko\r\n\r\nA Silent Voice Theme\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -589,7 +831,7 @@
     "tags": [],
     "dirPath": "src/Edgajuman/White_Anime",
     "description": "# White Anime\r\n\r\nThema estilo claro\r\n\r\n**Autor:** Edgajuman\r\n**Versión:** 1.0.0\n",
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -639,7 +881,7 @@
     "tags": [],
     "dirPath": "src/MPG/Waguri",
     "description": null,
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -685,7 +927,7 @@
     "tags": [],
     "dirPath": "src/MPG/ZeroTwo",
     "description": null,
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -722,6 +964,52 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/MPG/ZeroTwo/V1/preview.0d2501bc.png",
     "date": "2026-07-24T03:40:25-04:00"
+  },
+  {
+    "id": "notstaff-aquablush",
+    "slug": "notstaff-aquablush",
+    "name": "Aqua Blush",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/AquaBlush",
+    "description": "# Aqua Blush\n\nUn tema de CubicLauncher bonito y minimalista, inspirado en suaves tonos azul aguamarina, rosa palo y blanco luminoso. Cuenta con un fondo de anime nítido, paneles de cristal translúcidos, elementos redondeados y una interfaz limpia, diseñada para resultar agradable y fácil de leer.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/AquaBlush/V1/preview.dcc887cf.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/AquaBlush/V1",
+        "date": "2026-09-05T06:36:28-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/AquaBlush/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/AquaBlush/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/AquaBlush/V1/Meta.toml"
+          },
+          {
+            "name": "background.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/AquaBlush/V1/background.03a24e0e.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/AquaBlush/V1/preview.dcc887cf.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/AquaBlush/V1/preview.dcc887cf.png",
+    "date": "2026-09-05T06:36:28-06:00"
   },
   {
     "id": "notstaff-blur",
@@ -768,6 +1056,52 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Blur/V1/preview.2817af50.png",
     "date": "2026-07-24T03:40:25-04:00"
+  },
+  {
+    "id": "notstaff-bunnygirl",
+    "slug": "notstaff-bunnygirl",
+    "name": "Bunny Girl",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/BunnyGirl",
+    "description": "# BunnyGirl\n\nUn tema minimalista en oliva y crema, con fondos suaves y detalles delicados.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/BunnyGirl/V1",
+        "date": "2026-09-09T00:29:37-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/BunnyGirl/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/bg.0fcec66e.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/BunnyGirl/V1/preview.c02e8d92.png",
+    "date": "2026-09-09T00:29:37-06:00"
   },
   {
     "id": "notstaff-clang",
@@ -936,7 +1270,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/Showcase.7dbfea1b.png",
         "dirPath": "src/Notstaff/Louise/V1",
         "date": "2026-07-24T00:00:59-04:00",
@@ -968,15 +1302,199 @@
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png"
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png"
           }
         ],
         "injectsCss": true
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.00c4618f.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Louise/V1/preview.0213af5b.png",
     "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "notstaff-memento",
+    "slug": "notstaff-memento",
+    "name": "Memento",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/Memento",
+    "description": "Negro carbón, detalles marfil y un grabado de calavera. Minimalismo oscuro.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Memento/V1/preview.5ea932bc.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/Memento/V1",
+        "date": "2026-09-09T01:38:28-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Memento/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Memento/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Memento/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Memento/V1/bg.5d4e5e79.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Memento/V1/preview.5ea932bc.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Memento/V1/preview.5ea932bc.png",
+    "date": "2026-09-09T01:38:28-06:00"
+  },
+  {
+    "id": "notstaff-northern-mist",
+    "slug": "notstaff-northern-mist",
+    "name": "Northern Mist",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/Northern_Mist",
+    "description": "# Northern Mist\n\nUn tema minimalista y refinado inspirado en la naturaleza, con superficies en tonos salvia suaves, profundidad brumosa, contraste moderado y un estilo de interfaz de usuario flotante y coherente.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Northern_Mist/V1/preview.34a29ac7.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/Northern_Mist/V1",
+        "date": "2026-08-22T18:51:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Northern_Mist/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Northern_Mist/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Northern_Mist/V1/bg.84e448d0.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Northern_Mist/V1/preview.34a29ac7.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Northern_Mist/V1/preview.34a29ac7.png",
+    "date": "2026-08-22T18:51:33-06:00"
+  },
+  {
+    "id": "notstaff-petalveil",
+    "slug": "notstaff-petalveil",
+    "name": "Petal Veil",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/PetalVeil",
+    "description": "# Petal Veil\n\nUn tema suave para CubicLauncher inspirado en el collage de anime incluido. Las superficies en tonos marfil y lavanda, los detalles en rosa, el texto en ciruela y los botones satinados crean un aspecto coherente en la barra lateral, los ajustes y los menús. El fondo de pantalla original se mantiene nítido, con una capa superpuesta más clara en la pantalla de bienvenida y superficies de lectura más opacas donde es necesario.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/PetalVeil/V1",
+        "date": "2026-09-08T20:17:29-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/PetalVeil/V1/Meta.toml"
+          },
+          {
+            "name": "background.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/background.e78b8633.png"
+          },
+          {
+            "name": "icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/icons/preview.975dd231.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/PetalVeil/V1/preview.53a2dc04.png",
+    "date": "2026-09-08T20:17:29-06:00"
+  },
+  {
+    "id": "notstaff-yorha",
+    "slug": "notstaff-yorha",
+    "name": "YoRHa",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/YoRHa",
+    "description": "# YoRHa\n\nTema minimalista de YoRHa con un fondo ilustrado muy llamativo y una vista previa personalizada.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/YoRHa/V1/preview.92613f15.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/YoRHa/V1",
+        "date": "2026-08-23T21:00:55-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/YoRHa/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/YoRHa/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/YoRHa/V1/bg.70db0a0f.webp"
+          },
+          {
+            "name": "icons/preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/YoRHa/V1/icons/preview.ca07c42e.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/YoRHa/V1/preview.92613f15.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/YoRHa/V1/preview.92613f15.png",
+    "date": "2026-08-23T21:00:55-06:00"
   },
   {
     "id": "notstaff-chill",
@@ -1031,6 +1549,52 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/chill/V1/preview.23807eaa.png",
     "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "notstaff-windows7",
+    "slug": "notstaff-windows7",
+    "name": "Windows 7 Aero",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/windows7",
+    "description": "# Windows 7 Aero\n\nTema para CubicLauncher inspirado en la interfaz **Aero Glass de Windows 7**.\n\n## Características\n\n- Fondo clásico visible: el wallpaper de Windows 7 se muestra sin blur y al 100% de opacidad.\n- Paleta unificada: todos los colores derivan de la paleta oficial Aero de Windows 7, sin tonos azul/turquesa mezclados.\n- Estilo Aero Glass: ventanas con gradientes azul oscuro, borde cian claro y sombras coherentes.\n- Reflejo superior característico: highlight horizontal en la parte alta de la sidebar, tooltips y cards, imitando el brillo de la barra de tareas de Windows 7.\n- Sidebar tipo barra de tareas: gradiente azul oscuro con backdrop-filter y borde iluminado.\n- Botones estilo Win7: degradado con reflejo superior, sombra suave y estados hover/active.\n- Scrollbar minimalista: ancho 7px con thumb azul Aero y borde sutil.\n- Fuente Segoe UI: la tipografía original del sistema.\n- Transiciones suaves: cambios de color y pequeños desplazamientos en botones con animaciones cortas.\n- Estructura sólida: CSS basado en el tema Angel para compatibilidad con los componentes del launcher.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/windows7/V1/preview.99e31754.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/windows7/V1",
+        "date": "2026-08-09T15:03:17-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/windows7/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/windows7/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/windows7/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/windows7/V1/bg.491d105e.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/windows7/V1/preview.99e31754.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/windows7/V1/preview.99e31754.png",
+    "date": "2026-08-09T15:03:17-06:00"
   },
   {
     "id": "santiagolxx-angel",
@@ -1522,6 +2086,52 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "santiagolxx-systemofadown",
+    "slug": "santiagolxx-systemofadown",
+    "name": "System Of A Down",
+    "author": "Santiagolxx",
+    "tags": [],
+    "dirPath": "src/Santiagolxx/SystemOfADown",
+    "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/SystemOfADown/V1",
+        "date": "2026-09-07T22:50:19-03:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V1/Meta.toml"
+          },
+          {
+            "name": "Fonts/Stf.otf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/Fonts/Stf.6b879ea3.otf"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/bg.79778d7b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
+    "date": "2026-09-07T22:50:19-03:00"
+  },
+  {
     "id": "santiagolxx-worldcupafa",
     "slug": "santiagolxx-worldcupafa",
     "name": "World Cup AFA",
@@ -1614,6 +2224,118 @@
     "date": "2026-07-24T04:24:55-04:00"
   },
   {
+    "id": "stylesfx-mikunakano",
+    "slug": "stylesfx-mikunakano",
+    "name": "MikuNakano",
+    "author": "StyleSfx",
+    "tags": [],
+    "dirPath": "src/StyleSfx/MikuNakano",
+    "description": "# MikuNakano\n\nTema inspirado en Miku Nakano, de la serie *Gotoubun no Hanayome* (The Quintessential Quintuplets).\n\nFondo con una ilustración de Miku en vestido de novia, sobre un cielo celeste con pétalos flotando. La paleta acompaña esos tonos: celestes y azules suaves, para un look tranquilo y elegante.\n\nIdeal para fans de la serie o para quienes quieren un launcher con onda anime pastel.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/Showcase.6970b370.png",
+        "dirPath": "src/StyleSfx/MikuNakano/V1",
+        "date": "2026-09-08T20:18:55-06:00",
+        "changelog": "# V1\n- Primer lanzamiento del tema\n- Fondo con Miku Nakano (vestido de novia)\n- Paleta en tonos celeste/azul\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/StyleSfx/MikuNakano/V1/changelog.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/Showcase.6970b370.png"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/bg.519c89aa.jpg"
+          },
+          {
+            "name": "icons/preview.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/icons/preview.def7d2ec.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/StyleSfx/MikuNakano/V1/preview.f3d93919.png",
+    "date": "2026-09-08T20:18:55-06:00"
+  },
+  {
+    "id": "toritopablo-mina",
+    "slug": "toritopablo-mina",
+    "name": "Mina",
+    "author": "Toritopablo",
+    "tags": [],
+    "dirPath": "src/Toritopablo/Mina",
+    "description": "# Mina\n\nTema vampírico inspirado en Mina Ha (Deadlock) para CubicLauncher.\n\n## Características\n\n- Fondo animado de murciélagos (GIF) con opacidad ajustada para no distraer.\n- Paleta gótica: negros profundos con acentos en rojo sangre (`#c8102e`) y textos color hueso.\n- Tipografías incluidas: **Cinzel** (texto general) y **UnifrakturCook** (detalles con estilo gótico/blackletter).\n- Intro animada \"MINA\" al abrir el launcher, con resplandor rojo pulsante de fondo.\n- Cursor personalizado con la mira de Mina en todo el launcher (botones, enlaces, checkboxes, etc.).\n- Glow rojo pulsante en elementos de acento y estados (éxito, error, advertencia, info) con su propia identidad de color.\n\n## Autor\n\n[Toritopablo](https://github.com/JuanPG21)\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/preview.33a85876.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Toritopablo/Mina/V1",
+        "date": "2026-09-06T09:44:25-05:00",
+        "changelog": "# V1\n\n- Primer lanzamiento del tema Mina.\n- Fondo animado de murciélagos, intro \"MINA\", glow rojo pulsante y cursor de mira personalizado.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Toritopablo/Mina/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Toritopablo/Mina/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Toritopablo/Mina/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Toritopablo/Mina/V1/changelog.md"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/bg.f0799ec4.gif"
+          },
+          {
+            "name": "fonts/Cinzel.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/fonts/Cinzel.f4d83d34.ttf"
+          },
+          {
+            "name": "fonts/UnifrakturCook-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/fonts/UnifrakturCook-Bold.ea002fa9.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/preview.33a85876.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Toritopablo/Mina/V1/preview.33a85876.png",
+    "date": "2026-09-06T09:44:25-05:00"
+  },
+  {
     "id": "unr4n-dark-theme",
     "slug": "unr4n-dark-theme",
     "name": "Dark Theme",
@@ -1621,7 +2343,7 @@
     "tags": [],
     "dirPath": "src/Unr4n/Dark Theme",
     "description": null,
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -1660,6 +2382,686 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "holman-bmw-minecraft-snow",
+    "slug": "holman-bmw-minecraft-snow",
+    "name": "BMW_Minecraft_Snow",
+    "author": "Holman",
+    "tags": [],
+    "dirPath": "src/holman/BMW_Minecraft_Snow",
+    "description": "Tema animado inspirado en un BMW sobre un paisaje nevado de Minecraft, con estética oscura, plata, negro y detalles de iluminación púrpura.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/BMW_Minecraft_Snow/V1/preview.2a92a3f5.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/BMW_Minecraft_Snow/V1",
+        "date": "2026-09-06T15:15:12-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/BMW_Minecraft_Snow/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/BMW_Minecraft_Snow/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/BMW_Minecraft_Snow/V1/Showcase.966935c5.gif"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/BMW_Minecraft_Snow/V1/bg.3a0fe5a4.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/BMW_Minecraft_Snow/V1/preview.2a92a3f5.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/BMW_Minecraft_Snow/V1/preview.2a92a3f5.png",
+    "date": "2026-09-06T15:15:12-05:00"
+  },
+  {
+    "id": "holman-gt3-rs-end",
+    "slug": "holman-gt3-rs-end",
+    "name": "Porsche_Gt3_Rs_GIF",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/GT3_RS_end",
+    "description": "Tema animado del Porsche GT3 RS.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/GT3_RS_end/V1/preview.ba70b2e8.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/GT3_RS_end/V1",
+        "date": "2026-09-05T19:25:18-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/GT3_RS_end/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/GT3_RS_end/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/GT3_RS_end/V1/Showcase.2029ee1a.gif"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/GT3_RS_end/V1/bg.adf30fe1.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/GT3_RS_end/V1/preview.ba70b2e8.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/GT3_RS_end/V1/preview.ba70b2e8.png",
+    "date": "2026-09-05T19:25:18-05:00"
+  },
+  {
+    "id": "holman-gwen",
+    "slug": "holman-gwen",
+    "name": "gwen-stacy",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/Gwen",
+    "description": "Tema animado de Gwen Stacy con fondo en movimiento.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/preview.9f696b6e.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/Gwen/V1",
+        "date": "2026-09-06T20:15:20-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Gwen/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Gwen/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/Showcase.6be65c42.gif"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/bg.50e09509.gif"
+          },
+          {
+            "name": "fonts/Mojang-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/fonts/Mojang-Bold.90e8f7fe.ttf"
+          },
+          {
+            "name": "fonts/Mojang-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/fonts/Mojang-Regular.babe8021.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/preview.9f696b6e.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/Gwen/V1/preview.9f696b6e.png",
+    "date": "2026-09-06T20:15:20-05:00"
+  },
+  {
+    "id": "holman-happy-birthday",
+    "slug": "holman-happy-birthday",
+    "name": "Happy Birhday",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/Happy_birthday",
+    "description": "Tema cálido con acentos dorados tipo vela, inspirado en una foto de cumpleaños con ambiente tenue.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/Happy_birthday/V1/preview.4eabf93a.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/Happy_birthday/V1",
+        "date": "2026-09-05T19:31:52-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Happy_birthday/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Happy_birthday/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Happy_birthday/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Happy_birthday/V1/bg.0d878f06.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Happy_birthday/V1/preview.4eabf93a.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/Happy_birthday/V1/preview.4eabf93a.png",
+    "date": "2026-09-05T19:31:52-05:00"
+  },
+  {
+    "id": "holman-ios-glass",
+    "slug": "holman-ios-glass",
+    "name": "iOS Glass",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/IOS Glass",
+    "description": "Tema de vidrio esmerilado inspirado en iOS: paneles translúcidos, bordes suaves, sombras sutiles, sidebar traslúcida incluso minimizada, texto blanco legible y tipografía SF Compact. Iconos originales intactos.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png",
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/Showcase.1f662352.png",
+        "dirPath": "src/holman/IOS Glass/V1",
+        "date": "2026-09-10T12:15:13-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/IOS Glass/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/Showcase.1f662352.png"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/bg.752ca280.png"
+          },
+          {
+            "name": "fonts/SF-Compact.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/fonts/SF-Compact.d5902368.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/IOS Glass/V1/preview.e8ded440.png",
+    "date": "2026-09-10T12:15:13-05:00"
+  },
+  {
+    "id": "holman-invincibles",
+    "slug": "holman-invincibles",
+    "name": "Invincibles Breaking Point",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/Invincibles",
+    "description": "Tema con acentos rojo/naranja fuego, inspirado en la animación de fondo con la escena de acción del video.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/Invincibles/V1/preview.b11cc575.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/Invincibles/V1",
+        "date": "2026-09-05T19:37:57-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Invincibles/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Invincibles/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Invincibles/V1/Meta.toml"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/Invincibles/V1/bg.e075f533.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Invincibles/V1/preview.b11cc575.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/Invincibles/V1/preview.b11cc575.png",
+    "date": "2026-09-05T19:37:57-05:00"
+  },
+  {
+    "id": "holman-starlight-kitty",
+    "slug": "holman-starlight-kitty",
+    "name": "Starlight Kitten",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/Starlight_kitty",
+    "description": "Tema con fondo celestial rosa/negro y fuente Mojangles",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/Starlight_kitty/V1/preview.b3cc6605.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/Starlight_kitty/V1",
+        "date": "2026-09-05T18:48:22-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Starlight_kitty/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Starlight_kitty/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Starlight_kitty/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Starlight_kitty/V1/bg.17bacd6f.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Starlight_kitty/V1/preview.b3cc6605.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/Starlight_kitty/V1/preview.b3cc6605.png",
+    "date": "2026-09-05T18:48:22-05:00"
+  },
+  {
+    "id": "holman-belle-delfhine",
+    "slug": "holman-belle-delfhine",
+    "name": "Waguri Theme",
+    "author": "Holman",
+    "tags": [],
+    "dirPath": "src/holman/belle_delfhine",
+    "description": "Tema Creado por Holman",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/preview.5e960758.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/belle_delfhine/V1",
+        "date": "2026-09-06T13:27:17-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/belle_delfhine/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/belle_delfhine/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/bg.e832c146.png"
+          },
+          {
+            "name": "fonts/Mojang-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/fonts/Mojang-Bold.90e8f7fe.ttf"
+          },
+          {
+            "name": "fonts/Mojang-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/fonts/Mojang-Regular.babe8021.ttf"
+          },
+          {
+            "name": "fonts/minecraft_font.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/fonts/minecraft_font.df936b7e.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/preview.5e960758.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/belle_delfhine/V1/preview.5e960758.png",
+    "date": "2026-09-06T13:27:17-06:00"
+  },
+  {
+    "id": "holman-cachorros-del-end",
+    "slug": "holman-cachorros-del-end",
+    "name": "Cachorros del End",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/cachorros_del_end",
+    "description": "Tema inspirado en la imagen de los cachorros exploradores en el End",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/cachorros_del_end/V1/preview.6aa3f5a1.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/cachorros_del_end/V1",
+        "date": "2026-09-05T18:36:57-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/cachorros_del_end/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/cachorros_del_end/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/cachorros_del_end/V1/bg.90dd7aba.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/cachorros_del_end/V1/preview.6aa3f5a1.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/cachorros_del_end/V1/preview.6aa3f5a1.png",
+    "date": "2026-09-05T18:36:57-05:00"
+  },
+  {
+    "id": "holman-fox",
+    "slug": "holman-fox",
+    "name": "fox en fogata",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/fox",
+    "description": "Tema inspirado en un zorro de Minecraft junto a una fogata.",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/fox/V1/preview.c73d4879.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/fox/V1",
+        "date": "2026-09-05T19:43:51-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/fox/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/fox/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/holman/fox/V1/bg.3d8445c7.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/fox/V1/preview.c73d4879.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/fox/V1/preview.c73d4879.png",
+    "date": "2026-09-05T19:43:51-05:00"
+  },
+  {
+    "id": "holman-hollow-knight-silksong",
+    "slug": "holman-hollow-knight-silksong",
+    "name": "Hollow Knight Silksong",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/hollow_knight_silksong",
+    "description": "Tema morado/magenta con tonos de noche, inspirado en Silksong, usando la tipografía Mojang para todo el texto.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/preview.b6066ac1.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/hollow_knight_silksong/V1",
+        "date": "2026-09-06T13:16:50-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/hollow_knight_silksong/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/hollow_knight_silksong/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/hollow_knight_silksong/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/bg.40391972.png"
+          },
+          {
+            "name": "fonts/Mojang-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/fonts/Mojang-Bold.90e8f7fe.ttf"
+          },
+          {
+            "name": "fonts/Mojang-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/fonts/Mojang-Regular.babe8021.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/preview.b6066ac1.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/hollow_knight_silksong/V1/preview.b6066ac1.png",
+    "date": "2026-09-06T13:16:50-06:00"
+  },
+  {
+    "id": "holman-interstellar",
+    "slug": "holman-interstellar",
+    "name": "Interstellar_Gargantua_Black_Hole",
+    "author": "Holman",
+    "tags": [],
+    "dirPath": "src/holman/interstellar",
+    "description": "Tema animado inspirado en el agujero negro Gargantua de Interstellar, con estética oscura y detalles dorados/ámbar del disco de acreción.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/interstellar/V1",
+        "date": "2026-09-06T15:43:01-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/interstellar/V1/Meta.toml"
+          },
+          {
+            "name": "Showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/Showcase.8306abc8.gif"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/bg.34117a5a.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png"
+          },
+          {
+            "name": "showcase.gif",
+            "url": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/showcase.8306abc8.gif"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/interstellar/V1/preview.fca02bc7.png",
+    "date": "2026-09-06T15:43:01-05:00"
+  },
+  {
+    "id": "holman-sweetie-fox",
+    "slug": "holman-sweetie-fox",
+    "name": "Sweetie Fox Minecraft",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/sweetie_fox",
+    "description": "Un tema cálido y acogedor inspirado en una escena de streaming de Minecraft, con tonos naranjas y ambiente hogareño.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/sweetie_fox/V1/preview.289e8dd5.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/sweetie_fox/V1",
+        "date": "2026-09-05T18:42:53-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/sweetie_fox/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/sweetie_fox/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/sweetie_fox/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/sweetie_fox/V1/bg.4faccb08.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/sweetie_fox/V1/preview.289e8dd5.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/sweetie_fox/V1/preview.289e8dd5.png",
+    "date": "2026-09-05T18:42:53-05:00"
+  },
+  {
+    "id": "holman-tatsumaki",
+    "slug": "holman-tatsumaki",
+    "name": "Tatsumaki",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/tatsumaki",
+    "description": "Tema para CubicLauncher con imagen personalizada y tipografía Mojang.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/tatsumaki/V1",
+        "date": "2026-09-06T15:33:12-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/tatsumaki/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/bg.d185268f.png"
+          },
+          {
+            "name": "fonts/Mojang-Bold.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/fonts/Mojang-Bold.90e8f7fe.ttf"
+          },
+          {
+            "name": "fonts/Mojang-Regular.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/fonts/Mojang-Regular.babe8021.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/tatsumaki/V1/preview.67cdc8d6.png",
+    "date": "2026-09-06T15:33:12-05:00"
+  },
+  {
     "id": "kittyhos-kitty",
     "slug": "kittyhos-kitty",
     "name": "Kitty",
@@ -1667,7 +3069,7 @@
     "tags": [],
     "dirPath": "src/kittyhos/kitty",
     "description": "Tema minimalista y elegante con acentos rosados suaves. Inspirado en tonos pastel y una estética limpia y calmada.",
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",
@@ -1717,7 +3119,7 @@
     "tags": [],
     "dirPath": "src/kittyhos/lucky",
     "description": "Este tema fue generado por la herramienta Cubiclauncher-editor creado por kittyhos",
-    "verified": true,
+    "verified": false,
     "versions": [
       {
         "version": "V1",

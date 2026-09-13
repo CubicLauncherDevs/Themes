@@ -1,0 +1,100 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 0.85
+
+[colors]
+accent = "#CFC0BC"
+"accent-rgb" = "207, 192, 188"
+"accent-hover" = "#7C5A67"
+"accent-active" = "#4E3A44"
+"accent-text" = "#F2DEDA"
+"accent-subtle" = "rgba(207, 192, 188, 0.15)"
+
+[text]
+primary = "#E7E4EE"
+secondary = "#B8AFC4"
+muted = "#6C6478"
+accent = "#CFC0BC"
+
+[borders]
+color = "#242C48"
+"color-hover" = "#CFC0BC"
+radius = "10px"
+"radius-sm" = "6px"
+"radius-lg" = "14px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 1px 3px rgba(0,0,0,0.4)"
+"shadow-md" = "0 4px 8px rgba(0,0,0,0.35)"
+"shadow-lg" = "0 8px 24px rgba(0,0,0,0.45)"
+"glow-accent" = "0 0 12px rgba(207, 192, 188, 0.25)"
+"glow-accent-strong" = "0 0 20px rgba(207, 192, 188, 0.4)"
+"glow-error" = "0 0 12px rgba(197, 108, 108, 0.25)"
+"glow-success" = "0 0 12px rgba(126, 191, 142, 0.25)"
+
+[backgrounds]
+main = "#050B1E"
+sidebar = "#030815"
+card = "#101833"
+"item-active" = "#CFC0BC"
+overlay = "rgba(0,0,0,0.7)"
+input = "#080D1E"
+
+[layout]
+"font-family" = "'Mojang', 'Segoe UI', sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "16px"
+
+[others]
+"icon-filter" = "brightness(0) invert(0.91)"
+"icon-filter-accent" = "brightness(0) invert(0.55) sepia(1) saturate(3) hue-rotate(280deg)"
+"icon-filter-error" = "brightness(0) invert(0.4) sepia(1) saturate(10) hue-rotate(316deg)"
+"icon-filter-success" = "brightness(0) invert(0.65) sepia(1) saturate(3) hue-rotate(85deg)"
+"icon-filter-warning" = "brightness(0) invert(0.6) sepia(1) saturate(5) hue-rotate(5deg)"
+"icon-filter-info" = "brightness(0) invert(0.55) sepia(1) saturate(3) hue-rotate(280deg)"
+"icon-filter-muted" = "brightness(0) invert(0.60)"
+"color-success" = "#7EBF8E"
+"color-success-rgb" = "126, 191, 142"
+"color-error" = "#C56C6C"
+"color-error-rgb" = "197, 108, 108"
+"color-warning" = "#D4A86A"
+"color-warning-rgb" = "212, 168, 106"
+"color-info" = "#CFC0BC"
+"color-info-rgb" = "207, 192, 188"
+"color-status-starting" = "#D4A86A"
+"color-status-started" = "#7EBF8E"
+"color-status-stopped" = "#C56C6C"
+"color-status-error" = "#C56C6C"
+"scrollbar-track" = "#030815"
+"scrollbar-thumb" = "#CFC0BC"
+"scrollbar-thumb-hover" = "#7C5A67"
+"sidebar-width" = "260px"
+"transition-fast" = "0.12s ease"
+"transition-base" = "0.2s ease"
+"transition-slow" = "0.35s ease"
+
+[backdrop]
+dropdown = 8.0
+modal = 4.0
+overlay = 4.0
+viewer = 8.0
+float = 8.0
+panel = 5.0
+button = 4.0
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Regular.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Bold.ttf"
+format = "ttf"
+weight = "bold"
+style = "normal"

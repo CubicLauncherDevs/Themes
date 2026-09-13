@@ -1,0 +1,5 @@
+name = "Mie After School"
+author = "4xnl"
+version = "1.0.0"
+description = "Afternoon light, dusty pink, and Mie's glasses."
+injects_css = true

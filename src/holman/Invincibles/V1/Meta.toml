@@ -1,0 +1,5 @@
+name = "Invincibles Breaking Point"
+author = "holman"
+version = "1.0.0"
+description = "Tema con acentos rojo/naranja fuego, inspirado en la animación de fondo con la escena de acción del video."
+injects_css = true

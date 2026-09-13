@@ -1,0 +1,5 @@
+name = "Waguri Theme"
+author = "Holman"
+version = "1.0.0"
+description = "Tema Creado por Holman"
+injects_css = false

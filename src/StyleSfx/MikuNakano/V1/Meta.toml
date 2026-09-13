@@ -1,0 +1,5 @@
+name = "MikuNakano"
+author = "StyleSfx"
+version = "1.0.1"
+description = "Tema inspirado en Miku Nakano de Gotoubun no Hanayome, con fondo ilustrado y una paleta en tonos violetas suaves."
+injects_css = false

@@ -1,0 +1,168 @@
+:root {
+  --glass-fill: rgba(18, 20, 25, 0.30);
+  --glass-fill-strong: rgba(18, 20, 25, 0.42);
+  --glass-border: rgba(255, 255, 255, 0.28);
+  --glass-shadow: 0 14px 40px rgba(0, 0, 0, 0.30);
+  --ios-blue: #0A84FF;
+  --ios-text: #FFFFFF;
+  --ios-secondary: rgba(255, 255, 255, 0.78);
+}
+
+html,
+body {
+  font-family: 'SF Compact', 'Segoe UI', sans-serif !important;
+  letter-spacing: 0.01em;
+  color: var(--ios-text);
+}
+
+::selection {
+  background: rgba(10, 132, 255, 0.35);
+  color: #FFFFFF;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(10, 132, 255, 0.85);
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.50);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.32) rgba(255, 255, 255, 0.10);
+}
+
+/* Frosted iOS-glass surfaces — selectores específicos, sin comodines peligrosos */
+[role='dialog'],
+.modal,
+.dialog,
+.card,
+.panel,
+aside.sidebar,
+.sidebar,
+nav.sidebar,
+header,
+nav:not(.sidebar) {
+  background: var(--glass-fill) !important;
+  box-shadow: var(--glass-shadow) !important;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+}
+
+.card,
+.panel,
+aside.sidebar,
+.sidebar {
+  border: 1px solid var(--glass-border) !important;
+}
+
+header,
+nav:not(.sidebar) {
+  border: none !important;
+}
+
+/* Top separator: soft shadow, sin línea dura */
+header,
+header[role='banner'],
+[class*='titlebar'],
+[class*='TitleBar'],
+[class*='topbar'],
+[class*='TopBar'] {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 10px 26px -10px rgba(0, 0, 0, 0.38) !important;
+}
+
+/* Sidebar translúcida en CUALQUIER estado. No tocamos ancho ni estado collapsed,
+   dejamos que CubicLauncher maneje su propio toggle. */
+aside.sidebar,
+.sidebar,
+nav.sidebar {
+  background: var(--glass-fill) !important;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  transition: width var(--transition-base, 0.2s ease),
+    background-color var(--transition-base, 0.2s ease) !important;
+}
+
+/* Text stays white and legible on every glass surface. Icons are untouched (no filter, see Definition.toml). */
+[role='dialog'] :not(img):not(svg),
+.modal :not(img):not(svg),
+.card :not(img):not(svg),
+.panel :not(img):not(svg),
+aside :not(img):not(svg),
+header :not(img):not(svg),
+nav :not(img):not(svg),
+section :not(img):not(svg) {
+  color: var(--ios-text);
+}
+
+.text-secondary,
+[class*='secondary'] {
+  color: var(--ios-secondary) !important;
+}
+
+/* Botón de colapsar/expandir: solo aseguramos que no se recorte.
+   NO le metemos background, border ni backdrop-filter. */
+[aria-label*='collapse' i],
+[aria-label*='expand' i],
+button[class*='sidebar-toggle'],
+button[class*='collapse'] {
+  overflow: visible !important;
+  min-width: 32px;
+  min-height: 32px;
+  flex-shrink: 0;
+}
+
+button,
+select,
+input,
+textarea,
+a,
+.clickable {
+  font-family: inherit !important;
+  transition:
+    background-color 0.20s ease,
+    border-color 0.20s ease,
+    box-shadow 0.20s ease,
+    color 0.20s ease,
+    transform 0.15s ease,
+    filter 0.20s ease;
+}
+
+button,
+select,
+input,
+textarea {
+  border-radius: 12px;
+  min-height: 34px;
+}
+
+button:hover,
+.clickable:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+}
+
+button:active,
+.clickable:active {
+  transform: scale(0.985);
+}

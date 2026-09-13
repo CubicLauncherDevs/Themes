@@ -1,0 +1,5 @@
+name = "Sweetie Fox Minecraft"
+author = "holman"
+version = "1.0.0"
+description = "Un tema cálido y acogedor inspirado en una escena de streaming de Minecraft, con tonos naranjas y ambiente hogareño."
+injects_css = true

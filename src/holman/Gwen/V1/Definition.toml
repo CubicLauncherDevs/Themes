@@ -1,0 +1,78 @@
+[background]
+reference_path = "bg.gif"
+image_blur = 0.0
+image_opacity = 1.0
+
+[backgrounds]
+main = "#0b0b10"
+sidebar = "#101017"
+card = "#191820"
+item-active = "#30202b"
+overlay = "rgba(8, 8, 12, 0.52)"
+input = "#13131b"
+
+[colors]
+accent = "#e58a9b"
+accent-rgb = "229,138,155"
+accent-hover = "#f0a7b4"
+accent-active = "#cf7286"
+accent-text = "#fff7f9"
+accent-subtle = "rgba(229,138,155,0.14)"
+color-success = "#83c9a1"
+color-success-rgb = "131,201,161"
+color-error = "#e56f79"
+color-error-rgb = "229,111,121"
+color-warning = "#e0b36e"
+color-warning-rgb = "224,179,110"
+color-info = "#75a5e5"
+color-info-rgb = "117,165,229"
+color-status-starting = "#e58a9b"
+color-status-started = "#83c9a1"
+color-status-stopped = "#0b0b10"
+color-status-error = "#e56f79"
+
+[text]
+primary = "#f4f2f4"
+secondary = "#d8d1d7"
+muted = "#9d949e"
+accent = "#f0a7b4"
+
+[borders]
+color = "#352b35"
+color-hover = "#664452"
+radius = "8px"
+radius-sm = "4px"
+radius-lg = "12px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.50)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.60)"
+shadow-lg = "0 8px 28px rgba(0,0,0,0.70)"
+glow-accent = "0 0 16px rgba(229,138,155,0.22)"
+glow-accent-strong = "0 0 28px rgba(229,138,155,0.34)"
+
+[layout]
+"font-family" = "'Mojang', 'Segoe UI', sans-serif"
+"font-size-lg" = "16px"
+"font-size-sm" = "12px"
+"font-size-base" = "14px"
+sidebar-width = "260px"
+
+[others]
+scrollbar-track = "#0b0b10"
+scrollbar-thumb = "#352b35"
+scrollbar-thumb-hover = "#664452"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Regular.ttf"
+format = "ttf"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "Mojang"
+src = "fonts/Mojang-Bold.ttf"
+format = "ttf"
+weight = "bold"
+style = "normal"

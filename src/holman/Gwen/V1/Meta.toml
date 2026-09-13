@@ -1,0 +1,5 @@
+name = "gwen-stacy"
+author = "holman"
+version = "1.0.0"
+description = "Tema animado de Gwen Stacy con fondo en movimiento."
+injects_css = false

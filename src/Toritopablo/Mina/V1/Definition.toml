@@ -1,0 +1,99 @@
+[background]
+reference_path = "bg.gif"
+image_blur = 0.0
+image_opacity = 0.42
+
+[colors]
+accent = "#c8102e"
+accent-rgb = "200, 16, 46"
+accent-hover = "#e11d38"
+accent-active = "#9a0c22"
+accent-text = "#f5ece2"
+accent-subtle = "rgba(200, 16, 46, 0.12)"
+color-success = "#7fae6e"
+color-success-rgb = "127, 174, 110"
+color-error = "#e11d38"
+color-error-rgb = "225, 29, 56"
+color-warning = "#c9a227"
+color-warning-rgb = "201, 162, 39"
+color-info = "#5f7d8c"
+color-info-rgb = "95, 125, 140"
+color-status-starting = "#c9a227"
+color-status-started = "#c8102e"
+color-status-stopped = "#4a4550"
+color-status-error = "#e11d38"
+
+[text]
+primary = "#f5ece2"
+secondary = "#c9bcae"
+muted = "rgba(245, 236, 226, 0.48)"
+accent = "#e11d38"
+
+[backgrounds]
+main = "#0a0608"
+sidebar = "#120a0d"
+card = "#1a0e12"
+item-active = "rgba(200, 16, 46, 0.14)"
+overlay = "rgba(8, 4, 6, 0.86)"
+input = "#150c0f"
+
+[backdrop]
+dropdown = 12.0
+modal = 8.0
+overlay = 6.0
+viewer = 10.0
+float = 10.0
+panel = 6.0
+button = 4.0
+
+[borders]
+color = "rgba(200, 16, 46, 0.14)"
+color-hover = "rgba(200, 16, 46, 0.45)"
+radius = "10px"
+radius-sm = "6px"
+radius-lg = "16px"
+
+[layout]
+font-family = "'Cinzel', 'Times New Roman', serif"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+sidebar-width = "260px"
+transition-fast = "0.12s ease"
+transition-base = "0.2s ease"
+transition-slow = "0.35s ease"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.7)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.6)"
+shadow-lg = "0 10px 30px rgba(0,0,0,0.7)"
+glow-accent = "0 0 14px rgba(200,16,46,0.30)"
+glow-accent-strong = "0 0 26px rgba(200,16,46,0.55)"
+glow-error = "0 0 18px rgba(225,29,56,0.5)"
+glow-success = "0 0 16px rgba(127,174,110,0.4)"
+
+[others]
+font-family = "'Cinzel', 'Times New Roman', serif"
+icon-filter = "invert(20%) sepia(85%) saturate(3200%) hue-rotate(335deg) brightness(95%)"
+icon-filter-accent = "invert(20%) sepia(85%) saturate(3200%) hue-rotate(335deg) brightness(95%)"
+icon-filter-error = "invert(22%) sepia(90%) saturate(3600%) hue-rotate(338deg) brightness(98%)"
+icon-filter-success = "invert(60%) sepia(20%) saturate(500%) hue-rotate(60deg) brightness(95%)"
+icon-filter-warning = "invert(70%) sepia(60%) saturate(700%) hue-rotate(5deg) brightness(100%)"
+icon-filter-muted = "invert(45%) sepia(8%) saturate(300%) brightness(80%)"
+scrollbar-track = "#0a0608"
+scrollbar-thumb = "linear-gradient(180deg, #c8102e, #4a1018)"
+scrollbar-thumb-hover = "#e11d38"
+
+[[fonts]]
+family = "Cinzel"
+src = "fonts/Cinzel.ttf"
+format = "truetype"
+weight = "normal"
+style = "normal"
+
+[[fonts]]
+family = "UnifrakturCook"
+src = "fonts/UnifrakturCook-Bold.ttf"
+format = "truetype"
+weight = "bold"
+style = "normal"

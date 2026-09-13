@@ -1,0 +1,61 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 0.0
+image_opacity = 1.0
+
+[backgrounds]
+main = "#3A0905"
+sidebar = "#240707"
+card = "#68180D"
+item-active = "#9E2B0D"
+overlay = "rgba(35,5,2,0.52)"
+input = "#4A1008"
+
+[colors]
+accent = "#FF8A16"
+accent-rgb = "255,138,22"
+accent-hover = "#FFB347"
+accent-active = "#E66D00"
+accent-text = "#FFF8EA"
+accent-subtle = "rgba(255,138,22,0.16)"
+color-success = "#F6C453"
+color-success-rgb = "246,196,83"
+color-error = "#FF4A21"
+color-error-rgb = "255,74,33"
+color-warning = "#FFD34E"
+color-warning-rgb = "255,211,78"
+color-info = "#FFB06B"
+color-info-rgb = "255,176,107"
+color-status-starting = "#FF8A16"
+color-status-started = "#F6C453"
+color-status-stopped = "#3A0905"
+color-status-error = "#FF4A21"
+
+[text]
+primary = "#FFF1DA"
+secondary = "#FFD8A8"
+muted = "#D29B72"
+accent = "#FFC46B"
+
+[borders]
+color = "#7A2616"
+color-hover = "#FF8A16"
+radius = "8px"
+radius-sm = "4px"
+radius-lg = "12px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.45)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.58)"
+shadow-lg = "0 8px 28px rgba(0,0,0,0.68)"
+glow-accent = "0 0 16px rgba(255,138,22,0.24)"
+glow-accent-strong = "0 0 28px rgba(255,138,22,0.38)"
+
+[others]
+scrollbar-track = "#240707"
+scrollbar-thumb = "#7A2616"
+scrollbar-thumb-hover = "#FF8A16"
+
+[layout]
+font-size-base = "16px"
+sidebar-width = "260px"

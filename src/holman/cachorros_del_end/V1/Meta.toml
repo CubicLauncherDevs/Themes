@@ -1,0 +1,5 @@
+name = "Cachorros del End"
+author = "holman"
+version = "1.0.0"
+description = "Tema inspirado en la imagen de los cachorros exploradores en el End"
+injects_css = false

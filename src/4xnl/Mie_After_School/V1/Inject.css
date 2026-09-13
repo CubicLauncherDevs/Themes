@@ -1,0 +1,72 @@
+/* Mie After School — scoped visual changes, native layout retained. */
+.background-overlay {
+  filter: none !important;
+  background-position: 64% center !important;
+}
+.background-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(32,27,27,.66), rgba(32,27,27,.18) 65%, rgba(32,27,27,.12));
+}
+.sidebar .tools-btn .icon-svg { filter: none !important; }
+.sidebar .tools-btn { color: var(--text-secondary); }
+.sidebar .tools-btn:hover { color: var(--accent); }
+.instance-item.active {
+  background: #463236 !important;
+  border-color: #bd8784 !important;
+  box-shadow: inset 2px 0 0 #e6b1a8 !important;
+  backdrop-filter: none !important;
+}
+.instance-item.active .instance-icon-strip::before {
+  background: #785055 !important;
+}
+.modal { background: #282122 !important; }
+input:focus-visible, textarea:focus-visible, button:focus-visible {
+  outline: 2px solid #e6b1a8;
+  outline-offset: 2px;
+}
+::selection { background: #785055; color: #fff0e8; }
+
+/* v1.1: also removes component-local blur, including the instance header. */
+*, *::before, *::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+html .background-overlay { filter: none !important; }
+
+/* Only interaction-triggered motion; no persistent compositor layers. */
+@keyframes mie-selection {
+  from { opacity: .72; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-reduce-motion]) .sidebar .tools-btn .icon-svg,
+  html:not([data-reduce-motion]) .sc-tool-btn .icon-svg {
+    transition: transform 150ms ease-out;
+  }
+  html:not([data-reduce-motion]) .sidebar .tools-btn:hover .icon-svg,
+  html:not([data-reduce-motion]) .sc-tool-btn:hover .icon-svg {
+    transform: translateY(-1px) rotate(-5deg);
+  }
+  html:not([data-reduce-motion]) .sidebar .tools-btn:active .icon-svg,
+  html:not([data-reduce-motion]) .sc-tool-btn:active .icon-svg {
+    transform: scale(.92);
+  }
+  html:not([data-reduce-motion]) .launch-btn:not(:disabled) {
+    transition: transform 140ms ease-out, background-color 140ms ease-out;
+  }
+  html:not([data-reduce-motion]) .launch-btn:not(:disabled):hover {
+    transform: translateY(-1px);
+  }
+  html:not([data-reduce-motion]) .launch-btn:not(:disabled):active {
+    transform: scale(.98);
+  }
+  html:not([data-reduce-motion]) .instance-item.active,
+  html:not([data-reduce-motion]) .sc-instance-item.active {
+    animation: mie-selection 180ms ease-out 1;
+  }
+}
+/* Static download count; functional loading spinners remain available. */
+.sc-download-badge { animation: none !important; }

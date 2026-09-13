@@ -1,0 +1,51 @@
+name: Themes Archive Release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: themes-archive
+  cancel-in-progress: true
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install system tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq zip jq
+
+      - name: Build themes archive
+        run: node scripts/build-archive.mjs
+
+      - name: Load archive metadata
+        id: info
+        run: |
+          source .archive-info.env
+          echo "zip_path=$ZIP_PATH" >> "$GITHUB_OUTPUT"
+          echo "tag_name=$TAG_NAME" >> "$GITHUB_OUTPUT"
+          echo "release_title=$RELEASE_TITLE" >> "$GITHUB_OUTPUT"
+          echo "zip_size_mb=$ZIP_SIZE_MB" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.info.outputs.tag_name }}
+          name: ${{ steps.info.outputs.release_title }}
+          body_path: release-notes.md
+          files: ${{ steps.info.outputs.zip_path }}
+          generate_release_notes: false
