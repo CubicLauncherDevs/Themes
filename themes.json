@@ -400,7 +400,7 @@
       {
         "version": "V1",
         "previewUrl": null,
-        "showcaseUrl": null,
+        "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/Showcase.ff6d7fe9.png",
         "dirPath": "src/CubicLauncher/BedrockOre/V1",
         "date": "2026-09-19T02:36:04-03:00",
         "changelog": null,
@@ -430,8 +430,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/README.md"
           },
           {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/Showcase.ff6d7fe9.png"
+          },
+          {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "theme.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/theme.md"
           },
           {
             "name": "fonts/PixelifySans.ttf",
@@ -604,10 +612,6 @@
           {
             "name": "icons/ui-logout.svg",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-logout.0b099ed6.svg"
-          },
-          {
-            "name": "theme.md",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/theme.md"
           }
         ],
         "injectsCss": true
