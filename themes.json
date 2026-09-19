@@ -430,16 +430,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/README.md"
           },
           {
-            "name": "Showcase.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/Showcase.ff6d7fe9.png"
-          },
-          {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
           },
           {
             "name": "theme.md",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/theme.md"
+          },
+          {
+            "name": "Showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/Showcase.ff6d7fe9.png"
           },
           {
             "name": "fonts/PixelifySans.ttf",
@@ -1444,6 +1444,64 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Clang/V1/preview.124cd8e8.png",
     "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "notstaff-inkwitch",
+    "slug": "notstaff-inkwitch",
+    "name": "Ink Witch",
+    "author": "staFF6773",
+    "tags": [],
+    "dirPath": "src/Notstaff/InkWitch",
+    "description": "# Ink Witch\n\nUn tema de manga oscuro en blanco, negro y gris carbón. Títulos condensados, bordes finos y controles inspirados en viñetas, con el wallpaper original visible y sin desenfoque. La instancia seleccionada se marca con una línea clara y un fondo gris discreto.\n\nIncluye la fuente Oswald en WOFF2, sin descargas al usar el tema. Mantiene los iconos originales del launcher y no modifica la posición de los botones de la sidebar.\n\nImporta el `.cbth` desde Temas y selecciona **Ink Witch**. Habilita el CSS personalizado si tu versión lo solicita.\n\nTema: staFF6773. Wallpaper aportado por el usuario. Fuente: [Oswald, Google Fonts](https://github.com/google/fonts/tree/main/ofl/oswald), licencia SIL Open Font License incluida en `fonts/OFL.txt`.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.8434ee87.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/InkWitch/V1",
+        "date": "2026-09-19T12:55:03-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/bg.059080bd.jpg"
+          },
+          {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "fonts/Oswald.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/fonts/Oswald.e22a0139.woff2"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.8434ee87.png"
+          },
+          {
+            "name": "preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.750713f0.svg"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.8434ee87.png",
+    "date": "2026-09-19T12:55:03-06:00"
   },
   {
     "id": "notstaff-lain-theme",
