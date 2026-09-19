@@ -2146,7 +2146,7 @@
     "author": "Santiagolxx",
     "tags": [],
     "dirPath": "src/Santiagolxx/SystemOfADown",
-    "description": "Tema inspirado en la Federación de Futbol de Chile (FFCh)",
+    "description": "Tema inspirado en la banda de new metal System of a Down",
     "verified": false,
     "versions": [
       {
@@ -2162,20 +2162,20 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V2/Definition.toml"
           },
           {
-            "name": "Fonts/Soad.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/Fonts/Soad.ecddc731.ttf"
-          },
-          {
             "name": "Meta.toml",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V2/Meta.toml"
           },
           {
-            "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/bg.79778d7b.png"
-          },
-          {
             "name": "preview.png",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png"
+          },
+          {
+            "name": "Fonts/Soad.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/Fonts/Soad.ecddc731.ttf"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/bg.79778d7b.png"
           }
         ],
         "injectsCss": false
