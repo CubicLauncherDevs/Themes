@@ -388,6 +388,236 @@
     "date": "2026-07-29T22:15:35-06:00"
   },
   {
+    "id": "cubiclauncher-bedrockore",
+    "slug": "cubiclauncher-bedrockore",
+    "name": "Bedrock Ore",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/BedrockOre",
+    "description": "Grises oscuros, relieve y verde esmeralda al estilo Bedrock.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": null,
+        "showcaseUrl": null,
+        "dirPath": "src/CubicLauncher/BedrockOre/V1",
+        "date": "2026-09-19T02:36:04-03:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "CREDITS-Ore-UI.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/CREDITS-Ore-UI.md"
+          },
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/Inject.css"
+          },
+          {
+            "name": "LICENSE-Ore-UI.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/LICENSE-Ore-UI.txt"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/Meta.toml"
+          },
+          {
+            "name": "README.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/README.md"
+          },
+          {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "fonts/PixelifySans.ttf",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/fonts/PixelifySans.9ba86cd0.ttf"
+          },
+          {
+            "name": "icons/brand-cubic.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/brand-cubic.027098d0.svg"
+          },
+          {
+            "name": "icons/brand-github.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/brand-github.11220c57.svg"
+          },
+          {
+            "name": "icons/brand-microsoft.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/brand-microsoft.1ce7b25a.svg"
+          },
+          {
+            "name": "icons/instance-check-square.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/instance-check-square.427a0ba0.svg"
+          },
+          {
+            "name": "icons/instance-clock.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/instance-clock.6a2b6bc6.svg"
+          },
+          {
+            "name": "icons/instance-code.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/instance-code.4b9222bd.svg"
+          },
+          {
+            "name": "icons/log-arrow-down.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/log-arrow-down.8ad14389.svg"
+          },
+          {
+            "name": "icons/log-scroll-down.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/log-scroll-down.2aaa5f9d.svg"
+          },
+          {
+            "name": "icons/log-search.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/log-search.a5ecb6f6.svg"
+          },
+          {
+            "name": "icons/log-spinner.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/log-spinner.7c29a17f.svg"
+          },
+          {
+            "name": "icons/ore/checkbox-checked.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/checkbox-checked.363e735e.svg"
+          },
+          {
+            "name": "icons/ore/combobox-arrow.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/combobox-arrow.a71652ad.svg"
+          },
+          {
+            "name": "icons/ore/copy.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/copy.bd1bb402.png"
+          },
+          {
+            "name": "icons/ore/delete.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/delete.705d3cc1.png"
+          },
+          {
+            "name": "icons/ore/discord.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/discord.8903f4ab.png"
+          },
+          {
+            "name": "icons/ore/export.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/export.b3f5a01e.png"
+          },
+          {
+            "name": "icons/ore/externaltools.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/externaltools.0d06ddda.png"
+          },
+          {
+            "name": "icons/ore/import.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/import.eb619d5c.png"
+          },
+          {
+            "name": "icons/ore/instance-settings.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/instance-settings.4b0484a9.png"
+          },
+          {
+            "name": "icons/ore/launch.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/launch.4b18621b.png"
+          },
+          {
+            "name": "icons/ore/log.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/log.606fc6d3.png"
+          },
+          {
+            "name": "icons/ore/new.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/new.bc98f347.png"
+          },
+          {
+            "name": "icons/ore/packages.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/packages.471c16e6.png"
+          },
+          {
+            "name": "icons/ore/refresh.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/refresh.a3ca37b5.png"
+          },
+          {
+            "name": "icons/ore/rename.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/rename.674c5b6a.png"
+          },
+          {
+            "name": "icons/ore/resourcepacks.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/resourcepacks.f0de09ef.png"
+          },
+          {
+            "name": "icons/ore/screenshots.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/screenshots.ce0207fe.png"
+          },
+          {
+            "name": "icons/ore/server.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/server.98fb89d2.png"
+          },
+          {
+            "name": "icons/ore/settings.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/settings.4b0484a9.png"
+          },
+          {
+            "name": "icons/ore/shaderpacks.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/shaderpacks.5b400866.png"
+          },
+          {
+            "name": "icons/ore/shortcut.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/shortcut.a03b52af.png"
+          },
+          {
+            "name": "icons/ore/spinbox-up.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/spinbox-up.5d0d2429.svg"
+          },
+          {
+            "name": "icons/ore/status-bad.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/status-bad.118a130f.png"
+          },
+          {
+            "name": "icons/ore/status-good.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/status-good.1cf6959e.png"
+          },
+          {
+            "name": "icons/ore/tag.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/tag.cb8762dc.png"
+          },
+          {
+            "name": "icons/ore/viewfolder.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ore/viewfolder.f5ecb518.png"
+          },
+          {
+            "name": "icons/preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/preview.6b12ca16.svg"
+          },
+          {
+            "name": "icons/ui-chevron-left.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-chevron-left.486d0377.svg"
+          },
+          {
+            "name": "icons/ui-chevron-right.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-chevron-right.10bcddb7.svg"
+          },
+          {
+            "name": "icons/ui-close.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-close.bb6ce058.svg"
+          },
+          {
+            "name": "icons/ui-flag.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-flag.7b53f03e.svg"
+          },
+          {
+            "name": "icons/ui-logout.svg",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-logout.0b099ed6.svg"
+          },
+          {
+            "name": "theme.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/theme.md"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": null,
+    "date": "2026-09-19T02:36:04-03:00"
+  },
+  {
     "id": "cubiclauncher-retrospectrum",
     "slug": "cubiclauncher-retrospectrum",
     "name": "Retro Spectrum",
@@ -1539,12 +1769,12 @@
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/bg.e445c32d.webp"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.dd622d92.png"
-          },
-          {
             "name": "preview.svg",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.ce75a4b6.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.dd622d92.png"
           }
         ],
         "injectsCss": true
