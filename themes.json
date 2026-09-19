@@ -1505,6 +1505,56 @@
     "date": "2026-09-08T20:17:29-06:00"
   },
   {
+    "id": "notstaff-starlit02",
+    "slug": "notstaff-starlit02",
+    "name": "Starlit 02",
+    "author": "staFF6773",
+    "tags": [],
+    "dirPath": "src/Notstaff/Starlit02",
+    "description": "Zero Two bajo las estrellas. Azul noche, lavanda y un fondo animado ligero, sin desenfoques.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.dd622d92.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/Starlit02/V1",
+        "date": "2026-09-18T23:33:17-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Starlit02/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Starlit02/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Starlit02/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/bg.e445c32d.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.dd622d92.png"
+          },
+          {
+            "name": "preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.ce75a4b6.svg"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Starlit02/V1/preview.dd622d92.png",
+    "date": "2026-09-18T23:33:17-06:00"
+  },
+  {
     "id": "notstaff-yorha",
     "slug": "notstaff-yorha",
     "name": "YoRHa",
@@ -2166,16 +2216,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V2/Meta.toml"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png"
-          },
-          {
             "name": "Fonts/Soad.ttf",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/Fonts/Soad.ecddc731.ttf"
           },
           {
             "name": "bg.png",
             "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/bg.79778d7b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png"
           }
         ],
         "injectsCss": false
