@@ -1,0 +1,134 @@
+/* Ink Witch — monochrome manga panels, native layout and control geometry. */
+:root { color-scheme: dark; }
+:root .app-container {
+  color: var(--text-primary);
+  background: var(--bg-main) var(--bg-image, none) center / cover no-repeat;
+}
+:root .background-overlay { background: transparent; filter: none; pointer-events: none; }
+:root .sidebar, :root .sidebar-compact {
+  background: var(--bg-sidebar-gradient);
+  border-right: 1px solid rgba(220,220,220,0.30);
+  box-shadow: 3px 0 0 rgba(0,0,0,0.3);
+}
+:root .sidebar .sidebar-header { border-bottom: 1px solid var(--border); }
+:root .sidebar .sidebar-header h1 {
+  font-family: var(--font-family-display);
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+:root .sidebar .sidebar-sections {
+  width: 100%; margin: 8px 0;
+  background: #191919;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+:root .sidebar .tools-btn, :root .sidebar-compact .sc-tool-btn {
+  background: transparent; border-color: transparent;
+  color: var(--text-secondary); border-radius: 4px;
+}
+:root .sidebar .tools-btn:hover, :root .sidebar-compact .sc-tool-btn:hover {
+  background: var(--surface-hover); color: var(--text-primary);
+}
+:root .sidebar .instance-item, :root .sidebar .instance-item.odd {
+  --item-bg: #1C1C1C;
+  border-radius: 4px; border-color: transparent; box-shadow: none;
+}
+:root .sidebar .instance-item:hover { --item-bg: var(--surface-hover); }
+:root .sidebar .instance-item.active {
+  --item-bg: var(--bg-item-active);
+  border-color: #626262;
+  box-shadow: inset 2px 0 0 #DEDEDE;
+}
+:root .sidebar .instance-icon-strip { border-right-color: transparent; }
+:root .sidebar .instance-icon-strip::before { background: transparent; }
+:root .sidebar .instance-item.active .instance-icon-strip { color: var(--accent); }
+:root .sidebar .instance-item.active .instance-icon-strip::before {
+  background: rgba(255,255,255,0.04); filter: none;
+}
+:root .sidebar-compact .sc-instance-item.active {
+  background: var(--bg-item-active); border-color: #626262;
+  box-shadow: inset 2px 0 0 #DEDEDE;
+}
+:root .sidebar .user-profile, :root .sidebar-compact .sc-user {
+  background: #202020; color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 6px; margin-bottom: 10px;
+}
+:root .sidebar-compact .sc-user { width: calc(100% - 12px); }
+:root .sidebar .user-profile:hover, :root .sidebar-compact .sc-user:hover { background: var(--surface-hover); }
+:root .sidebar .user-avatar-wrapper, :root .sidebar-compact .sc-avatar-wrapper { border-radius: 4px; }
+/* Do not override native transform, coordinates or dimensions of the toggles. */
+:root .sidebar .collapse-btn, :root .sidebar-compact .expand-btn {
+  background: #242424; border-color: #636363; color: #E0E0E0; box-shadow: none;
+}
+:root .sidebar .collapse-btn:hover, :root .sidebar-compact .expand-btn:hover {
+  background: #3A3A3A; color: #FFFFFF;
+}
+:root .instance-view, :root .profile-hero { background: transparent; }
+:root .profile-view { background: rgba(17,17,17,0.96); }
+:root .main-content > .empty-state { background: transparent; }
+:root .instance-header .header-bg {
+  background: linear-gradient(180deg, rgba(10,10,10,0.96), rgba(10,10,10,0.80) 40%, transparent);
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+  -webkit-mask-image: none; mask-image: none; border: none;
+}
+:root .instance-header .instance-title {
+  font-family: var(--font-family-display);
+  font-weight: 500; letter-spacing: 0.6px;
+  color: #F0F0F0; text-shadow: 0 2px 0 #101010;
+}
+:root .instance-header .path-row, :root .instance-header .last-played,
+:root .instance-header .inline-status {
+  background: rgba(18,18,18,0.96); border-radius: 3px; padding: 2px 6px;
+}
+:root .instance-header .meta-chip, :root .instance-header .compact-version {
+  border-radius: 3px; background: var(--surface-input);
+}
+:root .nav-card {
+  background: #191919; border-color: #535353; border-radius: 6px;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.45);
+}
+:root .nav-card:hover { box-shadow: 3px 3px 0 rgba(0,0,0,0.45); }
+:root .nav-card .nav-card-header {
+  font-family: var(--font-family-display); font-size: 0.9rem;
+  letter-spacing: 1.1px; color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+:root .nav-card .nav-item:hover { background: var(--surface-hover); }
+:root .instance-header .launch-btn, :root .btn-primary {
+  border-radius: 4px; box-shadow: 3px 3px 0 rgba(0,0,0,0.5);
+  font-family: var(--font-family-display); font-weight: 600;
+  letter-spacing: 0.6px;
+}
+:root .instance-header .launch-btn:not(:disabled), :root .btn-primary:not(:disabled) {
+  background: #DEDEDE; color: #111111; border: 1px solid #F1F1F1;
+}
+:root .instance-header .launch-btn:hover:not(:disabled), :root .btn-primary:hover:not(:disabled) {
+  background: #F3F3F3;
+}
+:root .instance-header .launch-btn:disabled, :root .btn-primary:disabled { box-shadow: none; }
+:root .btn-secondary, :root .btn-danger, :root .select-trigger { border-radius: 4px; }
+:root .drawer-overlay { background: var(--bg-overlay); }
+:root .drawer { background: var(--bg-sidebar); border-color: var(--border); box-shadow: var(--shadow-lg); }
+:root .modal, :root .select-dropdown, :root .ctx-menu {
+  background: var(--surface-dropdown); border: 1px solid #505050;
+  box-shadow: var(--shadow-lg);
+}
+:root .ctx-menu, :root .select-dropdown { border-radius: 6px; }
+:root .ctx-menu .ctx-item { border-radius: 3px; }
+:root .qm-root { background: var(--bg-sidebar); }
+:root .qm-header, :root .qm-tabs, :root .qm-footer, :root .save-footer { background: #1D1D1D; }
+:root .section-group { border-radius: 6px; background: var(--bg-card); }
+:root .main-content > .empty-state h2, :root .main-content > .empty-state p {
+  background: rgba(17,17,17,0.96); color: var(--text-primary);
+  border: 1px solid #535353; border-radius: 4px; padding: 10px 18px;
+}
+:root .main-content > .empty-state h2 {
+  font-family: var(--font-family-display); font-weight: 500; letter-spacing: 0.6px;
+}
+:root button:focus-visible, :root input:focus-visible,
+:root textarea:focus-visible, :root select:focus-visible {
+  outline: 2px solid #DEDEDE; outline-offset: 2px;
+}
+::selection { background: #D8D8D8; color: #101010; }

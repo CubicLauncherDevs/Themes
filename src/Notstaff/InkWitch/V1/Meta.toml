@@ -1,0 +1,5 @@
+name = "Ink Witch"
+author = "staFF6773"
+version = "1.0.0"
+description = "Manga en tinta y carbón: monocromo, tipografía condensada, líneas finas y fondo nítido."
+injects_css = true

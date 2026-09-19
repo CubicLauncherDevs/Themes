@@ -1,0 +1,120 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#DEDEDE"
+accent-primary = "#DEDEDE"
+accent-hover = "#FFFFFF"
+accent-rgb = "222, 222, 222"
+accent-text = "#101010"
+border = "rgba(220,220,220,0.20)"
+bg-sidebar-gradient = "linear-gradient(180deg, rgba(15,15,15,0.97), rgba(19,19,19,0.94))"
+bg-card-gradient = "linear-gradient(135deg, #202020, #181818)"
+bg-item-active = "#303030"
+bg-overlay = "rgba(0,0,0,0.72)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#4B4B4B"
+scrollbar-thumb-hover = "#797979"
+surface-rgb = "230, 230, 230"
+color-success = "#D6D6D6"
+color-success-rgb = "214, 214, 214"
+color-error = "#F2F2F2"
+color-error-rgb = "242, 242, 242"
+color-warning = "#C2C2C2"
+color-warning-rgb = "194, 194, 194"
+color-info = "#D0D0D0"
+color-info-rgb = "208, 208, 208"
+color-status-starting = "#BDBDBD"
+color-status-started = "#EFEFEF"
+color-on-error = "#111111"
+color-on-success = "#111111"
+color-on-info = "#111111"
+color-on-warning = "#111111"
+clr-loader-vanilla = "#C8C8C8"
+clr-loader-fabric = "#B8B8B8"
+clr-loader-forge = "#DBDBDB"
+clr-loader-quilt = "#C8C8C8"
+download-library = "#C6C6C6"
+download-asset = "#AFAFAF"
+download-native = "#D1D1D1"
+download-client = "#E4E4E4"
+download-verifying = "#C6C6C6"
+download-generic = "#BBBBBB"
+download-processing = "#D6D6D6"
+download-jre = "#C0C0C0"
+
+[backgrounds]
+main = "#111111"
+sidebar = "#151515"
+card = "#1D1D1D"
+input = "#131313"
+surface = "#252525"
+
+[text]
+primary = "#EEEEEE"
+secondary = "#CECECE"
+muted = "#ADADAD"
+tertiary = "#ADADAD"
+
+[borders]
+color = "rgba(220,220,220,0.20)"
+width = "1px"
+radius = "6px"
+radius-sm = "4px"
+radius-lg = "10px"
+
+[layout]
+sidebar-width = "260px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 0 rgba(0,0,0,0.30)"
+shadow-md = "0 4px 12px rgba(0,0,0,0.32)"
+shadow-lg = "0 10px 28px rgba(0,0,0,0.50)"
+glow-accent = "0 0 0 2px rgba(222,222,222,0.18)"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+font-family-display = "'Oswald', 'Arial Narrow', sans-serif"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "#1A1A1A"
+surface-input = "#131313"
+surface-hover = "#2B2B2B"
+surface-active = "#363636"
+surface-selected = "#303030"
+surface-card = "#1D1D1D"
+toast-bg = "#1D1D1D"
+toast-border = "#555555"
+button-bg = "#252525"
+button-hover-bg = "#363636"
+btn-bg = "#252525"
+item-bg = "#1C1C1C"
+bg-image-size = "cover"
+bg-image-position = "center"
+bg-image-brightness = "1"
+scrollbar-radius = "2px"
+
+[[fonts]]
+family = "Oswald"
+src = "fonts/Oswald.woff2"
+format = "woff2"
+weight = "200 700"
+style = "normal"
+
+[icons]
+preview = "preview.svg"
