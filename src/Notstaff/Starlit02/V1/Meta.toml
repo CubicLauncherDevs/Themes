@@ -1,0 +1,5 @@
+name = "Starlit 02"
+author = "staFF6773"
+version = "1.0.0"
+description = "Zero Two bajo las estrellas. Azul noche, lavanda y un fondo animado ligero, sin desenfoques."
+injects_css = true

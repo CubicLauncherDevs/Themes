@@ -1,0 +1,103 @@
+[background]
+reference_path = "bg.webp"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#B9B1F2"
+accent-primary = "#B9B1F2"
+accent-hover = "#D0CAFF"
+accent-rgb = "185, 177, 242"
+accent-text = "#111426"
+border = "rgba(174,185,233,0.17)"
+bg-sidebar-gradient = "linear-gradient(165deg, rgba(13,19,38,0.96), rgba(17,24,46,0.91))"
+bg-card-gradient = "linear-gradient(135deg, #19243C, #1C233B)"
+bg-item-active = "#30304E"
+bg-overlay = "rgba(4,8,20,0.66)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "rgba(174,185,233,0.26)"
+scrollbar-thumb-hover = "rgba(174,185,233,0.46)"
+surface-rgb = "210, 221, 255"
+color-success = "#88D4B4"
+color-success-rgb = "136, 212, 180"
+color-error = "#F39BAC"
+color-error-rgb = "243, 155, 172"
+color-warning = "#E3C38C"
+color-warning-rgb = "227, 195, 140"
+color-info = "#91BFFF"
+color-info-rgb = "145, 191, 255"
+color-status-starting = "#91BFFF"
+color-status-started = "#88D4B4"
+color-on-error = "#1C101A"
+color-on-success = "#0D211D"
+color-on-info = "#101B30"
+color-on-warning = "#251B0C"
+clr-loader-vanilla = "#88D4B4"
+clr-loader-fabric = "#D4BDAD"
+clr-loader-forge = "#E3B18C"
+clr-loader-quilt = "#C0A8EB"
+
+[backgrounds]
+main = "#080F20"
+sidebar = "#111A30"
+card = "#17213A"
+input = "#10182B"
+surface = "#1A2540"
+
+[text]
+primary = "#EDF1FF"
+secondary = "#C3CDE5"
+muted = "#A2AEC9"
+tertiary = "#A2AEC9"
+
+[borders]
+color = "rgba(174,185,233,0.17)"
+width = "1px"
+radius = "16px"
+radius-sm = "10px"
+radius-lg = "24px"
+
+[layout]
+sidebar-width = "260px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 8px rgba(2,5,16,0.20)"
+shadow-md = "0 4px 14px rgba(2,5,16,0.28)"
+shadow-lg = "0 8px 28px rgba(2,5,16,0.38)"
+glow-accent = "0 0 0 3px rgba(185,177,242,0.16)"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "'Cantarell', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "#151E34"
+surface-input = "#10182B"
+surface-hover = "#27324E"
+surface-active = "#323754"
+surface-selected = "#30304E"
+surface-card = "#17213A"
+toast-bg = "#17213A"
+toast-border = "rgba(174,185,233,0.24)"
+button-bg = "#202C46"
+button-hover-bg = "#303B58"
+btn-bg = "#202C46"
+item-bg = "#17213A"
+bg-image-size = "cover"
+bg-image-position = "center"
+bg-image-brightness = "1"
+
+[icons]
+preview = "preview.svg"
