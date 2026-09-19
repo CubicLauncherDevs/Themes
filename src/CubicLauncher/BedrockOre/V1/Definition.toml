@@ -1,0 +1,162 @@
+# Sections are direct: CubicLauncher deserializes ThemeDef, not V2Theme.
+
+[colors]
+warning = "#d6b66b"
+error = "#e58a83"
+success = "#89b96d"
+accent = "#79c94c"
+accent-rgb = "121,201,76"
+accent-primary = "#79c94c"
+accent-hover = "#89c969"
+accent-text = "#14200f"
+border = "#141414"
+surface-rgb = "255,255,255"
+surface-hover = "#464646"
+surface-active = "#515151"
+surface-selected = "#285e21"
+surface-card = "#313131"
+surface-input = "#202020"
+surface-dropdown = "#313131"
+toast-bg = "#313131"
+toast-border = "#616161"
+scrollbar-track = "#202020"
+scrollbar-thumb = "#616161"
+scrollbar-thumb-hover = "#868686"
+color-success = "#86d562"
+color-success-rgb = "134,213,98"
+color-error = "#ff8585"
+color-error-rgb = "255,133,133"
+color-warning = "#f2cc70"
+color-warning-rgb = "242,204,112"
+color-info = "#b7dca0"
+color-status-starting = "#f2cc70"
+color-status-started = "#86d562"
+clr-loader-vanilla = "#b8b8b8"
+clr-loader-fabric = "#b8b8b8"
+clr-loader-forge = "#b8b8b8"
+clr-loader-quilt = "#b8b8b8"
+
+[backgrounds]
+main = "#1e1e1e"
+sidebar = "#2a2a2a"
+sidebar-gradient = "linear-gradient(180deg, #2a2a2a 0%, #2a2a2a 100%)"
+card = "#313131"
+card-gradient = "linear-gradient(180deg, #363636 0%, #313131 100%)"
+item-active = "#285e21"
+input = "#202020"
+overlay = "rgba(0,0,0,0.78)"
+surface = "#313131"
+
+[text]
+primary = "#efefef"
+secondary = "#bfbfbf"
+muted = "#a2a2a2"
+tertiary = "#aeaeae"
+
+[borders]
+color = "#515151"
+width = "1px"
+radius = "0px"
+radius-sm = "0px"
+radius-lg = "0px"
+
+[layout]
+sidebar-width = "260px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "inset 0 1px 0 #656565, 0 2px 0 #101010"
+shadow-md = "inset 0 1px 0 #565656, 0 4px 0 #121212"
+shadow-lg = "0 6px 0 #101010, 0 18px 40px rgba(0,0,0,0.45)"
+glow-accent = "none"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+overlay = 0.0
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "\"Cantarell\", \"Segoe UI\", system-ui, sans-serif"
+icon-filter = "invert(1)"
+
+[icons]
+preview = "icons/preview.svg"
+
+[[fonts]]
+family = "Ore Pixel"
+src = "fonts/PixelifySans.ttf"
+format = "truetype"
+weight = "400 700"
+style = "normal"
+
+[icons.brand]
+discord = "icons/ore/discord.png"
+github = "icons/brand-github.svg"
+microsoft = "icons/brand-microsoft.svg"
+cubic = "icons/brand-cubic.svg"
+
+[icons.instance]
+box = "icons/ore/packages.png"
+check-square = "icons/instance-check-square.svg"
+clock = "icons/instance-clock.svg"
+code = "icons/instance-code.svg"
+database = "icons/ore/server.png"
+external-link = "icons/ore/shortcut.png"
+folder = "icons/ore/viewfolder.png"
+grid = "icons/brand-microsoft.svg"
+image = "icons/ore/screenshots.png"
+resources = "icons/ore/resourcepacks.png"
+screenshots = "icons/ore/screenshots.png"
+shader = "icons/ore/shaderpacks.png"
+terminal = "icons/ore/log.png"
+wrench = "icons/ore/instance-settings.png"
+
+[icons.log]
+arrow-down = "icons/log-arrow-down.svg"
+clear = "icons/ore/delete.png"
+copy = "icons/ore/copy.png"
+logs = "icons/ore/log.png"
+scroll-down = "icons/log-scroll-down.svg"
+search = "icons/log-search.svg"
+spinner = "icons/log-spinner.svg"
+upload = "icons/ore/export.png"
+chevron-up = "icons/ore/spinbox-up.svg"
+chevron-down = "icons/ore/combobox-arrow.svg"
+
+[icons.nav]
+create = "icons/ore/new.png"
+edit = "icons/ore/rename.png"
+pencil = "icons/ore/rename.png"
+settings = "icons/ore/settings.png"
+sliders = "icons/ore/instance-settings.png"
+
+[icons.ui]
+check = "icons/ore/checkbox-checked.svg"
+check-circle = "icons/instance-check-square.svg"
+chevron-down = "icons/ore/combobox-arrow.svg"
+chevron-left = "icons/ui-chevron-left.svg"
+chevron-right = "icons/ui-chevron-right.svg"
+close = "icons/ui-close.svg"
+copy = "icons/ore/copy.png"
+download = "icons/ore/import.png"
+error = "icons/ore/status-bad.png"
+logout = "icons/ui-logout.svg"
+play = "icons/ore/launch.png"
+refresh = "icons/ore/refresh.png"
+search = "icons/log-search.svg"
+spinner = "icons/log-spinner.svg"
+success = "icons/ore/status-good.png"
+trash = "icons/ore/delete.png"
+upload = "icons/ore/export.png"
+pin = "icons/ore/tag.png"
+flag = "icons/ui-flag.svg"
+performance = "icons/ore/externaltools.png"
+shaders = "icons/ore/shaderpacks.png"
+resources = "icons/ore/resourcepacks.png"

@@ -1,0 +1,5 @@
+name = "Bedrock Ore"
+author = "CubicLauncher"
+version = "1.3.0"
+description = "Grises oscuros, relieve y verde esmeralda al estilo Bedrock."
+injects_css = true
