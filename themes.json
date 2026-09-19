@@ -2150,6 +2150,37 @@
     "verified": false,
     "versions": [
       {
+        "version": "V2",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Santiagolxx/SystemOfADown/V2",
+        "date": "2026-09-19T02:06:30-03:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V2/Definition.toml"
+          },
+          {
+            "name": "Fonts/Soad.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/Fonts/Soad.ecddc731.ttf"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Santiagolxx/SystemOfADown/V2/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/bg.79778d7b.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png"
+          }
+        ],
+        "injectsCss": false
+      },
+      {
         "version": "V1",
         "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
         "showcaseUrl": null,
@@ -2181,9 +2212,9 @@
         "injectsCss": false
       }
     ],
-    "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V1/preview.db7ecc92.png",
-    "date": "2026-09-07T22:50:19-03:00"
+    "latestVersion": "V2",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Santiagolxx/SystemOfADown/V2/preview.de60c36b.png",
+    "date": "2026-09-19T02:06:30-03:00"
   },
   {
     "id": "santiagolxx-worldcupafa",
