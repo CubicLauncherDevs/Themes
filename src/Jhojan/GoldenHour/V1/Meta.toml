@@ -1,0 +1,4 @@
+name = "Golden Hour"
+author = "Jhojan"
+version = "1.0.0"
+injects_css = false

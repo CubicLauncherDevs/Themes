@@ -1,0 +1,44 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 2.0
+image_opacity = 0.8
+
+[colors]
+accent = "#e02a3a"
+accent-rgb = "224, 42, 58"
+accent-hover = "#ff4a5a"
+accent-text = "#ffffff"
+color-success = "#5fd3a0"
+color-success-rgb = "95, 211, 160"
+color-error = "#ff8a4c"
+color-error-rgb = "255, 138, 76"
+
+[text]
+primary = "#e8eef0"
+secondary = "#a9b8bc"
+muted = "#66787d"
+
+[backgrounds]
+main = "#050809"
+card = "#0b1214"
+sidebar = "#080d0f"
+item-active = "#1d2a2e"
+surface-hover = "#131d20"
+
+[borders]
+color = "#1f2f34"
+radius = "10px"
+
+[layout]
+spacing = "1rem"
+
+[shadows]
+glow-accent = "0 0 18px rgba(224, 42, 58, 0.45)"
+glow-secondary = "0 0 14px rgba(74, 138, 150, 0.3)"
+
+[backdrop]
+modal = 12.0
+dropdown = 6.0
+
+[others]
+bg-image-brightness = "0.8"

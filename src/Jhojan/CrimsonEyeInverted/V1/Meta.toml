@@ -1,0 +1,4 @@
+name = "Crimson Eye Inverted"
+author = "Jhojan"
+version = "1.0.0"
+injects_css = false
