@@ -1108,6 +1108,216 @@
     "date": "2026-07-29T21:17:01-06:00"
   },
   {
+    "id": "jhojan-crimsoneyeinverted",
+    "slug": "jhojan-crimsoneyeinverted",
+    "name": "Crimson Eye Inverted",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/CrimsonEyeInverted",
+    "description": null,
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonEyeInverted/V1/preview.838cb3f1.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/CrimsonEyeInverted/V1",
+        "date": "2026-09-20T17:05:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonEyeInverted/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonEyeInverted/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonEyeInverted/V1/bg.56037157.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonEyeInverted/V1/preview.838cb3f1.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonEyeInverted/V1/preview.838cb3f1.png",
+    "date": "2026-09-20T17:05:33-06:00"
+  },
+  {
+    "id": "jhojan-crimsonmoon",
+    "slug": "jhojan-crimsonmoon",
+    "name": "Crimson Moon",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/CrimsonMoon",
+    "description": null,
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonMoon/V1/preview.eb3e3db7.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/CrimsonMoon/V1",
+        "date": "2026-09-20T17:05:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonMoon/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonMoon/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonMoon/V1/bg.379c4ff4.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonMoon/V1/preview.eb3e3db7.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/CrimsonMoon/V1/preview.eb3e3db7.png",
+    "date": "2026-09-20T17:05:33-06:00"
+  },
+  {
+    "id": "jhojan-goldenhour",
+    "slug": "jhojan-goldenhour",
+    "name": "Golden Hour",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/GoldenHour",
+    "description": null,
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/GoldenHour/V1/preview.9ab17cf6.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/GoldenHour/V1",
+        "date": "2026-09-20T17:05:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/GoldenHour/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/GoldenHour/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/GoldenHour/V1/bg.1e7c3d9a.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/GoldenHour/V1/preview.9ab17cf6.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/GoldenHour/V1/preview.9ab17cf6.png",
+    "date": "2026-09-20T17:05:33-06:00"
+  },
+  {
+    "id": "jhojan-mistyforest",
+    "slug": "jhojan-mistyforest",
+    "name": "Misty Forest",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/MistyForest",
+    "description": null,
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/MistyForest/V1/preview.1d62bc0e.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/MistyForest/V1",
+        "date": "2026-09-20T17:05:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/MistyForest/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/MistyForest/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/MistyForest/V1/bg.81843d92.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/MistyForest/V1/preview.1d62bc0e.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/MistyForest/V1/preview.1d62bc0e.png",
+    "date": "2026-09-20T17:05:33-06:00"
+  },
+  {
+    "id": "jhojan-starliteyes",
+    "slug": "jhojan-starliteyes",
+    "name": "Starlit Eyes",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/StarlitEyes",
+    "description": null,
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/StarlitEyes/V1/preview.c71c3d46.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/StarlitEyes/V1",
+        "date": "2026-09-20T17:05:33-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/StarlitEyes/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/StarlitEyes/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/StarlitEyes/V1/bg.debef212.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/StarlitEyes/V1/preview.c71c3d46.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/StarlitEyes/V1/preview.c71c3d46.png",
+    "date": "2026-09-20T17:05:33-06:00"
+  },
+  {
     "id": "mpg-shizukayoshimoto",
     "slug": "mpg-shizukayoshimoto",
     "name": "Shizuka Yoshimoto",
@@ -3579,175 +3789,5 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
     "date": "2026-07-25T21:41:57-06:00"
-  },
-  {
-    "id": "jhojan-starlit-eyes",
-    "slug": "jhojan-starlit-eyes",
-    "name": "Starlit Eyes",
-    "author": "Jhojan",
-    "tags": [],
-    "dirPath": "src/Jhojan/StarlitEyes",
-    "description": null,
-    "verified": false,
-    "versions": [
-      {
-        "version": "V1",
-        "previewUrl": null,
-        "showcaseUrl": null,
-        "dirPath": "src/Jhojan/StarlitEyes/V1",
-        "date": "2026-09-20T16:46:44-06:00",
-        "changelog": null,
-        "files": [
-          {
-            "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/StarlitEyes/V1/Definition.toml"
-          },
-          {
-            "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/StarlitEyes/V1/Meta.toml"
-          }
-        ],
-        "injectsCss": false
-      }
-    ],
-    "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-20T16:46:44-06:00"
-  },
-  {
-    "id": "jhojan-misty-forest",
-    "slug": "jhojan-misty-forest",
-    "name": "Misty Forest",
-    "author": "Jhojan",
-    "tags": [],
-    "dirPath": "src/Jhojan/MistyForest",
-    "description": null,
-    "verified": false,
-    "versions": [
-      {
-        "version": "V1",
-        "previewUrl": null,
-        "showcaseUrl": null,
-        "dirPath": "src/Jhojan/MistyForest/V1",
-        "date": "2026-09-20T16:46:44-06:00",
-        "changelog": null,
-        "files": [
-          {
-            "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/MistyForest/V1/Definition.toml"
-          },
-          {
-            "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/MistyForest/V1/Meta.toml"
-          }
-        ],
-        "injectsCss": false
-      }
-    ],
-    "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-20T16:46:44-06:00"
-  },
-  {
-    "id": "jhojan-crimson-moon",
-    "slug": "jhojan-crimson-moon",
-    "name": "Crimson Moon",
-    "author": "Jhojan",
-    "tags": [],
-    "dirPath": "src/Jhojan/CrimsonMoon",
-    "description": null,
-    "verified": false,
-    "versions": [
-      {
-        "version": "V1",
-        "previewUrl": null,
-        "showcaseUrl": null,
-        "dirPath": "src/Jhojan/CrimsonMoon/V1",
-        "date": "2026-09-20T16:46:44-06:00",
-        "changelog": null,
-        "files": [
-          {
-            "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonMoon/V1/Definition.toml"
-          },
-          {
-            "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonMoon/V1/Meta.toml"
-          }
-        ],
-        "injectsCss": false
-      }
-    ],
-    "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-20T16:46:44-06:00"
-  },
-  {
-    "id": "jhojan-crimson-eye-inverted",
-    "slug": "jhojan-crimson-eye-inverted",
-    "name": "Crimson Eye Inverted",
-    "author": "Jhojan",
-    "tags": [],
-    "dirPath": "src/Jhojan/CrimsonEyeInverted",
-    "description": null,
-    "verified": false,
-    "versions": [
-      {
-        "version": "V1",
-        "previewUrl": null,
-        "showcaseUrl": null,
-        "dirPath": "src/Jhojan/CrimsonEyeInverted/V1",
-        "date": "2026-09-20T16:46:44-06:00",
-        "changelog": null,
-        "files": [
-          {
-            "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonEyeInverted/V1/Definition.toml"
-          },
-          {
-            "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/CrimsonEyeInverted/V1/Meta.toml"
-          }
-        ],
-        "injectsCss": false
-      }
-    ],
-    "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-20T16:46:44-06:00"
-  },
-  {
-    "id": "jhojan-golden-hour",
-    "slug": "jhojan-golden-hour",
-    "name": "Golden Hour",
-    "author": "Jhojan",
-    "tags": [],
-    "dirPath": "src/Jhojan/GoldenHour",
-    "description": null,
-    "verified": false,
-    "versions": [
-      {
-        "version": "V1",
-        "previewUrl": null,
-        "showcaseUrl": null,
-        "dirPath": "src/Jhojan/GoldenHour/V1",
-        "date": "2026-09-20T16:46:44-06:00",
-        "changelog": null,
-        "files": [
-          {
-            "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/GoldenHour/V1/Definition.toml"
-          },
-          {
-            "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/GoldenHour/V1/Meta.toml"
-          }
-        ],
-        "injectsCss": false
-      }
-    ],
-    "latestVersion": "V1",
-    "previewUrl": null,
-    "date": "2026-09-20T16:46:44-06:00"
   }
 ]
