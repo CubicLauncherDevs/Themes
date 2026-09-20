@@ -1,0 +1,252 @@
+/* Isla Keepsake 1.1: crisp stationery surfaces and stable details navigation. */
+:root { color-scheme: light; }
+:root .app-container {
+  flex-direction: row-reverse;
+  padding: 18px;
+  gap: 22px;
+  background: var(--bg-main) var(--bg-image, none) center / cover no-repeat;
+  color: var(--text-primary);
+}
+:root .background-overlay { background: transparent; filter: none; pointer-events: none; }
+:root .sidebar-container { background: transparent; }
+:root .sidebar, :root .sidebar-compact {
+  width: 100%; min-width: 0;
+  background: rgba(255,248,251,0.96);
+  border: 1px solid rgba(153,105,131,0.26);
+  border-radius: 24px 9px 24px 9px;
+  box-shadow: 0 6px 24px rgba(82,51,71,0.10);
+}
+:root .sidebar .sidebar-header {
+  display: block;
+  padding: 10px 5px 18px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+:root .sidebar .sidebar-header::before {
+  content: "Isla";
+  display: block;
+  font-family: var(--font-family-display);
+  font-size: 2.7rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: var(--text-primary);
+  margin-bottom: 7px;
+  pointer-events: none;
+}
+:root .sidebar .sidebar-header h1 {
+  font-family: var(--font-family);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+:root .sidebar .section-label { font-size: 0.65rem; letter-spacing: 1.4px; }
+:root .sidebar .instance-item, :root .sidebar .instance-item.odd {
+  --item-bg: transparent;
+  border-radius: 11px 4px 11px 4px;
+  border-color: transparent;
+  box-shadow: none;
+}
+:root .sidebar .instance-item:hover { --item-bg: var(--surface-hover); }
+:root .sidebar .instance-item.active {
+  --item-bg: #EFDFE8;
+  border-color: rgba(128,77,108,0.20);
+  box-shadow: inset -3px 0 0 var(--accent);
+}
+:root .sidebar .instance-icon-strip { border-right-color: transparent; }
+:root .sidebar .instance-icon-strip::before { background: transparent; }
+:root .sidebar .instance-item.active .instance-icon-strip { color: var(--accent); }
+:root .sidebar .instance-item.active .instance-icon-strip::before {
+  background: rgba(128,77,108,0.06); filter: none;
+}
+:root .sidebar-compact .sc-instance-item.active {
+  background: #EFDFE8; border-color: rgba(128,77,108,0.2);
+  border-radius: 12px; box-shadow: inset -3px 0 0 var(--accent);
+}
+:root .sidebar .sidebar-sections {
+  width: 100%; margin: 8px 0;
+  border: 0; border-top: 1px solid var(--border);
+  border-radius: 0; background: transparent;
+}
+:root .sidebar .tools-btn, :root .sidebar-compact .sc-tool-btn {
+  background: transparent; border-color: transparent;
+  border-radius: 10px; color: var(--text-secondary);
+}
+:root .sidebar .tools-btn:hover, :root .sidebar-compact .sc-tool-btn:hover {
+  background: var(--surface-hover); color: var(--accent);
+}
+:root .sidebar .user-profile, :root .sidebar-compact .sc-user {
+  background: #F3E5EC; border: 1px solid var(--border);
+  color: var(--text-primary); border-radius: 14px 5px 14px 5px;
+  margin-bottom: 12px;
+}
+:root .sidebar-compact .sc-user { width: calc(100% - 12px); }
+:root .sidebar .user-profile:hover, :root .sidebar-compact .sc-user:hover { background: var(--surface-hover); }
+:root .sidebar .user-avatar-wrapper, :root .sidebar-compact .sc-avatar-wrapper { border-radius: 50%; }
+/* Move toggles to the inside edge. Preserve native translateY on the button. */
+:root .sidebar .collapse-btn, :root .sidebar-compact .expand-btn {
+  left: -12px; right: auto;
+  background: #FFF8FB; color: var(--accent);
+  border: 1px solid #CFB6C6; border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(82,51,71,0.10);
+}
+:root .sidebar .collapse-btn:hover, :root .sidebar-compact .expand-btn:hover { background: #EFDFE8; }
+:root .sidebar .collapse-btn svg, :root .sidebar-compact .expand-btn svg { transform: scaleX(-1); }
+/* The compact tooltip is portalled; keep it inside the rail's inner edge. */
+:root .tooltip:has(.instance-tooltip) { left: auto !important; right: 110px; }
+:root .instance-view, :root .profile-hero { background: transparent; }
+:root .profile-view { background: #FBF3F7; border-radius: 18px; }
+:root .instance-header .header-bg {
+  background: #FFF8FB;
+  left: auto; width: min(520px,100%);
+  bottom: 0; border: 1px solid #D9C3D0; border-radius: 6px 20px 6px 20px;
+  filter: none; box-shadow: none;
+  -webkit-backdrop-filter: none !important; backdrop-filter: none !important;
+  -webkit-mask-image: none !important; mask-image: none !important;
+}
+:root .instance-header .header-content { left: auto; width: min(520px,100%); padding: 22px 22px 16px; }
+:root .instance-header .instance-title {
+  font-family: var(--font-family-display);
+  font-weight: 500; font-size: clamp(1.5rem,2.6vw,2.15rem);
+  letter-spacing: -0.7px; color: var(--text-primary);
+}
+:root .instance-header .path-row, :root .instance-header .last-played,
+:root .instance-header .inline-status {
+  background: transparent; border-radius: 4px; padding: 2px 0;
+}
+:root .instance-header .meta-chip, :root .instance-header .compact-version {
+  background: #F2E5ED; border-radius: 6px; border-color: rgba(128,77,108,0.12);
+}
+:root .instance-header .compact-content { background: #FFF8FB; border: 1px solid #D9C3D0; border-radius: 16px; }
+:root .instance-header.compact .header-bg { background: transparent; border: none; }
+:root .instance-header .launch-btn, :root .btn-primary {
+  border-radius: 12px 4px 12px 4px;
+  text-transform: none; font-weight: 600; letter-spacing: 0;
+  box-shadow: none;
+}
+:root .instance-header .launch-btn:not(:disabled), :root .btn-primary:not(:disabled) {
+  background: #804D6C; color: #FFFFFF; border: 1px solid #804D6C;
+}
+:root .instance-header .launch-btn:hover:not(:disabled), :root .btn-primary:hover:not(:disabled) { background: #693F5A; }
+:root .nav-card {
+  left: auto; right: 18px; bottom: 18px;
+  width: 300px; max-width: calc(100% - 36px);
+  background: #FFF8FB;
+  border: 1px solid #D9C3D0; border-radius: 18px 5px 18px 5px;
+  box-shadow: none;
+  max-height: calc(100% - 36px);
+  overflow: auto;
+  transition: border-color 0.15s ease;
+}
+:root .nav-card:hover { box-shadow: none; border-color: #BD99AF; }
+:root .nav-card .nav-card-header {
+  font-family: var(--font-family-display); text-transform: none;
+  font-size: 1rem; font-weight: 500; letter-spacing: 0;
+  color: var(--text-primary); padding: 14px 16px 12px;
+  border-bottom: 1px solid #E9D9E3;
+}
+:root .nav-card .nav-items,
+:root .nav-card:hover .nav-items,
+:root .nav-card:focus-within .nav-items {
+  max-height: none;
+  transition: none;
+  padding: 6px;
+}
+:root .nav-card .nav-item {
+  padding: 10px;
+  min-height: 42px;
+  border-radius: 9px;
+  gap: 12px;
+}
+:root .nav-card .nav-item:hover { background: var(--surface-hover); }
+:root .nav-card .nav-icon {
+  width: 28px; height: 28px; border-radius: 8px;
+  background: #F2E5ED; color: var(--accent); opacity: 1;
+}
+:root .nav-card .nav-chevron { opacity: 0.65; }
+:root .nav-card .nav-item:focus-visible { outline-offset: -2px; }
+/* Avoid background sampling around rounded controls, including WebKit. */
+:root .instance-header,
+:root .instance-header *,
+:root .details-section,
+:root .details-section *,
+:root .details-panel,
+:root .details-panel *,
+:root .nav-card {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+/* Details components used by builds that expose the information panel. */
+:root .details-panel {
+  width: min(520px,100%); margin-left: auto; gap: 14px;
+}
+:root .details-panel .info-header {
+  padding: 16px; gap: 12px;
+  background: #FFF8FB;
+  border: 1px solid #D9C3D0;
+  border-radius: 14px 5px 14px 5px;
+  box-shadow: none;
+}
+:root .details-panel .badges { gap: 8px; }
+:root .details-panel .badge { background: #F2E5ED; border-color: #DBC5D3; border-radius: 6px; }
+:root .details-panel .path-row { width: 100%; font-size: 0.75rem; }
+:root .details-panel .path-text { flex: 1; min-width: 0; max-width: 100%; }
+:root .details-panel .last-played-row {
+  padding: 12px 16px; background: #FFF8FB;
+  border: 1px solid #D9C3D0; border-radius: 10px;
+}
+:root .details-panel .action-bar { gap: 8px; flex-wrap: wrap; }
+:root .details-panel .action-btn {
+  width: 36px; height: 36px; background: #FFF8FB;
+  color: var(--accent); border-color: #D9C3D0; box-shadow: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+:root .details-panel .action-btn:hover { background: #EFDFE8; border-color: #BD99AF; }
+:root .main-content > .empty-state {
+  align-items: flex-end; justify-content: flex-start;
+  padding: 36px 24px; background: transparent;
+}
+:root .main-content > .empty-state h2 {
+  font-family: var(--font-family-display); font-weight: 500;
+  font-size: clamp(1.3rem,2.5vw,2rem); letter-spacing: -0.5px;
+}
+:root .main-content > .empty-state h2, :root .main-content > .empty-state p {
+  max-width: min(420px,100%); text-align: right;
+  background: #FFF8FB; color: var(--text-primary);
+  padding: 10px 14px; border-radius: 14px 4px 14px 4px;
+}
+:root .main-content > .empty-state .empty-logo { width: 48px; height: 48px; opacity: 0.7; }
+:root .drawer-overlay { background: var(--bg-overlay); }
+:root .drawer { background: var(--bg-sidebar); border-color: var(--border); box-shadow: var(--shadow-lg); }
+:root .modal, :root .select-dropdown, :root .ctx-menu {
+  background: var(--surface-dropdown); border: 1px solid var(--border); box-shadow: var(--shadow-lg);
+}
+:root .ctx-menu, :root .select-dropdown { border-radius: 12px; }
+:root .ctx-menu .ctx-item { border-radius: 8px; }
+:root .qm-root { background: #FCF5F9; }
+:root .qm-header, :root .qm-tabs, :root .qm-footer, :root .save-footer { background: #F5EAF1; }
+:root .section-group { background: var(--bg-card); border-radius: 14px; }
+:root .btn-secondary, :root .btn-danger, :root .select-trigger { border-radius: 8px; }
+:root button, :root input, :root textarea, :root select { font-family: var(--font-family); }
+:root button:focus-visible, :root input:focus-visible, :root textarea:focus-visible, :root select:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+::selection { background: #E7C7DA; color: #402D3C; }
+@media (max-width: 900px) {
+  :root .app-container { padding: 10px; gap: 16px; }
+  :root .instance-header .header-bg { width: 100%; }
+  :root .instance-header .header-content { width: 100%; padding: 18px 16px; }
+  :root .instance-header .title-row { gap: 10px; }
+  :root .nav-card { right: 12px; bottom: 12px; }
+}
+@media (max-width: 650px) {
+  :root .app-container { padding: 8px; gap: 14px; }
+  :root .sidebar-container { width: 70px; }
+  :root .sidebar .sidebar-header::before { font-size: 1.2rem; letter-spacing: 0; }
+  :root .tooltip:has(.instance-tooltip) { right: 92px; }
+  :root .main-content > .empty-state { padding: 22px 8px; }
+}
+@media (max-height: 600px) {
+  :root .sidebar .sidebar-header { padding-top: 0; padding-bottom: 8px; margin-bottom: 6px; }
+  :root .sidebar .sidebar-header::before { font-size: 1.8rem; margin-bottom: 3px; }
+}

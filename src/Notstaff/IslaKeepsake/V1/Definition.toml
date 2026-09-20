@@ -1,0 +1,114 @@
+[background]
+reference_path = "background.jpg"
+image_blur = 0.0
+image_opacity = 1.0
+
+[colors]
+accent = "#804D6C"
+accent-primary = "#804D6C"
+accent-hover = "#693F5A"
+accent-rgb = "128, 77, 108"
+accent-text = "#FFFFFF"
+border = "rgba(128,77,108,0.20)"
+bg-sidebar-gradient = "linear-gradient(160deg, #FFF8FB, #F5E8F0)"
+bg-card-gradient = "linear-gradient(140deg, #FFF8FB, #FAF0F6)"
+bg-item-active = "#EFDFE8"
+bg-overlay = "rgba(64,45,60,0.30)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#C7AABC"
+scrollbar-thumb-hover = "#A88099"
+surface-rgb = "64, 45, 60"
+color-success = "#217C48"
+color-success-rgb = "33, 124, 72"
+color-error = "#C3333B"
+color-error-rgb = "195, 51, 59"
+color-warning = "#926400"
+color-warning-rgb = "146, 100, 0"
+color-info = "#80608F"
+color-info-rgb = "128, 96, 143"
+color-status-starting = "#926400"
+color-status-started = "#217C48"
+clr-loader-vanilla = "#42846B"
+clr-loader-fabric = "#887350"
+clr-loader-forge = "#B36926"
+clr-loader-quilt = "#8960B1"
+
+[backgrounds]
+main = "#FCF5F9"
+sidebar = "#FFF8FB"
+card = "#FFF8FB"
+input = "#F3E8EF"
+surface = "#F7EDF3"
+
+[text]
+primary = "#402D3C"
+secondary = "#654B60"
+muted = "#765E70"
+tertiary = "#765E70"
+
+[borders]
+color = "rgba(128,77,108,0.20)"
+width = "1px"
+radius = "14px"
+radius-sm = "8px"
+radius-lg = "22px"
+
+[layout]
+sidebar-width = "244px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+
+[shadows]
+shadow-sm = "0 2px 8px rgba(82,51,71,0.08)"
+shadow-md = "0 4px 16px rgba(82,51,71,0.12)"
+shadow-lg = "0 10px 30px rgba(82,51,71,0.18)"
+glow-accent = "0 0 0 3px rgba(128,77,108,0.13)"
+glow-error = "none"
+glow-success = "none"
+
+[backdrop]
+modal = 0.0
+dropdown = 0.0
+panel = 0.0
+overlay = 0.0
+float = 0.0
+viewer = 0.0
+
+[others]
+font-family = "'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+icon-filter = "none"
+icon-filter-error = "none"
+surface-dropdown = "#FFF8FB"
+surface-input = "#F3E8EF"
+surface-hover = "#F0E0E9"
+surface-active = "#E6CEDD"
+surface-selected = "#EFDFE8"
+surface-card = "#FFF8FB"
+toast-bg = "#FFF8FB"
+toast-border = "#D8BDCE"
+button-bg = "#F8EEF4"
+button-hover-bg = "#EFDFE8"
+btn-bg = "#F8EEF4"
+item-bg = "#FFF8FB"
+font-family-display = "'Lora', Georgia, serif"
+bg-image-size = "cover"
+bg-image-position = "center"
+bg-image-brightness = "1"
+
+[icons]
+preview = "preview.svg"
+
+[[fonts]]
+family = "Lora"
+src = "fonts/Lora.woff2"
+format = "woff2"
+weight = "400 700"
+style = "normal"
+
+[[fonts]]
+family = "Manrope"
+src = "fonts/Manrope.woff2"
+format = "woff2"
+weight = "200 800"
+style = "normal"
