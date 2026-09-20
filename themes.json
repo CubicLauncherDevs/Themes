@@ -1476,24 +1476,24 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/Meta.toml"
           },
           {
-            "name": "bg.jpg",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/bg.059080bd.jpg"
-          },
-          {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/InkWitch/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/bg.059080bd.jpg"
           },
           {
             "name": "fonts/Oswald.woff2",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/fonts/Oswald.e22a0139.woff2"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.8434ee87.png"
-          },
-          {
             "name": "preview.svg",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.750713f0.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/InkWitch/V1/preview.8434ee87.png"
           }
         ],
         "injectsCss": true
