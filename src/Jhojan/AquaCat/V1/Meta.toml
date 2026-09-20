@@ -1,0 +1,5 @@
+name = "Aqua Cat"
+author = "Jhojan"
+version = "1.0.0"
+description = "Theme oscuro azul noche con turquesa brillante y toques de coral, inspirado en un retrato anime con orejas de gato y burbujas."
+injects_css = false
