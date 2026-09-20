@@ -1108,6 +1108,48 @@
     "date": "2026-07-29T21:17:01-06:00"
   },
   {
+    "id": "jhojan-aquacat",
+    "slug": "jhojan-aquacat",
+    "name": "Aqua Cat",
+    "author": "Jhojan",
+    "tags": [],
+    "dirPath": "src/Jhojan/AquaCat",
+    "description": "Theme oscuro azul noche con turquesa brillante y toques de coral, inspirado en un retrato anime con orejas de gato y burbujas.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/AquaCat/V1/preview.c50f89ef.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Jhojan/AquaCat/V1",
+        "date": "2026-09-20T17:15:57-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/AquaCat/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Jhojan/AquaCat/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/AquaCat/V1/bg.efe3c0c8.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Jhojan/AquaCat/V1/preview.c50f89ef.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Jhojan/AquaCat/V1/preview.c50f89ef.png",
+    "date": "2026-09-20T17:15:57-06:00"
+  },
+  {
     "id": "jhojan-crimsoneyeinverted",
     "slug": "jhojan-crimsoneyeinverted",
     "name": "Crimson Eye Inverted",
