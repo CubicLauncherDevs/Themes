@@ -1762,15 +1762,15 @@
     "author": "staFF6773",
     "tags": [],
     "dirPath": "src/Notstaff/IslaKeepsake",
-    "description": "# Isla Keepsake\n\nUna página de recuerdos junto a Isla. La navegación flota a la derecha, dejando el rostro más despejado a la izquierda. Papel rosado, acentos ciruela, títulos serif y pequeñas tarjetas con esquinas asimétricas dan al launcher una composición delicada.\n\nIncluye las fuentes Lora y Manrope en WOFF2 y el wallpaper original. Sin desenfoques, partículas ni animaciones añadidas. Las vistas de contenido mantienen sus controles y los iconos oficiales.\n\nVersión 1.0.0: cabecera y detalles con fondos uniformes, bordes nítidos y sin sombras difusas. Las opciones de detalles permanecen visibles, con desplazamiento si falta espacio, y cuentan con iconos sobre pequeñas superficies rosadas.\n\nImporta el `.cbth` en Temas, selecciona **Isla Keepsake** y habilita el CSS personalizado si tu versión lo solicita. La navegación queda a la derecha tanto expandida como compacta.\n\nTema: staFF6773. Wallpaper aportado por el usuario. Lora y Manrope: Google Fonts, licencias SIL Open Font License incluidas en `fonts/`.\n",
+    "description": "# Isla Keepsake\n\nUna página de recuerdos junto a Isla. La navegación flota a la derecha, dejando el rostro más despejado a la izquierda. Papel rosado, acentos ciruela, títulos serif y pequeñas tarjetas con esquinas asimétricas dan al launcher una composición delicada.\n\nIncluye las fuentes Lora y Manrope en WOFF2 y el wallpaper original. Sin desenfoques, partículas ni animaciones añadidas. Las vistas de contenido mantienen sus controles y los iconos oficiales.\n\nVersión 1.0.0: cabecera y detalles con fondos uniformes, bordes nítidos y sin sombras difusas. Las opciones de detalles permanecen visibles, con desplazamiento si falta espacio, y cuentan con iconos sobre pequeñas superficies rosadas.\n\nVersión 1.1.0: Arrglar el fondo que no cargaba.\n\nImporta el `.cbth` en Temas, selecciona **Isla Keepsake** y habilita el CSS personalizado si tu versión lo solicita. La navegación queda a la derecha tanto expandida como compacta.\n\nTema: staFF6773. Wallpaper aportado por el usuario. Lora y Manrope: Google Fonts, licencias SIL Open Font License incluidas en `fonts/`.\n",
     "verified": false,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.077da7ee.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.8ec439b2.png",
         "showcaseUrl": null,
         "dirPath": "src/Notstaff/IslaKeepsake/V1",
-        "date": "2026-09-20T17:47:59-06:00",
+        "date": "2026-09-20T18:15:26-06:00",
         "changelog": null,
         "files": [
           {
@@ -1786,28 +1786,28 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/IslaKeepsake/V1/Meta.toml"
           },
           {
-            "name": "bg.jpg",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/bg.6891f166.jpg"
-          },
-          {
             "name": "fonts/Lora-OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/IslaKeepsake/V1/fonts/Lora-OFL.txt"
-          },
-          {
-            "name": "fonts/Lora.woff2",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/fonts/Lora.6918f101.woff2"
           },
           {
             "name": "fonts/Manrope-OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/IslaKeepsake/V1/fonts/Manrope-OFL.txt"
           },
           {
-            "name": "fonts/Manrope.woff2",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/fonts/Manrope.6dcd1eff.woff2"
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.8ec439b2.png"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.077da7ee.png"
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/bg.6891f166.jpg"
+          },
+          {
+            "name": "fonts/Lora.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/fonts/Lora.6918f101.woff2"
+          },
+          {
+            "name": "fonts/Manrope.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/fonts/Manrope.6dcd1eff.woff2"
           },
           {
             "name": "preview.svg",
@@ -1818,8 +1818,8 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.077da7ee.png",
-    "date": "2026-09-20T17:47:59-06:00"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/IslaKeepsake/V1/preview.8ec439b2.png",
+    "date": "2026-09-20T18:15:26-06:00"
   },
   {
     "id": "notstaff-lain-theme",
