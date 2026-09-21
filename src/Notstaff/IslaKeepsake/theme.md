@@ -6,6 +6,8 @@ Incluye las fuentes Lora y Manrope en WOFF2 y el wallpaper original. Sin desenfo
 
 Versión 1.0.0: cabecera y detalles con fondos uniformes, bordes nítidos y sin sombras difusas. Las opciones de detalles permanecen visibles, con desplazamiento si falta espacio, y cuentan con iconos sobre pequeñas superficies rosadas.
 
+Versión 1.1.0: Arrglar el fondo que no cargaba.
+
 Importa el `.cbth` en Temas, selecciona **Isla Keepsake** y habilita el CSS personalizado si tu versión lo solicita. La navegación queda a la derecha tanto expandida como compacta.
 
 Tema: staFF6773. Wallpaper aportado por el usuario. Lora y Manrope: Google Fonts, licencias SIL Open Font License incluidas en `fonts/`.

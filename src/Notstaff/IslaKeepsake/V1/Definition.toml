@@ -1,5 +1,5 @@
 [background]
-reference_path = "background.jpg"
+reference_path = "bg.jpg"
 image_blur = 0.0
 image_opacity = 1.0
 
