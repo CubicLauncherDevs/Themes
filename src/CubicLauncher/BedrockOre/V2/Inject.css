@@ -1,0 +1,186 @@
+:root {
+--ore-glyph-1: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%200h8v2H4z%20M12%202h2v2h-2z%20M14%204h2v8h-2z%20M12%2012h2v2h-2z%20M4%2014h8v2H4z%20M0%204h2v8H0z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-2: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%201h7v2H4z%20M2%203h2v5H2z%20M9%200h2v3h3v2H9z%20M12%208h2v5h-2z%20M4%2013h8v2H4z%20M2%2011h5v5H5v-3H2z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-3: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M1%201h6v6H1z%20M9%201h6v6H9z%20M1%209h6v6H1z%20M9%209h6v6H9z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-4: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M2%202h12v12H2z%20M4%204v8h8V4z%20M3%206h10v2H3z%20M7%203h2v4H7z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-5: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M1%207h3v3h2V8h2V6h2V4h2V2h3v4h-2v2h-2v2H9v2H7v3H4v-3H2v-2H1z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-6: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M2%202h3v3h2v2h2V5h2V2h3v3h-2v2h-2v2h2v2h2v3h-3v-3H9V9H7v2H5v3H2v-3h3V9h2V7H5V5H2z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-7: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M7%200h2v1H7zM6%201h3v1H6zM6%202h4v1H6zM5%203h5v1H5zM5%204h2v1H5zM8%204h3v1H8zM4%205h7v1H4zM4%206h2v1H4zM7%206h5v1H7zM3%207h3v1H3zM7%207h2v1H7zM10%207h2v1H10zM3%208h2v1H3zM7%208h2v1H7zM10%208h3v1H10zM2%209h3v1H2zM7%209h2v1H7zM11%209h2v1H11zM2%2010h2v1H2zM11%2010h3v1H11zM1%2011h3v1H1zM12%2011h2v1H12zM1%2012h2v1H1zM7%2012h2v1H7zM12%2012h3v1H12zM0%2013h3v1H0zM13%2013h2v1H13zM0%2014h16v1H0zM0%2015h16v1H0z%22%2F%3E%3C%2Fsvg%3E");
+--ore-glyph-8: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22white%22%20fill-rule%3D%22evenodd%22%20d%3D%22M2%202h12v12H2z%20M4%204v8h8V4z%22%2F%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M7%204h2v1H7zM7%205h2v1H7zM7%207h2v1H7zM7%208h2v1H7zM7%209h2v1H7zM7%2010h2v1H7z%22%2F%3E%3C%2Fsvg%3E");
+}
+/* Bedrock Ore. Only appearance; preserve Cubic's layout and collapse transforms. */
+html { color-scheme: dark; }
+body { background-color: #1e1e1e; }
+::selection { background: #477c2f; color: #fff; }
+:is(.instance-title, .compact-title, .modal-title, .qm-label, .empty-state h2) {
+  font-family: "Ore Pixel", "Cantarell", sans-serif !important;
+  letter-spacing: 0 !important;
+  text-shadow: 0 2px 0 #111;
+}
+:is(.sidebar, .sidebar-compact) {
+  background: #2a2a2a !important;
+  border-right-color: #121212 !important;
+  box-shadow: inset -1px 0 0 #4c4c4c;
+}
+:is(.modal, .qm-root, .select-dropdown, .context-menu) {
+  background: #2a2a2a !important;
+  border-color: #616161 !important;
+  border-radius: 0 !important;
+  box-shadow: inset 0 2px 0 #565656, 0 5px 0 #111, 0 16px 40px #0008 !important;
+}
+:is(.modal-header, .qm-header) {
+  background: #343434 !important;
+  border-bottom-color: #181818 !important;
+}
+/* Bevels are inset, so hover and press states do not move hit targets. */
+:is(.btn-primary, .btn-secondary, .tools-btn, .sc-tool-btn, .launch-btn, .qm-tab-btn, .select-trigger) {
+  border-radius: 0 !important;
+  border: 1px solid #121212 !important;
+  background: #3c3c3c !important;
+  color: #ffffff !important;
+  box-shadow: inset 0 2px 0 #676767, inset 0 -3px 0 #262626, inset 1px 0 0 #545454, inset -1px 0 0 #2a2a2a !important;
+  text-shadow: 0 1px 0 #151515;
+  transition: background-color 100ms, color 100ms, box-shadow 100ms !important;
+}
+:is(.btn-primary, .launch-btn) {
+  background: #397b27 !important;
+  box-shadow: inset 0 2px 0 #89c969, inset 0 -4px 0 #1d4516, inset 1px 0 0 #5d9f43, inset -1px 0 0 #285b1c !important;
+}
+:is(.btn-secondary, .tools-btn, .sc-tool-btn, .qm-tab-btn, .select-trigger):hover:not(:disabled):not(.disabled) {
+  background: #515151 !important;
+  color: white !important;
+}
+:is(.btn-primary, .launch-btn):hover:not(:disabled) {
+  background: #3d802c !important;
+  opacity: 1 !important;
+}
+:is(.btn-primary, .btn-secondary, .tools-btn, .sc-tool-btn, .launch-btn, .qm-tab-btn):active:not(:disabled) {
+  box-shadow: inset 0 3px 0 #151515, inset 0 -1px 0 #757575 !important;
+}
+.launch-btn, .launch-btn:hover, .launch-btn:active { transform: none !important; }
+:is(.btn-primary, .btn-secondary, .tools-btn, .sc-tool-btn, .launch-btn):disabled {
+  background: #343434 !important;
+  color: #979797 !important;
+  box-shadow: inset 0 1px 0 #494949, inset 0 -2px 0 #262626 !important;
+  text-shadow: none;
+}
+:is(.instance-item, .sc-instance-item, .theme-card, .section-group, .meta-chip, .text-input, .select-option, .icon-option) {
+  border-radius: 0 !important;
+}
+.instance-item { box-shadow: inset 0 1px 0 #494949, inset 0 -1px 0 #1b1b1b; }
+.instance-item.odd { background: #313131 !important; }
+.instance-item:hover { background: #3d3d3d !important; }
+:is(.instance-item.active, .sc-instance-item.active, .qm-tab-btn.active, .select-option.selected) {
+  background: #285e21 !important;
+  color: #fff !important;
+  border-color: #76b957 !important;
+  box-shadow: inset 0 2px 0 #5c9b43, inset 0 -2px 0 #163c12 !important;
+}
+.instance-item.active :is(.instance-name, .instance-subtitle) { color: #ffffff !important; }
+:is(.collapse-btn, .expand-btn) {
+  border-radius: 0 !important;
+  background: #3c3c3c !important;
+  color: #ffffff !important;
+  border-color: #151515 !important;
+  box-shadow: inset 0 1px 0 #737373, inset 0 -2px 0 #212121 !important;
+}
+:is(.collapse-btn, .expand-btn):hover { background: #477c2f !important; }
+:is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]), textarea, select, .text-input) {
+  border-radius: 0 !important;
+  background-color: #202020 !important;
+  color: #ffffff !important;
+  border-color: #5c5c5c !important;
+  box-shadow: inset 0 2px 0 #101010 !important;
+}
+:is(input, textarea)::placeholder { color: #a2a2a2; opacity: 1; }
+:is(input[type="checkbox"], input[type="radio"], input[type="range"], progress) { accent-color: #79c94c; }
+:is(button, [role="button"], input, select, textarea, a):focus-visible {
+  outline: 2px solid #c6f2a3 !important;
+  outline-offset: 2px !important;
+}
+.btn-danger { border-radius: 0 !important; color: #ffabab !important; background: #492626 !important; border-color: #9b5353 !important; }
+.btn-danger:hover { background: #633030 !important; }
+.section-group { border-color: #515151 !important; }
+.icon-raster, .instance-icon-inner img { image-rendering: pixelated; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #202020 !important; }
+::-webkit-scrollbar-thumb { background: #616161 !important; border-radius: 0 !important; border: 1px solid #202020; }
+::-webkit-scrollbar-thumb:hover { background: #868686 !important; }
+@media (prefers-reduced-motion: reduce) {
+  :is(.btn-primary, .btn-secondary, .tools-btn, .sc-tool-btn, .launch-btn, .qm-tab-btn, .select-trigger) { transition: none !important; }
+}
+
+/* 1.1: complete neutral surface and control palette. */
+:is(.import-btn, .browse-btn, .qm-save-btn, .detect-btn, .qm-stepper-btn, .qm-recommended-ram-btn, .vd-refresh-btn) {
+  background: #3c3c3c !important;
+  color: #ededed !important;
+  border: 1px solid #141414 !important;
+  border-radius: 0 !important;
+  box-shadow: inset 0 2px 0 #656565, inset 0 -3px 0 #242424 !important;
+}
+:is(.import-btn, .browse-btn, .qm-save-btn, .detect-btn, .qm-stepper-btn, .qm-recommended-ram-btn, .vd-refresh-btn):hover:not(:disabled) {
+  background: #4b4b4b !important;
+  color: #fff !important;
+}
+:is(.import-btn, .browse-btn, .qm-save-btn, .detect-btn, .qm-stepper-btn, .qm-recommended-ram-btn, .vd-refresh-btn):disabled {
+  color: #999 !important;
+  opacity: 0.55;
+}
+:is(.qm-save-btn, .import-btn):not(:disabled) {
+  background: #397b27 !important;
+  box-shadow: inset 0 2px 0 #89c969, inset 0 -3px 0 #1d4516 !important;
+}
+:is(.qm-save-btn, .import-btn):hover:not(:disabled) { background: #3d802c !important; }
+:is(.theme-row, .jre-card, .qm-ram-stepper, .qm-console-limit-row, .dl-tray, .dl-tray-item, .notification-toast, .user-profile) {
+  background: #2c2c2c !important;
+  border-color: #505050 !important;
+  border-radius: 0 !important;
+}
+:is(.theme-row.active, .theme-row.selected) { background: #285e21 !important; border-color: #76b957 !important; }
+:is(.active-badge, .user-status.premium) { background: #285e21 !important; color: #d4edc6 !important; border-color: #5b8545 !important; }
+:is(.meta-chip, .loader-badge) { background: #363636 !important; color: #d2d2d2 !important; border-color: #565656 !important; }
+:is(.dl-tray-seg-fill, .dl-tray-overall-fill) { background: #79b94e !important; border-radius: 0 !important; }
+:is(.dl-tray-seg-label, .dl-tray-seg-pct) { color: #b5d49f !important; }
+:is(.dl-tray-seg-track, .dl-tray-overall-track) { background: #1b1b1b !important; border-radius: 0 !important; }
+.notification-toast { box-shadow: inset 0 2px 0 #505050, 0 4px 0 #151515 !important; }
+.notification-icon { border-radius: 0 !important; }
+.notification-gloss, .notification-gloss-dot { background: transparent !important; }
+/* Keep the progress ring functional; use square line caps for remaining inline marks. */
+.notification-icon svg { stroke-linecap: square !important; stroke-linejoin: miter !important; }
+
+/* Local embedded vector marks for components outside the theme icon registry. */
+.status-spin { background: currentColor !important; mask: var(--ore-glyph-1) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-1) center / contain no-repeat !important; }
+.status-spin > * { opacity: 0 !important; }
+.vd-refresh-btn > svg { background: currentColor !important; mask: var(--ore-glyph-2) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-2) center / contain no-repeat !important; }
+.vd-refresh-btn > svg > * { opacity: 0 !important; }
+.ms-logo { background: currentColor !important; mask: var(--ore-glyph-3) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-3) center / contain no-repeat !important; }
+.ms-logo > * { opacity: 0 !important; }
+.ygg-logo { background: currentColor !important; mask: var(--ore-glyph-4) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-4) center / contain no-repeat !important; }
+.ygg-logo > * { opacity: 0 !important; }
+.notification-icon svg:has(path[d="M2.5 7l3 3 6-6"]) { background: currentColor !important; mask: var(--ore-glyph-5) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-5) center / contain no-repeat !important; }
+.notification-icon svg:has(path[d="M2.5 7l3 3 6-6"]) > * { opacity: 0 !important; }
+.notification-icon svg:has(path[d="M4 4l6 6M10 4l-6 6"]) { background: currentColor !important; mask: var(--ore-glyph-6) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-6) center / contain no-repeat !important; }
+.notification-icon svg:has(path[d="M4 4l6 6M10 4l-6 6"]) > * { opacity: 0 !important; }
+.notification-icon svg:has(path[d^="M7 2.5L1.5"]) { background: currentColor !important; mask: var(--ore-glyph-7) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-7) center / contain no-repeat !important; }
+.notification-icon svg:has(path[d^="M7 2.5L1.5"]) > * { opacity: 0 !important; }
+.notification-icon svg:has(path[d^="M7 6.5v3.5"]) { background: currentColor !important; mask: var(--ore-glyph-8) center / contain no-repeat !important; -webkit-mask: var(--ore-glyph-8) center / contain no-repeat !important; }
+.notification-icon svg:has(path[d^="M7 6.5v3.5"]) > * { opacity: 0 !important; }
+
+:is(.btn-primary, .launch-btn, .qm-save-btn, .import-btn):not(:disabled) { color: #ffffff !important; }
+
+/* 1.2: masks already inherit their foreground color. Inverting them makes white black. */
+.icon-svg.icon-mask { filter: none !important; }
+:is(.sidebar, .sidebar-compact) :is(.tools-btn, .sc-tool-btn, .collapse-btn, .expand-btn) .icon-svg {
+  color: #e8e8e8 !important;
+  filter: none !important;
+}
+:is(.sidebar, .sidebar-compact) :is(.tools-btn, .sc-tool-btn):hover:not(:disabled) .icon-svg {
+  color: #c6e9af !important;
+}
+
+/* Source Ore UI PNGs are colored assets, not masks: never invert or tint them. */
+.icon-svg.icon-raster {
+  filter: none !important;
+  background-color: transparent !important;
+  image-rendering: pixelated;
+}
