@@ -1,0 +1,17 @@
+/* Blush Cocoa: small touches on top of the variables.
+   Rules stay outside @layer cubic so they win without !important. */
+
+.modal {
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+}
+
+.market-item {
+  padding: 16px;
+  border-radius: 16px;
+}
+
+::selection {
+  background: rgba(244, 166, 183, 0.35);
+  color: var(--text-primary);
+}

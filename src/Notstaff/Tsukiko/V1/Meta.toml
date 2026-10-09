@@ -1,0 +1,5 @@
+name = "Tsukiko"
+author = "Notstaff"
+version = "1.0.0"
+description = "Un tema oscuro, minimalista y bonito: superficies en tonos cacao cálidos, toques en rosa palo y un suave fondo de pantalla de anime de cuatro paneles."
+injects_css = true

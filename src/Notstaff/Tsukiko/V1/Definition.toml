@@ -1,0 +1,78 @@
+[background]
+reference_path = "bg.webp"
+image_blur = 0
+image_opacity = 0.55
+
+[colors]
+accent = "#f4a6b7"
+accent-rgb = "244, 166, 183"
+accent-hover = "#f8bccb"
+accent-text = "#2a1218"
+bg-item-active = "#33252b"
+bg-overlay = "rgba(14, 9, 12, 0.72)"
+surface-rgb = "255, 236, 236"
+color-success = "#a8e0bf"
+color-success-rgb = "168, 224, 191"
+color-error = "#f28b95"
+color-error-rgb = "242, 139, 149"
+color-warning = "#f7d58a"
+color-warning-rgb = "247, 213, 138"
+color-info = "#8fc9ee"
+color-on-success = "#12261b"
+color-on-error = "#2a0d11"
+color-on-warning = "#2a2108"
+color-on-info = "#0d2230"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#4a363e"
+scrollbar-thumb-hover = "#f4a6b7"
+
+[backgrounds]
+main = "#151013"
+sidebar = "#1c1418"
+card = "#251b20"
+
+[text]
+primary = "#fbeee8"
+secondary = "#cdb5b1"
+muted = "#9a8683"
+
+[borders]
+color = "#3a2a31"
+radius = "14px"
+
+[layout]
+font-size-base = "14px"
+sidebar-width = "250px"
+sidebar-row-height = "54px"
+sidebar-row-gap = "8px"
+market-card-padding = "16px"
+modal-width = "440px"
+modal-padding = "26px"
+scrollbar-size = "6px"
+scrollbar-radius = "999px"
+
+[shadows]
+shadow-lg = "0 12px 32px rgba(10, 5, 8, 0.55)"
+glow-accent = "0 0 14px rgba(244, 166, 183, 0.28)"
+
+[backdrop]
+modal = 8.0
+
+[others]
+font-family = "\"Nunito\", system-ui, sans-serif"
+bg-image-brightness = "0.5"
+bg-image-position = "center"
+
+[[fonts]]
+family = "Nunito"
+src = "fonts/Nunito-Regular.woff2"
+format = "woff2"
+weight = "400"
+style = "normal"
+
+[[fonts]]
+family = "Nunito"
+src = "fonts/Nunito-Bold.woff2"
+format = "woff2"
+weight = "700"
+style = "normal"
