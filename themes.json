@@ -2392,6 +2392,64 @@
     "date": "2026-09-18T23:33:17-06:00"
   },
   {
+    "id": "notstaff-tsukiko",
+    "slug": "notstaff-tsukiko",
+    "name": "Tsukiko",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/Tsukiko",
+    "description": "# Tsukiko\n\nUn tema oscuro, minimalista y bonito para CubicLauncher. Superficies en tonos cacao cálidos, toques en rosa palo, esquinas redondeadas y la tipografía Nunito, con un suave fondo de pantalla de anime de cuatro paneles detrás de la interfaz.\n\n## Credits and licenses\n\n- Fuente: Nunito, SIL Open Font License 1.1 (véase `fonts/OFL.txt`).\n- Fondo de pantalla: la ilustración pertenece a sus creadores originales. Ha sido utilizado en uso personal; asegúrate de que tienes derecho a redistribuirla antes de publicar este tema.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/preview.45d6ec9b.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/Tsukiko/V1",
+        "date": "2026-10-08T23:01:25-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/bg.80db1179.webp"
+          },
+          {
+            "name": "fonts/Nunito-Bold.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/fonts/Nunito-Bold.fa89300b.woff2"
+          },
+          {
+            "name": "fonts/Nunito-Regular.woff2",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/fonts/Nunito-Regular.a5906e15.woff2"
+          },
+          {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/preview.45d6ec9b.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/preview.45d6ec9b.png",
+    "date": "2026-10-08T23:01:25-06:00"
+  },
+  {
     "id": "notstaff-yorha",
     "slug": "notstaff-yorha",
     "name": "YoRHa",
