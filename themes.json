@@ -1468,7 +1468,7 @@
     "tags": [],
     "dirPath": "src/Jhojan/GoldenHour",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1510,7 +1510,7 @@
     "tags": [],
     "dirPath": "src/Jhojan/MistyForest",
     "description": null,
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1932,7 +1932,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/InkWitch",
     "description": "# Ink Witch\n\nUn tema de manga oscuro en blanco, negro y gris carbón. Títulos condensados, bordes finos y controles inspirados en viñetas, con el wallpaper original visible y sin desenfoque. La instancia seleccionada se marca con una línea clara y un fondo gris discreto.\n\nIncluye la fuente Oswald en WOFF2, sin descargas al usar el tema. Mantiene los iconos originales del launcher y no modifica la posición de los botones de la sidebar.\n\nImporta el `.cbth` desde Temas y selecciona **Ink Witch**. Habilita el CSS personalizado si tu versión lo solicita.\n\nTema: staFF6773. Wallpaper aportado por el usuario. Fuente: [Oswald, Google Fonts](https://github.com/google/fonts/tree/main/ofl/oswald), licencia SIL Open Font License incluida en `fonts/OFL.txt`.\n",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -1990,7 +1990,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/IslaKeepsake",
     "description": "# Isla Keepsake\n\nUna página de recuerdos junto a Isla. La navegación flota a la derecha, dejando el rostro más despejado a la izquierda. Papel rosado, acentos ciruela, títulos serif y pequeñas tarjetas con esquinas asimétricas dan al launcher una composición delicada.\n\nIncluye las fuentes Lora y Manrope en WOFF2 y el wallpaper original. Sin desenfoques, partículas ni animaciones añadidas. Las vistas de contenido mantienen sus controles y los iconos oficiales.\n\nVersión 1.0.0: cabecera y detalles con fondos uniformes, bordes nítidos y sin sombras difusas. Las opciones de detalles permanecen visibles, con desplazamiento si falta espacio, y cuentan con iconos sobre pequeñas superficies rosadas.\n\nVersión 1.1.0: Arrglar el fondo que no cargaba.\n\nImporta el `.cbth` en Temas, selecciona **Isla Keepsake** y habilita el CSS personalizado si tu versión lo solicita. La navegación queda a la derecha tanto expandida como compacta.\n\nTema: staFF6773. Wallpaper aportado por el usuario. Lora y Manrope: Google Fonts, licencias SIL Open Font License incluidas en `fonts/`.\n",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -2349,7 +2349,7 @@
     "tags": [],
     "dirPath": "src/Notstaff/Starlit02",
     "description": "Zero Two bajo las estrellas. Azul noche, lavanda y un fondo animado ligero, sin desenfoques.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -2422,6 +2422,10 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/Meta.toml"
           },
           {
+            "name": "fonts/OFL.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/fonts/OFL.txt"
+          },
+          {
             "name": "bg.webp",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/bg.80db1179.webp"
           },
@@ -2432,10 +2436,6 @@
           {
             "name": "fonts/Nunito-Regular.woff2",
             "url": "https://themes.cubiclauncher.org/src/Notstaff/Tsukiko/V1/fonts/Nunito-Regular.a5906e15.woff2"
-          },
-          {
-            "name": "fonts/OFL.txt",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/Tsukiko/V1/fonts/OFL.txt"
           },
           {
             "name": "preview.png",
@@ -3419,7 +3419,7 @@
     "tags": [],
     "dirPath": "src/holman/BMW_Minecraft_Snow",
     "description": "Tema animado inspirado en un BMW sobre un paisaje nevado de Minecraft, con estética oscura, plata, negro y detalles de iluminación púrpura.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
@@ -3949,7 +3949,7 @@
     "tags": [],
     "dirPath": "src/holman/interstellar",
     "description": "Tema animado inspirado en el agujero negro Gargantua de Interstellar, con estética oscura y detalles dorados/ámbar del disco de acreción.",
-    "verified": false,
+    "verified": true,
     "versions": [
       {
         "version": "V1",
