@@ -3412,6 +3412,60 @@
     "date": "2026-07-24T02:34:20-04:00"
   },
   {
+    "id": "holman-arctic-glass",
+    "slug": "holman-arctic-glass",
+    "name": "Arctic Glass",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/Arctic glass",
+    "description": "Interfaz de vidrio esmerilado estilo iOS sobre un zorro ártico: sidebar flotante, paneles translúcidos, pestañas tipo segmented control y tipografía SF Compact.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/preview.76a784e1.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/Arctic glass/V1",
+        "date": "2026-10-13T17:11:35-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Arctic glass/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Arctic glass/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/Arctic glass/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/bg.d3c185e1.jpg"
+          },
+          {
+            "name": "fonts/SF-Compact.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/fonts/SF-Compact.d5902368.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/preview.76a784e1.png"
+          },
+          {
+            "name": "showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/showcase.10f4b3ca.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/Arctic glass/V1/preview.76a784e1.png",
+    "date": "2026-10-13T17:11:35-05:00"
+  },
+  {
     "id": "holman-bmw-minecraft-snow",
     "slug": "holman-bmw-minecraft-snow",
     "name": "BMW_Minecraft_Snow",
