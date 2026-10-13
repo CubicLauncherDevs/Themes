@@ -1,0 +1,108 @@
+# Arctic Glass — paleta sacada de la foto del zorro ártico:
+#   azul hielo  #87a2bb / #608bb3   ·   azul profundo  #36537c   ·   destello dorado del atardecer
+
+[background]
+reference_path = "bg.jpg"
+image_blur = 1.0
+image_opacity = 1.0
+
+[colors]
+accent = "#7cb8ff"
+"accent-rgb" = "124, 184, 255"
+"accent-hover" = "#a6d1ff"
+"accent-text" = "#06142b"
+"bg-sidebar-gradient" = "linear-gradient(180deg, rgba(22, 38, 68, 0.58) 0%, rgba(10, 18, 36, 0.52) 100%)"
+
+[text]
+primary = "#f5f9ff"
+secondary = "#c3d2e6"
+muted = "#8ea3bd"
+tertiary = "#8ea3bd"
+
+[borders]
+color = "rgba(255, 255, 255, 0.14)"
+width = "1px"
+radius = "14px"
+"radius-sm" = "10px"
+"radius-lg" = "22px"
+
+[shadows]
+"shadow-sm" = "0 1px 2px rgba(4, 10, 24, 0.35)"
+"shadow-md" = "0 8px 24px rgba(4, 10, 24, 0.32)"
+"shadow-lg" = "0 24px 64px rgba(4, 10, 24, 0.5)"
+"glow-accent" = "0 0 18px rgba(124, 184, 255, 0.35)"
+
+[backgrounds]
+main = "rgba(9, 17, 34, 0.42)"
+sidebar = "rgba(14, 26, 48, 0.55)"
+card = "rgba(14, 26, 48, 0.46)"
+"item-active" = "rgba(124, 184, 255, 0.22)"
+overlay = "rgba(6, 12, 26, 0.45)"
+input = "rgba(255, 255, 255, 0.07)"
+
+[layout]
+"font-size-base" = "14px"
+"sidebar-width" = "280px"
+"sidebar-row-height" = "54px"
+"control-padding" = "10px 14px"
+"button-padding" = "9px 18px"
+"font-size-control" = "0.86rem"
+
+[backdrop]
+overlay = 12.0
+modal = 44.0
+dropdown = 28.0
+panel = 26.0
+float = 22.0
+viewer = 8.0
+
+[others]
+"font-family" = "'SF Compact', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+"font-weight-normal" = "400"
+"font-weight-medium" = "500"
+"font-weight-bold" = "600"
+"line-height" = "1.45"
+"color-scheme" = "dark"
+"icon-filter" = "invert(1)"
+
+"bg-image-brightness" = "0.9"
+"bg-image-position" = "70% 55%"
+"bg-image-size" = "cover"
+
+"surface-hover" = "rgba(255, 255, 255, 0.10)"
+"surface-active" = "rgba(255, 255, 255, 0.14)"
+"surface-card" = "rgba(255, 255, 255, 0.06)"
+"surface-input" = "rgba(255, 255, 255, 0.07)"
+"surface-dropdown" = "rgba(18, 31, 58, 0.88)"
+"border-hover" = "rgba(255, 255, 255, 0.26)"
+"border-focus" = "#7cb8ff"
+"toast-bg" = "rgba(20, 34, 62, 0.78)"
+"toast-border" = "rgba(255, 255, 255, 0.16)"
+
+"color-success" = "#5fd68a"
+"color-success-rgb" = "95, 214, 138"
+"color-error" = "#ff6b6b"
+"color-error-rgb" = "255, 107, 107"
+"color-warning" = "#f5c26b"
+"color-warning-rgb" = "245, 194, 107"
+"color-info" = "#7cb8ff"
+"color-info-rgb" = "124, 184, 255"
+"color-on-success" = "#06210f"
+"color-on-error" = "#2b0606"
+"color-on-warning" = "#2a1a00"
+"color-on-info" = "#06142b"
+"color-status-starting" = "#f5c26b"
+"color-status-started" = "#5fd68a"
+
+"scrollbar-track" = "transparent"
+"scrollbar-thumb" = "rgba(255, 255, 255, 0.24)"
+"scrollbar-thumb-hover" = "rgba(255, 255, 255, 0.42)"
+"scrollbar-size" = "10px"
+"scrollbar-radius" = "10px"
+
+[[fonts]]
+family = "SF Compact"
+src    = "fonts/SF-Compact.ttf"
+format = "ttf"
+weight = "900"
+style  = "normal"

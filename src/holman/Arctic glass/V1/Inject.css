@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Arctic Glass — Inject.css
+   Interfaz de vidrio esmerilado estilo iOS para CubicLauncher.
+   Las variables (colores, radios, blur, fuente) viven en Definition.toml;
+   aquí va solo la ESTRUCTURA: fondo unificado, sidebar flotante, pestañas
+   tipo segmented control, modales/menús de vidrio, botones tipo píldora.
+
+   Notas de diseño
+   - Se usa `:root` delante de los selectores para ganarle en especificidad
+     a los estilos con scope de Svelte (.clase.svelte-xxxx).
+   - backdrop-filter solo en contenedores grandes (sidebar, modales, menús).
+     Las filas de listas virtualizadas NO llevan blur, para no castigar
+     equipos modestos.
+   - El launcher ya apaga blur y animaciones con sus opciones de rendimiento
+     (data-no-blur / data-reduce-motion); abajo hay fallbacks opacos.
+   ========================================================================== */
+
+:root {
+  --ag-ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --ag-sat: 1.6;
+  --ag-edge: inset 0 1px 0 rgba(255, 255, 255, 0.22),
+             inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --font-family: 'SF Compact', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                 system-ui, sans-serif;
+}
+
+/* ---------- Tipografía base ---------- */
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  letter-spacing: -0.006em;
+}
+strong, b { font-weight: 600; }
+::selection {
+  background: rgba(var(--accent-rgb), 0.35);
+  color: var(--text-primary);
+}
+:root:root :is(input, textarea, select, button) { letter-spacing: inherit; }
+:root:root :is(input[type='checkbox'], input[type='radio'], input[type='range']) {
+  accent-color: var(--accent);
+}
+
+/* ---------- Fondo unificado ----------
+   La imagen cubre toda la ventana (sidebar incluido) para que el vidrio
+   tenga algo que desenfocar. Se reemplaza el .background-overlay original. */
+:root:root .app-container {
+  position: relative;
+  isolation: isolate;
+  background: #0b1424;
+}
+:root:root .app-container::before {
+  content: '';
+  position: absolute;
+  inset: -36px;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(120% 90% at 70% 40%, transparent 40%, rgba(5, 12, 28, 0.42) 100%),
+    linear-gradient(180deg, rgba(8, 16, 34, 0.1), rgba(8, 16, 34, 0.3)),
+    var(--bg-image, none);
+  background-size: cover, cover, var(--bg-image-size, cover);
+  background-position: center, center, var(--bg-image-position, 70% 55%);
+  background-repeat: no-repeat;
+  filter: blur(var(--bg-image-blur, 1px))
+          brightness(var(--bg-image-brightness, 0.9))
+          saturate(1.08);
+  opacity: calc(var(--bg-image-loaded, 0) * var(--bg-image-opacity, 1));
+  transition: opacity 0.6s ease;
+}
+:root:root .background-overlay { display: none !important; }
+
+/* Ventanas secundarias (logs, login…) no llevan la capa de imagen: fondo sólido. */
+html:not(:has(.app-container)) body { background: #0b1424; }
+
+/* Velo azul suave solo sobre el área principal: asegura contraste del texto
+   sobre las zonas claras de la foto (nieve, pelaje). El sidebar no lo lleva. */
+:root:root .main-content {
+  background: rgba(8, 16, 34, 0.3);
+  text-shadow: 0 1px 2px rgba(5, 12, 28, 0.28);
+}
+
+/* ---------- Sidebar flotante de vidrio ---------- */
+:root:root .app-container .sidebar-container { background: transparent !important; }
+
+:root:root .app-container .sidebar {
+  margin: 12px;
+  width: calc(var(--sidebar-width) - 24px) !important;
+  background: var(--bg-sidebar-gradient) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--ag-edge), var(--shadow-lg);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-panel)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-panel)) saturate(var(--ag-sat));
+}
+:root:root .app-container .sidebar-compact {
+  margin: 12px 8px;
+  width: calc(var(--sidebar-compact-width, 70px) - 16px) !important;
+  background: var(--bg-sidebar-gradient) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--ag-edge), var(--shadow-lg);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-panel)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-panel)) saturate(var(--ag-sat));
+}
+
+:root:root :is(.sidebar-header, .sc-header) { border-bottom-color: rgba(255, 255, 255, 0.1); }
+:root:root :is(.sidebar-header h1, .section-label, .section-title) {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+}
+
+/* Bloque inferior (herramientas + perfil): llega al borde, sigue la curva del panel */
+:root:root .sidebar-sections {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+  background: rgba(255, 255, 255, 0.04);
+}
+:root:root .sidebar-sections .user-profile { background: transparent !important; }
+:root:root .sc-user {
+  background: transparent !important;
+  border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg);
+}
+:root:root .user-avatar-wrapper { border-radius: 50%; }
+
+/* Botón de colapsar/expandir como píldora flotante */
+:root:root :is(.collapse-btn, .expand-btn) {
+  border-radius: 999px;
+  background: rgba(20, 34, 62, 0.72);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: var(--shadow-md);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  transition: background 0.25s var(--ag-ease), transform 0.25s var(--ag-ease);
+}
+:root:root :is(.collapse-btn, .expand-btn):hover { transform: scale(1.08); }
+
+/* ---------- Instancias (lista del sidebar) ---------- */
+:root:root .instance-item {
+  border-radius: 14px;
+  background: transparent !important;
+  border-color: transparent !important;
+  overflow: hidden;
+  transition: background 0.25s var(--ag-ease), box-shadow 0.25s ease,
+              transform 0.2s var(--ag-ease);
+}
+:root:root .instance-item:hover { background: var(--surface-hover) !important; }
+:root:root .instance-item:active { transform: scale(0.985); }
+:root:root .instance-item.active {
+  background: var(--bg-item-active) !important;
+  box-shadow: inset 0 0 0 1px rgba(var(--accent-rgb), 0.45),
+              0 4px 16px rgba(var(--accent-rgb), 0.12);
+}
+:root:root .instance-item.active .instance-name { color: var(--text-primary); font-weight: 600; }
+:root:root .instance-icon-strip { border-right-color: transparent !important; }
+:root:root .instance-item .instance-icon-inner img { border-radius: 6px; }
+
+:root:root .sc-instance-item { border-radius: 14px !important; }
+:root:root .sc-instance-item.active {
+  background: var(--bg-item-active) !important;
+  border-color: rgba(var(--accent-rgb), 0.55) !important;
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.14);
+}
+
+/* ---------- Pestañas: segmented control estilo iOS ---------- */
+:root:root .qm-tabs {
+  background: rgba(10, 20, 40, 0.5) !important;
+  margin: 10px 16px 6px;
+  padding: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px;
+  gap: 2px;
+  -webkit-backdrop-filter: blur(18px) saturate(var(--ag-sat));
+  backdrop-filter: blur(18px) saturate(var(--ag-sat));
+}
+:root:root .qm-tab-btn {
+  border-radius: 9px;
+  border-bottom: 0 !important;
+  padding: 7px 10px;
+  color: var(--text-secondary);
+  transition: background 0.25s var(--ag-ease), color 0.2s ease, box-shadow 0.25s ease;
+}
+:root:root .qm-tab-btn:hover:not(.active) {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.07);
+}
+:root:root .qm-tab-btn.active {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28), inset 0 0.5px 0 rgba(255, 255, 255, 0.32);
+}
+
+:root:root .segmented-control,
+:root:root .tab-bar { border-radius: 12px; }
+:root:root .segmented-control button { border-radius: 9px; transition: background 0.25s var(--ag-ease); }
+:root:root .segmented-control button[aria-pressed='true'] {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- Botones: píldoras ---------- */
+:root:root :is(.btn-primary, .btn-secondary, .btn-danger, .qm-save-btn, .qm-btn-secondary) {
+  border-radius: 999px;
+  letter-spacing: -0.005em;
+  transition: background 0.25s var(--ag-ease), transform 0.2s var(--ag-ease),
+              box-shadow 0.25s ease, color 0.2s ease, border-color 0.2s ease;
+}
+:root:root .btn-primary {
+  box-shadow: 0 4px 14px rgba(var(--accent-rgb), 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+:root:root .btn-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(var(--accent-rgb), 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+:root:root :is(.btn-primary, .btn-secondary, .btn-danger, .qm-save-btn):active:not(:disabled) {
+  transform: scale(0.97);
+}
+:root:root :is(.btn-secondary, .qm-btn-secondary) {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: var(--text-primary);
+}
+:root:root :is(.btn-secondary, .qm-btn-secondary):hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+:root:root :is(.tools-btn, .sc-tool-btn) {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+  transition: background 0.25s var(--ag-ease), transform 0.2s var(--ag-ease);
+}
+:root:root :is(.tools-btn, .sc-tool-btn):hover { background: rgba(255, 255, 255, 0.14); }
+:root:root :is(.tools-btn, .sc-tool-btn):active { transform: scale(0.97); }
+:root:root .btn-danger {
+  background: rgba(var(--color-error-rgb), 0.22);
+  border-color: rgba(var(--color-error-rgb), 0.5);
+  color: #ffb9b9;
+}
+:root:root .btn-danger:hover:not(:disabled) { background: rgba(var(--color-error-rgb), 0.34); }
+:root:root .action-btn { border-radius: 10px; }
+
+/* ---------- Campos de texto y selects ---------- */
+:root:root :is(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea, .select-trigger, .dd-trigger, .text-input, .form-input,
+  .search-input, .search-field
+) {
+  border-radius: 12px;
+  transition: background 0.25s var(--ag-ease), border-color 0.2s ease, box-shadow 0.25s ease;
+}
+:root:root :is(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']):focus,
+  textarea:focus, .text-input:focus, .form-input:focus, .search-input:focus
+) {
+  outline: none;
+  border-color: rgba(var(--accent-rgb), 0.75);
+  box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.22);
+}
+:root:root :is(button, a[href], summary, [tabindex]):focus-visible {
+  outline: 2px solid rgba(var(--accent-rgb), 0.75);
+  outline-offset: 2px;
+}
+
+/* ---------- Tarjetas y filas (sin blur: pueden ir en listas largas) ---------- */
+:root:root :is(.market-item, .mod-card, .pack-card, .closet-card, .installed-item,
+          .stat-card, .install-card, .add-card, .qm-jre-card, .preview-card, .meta-chip) {
+  border: 1px solid var(--border-color);
+  box-shadow: var(--ag-edge);
+  transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+:root:root :is(.market-item, .mod-card, .pack-card, .closet-card, .installed-item, .stat-card,
+          .install-card, .add-card, .qm-jre-card, .preview-card) {
+  border-radius: var(--border-radius);
+}
+:root:root .meta-chip { border-radius: 999px; padding: 3px 10px; }
+:root:root :is(.market-item, .mod-card, .pack-card, .closet-card, .installed-item):hover {
+  border-color: var(--border-hover);
+  background: color-mix(in srgb, var(--accent) 8%, var(--bg-card));
+  box-shadow: var(--ag-edge), var(--shadow-md);
+}
+:root:root :is(.market-item.selected, .mod-card.selected, .pack-card.selected) {
+  border-color: rgba(var(--accent-rgb), 0.6);
+  background: rgba(var(--accent-rgb), 0.14);
+}
+
+/* Menú flotante de navegación de la instancia + cabecera */
+:root:root .nav-card {
+  border-radius: 18px;
+  background: var(--surface-dropdown) !important;
+  box-shadow: var(--ag-edge), var(--shadow-lg);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-dropdown)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-dropdown)) saturate(var(--ag-sat));
+}
+:root:root .nav-item { transition: background 0.2s ease; }
+:root:root .nav-item:hover { background: rgba(255, 255, 255, 0.1); }
+:root:root .nav-divider { background: rgba(255, 255, 255, 0.1); }
+:root:root .header-bg {
+  background: linear-gradient(180deg, rgba(22, 38, 68, 0.5), rgba(10, 18, 36, 0.4));
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+/* ---------- Modales ---------- */
+:root:root .modal-overlay {
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-overlay)) saturate(1.2);
+  backdrop-filter: blur(var(--backdrop-blur-overlay)) saturate(1.2);
+}
+:root:root .modal {
+  background: linear-gradient(180deg, rgba(28, 46, 82, 0.8), rgba(12, 22, 44, 0.78)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 26px;
+  box-shadow: var(--ag-edge), 0 40px 100px rgba(2, 8, 22, 0.6);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-modal)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-modal)) saturate(var(--ag-sat));
+  animation: ag-pop 0.38s var(--ag-ease) backwards;
+}
+:root:root :is(.qm-root, .qm-header, .qm-footer) { background: transparent !important; }
+:root:root .qm-footer { border-top-color: rgba(255, 255, 255, 0.1); }
+:root:root .qm-label { font-weight: 600; letter-spacing: -0.01em; }
+
+/* Paneles laterales (drawer) */
+:root:root .drawer {
+  background: var(--bg-sidebar-gradient) !important;
+  border-left-style: solid !important;
+  border-color: var(--border-color) !important;
+  box-shadow: var(--ag-edge), var(--shadow-lg);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-modal)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-modal)) saturate(var(--ag-sat));
+}
+:root:root .drawer--right  { border-radius: var(--border-radius-lg) 0 0 var(--border-radius-lg); }
+:root:root .drawer--left   { border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0; }
+:root:root .drawer--bottom { border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; }
+:root:root .drawer--top    { border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg); }
+
+/* ---------- Menús desplegables, contextuales y tooltips ---------- */
+:root:root :is(.dd-dropdown, .select-dropdown, .ctx-menu, .icon-popover) {
+  background: var(--surface-dropdown) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 16px !important;
+  box-shadow: var(--ag-edge), var(--shadow-lg);
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-dropdown)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-dropdown)) saturate(var(--ag-sat));
+  animation: ag-pop 0.22s var(--ag-ease) backwards;
+}
+:root:root :is(.select-option, .dd-option) { border-radius: 10px; }
+:root:root .tooltip {
+  border-radius: 10px;
+  background: rgba(14, 26, 48, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+/* ---------- Notificaciones ---------- */
+:root:root .notification-toast {
+  -webkit-backdrop-filter: blur(var(--backdrop-blur-float)) saturate(var(--ag-sat));
+  backdrop-filter: blur(var(--backdrop-blur-float)) saturate(var(--ag-sat));
+  box-shadow: var(--ag-edge), var(--shadow-md);
+}
+
+/* ---------- Barras de progreso y scroll ---------- */
+:root:root :is([class*='progress-track'], [class$='-track']) { border-radius: 999px; overflow: hidden; }
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* ---------- Animación de entrada (resorte suave tipo iOS) ----------
+   Sin keyframe "to": termina en el estilo natural del elemento, así no pisa
+   posicionamientos con transform propios. */
+@keyframes ag-pop {
+  from { opacity: 0; transform: scale(0.95) translateY(6px); }
+}
+
+/* ---------- Fallbacks: si el usuario apaga el blur, paneles casi opacos ---------- */
+html[data-no-blur] .sidebar,
+html[data-no-blur] .sidebar-compact,
+html[data-no-blur] .drawer { background: rgba(14, 26, 48, 0.9) !important; }
+html[data-no-blur] .modal { background: rgba(14, 26, 48, 0.96) !important; }
+html[data-no-blur] :is(.dd-dropdown, .select-dropdown, .ctx-menu, .icon-popover, .nav-card) {
+  background: rgba(18, 31, 58, 0.97) !important;
+}
+html[data-no-blur] .app-container::before {
+  filter: brightness(var(--bg-image-brightness, 0.9));
+}
+@media (prefers-reduced-motion: reduce) {
+  :root:root .modal, :root:root :is(.dd-dropdown, .select-dropdown, .ctx-menu, .icon-popover) { animation: none; }
+  .app-container::before { filter: brightness(var(--bg-image-brightness, 0.9)); }
+}
