@@ -1,0 +1,5 @@
+name = "Arctic Glass"
+author = "holman"
+version = "1.0.0"
+description = "Interfaz de vidrio esmerilado estilo iOS sobre un zorro ártico: sidebar flotante, paneles translúcidos, pestañas tipo segmented control y tipografía SF Compact."
+injects_css = true
