@@ -3512,6 +3512,64 @@
     "date": "2026-09-06T15:15:12-05:00"
   },
   {
+    "id": "holman-cr7-goat",
+    "slug": "holman-cr7-goat",
+    "name": "CR7 goat",
+    "author": "holman",
+    "tags": [],
+    "dirPath": "src/holman/CR7 GOAT",
+    "description": "Negro elegante y minimalista con acentos rojo y dorado, detalles discretos de Portugal, Champions y Balón de Oro, y tipografía SF Compact.",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.c3253c17.png",
+        "showcaseUrl": null,
+        "dirPath": "src/holman/CR7 GOAT/V1",
+        "date": "2026-10-13T18:20:50-05:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/CR7 GOAT/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/CR7 GOAT/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/holman/CR7 GOAT/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/bg.a3834f48.jpg"
+          },
+          {
+            "name": "fonts/SF-Compact.ttf",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/fonts/SF-Compact.d5902368.ttf"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.c3253c17.png"
+          },
+          {
+            "name": "preview.svg",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.5a732285.svg"
+          },
+          {
+            "name": "showcase.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/showcase.33fa1c10.png"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.c3253c17.png",
+    "date": "2026-10-13T18:20:50-05:00"
+  },
+  {
     "id": "holman-gt3-rs-end",
     "slug": "holman-gt3-rs-end",
     "name": "Porsche_Gt3_Rs_GIF",
