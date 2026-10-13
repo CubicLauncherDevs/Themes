@@ -1,5 +1,5 @@
-name = "CR7 goat"
+name = "CR7 Minimal"
 author = "holman"
 version = "1.0.0"
-description = "Negro elegante y minimalista con acentos rojo y dorado, detalles discretos de Portugal, Champions y Balón de Oro, y tipografía de ios."
+description = "Negro elegante y minimalista con acentos rojo y dorado, detalles discretos de Portugal, Champions y Balón de Oro, y tipografía SF Compact."
 injects_css = true
