@@ -3308,6 +3308,52 @@
     "date": "2026-09-08T20:18:55-06:00"
   },
   {
+    "id": "the-unknown-matrix",
+    "slug": "the-unknown-matrix",
+    "name": "Matrix",
+    "author": "The_Unknown",
+    "tags": [],
+    "dirPath": "src/The_Unknown/Matrix",
+    "description": "# Matrix\n\nMatrix is a dark, cinematic system-console theme for CubicLauncher. Layered charcoal-violet surfaces, thin borders, restrained dusty-violet highlights, and a subdued animated background creating a precise sci-fi interface without the hacker theme that everyone uses.\n\nInter is used for the primary interface, while JetBrains Mono is reserved for code, logs, terminal output, and technical metadata. The injected CSS adds a matching cursor with a short fading particle trail, crisp focus states, and a very subtle scanline texture over the background.\n\nMade by \"The_Unknown\" And \"Arena.ai\"",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": null,
+        "showcaseUrl": null,
+        "dirPath": "src/The_Unknown/Matrix/V1",
+        "date": "2026-10-17T22:21:02+01:00",
+        "changelog": "# Changelog\n\n## 1.0.0\n\n- Added the initial Matrix V1 palette and animated GIF background support.\n- Added Inter interface typography with JetBrains Mono for technical content.\n- Added restrained dusty-violet states, status colors, borders, shadows, and backdrop blur.\n- Added a custom theme cursor with a short fading particle trail.\n- Added subtle background scanlines, accessible focus styling, and themed text selection.\n",
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/Definition.toml"
+          },
+          {
+            "name": "Inject.css",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/Inject.css"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/Meta.toml"
+          },
+          {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/changelog.md"
+          },
+          {
+            "name": "digital art animation GIF by sanderick.gif",
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/digital art animation GIF by sanderick.c83a9e6c.gif"
+          }
+        ],
+        "injectsCss": true
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": null,
+    "date": "2026-10-17T22:21:02+01:00"
+  },
+  {
     "id": "toritopablo-mina",
     "slug": "toritopablo-mina",
     "name": "Mina",
@@ -3550,12 +3596,12 @@
             "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/fonts/SF-Compact.d5902368.ttf"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.c3253c17.png"
-          },
-          {
             "name": "preview.svg",
             "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.5a732285.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/holman/CR7 GOAT/V1/preview.c3253c17.png"
           },
           {
             "name": "showcase.png",
