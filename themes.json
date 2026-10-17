@@ -3319,7 +3319,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png",
         "showcaseUrl": null,
         "dirPath": "src/The_Unknown/Matrix/V1",
         "date": "2026-10-17T22:21:02+01:00",
@@ -3338,8 +3338,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/Meta.toml"
           },
           {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/bg.c83a9e6c.gif"
+          },
+          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/changelog.md"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png"
           },
           {
             "name": "digital art animation GIF by sanderick.gif",
@@ -3350,7 +3358,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png",
     "date": "2026-10-17T22:21:02+01:00"
   },
   {
