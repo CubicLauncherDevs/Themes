@@ -1,0 +1,5 @@
+name = "Matrix"
+author = "The_Unknown"
+version = "1.0.0"
+description = "A dark, cinematic system-console theme with restrained dusty-violet accents and precise technical detailing."
+injects_css = true

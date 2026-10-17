@@ -1,0 +1,87 @@
+/* Matrix — restrained system-console refinements. */
+:root {
+  --matrix-cursor-default: url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2232%22%20height=%2232%22%20viewBox=%220%200%2032%2032%22%3E%3Cpath%20d=%22M3%202.5V23l5.5-5%204.7%2010%204-1.9-4.6-9.5%207.4-.7L3%202.5Z%22%20fill=%22%2317121D%22%20stroke=%22%23E7E1ED%22%20stroke-width=%221.3%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M4.8%205.8v13.1l3-2.7%22%20fill=%22none%22%20stroke=%22%23B5A0D8%22%20stroke-width=%221%22%20stroke-linecap=%22round%22/%3E%3Ccircle%20cx=%2220.5%22%20cy=%2222.2%22%20r=%221.35%22%20fill=%22%23B5A0D8%22%20fill-opacity=%22.52%22/%3E%3Ccircle%20cx=%2224.8%22%20cy=%2226%22%20r=%221%22%20fill=%22%23B5A0D8%22%20fill-opacity=%22.34%22/%3E%3Ccircle%20cx=%2228.5%22%20cy=%2229%22%20r=%22.7%22%20fill=%22%23B5A0D8%22%20fill-opacity=%22.18%22/%3E%3C/svg%3E") 3 2;
+  --matrix-cursor-action: url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2232%22%20height=%2232%22%20viewBox=%220%200%2032%2032%22%3E%3Cpath%20d=%22M3%202.5V23l5.5-5%204.7%2010%204-1.9-4.6-9.5%207.4-.7L3%202.5Z%22%20fill=%22%23B5A0D8%22%20stroke=%22%23E7E1ED%22%20stroke-width=%221.3%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M4.8%205.8v13.1l3-2.7%22%20fill=%22none%22%20stroke=%22%2317121D%22%20stroke-width=%221%22%20stroke-linecap=%22round%22/%3E%3Ccircle%20cx=%2220.5%22%20cy=%2222.2%22%20r=%221.35%22%20fill=%22%23D2C2EE%22%20fill-opacity=%22.64%22/%3E%3Ccircle%20cx=%2224.8%22%20cy=%2226%22%20r=%221%22%20fill=%22%23D2C2EE%22%20fill-opacity=%22.40%22/%3E%3Ccircle%20cx=%2228.5%22%20cy=%2229%22%20r=%22.7%22%20fill=%22%23D2C2EE%22%20fill-opacity=%22.20%22/%3E%3C/svg%3E") 3 2;
+}
+
+html,
+body {
+  cursor: var(--matrix-cursor-default), default;
+}
+
+a[href],
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+summary,
+select:not(:disabled),
+label[for],
+.clickable,
+.instance-item,
+.nav-item,
+.ctx-item,
+.select-option,
+input[type="button"]:not(:disabled),
+input[type="submit"]:not(:disabled),
+input[type="checkbox"]:not(:disabled),
+input[type="radio"]:not(:disabled),
+input[type="range"]:not(:disabled) {
+  cursor: var(--matrix-cursor-action), pointer !important;
+}
+
+input:not([type]),
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="url"],
+textarea,
+[contenteditable]:not([contenteditable="false"]),
+.line-text {
+  cursor: text;
+}
+
+button:disabled,
+input:disabled,
+select:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed !important;
+}
+
+code,
+pre,
+kbd,
+samp,
+.log-lines,
+.line-text,
+.log-snippet,
+.metadata,
+.qm-console-limit-row {
+  font-family: var(--font-family-mono) !important;
+  font-variant-ligatures: none;
+}
+
+::selection {
+  color: #E7E1ED;
+  background: rgba(181, 160, 216, 0.32);
+}
+
+:where(button, a[href], input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid #B5A0D8;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px rgba(181, 160, 216, 0.12);
+}
+
+.background-overlay::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(181, 160, 216, 0.025) 0,
+    rgba(181, 160, 216, 0.025) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}

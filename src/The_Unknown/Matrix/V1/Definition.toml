@@ -1,0 +1,119 @@
+[background]
+reference_path = "bg.gif"
+image_blur = 0.0
+image_opacity = 0.34
+
+[colors]
+accent = "#B5A0D8"
+accent-rgb = "181, 160, 216"
+accent-hover = "#C6B4E4"
+accent-active = "#D2C2EE"
+accent-primary = "#B5A0D8"
+accent-text = "#17121D"
+accent-highlight = "#D2C2EE"
+accent-subtle = "rgba(181, 160, 216, 0.14)"
+text-accent = "#D2C2EE"
+bg-item-active = "#42344F"
+bg-overlay = "rgba(16, 15, 20, 0.78)"
+color-success = "#9BB9A5"
+color-success-rgb = "155, 185, 165"
+color-warning = "#D5AD79"
+color-warning-rgb = "213, 173, 121"
+color-error = "#D995A8"
+color-error-rgb = "217, 149, 168"
+color-info = "#9DBCD5"
+color-info-rgb = "157, 188, 213"
+color-status-starting = "#9DBCD5"
+color-status-started = "#9BB9A5"
+color-status-stopped = "#5C5566"
+color-status-error = "#D995A8"
+
+[backgrounds]
+main = "#100F14"
+sidebar = "#17151D"
+card = "#17151D"
+input = "#1F1B27"
+surface = "#1F1B27"
+sidebar-gradient = "linear-gradient(180deg, #17151D 0%, #100F14 100%)"
+card-gradient = "linear-gradient(135deg, #1F1B27 0%, #17151D 72%)"
+
+[text]
+primary = "#E7E1ED"
+secondary = "#B0A8BB"
+muted = "#81788D"
+disabled = "#5C5566"
+
+[borders]
+color = "#302A39"
+color-hover = "#484052"
+strong = "#484052"
+width = "1px"
+radius = "8px"
+radius-sm = "5px"
+radius-lg = "12px"
+
+[layout]
+sidebar-width = "260px"
+sidebar-compact-width = "70px"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "18px"
+line-height = "1.5"
+transition-fast = "0.12s ease"
+transition-base = "0.20s ease"
+transition-slow = "0.35s ease"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0, 0, 0, 0.38)"
+shadow-md = "0 6px 18px rgba(0, 0, 0, 0.42)"
+shadow-lg = "0 14px 36px rgba(0, 0, 0, 0.52)"
+glow-accent = "0 0 14px rgba(181, 160, 216, 0.18)"
+glow-accent-strong = "0 0 24px rgba(181, 160, 216, 0.28)"
+glow-error = "0 0 14px rgba(217, 149, 168, 0.22)"
+glow-success = "0 0 14px rgba(155, 185, 165, 0.20)"
+
+[backdrop]
+dropdown = 10.0
+modal = 8.0
+overlay = 6.0
+viewer = 10.0
+float = 8.0
+panel = 6.0
+button = 4.0
+
+[others]
+font-family = "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+font-family-mono = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
+color-scheme = "dark"
+surface-rgb = "181, 160, 216"
+surface-hover = "#292432"
+surface-active = "#302A39"
+surface-selected = "#42344F"
+surface-card = "#17151D"
+surface-input = "#1F1B27"
+surface-dropdown = "#1F1B27"
+surface-raised = "#1F1B27"
+surface-subtle = "rgba(181, 160, 216, 0.06)"
+toast-bg = "rgba(23, 21, 29, 0.96)"
+toast-border = "#302A39"
+scrollbar-track = "#100F14"
+scrollbar-thumb = "#484052"
+scrollbar-thumb-hover = "#B5A0D8"
+bg-image-brightness = "0.58"
+bg-image-size = "cover"
+bg-image-position = "center"
+log-trace = "#81788D"
+log-debug = "#81788D"
+log-info = "#9DBCD5"
+log-message = "#E7E1ED"
+log-warn = "#D5AD79"
+log-error = "#D995A8"
+log-fatal = "#D995A8"
+log-launcher = "#D2C2EE"
+log-stderr = "#D995A8"
+log-unknown = "#5C5566"
+log-font-size = "0.76rem"
+log-line-height = "1.55"
+icon-filter = "brightness(0) saturate(100%) invert(90%) sepia(8%) saturate(418%) hue-rotate(224deg) brightness(103%) contrast(86%)"
+icon-filter-accent = "brightness(0) saturate(100%) invert(75%) sepia(18%) saturate(681%) hue-rotate(220deg) brightness(89%) contrast(90%)"
+icon-filter-muted = "brightness(0) saturate(100%) invert(52%) sepia(8%) saturate(619%) hue-rotate(224deg) brightness(91%) contrast(87%)"
