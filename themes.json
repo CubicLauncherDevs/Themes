@@ -3319,11 +3319,11 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.d7d8c6f3.png",
         "showcaseUrl": null,
         "dirPath": "src/The_Unknown/Matrix/V1",
         "date": "2026-10-17T22:21:02+01:00",
-        "changelog": "# Changelog\n\n## 1.0.0\n\n- Added the initial Matrix V1 palette and animated GIF background support.\n- Added Inter interface typography with JetBrains Mono for technical content.\n- Added restrained dusty-violet states, status colors, borders, shadows, and backdrop blur.\n- Added a custom theme cursor with a short fading particle trail.\n- Added subtle background scanlines, accessible focus styling, and themed text selection.\n",
+        "changelog": "# Changelog\n\n## 1.0.0\n\n- Added the initial Matrix V1 palette and animated GIF background support.\n- Added Inter interface typography with JetBrains Mono for technical content.\n- Added restrained dusty-violet states, status colors, borders, shadows, and backdrop blur.\n- Added a custom theme cursor with a short fading particle trail.\n- Added subtle background scanlines, accessible focus styling, and themed text selection.\n- Regenerated the preview from a representative frame of the animated background.\n",
         "files": [
           {
             "name": "Definition.toml",
@@ -3338,16 +3338,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/Meta.toml"
           },
           {
-            "name": "bg.gif",
-            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/bg.c83a9e6c.gif"
-          },
-          {
             "name": "changelog.md",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/changelog.md"
           },
           {
             "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png"
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.d7d8c6f3.png"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/bg.c83a9e6c.gif"
           },
           {
             "name": "digital art animation GIF by sanderick.gif",
@@ -3358,7 +3358,7 @@
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.c989d510.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.d7d8c6f3.png",
     "date": "2026-10-17T22:21:02+01:00"
   },
   {
