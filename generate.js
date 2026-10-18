@@ -264,30 +264,83 @@ async function drawMockup(ctx, x, y, w, h, cfg) {
   ctx.fill();
 }
 
-function createAbstractGradient(ctx, x, y, w, h, colors) {
-  // Draw a gradient background using the theme colors
-  const gradient = ctx.createLinearGradient(x, y, x + w, y + h);
-  const step = 1 / Math.max(colors.length - 1, 1);
-  for (let i = 0; i < colors.length; i++) {
-    gradient.addColorStop(i * step, colors[i].hex);
-  }
-  ctx.fillStyle = gradient;
+function hexToRgba(hex, alpha) {
+  const { r, g, b } = hexToRgb(hex);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+function seededRandom(seed) {
+  let state = 0;
+  for (let i = 0; i < seed.length; i++) state = (state * 31 + seed.charCodeAt(i)) >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let t = state;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Deterministic fallback for themes without a background image. Uses the
+// theme palette so the preview stays representative and reproducible.
+function drawFallbackBackground(ctx, x, y, w, h, cfg) {
+  const find = (label, fallback) =>
+    (cfg.colors.find((c) => c.label === label) || {}).hex || fallback;
+
+  const main = find("bg-main", "#1e1e1e");
+  const sidebar = find("bg-sidebar", "#2a2a2a");
+  const card = find("bg-card", "#313131");
+  const accent = find("accent", "#79c94c");
+  const border = find("border-color", "#515151");
+
+  const base = ctx.createLinearGradient(x, y, x + w, y + h);
+  base.addColorStop(0, main);
+  base.addColorStop(0.55, sidebar);
+  base.addColorStop(1, card);
+  ctx.fillStyle = base;
   ctx.fillRect(x, y, w, h);
 
-  // Add some geometric shapes for visual interest
+  const glowX = x + w * 0.42;
+  const glowY = y + h * 0.45;
+  const glowRadius = Math.max(w, h) * 0.6;
+  const glow = ctx.createRadialGradient(glowX, glowY, 0, glowX, glowY, glowRadius);
+  glow.addColorStop(0, hexToRgba(accent, 0.22));
+  glow.addColorStop(0.5, hexToRgba(accent, 0.07));
+  glow.addColorStop(1, hexToRgba(accent, 0));
+  ctx.fillStyle = glow;
+  ctx.fillRect(x, y, w, h);
+
+  const rand = seededRandom(cfg.title || "theme");
   ctx.save();
-  ctx.globalAlpha = 0.08;
-  for (let i = 0; i < 5; i++) {
-    const circleX = x + Math.random() * w;
-    const circleY = y + Math.random() * h;
-    const radius = 80 + Math.random() * 200;
-    const c = colors[i % colors.length];
+  for (let i = 0; i < 6; i++) {
+    const bw = w * (0.12 + rand() * 0.22);
+    const bh = h * (0.06 + rand() * 0.18);
+    const bx = x + rand() * (w - bw);
+    const by = y + rand() * (h - bh);
+    ctx.globalAlpha = 0.05 + rand() * 0.06;
+    ctx.fillStyle = i % 2 === 0 ? accent : border;
+    ctx.fillRect(bx, by, bw, bh);
+  }
+  for (let i = 0; i < 24; i++) {
+    const sx = x + rand() * w;
+    const sy = y + rand() * h;
+    const size = 2 + rand() * 4;
+    ctx.globalAlpha = 0.12 + rand() * 0.18;
+    ctx.fillStyle = accent;
     ctx.beginPath();
-    ctx.arc(circleX, circleY, radius, 0, Math.PI * 2);
-    ctx.fillStyle = c.hex;
+    ctx.arc(sx, sy, size, 0, Math.PI * 2);
     ctx.fill();
   }
   ctx.restore();
+
+  const vignette = ctx.createRadialGradient(
+    glowX, glowY, Math.max(w, h) * 0.25,
+    glowX, glowY, Math.max(w, h) * 0.75
+  );
+  vignette.addColorStop(0, "rgba(0,0,0,0)");
+  vignette.addColorStop(1, "rgba(0,0,0,0.35)");
+  ctx.fillStyle = vignette;
+  ctx.fillRect(x, y, w, h);
 }
 
 // ---------- Build config from theme dir ----------
@@ -391,9 +444,9 @@ async function generate(configPathOrDir, outPath) {
     const versionDir = outPath;
     outPath = path.join(versionDir, "preview.png");
     cfg = deepMerge(DEFAULTS, buildConfigFromDir(versionDir));
-    // Skip if no background image available
+    // Fall back to a deterministic gradient when no background image exists.
     if (!cfg.backgroundImage) {
-      throw new Error(`No background image found in ${versionDir}`);
+      cfg.backgroundImage = "__gradient__";
     }
   } else if (configPathOrDir === "--all") {
     // Process all versions under the given directory
@@ -453,6 +506,8 @@ async function generate(configPathOrDir, outPath) {
     const dx = (artWidth - dw) / 2;
     const dy = (cfg.height - dh) / 2;
     ctx.drawImage(img, dx, dy, dw, dh);
+  } else if (cfg.backgroundImage === "__gradient__") {
+    drawFallbackBackground(ctx, 0, 0, artWidth, cfg.height, cfg);
   }
 
   if (cfg.mockup) {
