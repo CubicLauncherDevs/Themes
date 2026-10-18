@@ -42,7 +42,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install @napi-rs/canvas
+          npm install @napi-rs/canvas gifuct-js
           npm install @aws-sdk/client-s3 --no-save
 
       - name: Detect changed version directories
@@ -64,7 +64,7 @@ jobs:
               | grep -oP '^src/[^/]+/[^/]+/[^/]+(?=/)' \
               | sort -u || true)
             PREVIEW_DIRS=$(echo "$ALL" \
-              | grep -P '(bg\.|\.toml$|\.css$|\.md$|\.txt$)' \
+              | grep -P '\.(toml|css|md|txt|png|jpe?g|gif|webp|bmp|svg)$' \
               | grep -oP '^src/[^/]+/[^/]+/[^/]+(?=/)' \
               | sort -u || true)
           fi

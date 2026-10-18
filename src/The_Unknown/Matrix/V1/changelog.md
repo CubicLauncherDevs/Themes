@@ -7,3 +7,4 @@
 - Added restrained dusty-violet states, status colors, borders, shadows, and backdrop blur.
 - Added a custom theme cursor with a short fading particle trail.
 - Added subtle background scanlines, accessible focus styling, and themed text selection.
+- Regenerated the preview from a representative frame of the animated background.

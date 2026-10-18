@@ -119,6 +119,115 @@ function readableTextOn(hex) {
   return lum > 0.6 ? "#00000099" : "#ffffffcc";
 }
 
+// ---------- Animated GIF handling ----------
+
+function isGifFile(filePath) {
+  return /\.gif$/i.test(filePath);
+}
+
+function contentScore(data) {
+  const step = 16; // sample every 4th pixel (RGBA)
+  const counts = new Map();
+  for (let i = 0; i < data.length; i += step) {
+    if (data[i + 3] === 0) continue;
+    const key = `${data[i] >> 4},${data[i + 1] >> 4},${data[i + 2] >> 4}`;
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  if (counts.size === 0) return 0;
+
+  let bgKey = null;
+  let bgCount = -1;
+  for (const [key, count] of counts) {
+    if (count > bgCount) {
+      bgCount = count;
+      bgKey = key;
+    }
+  }
+
+  const [br, bg, bb] = bgKey.split(",").map(Number);
+  let score = 0;
+  for (let i = 0; i < data.length; i += step) {
+    if (data[i + 3] === 0) continue;
+    const dr = (data[i] >> 4) - br;
+    const dg = (data[i + 1] >> 4) - bg;
+    const db = (data[i + 2] >> 4) - bb;
+    if (Math.abs(dr) + Math.abs(dg) + Math.abs(db) > 1) score++;
+  }
+  return score;
+}
+
+function frameToCanvas(data, width, height) {
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+  const imageData = ctx.createImageData(width, height);
+  imageData.data.set(data);
+  ctx.putImageData(imageData, 0, 0);
+  return canvas;
+}
+
+// @napi-rs/canvas only decodes the first frame of animated GIFs. Many GIFs
+// start with an empty/black frame, so pick the most representative one.
+function loadGifFrame(filePath) {
+  const { parseGIF, decompressFrames } = require("gifuct-js");
+  const buffer = fs.readFileSync(filePath);
+  const arrayBuffer = buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength);
+  const gif = parseGIF(arrayBuffer);
+  const frames = decompressFrames(gif, true);
+  const width = gif.lsd.width;
+  const height = gif.lsd.height;
+
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  let firstData = null;
+  let firstScore = 0;
+  let bestData = null;
+  let bestScore = -1;
+  let prevDisposal = 0;
+  let prevDims = null;
+  let savedData = null;
+
+  for (let index = 0; index < frames.length; index++) {
+    const { dims, patch, disposalType } = frames[index];
+
+    if (prevDisposal === 2 && prevDims) {
+      ctx.clearRect(prevDims.left, prevDims.top, prevDims.width, prevDims.height);
+    } else if (prevDisposal === 3 && savedData) {
+      ctx.putImageData(savedData, 0, 0);
+    }
+
+    if (disposalType === 3) {
+      savedData = ctx.getImageData(0, 0, width, height);
+    }
+
+    const patchCanvas = createCanvas(dims.width, dims.height);
+    const patchCtx = patchCanvas.getContext("2d");
+    const patchData = patchCtx.createImageData(dims.width, dims.height);
+    patchData.data.set(patch);
+    patchCtx.putImageData(patchData, 0, 0);
+    ctx.drawImage(patchCanvas, dims.left, dims.top);
+
+    const data = ctx.getImageData(0, 0, width, height).data;
+    const score = contentScore(data);
+    if (index === 0) {
+      firstData = new Uint8ClampedArray(data);
+      firstScore = score;
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestData = new Uint8ClampedArray(data);
+    }
+
+    prevDisposal = disposalType;
+    prevDims = dims;
+  }
+
+  // Keep the existing output for GIFs whose first frame already has content.
+  const useFirst = firstData && (bestScore <= 0 || firstScore >= bestScore * 0.5);
+  const chosen = useFirst ? firstData : bestData;
+  return chosen ? frameToCanvas(chosen, width, height) : canvas;
+}
+
 async function drawMockup(ctx, x, y, w, h, cfg) {
   const find = (label, fallback) =>
     (cfg.colors.find((c) => c.label === label) || {}).hex || fallback;
@@ -328,7 +437,16 @@ async function generate(configPathOrDir, outPath) {
   ctx.fillRect(0, 0, artWidth, cfg.height);
 
   if (cfg.backgroundImage && cfg.backgroundImage !== "__gradient__" && fs.existsSync(cfg.backgroundImage)) {
-    const img = await loadImage(cfg.backgroundImage);
+    let img;
+    if (isGifFile(cfg.backgroundImage)) {
+      try {
+        img = loadGifFrame(cfg.backgroundImage);
+      } catch {
+        img = await loadImage(cfg.backgroundImage);
+      }
+    } else {
+      img = await loadImage(cfg.backgroundImage);
+    }
     const scale = Math.max(artWidth / img.width, cfg.height / img.height);
     const dw = img.width * scale;
     const dh = img.height * scale;
