@@ -399,11 +399,11 @@
     "versions": [
       {
         "version": "V2",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.17947740.png",
         "showcaseUrl": null,
         "dirPath": "src/CubicLauncher/BedrockOre/V2",
         "date": "2026-10-04T23:48:57-03:00",
-        "changelog": null,
+        "changelog": "# Changelog\n\n## 2.0.0\n\n- Added the second iteration of the Bedrock Ore theme.\n- Added the theme preview generated from the Bedrock Ore palette.\n",
         "files": [
           {
             "name": "CREDITS-Ore-UI.md",
@@ -430,8 +430,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V2/README.md"
           },
           {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V2/changelog.md"
+          },
+          {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V2/fonts/OFL.txt"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.17947740.png"
           },
           {
             "name": "fonts/PixelifySans.ttf",
@@ -626,11 +634,11 @@
       },
       {
         "version": "V1",
-        "previewUrl": null,
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.43c43688.png",
         "showcaseUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/Showcase.ff6d7fe9.png",
         "dirPath": "src/CubicLauncher/BedrockOre/V1",
         "date": "2026-09-19T02:36:04-03:00",
-        "changelog": null,
+        "changelog": "# Changelog\n\n## 1.3.0\n\n- Added the graphite and emerald Ore UI palette with beveled controls.\n- Added the Ore UI Icon Pack while keeping the native Vanilla, Modrinth, CurseForge, Fabric, Forge, NeoForge and Quilt logos.\n- Added the theme preview generated from the Bedrock Ore palette.\n",
         "files": [
           {
             "name": "CREDITS-Ore-UI.md",
@@ -657,8 +665,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/README.md"
           },
           {
+            "name": "changelog.md",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/changelog.md"
+          },
+          {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.43c43688.png"
           },
           {
             "name": "theme.md",
@@ -845,7 +861,7 @@
       }
     ],
     "latestVersion": "V2",
-    "previewUrl": null,
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.17947740.png",
     "date": "2026-10-04T23:48:57-03:00"
   },
   {
@@ -3342,16 +3358,16 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/The_Unknown/Matrix/V1/changelog.md"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.d7d8c6f3.png"
-          },
-          {
             "name": "bg.gif",
             "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/bg.c83a9e6c.gif"
           },
           {
             "name": "digital art animation GIF by sanderick.gif",
             "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/digital art animation GIF by sanderick.c83a9e6c.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/The_Unknown/Matrix/V1/preview.d7d8c6f3.png"
           }
         ],
         "injectsCss": true
