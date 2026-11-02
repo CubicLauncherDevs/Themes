@@ -438,10 +438,6 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V2/fonts/OFL.txt"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.17947740.png"
-          },
-          {
             "name": "fonts/PixelifySans.ttf",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/fonts/PixelifySans.9ba86cd0.ttf"
           },
@@ -628,6 +624,10 @@
           {
             "name": "icons/ui-logout.svg",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/icons/ui-logout.0b099ed6.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.17947740.png"
           }
         ],
         "injectsCss": true
@@ -671,10 +671,6 @@
           {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.43c43688.png"
           },
           {
             "name": "theme.md",
@@ -855,6 +851,10 @@
           {
             "name": "icons/ui-logout.svg",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-logout.0b099ed6.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.43c43688.png"
           }
         ],
         "injectsCss": true
@@ -1117,6 +1117,48 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/Signature Frost/V1/preview.0665e59b.png",
     "date": "2026-07-24T00:00:59-04:00"
+  },
+  {
+    "id": "cubiclauncher-halloween-2026",
+    "slug": "cubiclauncher-halloween-2026",
+    "name": "Halloween 2026",
+    "author": "CubicLauncher",
+    "tags": [],
+    "dirPath": "src/CubicLauncher/halloween-2026",
+    "description": "# Créditos — Halloween 2026\n\nLa imagen de fondo de este tema fue creada por **u/Ercerus** y fue tomada de un\npost publicado en un subreddit de Reddit.\n\n**Todos los créditos de la imagen son de u/Ercerus.**\n\n- Autor de la imagen: u/Ercerus\n- Origen: Reddit (subreddit)\n- Archivo: `halloween-2026.webp`\n- Tokens y definición del tema: CubicLauncher\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/halloween-2026/V1/preview.6d1bf195.png",
+        "showcaseUrl": null,
+        "dirPath": "src/CubicLauncher/halloween-2026/V1",
+        "date": "2026-11-02T10:32:55-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/halloween-2026/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/halloween-2026/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/halloween-2026/V1/bg.3e007758.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/halloween-2026/V1/preview.6d1bf195.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/CubicLauncher/halloween-2026/V1/preview.6d1bf195.png",
+    "date": "2026-11-02T10:32:55-06:00"
   },
   {
     "id": "edgajuman-cyberpunk",
