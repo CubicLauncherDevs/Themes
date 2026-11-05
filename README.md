@@ -30,11 +30,41 @@ Cada tema vive bajo `src/Author/Theme/` con subcarpetas versionadas (`V1`, `V2`,
 1. Creá `src/TuAutor/TuTema/theme.md` con la descripción.
 2. Creá `src/TuAutor/TuTema/V1/`.
 3. Agregá `Meta.toml` y `Definition.toml` (formato TOML de CubicLauncher).
-4. Agregá `bg.png` (o `.jpg`, `.gif`, `.webp`) como imagen de fondo.
+4. Agregá `bg.png` (o `.jpg`, `.gif`, `.webp`) como imagen de fondo. Si el tema usa `extends`, podés omitirla.
 5. Opcional: agregá `Showcase.png`, fuentes, `changelog.md`, etc.
 6. Hacé commit y push a `master`.
 
 El CI se encarga del resto automáticamente.
+
+## Herencia de temas (`extends`)
+
+Un tema puede heredar los tokens de otro tema V2 de este repositorio. La base
+debe existir en `src/` y el launcher debe tenerla instalada para poder aplicar
+el tema hijo.
+
+En `Meta.toml`, siempre en la raíz:
+
+```toml
+name = "Bosque claro"
+author = "tu_usuario"
+version = "1.0.0"
+format = 2
+extends = "bosque_tu_usuario"
+```
+
+- `extends` usa el identificador instalado, no el nombre visible ni el slug del
+  catálogo. Se calcula con `name` y `author` en minúsculas y espacios
+  reemplazados por `_`: `nombre_autor`. Se acepta el prefijo `user:`.
+- El tema base debe tener `Meta.toml` y `Definition.toml` (V2).
+- El hijo gana clave a clave: lo que no define, lo hereda.
+- Profundidad máxima: 8 niveles. Un ciclo es un error.
+- El fondo (`background.reference_path`) es un asset del hijo y **no** se hereda;
+  por eso un tema hijo puede no incluir `bg.*`.
+- No se heredan `fonts`, `icons`, `inject` ni `layout_pack` porque sus rutas son
+  relativas al tema que las declara.
+
+`themes.json` expone `extends` (ID instalado) y `extendsTheme` (ID del tema base
+en el catálogo) por versión y en el nivel del tema.
 
 ## Verificación de themes
 
@@ -68,6 +98,7 @@ se modifican archivos en `src/`:
 1. **Detecta** qué directorios de versión cambiaron (ej: `src/4xnl/Jadol/V1`).
 2. **Optimiza** los PNGs nuevos con `oxipng`.
 3. **Genera previews** solo para los directorios modificados (`generate.js --dirs`).
+   Si cambia una base, también regenera los previews de los temas que la heredan.
 4. **Mergea** collections externas a `packages.json`.
 5. **Sube a R2** los assets binarios nuevos, actualiza `themes.json` con URLs de R2,
    y borra los binarios locales (`scripts/upload-assets.mjs`).

@@ -1,11 +1,23 @@
-import { execSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import {
+  buildThemeRegistry,
+  computeInstalledId,
+  findBase,
+  normalizeExtends,
+  readTomlFile,
+  resolveInheritance,
+  validateIdentifier,
+} from './theme-registry.mjs';
 
 const baseRef = process.env.BASE_REF || 'origin/master';
 const resultFile = process.env.RESULT_FILE || 'validation-result.txt';
 const messageFile = process.env.MESSAGE_FILE || 'validation-message.md';
 const guideUrl = 'https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes';
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const registry = buildThemeRegistry(path.join(ROOT, 'src'));
 
 const errors = [];
 
@@ -63,7 +75,67 @@ function findAffectedVersionDirs() {
   return Array.from(dirs).sort();
 }
 
-function validateVersionDir(versionDir) {
+function validateInheritance(versionDir, meta, extendsId, themeRegistry) {
+  const localErrors = [];
+  if (!extendsId) return localErrors;
+
+  if (String(meta.format ?? '2').trim() !== '2') {
+    localErrors.push(
+      `\`${versionDir}/Meta.toml\`: \`format\` debe ser \`2\` para usar \`extends\`.`
+    );
+  }
+
+  const childId = computeInstalledId(meta.name, meta.author);
+  const childIdError = validateIdentifier(childId);
+  if (childIdError) {
+    localErrors.push(
+      `\`${versionDir}/Meta.toml\`: no se pudo construir el identificador del tema: ${childIdError}`
+    );
+  }
+
+  const extendsError = validateIdentifier(extendsId);
+  if (extendsError) {
+    localErrors.push(`\`${versionDir}/Meta.toml\`: \`extends\` inválido: ${extendsError}`);
+    return localErrors;
+  }
+
+  const base = findBase(themeRegistry, extendsId);
+  if (base.status === 'missing') {
+    localErrors.push(
+      `\`${versionDir}/Meta.toml\`: el tema base \`${extendsId}\` no existe en este repositorio o no es V2.`
+    );
+    return localErrors;
+  }
+  if (base.status === 'ambiguous') {
+    localErrors.push(
+      `\`${versionDir}/Meta.toml\`: el tema base \`${extendsId}\` es ambiguo; coincide con: ${base.themes
+        .map((theme) => `\`${theme.catalogId}\``)
+        .join(', ')}.`
+    );
+    return localErrors;
+  }
+
+  try {
+    resolveInheritance(versionDir, themeRegistry);
+  } catch (error) {
+    localErrors.push(
+      `\`${versionDir}/Meta.toml\`: ${error instanceof Error ? error.message : String(error)}`
+    );
+  }
+
+  return localErrors;
+}
+
+function versionExistedAtBase(versionDir) {
+  try {
+    execFileSync('git', ['cat-file', '-e', `${baseRef}:${versionDir}`], { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function validateVersionDir(versionDir, themeRegistry, requireBackground) {
   const localErrors = [];
 
   if (!fs.existsSync(versionDir)) {
@@ -82,9 +154,16 @@ function validateVersionDir(versionDir) {
     localErrors.push(`Falta \`${path.join(versionDir, 'Definition.toml')}\`.`);
   }
 
+  let extendsId = null;
+  if (fs.existsSync(metaPath)) {
+    const meta = readTomlFile(metaPath);
+    extendsId = normalizeExtends(meta.extends);
+    localErrors.push(...validateInheritance(versionDir, meta, extendsId, themeRegistry));
+  }
+
   const bgNames = ['bg.png', 'bg.jpg', 'bg.jpeg', 'bg.gif', 'bg.webp'];
   const hasBg = bgNames.some((name) => fs.existsSync(path.join(versionDir, name)));
-  if (!hasBg) {
+  if (!hasBg && !extendsId && requireBackground) {
     localErrors.push(
       `Falta imagen de fondo en \`${versionDir}\`. Se espera uno de: ${bgNames.map((n) => `\`${n}\``).join(', ')}.`
     );
@@ -117,8 +196,21 @@ if (versionDirs.length === 0) {
   errors.push('No se detectaron cambios en directorios de versión bajo `src/`.');
 }
 
+const validatedDirs = new Set(versionDirs.map((dir) => path.resolve(dir)));
+
 for (const dir of versionDirs) {
-  errors.push(...validateVersionDir(dir));
+  errors.push(...validateVersionDir(dir, registry, !versionExistedAtBase(dir)));
+}
+
+if (versionDirs.length > 0) {
+  for (const theme of registry.themes) {
+    for (const version of theme.versions) {
+      if (validatedDirs.has(path.resolve(version.dirPath))) continue;
+      const extendsId = normalizeExtends(version.meta.extends);
+      if (!extendsId) continue;
+      errors.push(...validateInheritance(version.relativeDir, version.meta, extendsId, registry));
+    }
+  }
 }
 
 if (errors.length > 0) {

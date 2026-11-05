@@ -49,21 +49,41 @@ Claves duplicadas entre secciones generan colisión y se sobrescriben (con warni
 - `[background]` no genera variables CSS: expone el fondo del tema
   (`reference_path`, `image_blur`, `image_opacity`).
 - `Meta.toml` va con campos **en la raíz** (`name`, `author`, `version`,
-  `description`, `injects_css`), no bajo `[meta]`.
+  `description`, `injects_css`, `format`, `extends`), no bajo `[meta]`.
+
+### Herencia (`extends`)
+
+- `extends` va en la raíz de `Meta.toml` y usa el **ID instalado** de la base:
+  minúsculas, espacios reemplazados por `_`, formato `nombre_autor`
+  (`Signature Dark` + `CubicLauncher` → `signature_dark_cubiclauncher`).
+- Se acepta el prefijo `user:` y se descarta.
+- La base debe existir en `src/` como tema V2 (`Meta.toml` + `Definition.toml`).
+- El hijo gana clave a clave. No se heredan `fonts`, `icons`, `inject`,
+  `layout_pack` ni `background.reference_path`.
+- Máximo 8 niveles de profundidad; un ciclo es error.
+- Un tema con `extends` puede omitir `bg.*`; el preview usará gradiente.
+- `themes.json` publica `extends` y `extendsTheme` (slug de la base) solo cuando
+  hay herencia.
 
 ## Checklist al crear/arreglar un tema
 
 1. `src/Autor/Tema/theme.md` con la descripción.
-2. `src/Autor/Tema/V1/` con `Meta.toml`, `Definition.toml` y un `bg.png|jpg|gif|webp`.
+2. `src/Autor/Tema/V1/` con `Meta.toml`, `Definition.toml` y un `bg.png|jpg|gif|webp`
+   (opcional si el tema usa `extends`).
 3. Verificá que **no exista ningún `[theme.`** en `Definition.toml`.
 4. Validá que el TOML parsee (p. ej. `python3 -c "import tomllib; tomllib.load(open('Definition.toml','rb'))"`).
 5. Si el tema incluye `Inject.css`, `injects_css = true` en `Meta.toml`.
+6. Si usa `extends`, verificá que el ID de la base exista en `src/`, que no haya
+   ciclos y que la cadena no supere 8 niveles.
 
 ## Validación y CI
 
 - `scripts/validate-pr.mjs` exige `Meta.toml`, `Definition.toml` y una imagen de
-  fondo (`bg.png|jpg|jpeg|gif|webp`); si hay carpeta `fonts/`, debe tener al menos
-  una fuente válida.
+  fondo (`bg.png|jpg|jpeg|gif|webp`) en versiones nuevas, salvo que el tema use
+  `extends`; una versión que ya existía en la base puede actualizarse sin volver
+  a subir el fondo. Si hay carpeta `fonts/`, debe tener al menos una fuente
+  válida. También valida que la base exista, sea V2 y que no haya ciclos ni más
+  de 8 niveles, incluso en hijos que no cambiaron en el PR.
 - El CI (`.github/workflows`) detecta versiones cambiadas, genera previews con
   `generate.js --dirs`, sube binarios a R2 y actualiza `themes.json`.
 - Los binarios **no se commitean** (van a R2); el repo solo tiene texto.

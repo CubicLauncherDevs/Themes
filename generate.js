@@ -42,6 +42,24 @@ function readTomlFile(filePath) {
   return parseToml(fs.readFileSync(filePath, "utf8"));
 }
 
+let inheritanceToolsPromise = null;
+let themeRegistry = null;
+
+function loadInheritanceTools() {
+  if (!inheritanceToolsPromise) {
+    inheritanceToolsPromise = import("./scripts/theme-registry.mjs");
+  }
+  return inheritanceToolsPromise;
+}
+
+async function getThemeRegistry() {
+  if (!themeRegistry) {
+    const { buildThemeRegistry } = await loadInheritanceTools();
+    themeRegistry = buildThemeRegistry(path.join(__dirname, "src"));
+  }
+  return themeRegistry;
+}
+
 function hexToRgb(hex) {
   const c = hex.replace("#", "");
   return {
@@ -345,7 +363,7 @@ function drawFallbackBackground(ctx, x, y, w, h, cfg) {
 
 // ---------- Build config from theme dir ----------
 
-function buildConfigFromDir(versionDir) {
+async function buildConfigFromDir(versionDir) {
   const metaPath = path.join(versionDir, "Meta.toml");
   const defPath = path.join(versionDir, "Definition.toml");
 
@@ -353,15 +371,18 @@ function buildConfigFromDir(versionDir) {
     throw new Error(`Missing Meta.toml or Definition.toml in ${versionDir}`);
   }
 
+  const { readTomlFile: readDefinitionToml, resolveInheritance } = await loadInheritanceTools();
   const meta = readTomlFile(metaPath);
-  const def = readTomlFile(defPath);
+  const childDef = readDefinitionToml(defPath);
+  const registry = await getThemeRegistry();
+  const { definition: def } = resolveInheritance(versionDir, registry);
 
   const colors = def.colors || {};
   const text = def.text || {};
   const backgrounds = def.backgrounds || {};
   const borders = def.borders || {};
   const layout = def.layout || {};
-  const bg = def.background || {};
+  const bg = childDef.background || {};
 
   // Pick the best background image
   let bgImage = null;
@@ -443,7 +464,7 @@ async function generate(configPathOrDir, outPath) {
     // mode: --dir <versionDir> -> generates <versionDir>/preview.png
     const versionDir = outPath;
     outPath = path.join(versionDir, "preview.png");
-    cfg = deepMerge(DEFAULTS, buildConfigFromDir(versionDir));
+    cfg = deepMerge(DEFAULTS, await buildConfigFromDir(versionDir));
     // Fall back to a deterministic gradient when no background image exists.
     if (!cfg.backgroundImage) {
       cfg.backgroundImage = "__gradient__";

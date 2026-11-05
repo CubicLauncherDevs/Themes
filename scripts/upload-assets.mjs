@@ -6,6 +6,13 @@ import { readFileSync, writeFileSync, unlinkSync, existsSync, readdirSync, creat
 import { join, relative, dirname } from "node:path";
 import { execSync, spawnSync } from "node:child_process";
 import { get } from "node:https";
+import {
+  buildThemeRegistry,
+  findBase,
+  getDependentVersionDirs,
+  normalizeExtends,
+  validateIdentifier,
+} from "./theme-registry.mjs";
 
 // ---- ENV ----
 
@@ -46,6 +53,16 @@ const targetSet = process.env.TARGET_DIRS !== undefined || targetDirs.length
   : null;
 const previewDirs = (PREVIEW_DIRS || "").split("\n").filter(Boolean);
 const previewSet = previewDirs.length ? new Set(previewDirs.map(d => d.replace(/\/+$/, ""))) : null;
+
+const registry = buildThemeRegistry(SRC);
+if (previewSet && previewSet.size > 0) {
+  const expanded = getDependentVersionDirs([...previewSet], registry);
+  for (const dir of expanded) {
+    const normalized = dir.replace(/\/+$/, "");
+    previewSet.add(normalized);
+    if (targetSet && targetSet.size > 0) targetSet.add(normalized);
+  }
+}
 
 // ---- Helpers ----
 
@@ -342,6 +359,27 @@ for (const authorDir of authorDirs) {
       } catch {}
 
       const injectsCss = existsSync(join(vPath, "Inject.css"));
+      const extendsId = normalizeExtends(meta.extends);
+      let extendsTheme = null;
+      if (extendsId) {
+        const identifierError = validateIdentifier(extendsId);
+        if (identifierError) {
+          console.warn(`  ⚠ ${relativeDir}: extends inválido (${identifierError})`);
+        } else {
+          const base = findBase(registry, extendsId);
+          if (base.status === "ok") {
+            extendsTheme = base.theme.catalogId;
+          } else if (base.status === "ambiguous") {
+            console.warn(
+              `  ⚠ ${relativeDir}: extends '${extendsId}' es ambiguo (${base.themes
+                .map((theme) => theme.catalogId)
+                .join(", ")})`
+            );
+          } else {
+            console.warn(`  ⚠ ${relativeDir}: tema base '${extendsId}' no encontrado`);
+          }
+        }
+      }
 
       // Colle ct files from R2 + disk
       if (!targetSet || targetSet.size > 0) await deduplicateR2Files(relativeDir);
@@ -434,7 +472,7 @@ for (const authorDir of authorDirs) {
       const previewEntry = newFiles.find(f => f.name === "preview.png");
       const showcaseEntry = newFiles.find(f => f.name === "Showcase.png");
 
-      versions.push({
+      const versionData = {
         version: versionName,
         previewUrl: previewEntry?.url || null,
         showcaseUrl: showcaseEntry?.url || null,
@@ -443,7 +481,12 @@ for (const authorDir of authorDirs) {
         changelog,
         files: newFiles,
         injectsCss,
-      });
+      };
+      if (extendsId) {
+        versionData.extends = extendsId;
+        if (extendsTheme) versionData.extendsTheme = extendsTheme;
+      }
+      versions.push(versionData);
     }
 
     if (versions.length === 0) continue;
@@ -451,7 +494,7 @@ for (const authorDir of authorDirs) {
     versions.sort((a, b) => -naturalSort(a.version, b.version));
     const latest = versions[0];
 
-    themes.push({
+    const themeData = {
       id: slug, slug,
       name: metaName,
       author: metaAuthor,
@@ -463,7 +506,12 @@ for (const authorDir of authorDirs) {
       latestVersion: latest.version,
       previewUrl: latest.previewUrl,
       date: latest.date,
-    });
+    };
+    if (latest.extends) {
+      themeData.extends = latest.extends;
+      if (latest.extendsTheme) themeData.extendsTheme = latest.extendsTheme;
+    }
+    themes.push(themeData);
   }
 }
 
