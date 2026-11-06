@@ -2208,6 +2208,52 @@
     "date": "2026-07-24T00:00:59-04:00"
   },
   {
+    "id": "notstaff-lainpanic",
+    "slug": "notstaff-lainpanic",
+    "name": "Lain Panic",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/LainPanic",
+    "description": "# Lain Panic\n\nVariante monocroma de **Lain** que hereda su estructura mediante `extends` y toma como fondo el retrato ditereado de Lain sobre un kernel panic.\n\n## Características\n\n- **Herencia V2:** hereda colores, tipografía y detalles de `lain_santiagolxx`, sobrescribiendo solo lo necesario\n- **Paleta monocroma:** negro absoluto y blancos duros, con rojo de pánico reservado para errores\n- **Estética de terminal:** bordes casi rectos, scrollbar delgada en grises y filtros de iconos en blanco\n- **Fondo integrado:** la imagen se atenúa y desenfoca para que el texto siga siendo legible\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/LainPanic/V1/preview.4137ca37.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/LainPanic/V1",
+        "date": "2026-11-05T19:31:06-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/LainPanic/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/LainPanic/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/LainPanic/V1/bg.67b43c5a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/LainPanic/V1/preview.4137ca37.png"
+          }
+        ],
+        "injectsCss": false,
+        "extends": "lain_santiagolxx",
+        "extendsTheme": "santiagolxx-lain"
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/LainPanic/V1/preview.4137ca37.png",
+    "date": "2026-11-05T19:31:06-06:00",
+    "extends": "lain_santiagolxx",
+    "extendsTheme": "santiagolxx-lain"
+  },
+  {
     "id": "notstaff-louise",
     "slug": "notstaff-louise",
     "name": "Louise",
