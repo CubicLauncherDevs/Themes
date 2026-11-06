@@ -1,0 +1,67 @@
+[background]
+reference_path = "bg.png"
+image_blur = 4.0
+image_opacity = 0.65
+
+[colors]
+accent = "#e6e6e6"
+accent-rgb = "230,230,230"
+accent-hover = "#ffffff"
+accent-active = "#b4b4b4"
+accent-text = "#000000"
+accent-subtle = "rgba(230,230,230,0.10)"
+color-success = "#9fe0b0"
+color-success-rgb = "159,224,176"
+color-error = "#ff5555"
+color-error-rgb = "255,85,85"
+color-warning = "#e0c070"
+color-warning-rgb = "224,192,112"
+color-info = "#d0d0d0"
+color-info-rgb = "208,208,208"
+color-status-starting = "#d0d0d0"
+color-status-started = "#9fe0b0"
+color-status-stopped = "#3a3a3a"
+color-status-error = "#ff5555"
+
+[text]
+primary = "#f0f0f0"
+secondary = "#ffffff"
+muted = "#8a8a8a"
+accent = "#ffffff"
+
+[backgrounds]
+main = "#000000"
+sidebar = "#050505"
+card = "#0b0b0b"
+item-active = "#161616"
+overlay = "rgba(0,0,0,0.88)"
+input = "#030303"
+
+[borders]
+color = "#262626"
+color-hover = "#4a4a4a"
+radius = "2px"
+radius-sm = "1px"
+radius-lg = "4px"
+
+[shadows]
+shadow-sm = "0 1px 3px rgba(0,0,0,0.9)"
+shadow-md = "0 4px 14px rgba(0,0,0,0.95)"
+shadow-lg = "0 8px 28px rgba(0,0,0,1)"
+glow-accent = "0 0 12px rgba(255,255,255,0.12)"
+glow-accent-strong = "0 0 20px rgba(255,255,255,0.20)"
+
+[others]
+icon-filter = "brightness(0) invert(1)"
+icon-filter-accent = "brightness(0) invert(1)"
+icon-filter-success = "invert(78%) sepia(20%) saturate(500%) hue-rotate(90deg) brightness(105%)"
+icon-filter-error = "invert(40%) sepia(90%) saturate(2000%) hue-rotate(340deg) brightness(110%)"
+icon-filter-warning = "invert(75%) sepia(40%) saturate(500%) hue-rotate(10deg) brightness(105%)"
+icon-filter-info = "brightness(0) invert(0.85)"
+icon-filter-muted = "brightness(0) invert(0.55)"
+font-size-base = "14px"
+font-size-sm = "12px"
+font-size-lg = "16px"
+scrollbar-track = "#000000"
+scrollbar-thumb = "#262626"
+scrollbar-thumb-hover = "#4a4a4a"

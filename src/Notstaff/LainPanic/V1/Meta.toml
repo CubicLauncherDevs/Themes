@@ -1,0 +1,7 @@
+name = "Lain Panic"
+author = "Notstaff"
+version = "1.0.0"
+description = "Variante monocroma de Lain inspirada en un kernel panic: negro absoluto, tipografía de terminal y acentos blancos con errores en rojo."
+injects_css = false
+format = 2
+extends = "lain_santiagolxx"
