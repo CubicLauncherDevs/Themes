@@ -4494,5 +4494,47 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/preview.ae8b9c32.png",
     "date": "2026-11-06T22:42:11-06:00"
+  },
+  {
+    "id": "skypegg-tsukasa",
+    "slug": "skypegg-tsukasa",
+    "name": "Tsukasa",
+    "author": "skypegg",
+    "tags": [],
+    "dirPath": "src/skypegg/Tsukasa",
+    "description": "# Tsukasa\n\nTema claro y minimalista para CubicLauncher inspirado en la ilustración de Tsukasa Yuzaki (*Tonikaku Kawaii*). La paleta sale de la propia imagen: blanco cálido, rosa de papel, el coral del pelo y un azul grisáceo muy tenue del vestido.\n\n## Características\n\n- **Fondo nítido:** el wallpaper se mantiene a plena definición; los paneles son de cristal blanco translúcido para que la ilustración se lea sin perder legibilidad.\n- **Paleta corta:** blanco rosado, tinta ciruela y un solo acento coral. El azul del vestido aparece únicamente en el color informativo.\n- **Bordes finos:** hairlines rosados de 1 px, radios de 12 px y sombras muy suaves.\n- **Detalles:** scrollbar casi invisible, iconos oscuros sin filtros y foco con anillo coral.\n\n## Notas\n\nNo incluye fuentes ni CSS propio: todo se resuelve con variables de `Definition.toml`. La imagen es arte oficial de la serie (© Kenjiro Hata / Shogakukan); el tema solo la usa como fondo.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Tsukasa/V1/preview.5833d79d.png",
+        "showcaseUrl": null,
+        "dirPath": "src/skypegg/Tsukasa/V1",
+        "date": "2026-11-06T22:58:25-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Tsukasa/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Tsukasa/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Tsukasa/V1/bg.cc5b4b00.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Tsukasa/V1/preview.5833d79d.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Tsukasa/V1/preview.5833d79d.png",
+    "date": "2026-11-06T22:58:25-06:00"
   }
 ]
