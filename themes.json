@@ -438,10 +438,6 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V2/fonts/OFL.txt"
           },
           {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.bc49e122.png"
-          },
-          {
             "name": "fonts/PixelifySans.ttf",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/fonts/PixelifySans.9ba86cd0.ttf"
           },
@@ -628,6 +624,10 @@
           {
             "name": "icons/ui-logout.svg",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/icons/ui-logout.0b099ed6.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V2/preview.bc49e122.png"
           }
         ],
         "injectsCss": true
@@ -671,10 +671,6 @@
           {
             "name": "fonts/OFL.txt",
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/CubicLauncher/BedrockOre/V1/fonts/OFL.txt"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.746b0226.png"
           },
           {
             "name": "theme.md",
@@ -855,6 +851,10 @@
           {
             "name": "icons/ui-logout.svg",
             "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/icons/ui-logout.0b099ed6.svg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/CubicLauncher/BedrockOre/V1/preview.746b0226.png"
           }
         ],
         "injectsCss": true
@@ -4494,6 +4494,48 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/preview.ae8b9c32.png",
     "date": "2026-11-06T22:42:11-06:00"
+  },
+  {
+    "id": "skypegg-subaru",
+    "slug": "skypegg-subaru",
+    "name": "Subaru",
+    "author": "skypegg",
+    "tags": [],
+    "dirPath": "src/skypegg/Subaru",
+    "description": "# Subaru\n\nTema claro y minimalista para CubicLauncher inspirado en Subaru Konoe (*Mayo Chiki!*). La paleta sale del uniforme: papel crema, grafito cálido del blazer y el bermellón de la cinta.\n\n## Características\n\n- **Line art limpio:** el PNG conserva su transparencia y se muestra sin desenfoque, así el dibujo se apoya directamente sobre el papel crema.\n- **Paleta corta:** crema, dos grafitos y un único acento bermellón. Nada más.\n- **Bordes secos:** radios de 8 px, hairlines de 1 px y sombras apenas perceptibles.\n- **Detalles:** scrollbar fina en gris cálido, iconos oscuros sin filtros y foco con anillo bermellón.\n\n## Notas\n\nNo incluye fuentes ni CSS propio: todo se resuelve con variables de `Definition.toml`. El fondo es un PNG con transparencia, por lo que el color `bg-main` se ve a través de las zonas vacías.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Subaru/V1/preview.668caa46.png",
+        "showcaseUrl": null,
+        "dirPath": "src/skypegg/Subaru/V1",
+        "date": "2026-11-07T13:42:08-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Subaru/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Subaru/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Subaru/V1/bg.b7563ff0.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Subaru/V1/preview.668caa46.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Subaru/V1/preview.668caa46.png",
+    "date": "2026-11-07T13:42:08-06:00"
   },
   {
     "id": "skypegg-tsukasa",
