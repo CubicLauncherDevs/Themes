@@ -15,7 +15,7 @@ import {
 const baseRef = process.env.BASE_REF || 'origin/master';
 const resultFile = process.env.RESULT_FILE || 'validation-result.txt';
 const messageFile = process.env.MESSAGE_FILE || 'validation-message.md';
-const guideUrl = 'https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes';
+const guideUrl = 'https://dev.cubiclauncher.org/docs/es-ES/guias/crear-tema';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const registry = buildThemeRegistry(path.join(ROOT, 'src'));
 

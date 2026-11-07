@@ -15,7 +15,7 @@ Se verificaron sintaxis TOML y CSS, rutas de recursos y contenido del paquete. N
 Inspiración visual: Minecraft Bedrock / Ore UI y Ore-UI-theme-pack de ninsent. Adaptación original para CubicLauncher; no es un port de los archivos de Prism Launcher ni un tema oficial de Mojang.
 
 Referencia: https://github.com/ninsent/Ore-UI-theme-pack/blob/main/preview.png
-Documentación: https://dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes
+Documentación: https://dev.cubiclauncher.org/docs/es-ES/guias/crear-tema
 Código contrastado: https://github.com/CubicLauncherDevs/CubicLauncher/tree/develop/src-tauri/src/commands/themes
 Fuente Pixelify Sans: https://github.com/google/fonts/tree/main/ofl/pixelifysans (SIL Open Font License; copia en fonts/OFL.txt).
 

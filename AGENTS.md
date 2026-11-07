@@ -20,7 +20,7 @@ Si el TOML usa `[theme.*]`, serde ve un único campo desconocido `theme`, lo
 ignora y deja **todos los campos por defecto**. Resultado: el tema **se importa
 pero no aplica nada y no lanza ningún error** (síntoma clásico de este bug).
 
-> La guía oficial (`dev.cubiclauncher.org/docs/es-ES/guias/hacer-themes`) muestra
+> La guía oficial (`dev.cubiclauncher.org/docs/es-ES/guias/crear-tema`) muestra
 > ejemplos con `[theme.*]` y `[meta]`, pero **no coinciden** con la deserialización
 > real de los archivos separados. La fuente de verdad es el código:
 > `CubicLauncherDevs/CubicLauncher` → `src-tauri/src/commands/themes/v2.rs`
