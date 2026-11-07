@@ -1,0 +1,7 @@
+name = "Marginalia"
+author = "skypegg"
+version = "1.0.0"
+description = "Tema oscuro y minimalista de tinta cálida: carbón, crema y un único acento bermellón sobre la ilustración difuminada."
+format = 2
+api_version = "2.1"
+injects_css = false
