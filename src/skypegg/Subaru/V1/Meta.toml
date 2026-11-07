@@ -1,0 +1,7 @@
+name = "Subaru"
+author = "skypegg"
+version = "1.0.0"
+description = "Tema claro de uniforme escolar: papel crema, grafito cálido y un acento bermellón sobre el line art de Subaru."
+format = 2
+api_version = "2.1"
+injects_css = false
