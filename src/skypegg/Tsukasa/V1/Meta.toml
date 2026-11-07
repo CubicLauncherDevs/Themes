@@ -1,0 +1,7 @@
+name = "Tsukasa"
+author = "skypegg"
+version = "1.0.0"
+description = "Tema claro y minimalista de papel rosado, acento coral y paneles de cristal suave sobre Tsukasa."
+format = 2
+api_version = "2.1"
+injects_css = false
