@@ -4452,5 +4452,47 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/kittyhos/lucky/V1/preview.6e66daae.png",
     "date": "2026-07-25T21:41:57-06:00"
+  },
+  {
+    "id": "skypegg-marginalia",
+    "slug": "skypegg-marginalia",
+    "name": "Marginalia",
+    "author": "skypegg",
+    "tags": [],
+    "dirPath": "src/skypegg/Marginalia",
+    "description": "# Marginalia\n\nTema minimalista para CubicLauncher inspirado en la ilustración de la chica dibujada con rotulador. La idea es la de una libreta de bocetos: superficies de carbón cálido, texto en crema y un único acento bermellón tomado de la cinta del pelo.\n\n## Características\n\n- **Paleta reducida:** tres tonos de carbón, dos de crema y un solo acento rojo. Nada más.\n- **Fondo integrado:** la ilustración se desenfoca y se atenúa para que quede como una mancha de color detrás de la interfaz, sin competir con el texto.\n- **Bordes finos y esquinas suaves:** radios de 6 px y hairlines de 1 px en lugar de sombras marcadas.\n- **Tipografía limpia:** pila del sistema, tamaños contenidos y jerarquía por peso.\n- **Detalles:** scrollbar discreta, iconos en crema y foco con anillo bermellón.\n\n## Notas\n\nEl tema no incluye fuentes ni CSS propio: todo se define con las variables de `Definition.toml`, así que se adapta a cualquier tamaño de ventana y no depende de otros temas.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/preview.ae8b9c32.png",
+        "showcaseUrl": null,
+        "dirPath": "src/skypegg/Marginalia/V1",
+        "date": "2026-11-06T22:42:11-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Marginalia/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/skypegg/Marginalia/V1/Meta.toml"
+          },
+          {
+            "name": "bg.jpg",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/bg.456cf047.jpg"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/preview.ae8b9c32.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Marginalia/V1/preview.ae8b9c32.png",
+    "date": "2026-11-06T22:42:11-06:00"
   }
 ]
