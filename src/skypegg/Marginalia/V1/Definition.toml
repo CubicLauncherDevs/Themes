@@ -1,0 +1,121 @@
+[background]
+reference_path = "bg.jpg"
+image_blur = 10.0
+image_opacity = 0.38
+mode = "cover"
+position = "center"
+brightness = 0.54
+
+[colors]
+accent = "#c92f42"
+accent-rgb = "201, 47, 66"
+accent-hover = "#e14a5b"
+accent-active = "#a82435"
+accent-primary = "#c92f42"
+accent-text = "#fff6f2"
+accent-subtle = "rgba(201,47,66,0.14)"
+color-success = "#78be8c"
+color-success-rgb = "120, 190, 140"
+color-error = "#e05a5a"
+color-error-rgb = "224, 90, 90"
+color-warning = "#d9a45b"
+color-warning-rgb = "217, 164, 91"
+color-info = "#c9a2a8"
+color-info-rgb = "201, 162, 168"
+color-status-starting = "#c92f42"
+color-status-started = "#78be8c"
+color-status-stopped = "#4a4042"
+color-status-error = "#e05a5a"
+clr-loader-vanilla = "#d8cfc6"
+clr-loader-fabric = "#e9a6ae"
+clr-loader-forge = "#c92f42"
+clr-loader-quilt = "#a98a8f"
+
+[text]
+primary = "#f4ece6"
+secondary = "#c7b7b2"
+muted = "#948480"
+tertiary = "#948480"
+accent = "#e9a6ae"
+
+[backgrounds]
+main = "#141011"
+sidebar = "#171314"
+card = "#1d1919"
+item-active = "#2a2224"
+overlay = "rgba(10,7,8,0.86)"
+input = "#100d0e"
+surface = "#211c1d"
+
+[borders]
+color = "#2e2527"
+color-hover = "#6d3b42"
+focus = "var(--accent)"
+width = "1px"
+radius = "6px"
+radius-sm = "3px"
+radius-lg = "10px"
+
+[layout]
+sidebar-width = "248px"
+
+[typography]
+family = "Inter, 'Segoe UI', 'Noto Sans', system-ui, sans-serif"
+size_base = "14px"
+size_sm = "12px"
+size_label = "11px"
+size_control = "13px"
+size_lg = "16px"
+line_height = "1.5"
+weight_normal = "400"
+weight_medium = "500"
+weight_bold = "600"
+
+[shadows]
+shadow-sm = "0 1px 2px rgba(6,4,5,0.55)"
+shadow-md = "0 6px 18px rgba(6,4,5,0.45)"
+shadow-lg = "0 16px 40px rgba(6,4,5,0.55)"
+glow-accent = "0 0 0 2px rgba(201,47,66,0.22)"
+glow-accent-strong = "0 0 0 3px rgba(201,47,66,0.32)"
+glow-error = "0 0 0 2px rgba(224,90,90,0.22)"
+glow-success = "0 0 0 2px rgba(120,190,140,0.20)"
+
+[backdrop]
+modal = 8.0
+dropdown = 10.0
+panel = 8.0
+overlay = 4.0
+float = 10.0
+viewer = 10.0
+
+[others]
+surface-rgb = "255, 255, 255"
+surface-subtle = "rgba(255,255,255,0.04)"
+surface-raised = "rgba(255,255,255,0.06)"
+surface-dropdown = "#211c1d"
+surface-input = "#100d0e"
+surface-hover = "#241d1f"
+surface-active = "#2e2426"
+surface-selected = "#2a2224"
+surface-card = "#1d1919"
+toast-bg = "#211c1d"
+toast-border = "#2e2527"
+button-bg = "#221c1d"
+button-hover-bg = "#2e2426"
+btn-bg = "#221c1d"
+item-bg = "#1a1617"
+icon-filter = "brightness(0) saturate(100%) invert(93%) sepia(8%) saturate(300%) hue-rotate(330deg) brightness(103%) contrast(90%)"
+icon-filter-accent = "brightness(0) saturate(100%) invert(30%) sepia(60%) saturate(2500%) hue-rotate(335deg) brightness(95%) contrast(95%)"
+icon-filter-success = "invert(74%) sepia(20%) saturate(900%) hue-rotate(80deg) brightness(95%)"
+icon-filter-error = "invert(45%) sepia(70%) saturate(2500%) hue-rotate(335deg) brightness(100%)"
+icon-filter-warning = "invert(75%) sepia(45%) saturate(800%) hue-rotate(5deg) brightness(100%)"
+icon-filter-info = "invert(75%) sepia(20%) saturate(600%) hue-rotate(320deg) brightness(100%)"
+icon-filter-muted = "brightness(0) saturate(100%) invert(55%) sepia(8%) saturate(300%) hue-rotate(320deg) brightness(95%)"
+scrollbar-track = "transparent"
+scrollbar-thumb = "#3a2f31"
+scrollbar-thumb-hover = "#c92f42"
+scrollbar-size = "8px"
+scrollbar-radius = "2px"
+
+[tokens]
+"--color-scheme" = "dark"
