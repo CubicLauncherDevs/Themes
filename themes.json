@@ -1929,6 +1929,52 @@
     "date": "2026-09-09T00:29:37-06:00"
   },
   {
+    "id": "notstaff-cieloeterno",
+    "slug": "notstaff-cieloeterno",
+    "name": "Cielo Eterno",
+    "author": "Notstaff",
+    "tags": [],
+    "dirPath": "src/Notstaff/CieloEterno",
+    "description": "# Cielo Eterno\n\nTema limpio y oscuro para CubicLauncher inspirado en el retrato etéreo de alas blancas. La paleta toma el negro azulado del fondo, la plata del plumaje y el azul helado de la luz.\n\n## Características\n\n- **Fondo nítido:** el wallpaper se muestra sin desenfoque; solo se atenúa lo justo para que el texto claro mantenga contraste sobre las alas.\n- **Paleta corta:** negro azulado, dos grises fríos y un único acento azul pálido. El carmesí queda reservado para errores.\n- **Superficies limpias:** hairlines de 1 px en azul pizarra, radios de 10 px, sombras negras y sin degradados.\n- **Detalles:** títulos en serif del sistema para acompañar la caligrafía de la imagen, scrollbar fina y foco con anillo azul.\n\n## Notas\n\nNo incluye fuentes ni CSS propio: todo se resuelve con variables de `Definition.toml`. El fondo se guardó en WebP para mantener el peso bajo sin perder detalle.\n\n## Créditos\n\n- **Fondo:** arte de la canción «Cielo Eterno» de **DannyLux** y **Jasiel Nuñez**.\n- La imagen pertenece a sus autores; este tema solo la usa como fondo, sin fines comerciales.\n- El resto del tema (paleta, variables y archivos) es trabajo propio.\n",
+    "verified": true,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/CieloEterno/V1/preview.1bf63aa4.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Notstaff/CieloEterno/V1",
+        "date": "2026-11-09T18:05:17-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "CREDITS.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/CieloEterno/V1/CREDITS.txt"
+          },
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/CieloEterno/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Notstaff/CieloEterno/V1/Meta.toml"
+          },
+          {
+            "name": "bg.webp",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/CieloEterno/V1/bg.0152c15d.webp"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Notstaff/CieloEterno/V1/preview.1bf63aa4.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Notstaff/CieloEterno/V1/preview.1bf63aa4.png",
+    "date": "2026-11-09T18:05:17-06:00"
+  },
+  {
     "id": "notstaff-clang",
     "slug": "notstaff-clang",
     "name": "Clang",
