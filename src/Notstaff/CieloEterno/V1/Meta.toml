@@ -1,0 +1,7 @@
+name = "Cielo Eterno"
+author = "Notstaff"
+version = "1.0.0"
+description = "Tema limpio de cielo nocturno: negro azulado, plata helada y un acento azul pálido sobre el retrato de alas blancas."
+format = 2
+api_version = "2.1"
+injects_css = false
