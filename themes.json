@@ -4624,5 +4624,51 @@
     "latestVersion": "V1",
     "previewUrl": "https://themes.cubiclauncher.org/src/skypegg/Tsukasa/V1/preview.5833d79d.png",
     "date": "2026-11-06T22:58:25-06:00"
+  },
+  {
+    "id": "villas208-deadpool",
+    "slug": "villas208-deadpool",
+    "name": "Deadpool",
+    "author": "villas208",
+    "tags": [],
+    "dirPath": "src/villas208/Deadpool",
+    "description": "# Deadpool\n\nTema oscuro para CubicLauncher con fondo animado, inspirado en el live wallpaper de Deadpool en la bañera. La paleta sale del traje: carbón, rojo de máscara y el acero de la bañera como color informativo.\n\n## Características\n\n- **Fondo animado:** GIF de 109 fotogramas a 10 fps (720×405) que reproduce el bucle del video original, nítido y sin desenfoque, atenuado para que la interfaz siga siendo legible.\n- **Paleta corta:** carbón casi negro, dos grises cálidos y un único acento rojo. El resto de estados usa colores desaturados.\n- **Superficies limpias:** hairlines de 1 px, radios de 8 px y sombras negras sin degradados.\n- **Detalles:** iconos en blanco cálido, scrollbar fina y foco con anillo rojo.\n\n## Notas\n\nNo incluye fuentes ni CSS propio: todo se resuelve con variables de `Definition.toml`. El fondo se convirtió de MP4 a GIF con paleta de 64 colores para mantener el peso bajo; el GIF no tiene audio.\n\n## Créditos\n\n- **Personaje y marca:** Deadpool pertenece a Marvel.\n- **Fondo:** live wallpaper de Deadpool; se usa únicamente como fondo animado del tema.\n- Paleta, variables y archivos del tema: villas208.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/villas208/Deadpool/V1/preview.3ad87439.png",
+        "showcaseUrl": null,
+        "dirPath": "src/villas208/Deadpool/V1",
+        "date": "2026-11-10T22:05:50-06:00",
+        "changelog": null,
+        "files": [
+          {
+            "name": "CREDITS.txt",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/villas208/Deadpool/V1/CREDITS.txt"
+          },
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/villas208/Deadpool/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/villas208/Deadpool/V1/Meta.toml"
+          },
+          {
+            "name": "bg.gif",
+            "url": "https://themes.cubiclauncher.org/src/villas208/Deadpool/V1/bg.2c40e7d0.gif"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/villas208/Deadpool/V1/preview.3ad87439.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/villas208/Deadpool/V1/preview.3ad87439.png",
+    "date": "2026-11-10T22:05:50-06:00"
   }
 ]
