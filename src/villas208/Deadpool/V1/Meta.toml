@@ -1,0 +1,7 @@
+name = "Deadpool"
+author = "villas208"
+version = "1.0.0"
+description = "Tema oscuro de cómic: carbón, rojo de máscara y fondo animado del mercenario en la bañera."
+format = 2
+api_version = "2.1"
+injects_css = false
