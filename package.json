@@ -3,7 +3,7 @@
     "test": "node --test scripts/theme-registry.test.mjs"
   },
   "dependencies": {
-    "@napi-rs/canvas": "^1.1.0",
+    "@napi-rs/canvas": "^1.1.1",
     "gifuct-js": "^2.1.2"
   }
 }
