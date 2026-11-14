@@ -1802,7 +1802,7 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.aaede935.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png",
         "showcaseUrl": null,
         "dirPath": "src/Mel_Roses/Nexus0/V1",
         "date": "2026-11-14T22:41:56Z",
@@ -1817,23 +1817,27 @@
             "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0/V1/Meta.toml"
           },
           {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/bg.76658a5a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png"
+          },
+          {
             "name": "fonts/go3v2.ttf",
             "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/fonts/go3v2.8bb0d23e.ttf"
           },
           {
             "name": "icons/preview.png",
             "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/icons/preview.76658a5a.png"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.aaede935.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.aaede935.png",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png",
     "date": "2026-11-14T22:41:56Z"
   },
   {
