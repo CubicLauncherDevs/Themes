@@ -1791,54 +1791,104 @@
     "date": "2026-07-24T03:40:25-04:00"
   },
   {
-    "id": "mel-roses-nexus0",
-    "slug": "mel-roses-nexus0",
+    "id": "mel-roses-nexus0-darck",
+    "slug": "mel-roses-nexus0-darck",
     "name": "Nexus Dark",
     "author": "Mel_Roses",
     "tags": [],
-    "dirPath": "src/Mel_Roses/Nexus0",
+    "dirPath": "src/Mel_Roses/Nexus0 Darck",
     "description": "# Tema Nexus0 (Modo Oscuro)\n\nUn tema oscuro minimalista y de alto contraste inspirado en la paleta visual oficial de **Nexuso**, diseñado para ofrecer una experiencia limpia, elegante y cómoda para la vista durante sesiones prolongadas.\n\n## Características principales\n\n* **Paleta de colores:** Base en negro puro (`#000000`) combinada con paneles en azul pizarra oscuro (`#0F141A`) y acentos en azul cielo brillante (`#87CEFA`) para botones, bordes y elementos activos.\n* **Tipografía personalizada:** Integra la fuente **Go3V2** (`fonts/go3v2.ttf`), manteniendo la identidad visual original de la plataforma en encabezados, menús y textos.\n* **Diseño y formas:** Bordes suavemente redondeados (`8px` en tarjetas y `4px` en elementos pequeños) acompañados de sombras profundas que aportan separación visual sin recargar la interfaz.\n* **Fondo integrado:** Soporte configurado para utilizar el logotipo oficial de Nexus (`bg.png`) como fondo centrado.\n",
     "verified": false,
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png",
         "showcaseUrl": null,
-        "dirPath": "src/Mel_Roses/Nexus0/V1",
-        "date": "2026-11-14T22:41:56Z",
+        "dirPath": "src/Mel_Roses/Nexus0 Darck/V1",
+        "date": "2026-11-14T23:10:47Z",
         "changelog": null,
         "files": [
           {
             "name": "Definition.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0/V1/Definition.toml"
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0 Darck/V1/Definition.toml"
           },
           {
             "name": "Meta.toml",
-            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0/V1/Meta.toml"
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0 Darck/V1/Meta.toml"
           },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/bg.76658a5a.png"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png"
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/bg.76658a5a.png"
           },
           {
             "name": "fonts/go3v2.ttf",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/fonts/go3v2.8bb0d23e.ttf"
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/fonts/go3v2.8bb0d23e.ttf"
           },
           {
             "name": "icons/preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/icons/preview.76658a5a.png"
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/icons/preview.76658a5a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0/V1/preview.1321d18b.png",
-    "date": "2026-11-14T22:41:56Z"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png",
+    "date": "2026-11-14T23:10:47Z"
+  },
+  {
+    "id": "mel-roses-nexus0-light",
+    "slug": "mel-roses-nexus0-light",
+    "name": "Nexus Light",
+    "author": "Mel_Roses",
+    "tags": [],
+    "dirPath": "src/Mel_Roses/Nexus0 Light",
+    "description": "# Tema Nexus0 (Modo Claro)\n\nUn tema claro minimalista y de alto contraste inspirado en la paleta visual oficial de **Nexus0**, diseñado para ofrecer una experiencia luminosa, elegante y cómoda para la vista durante sesiones prolongadas.\n\n## Características principales\n\n- **Paleta de colores:** Base en blanco puro (`#FFFFFF`) combinada con paneles en gris claro azulado (`#F0F4F8`) y acentos en azul vibrante (`#1E90FF`) para botones, bordes y elementos activos.\n\n- **Tipografía personalizada:** Integra la fuente **Go3V2** (`fonts/go3v2.ttf`), manteniendo la identidad visual original de la plataforma en encabezados, menús y textos.\n\n- **Diseño y formas:** Bordes suavemente redondeados (`8px` en tarjetas y `4px` en elementos pequeños) acompañados de sombras sutiles que aportan separación visual sin recargar la interfaz.\n\n- **Fondo integrado:** Soporte configurado para utilizar el logotipo oficial de Nexus (`bg.png`) adaptado con estilo limpio y profesional.\n",
+    "verified": false,
+    "versions": [
+      {
+        "version": "V1",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png",
+        "showcaseUrl": null,
+        "dirPath": "src/Mel_Roses/Nexus0 Light/V1",
+        "date": "2026-11-14T23:10:47Z",
+        "changelog": null,
+        "files": [
+          {
+            "name": "Definition.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0 Light/V1/Definition.toml"
+          },
+          {
+            "name": "Meta.toml",
+            "url": "https://raw.githubusercontent.com/CubicLauncherDevs/Themes/refs/heads/master/src/Mel_Roses/Nexus0 Light/V1/Meta.toml"
+          },
+          {
+            "name": "bg.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/bg.76658a5a.png"
+          },
+          {
+            "name": "fonts/go3v2.ttf",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/fonts/go3v2.8bb0d23e.ttf"
+          },
+          {
+            "name": "icons/preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/icons/preview.76658a5a.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png"
+          }
+        ],
+        "injectsCss": false
+      }
+    ],
+    "latestVersion": "V1",
+    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png",
+    "date": "2026-11-14T23:10:47Z"
   },
   {
     "id": "notstaff-aquablush",
