@@ -1802,10 +1802,10 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.955988f0.png",
         "showcaseUrl": null,
         "dirPath": "src/Mel_Roses/Nexus0 Darck/V1",
-        "date": "2026-11-14T23:10:47Z",
+        "date": "2026-11-14T17:35:33-06:00",
         "changelog": null,
         "files": [
           {
@@ -1818,7 +1818,11 @@
           },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/bg.76658a5a.png"
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/bg.e1162de1.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.955988f0.png"
           },
           {
             "name": "fonts/go3v2.ttf",
@@ -1827,18 +1831,14 @@
           {
             "name": "icons/preview.png",
             "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/icons/preview.76658a5a.png"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.1321d18b.png",
-    "date": "2026-11-14T23:10:47Z"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Darck/V1/preview.955988f0.png",
+    "date": "2026-11-14T17:35:33-06:00"
   },
   {
     "id": "mel-roses-nexus0-light",
@@ -1852,10 +1852,10 @@
     "versions": [
       {
         "version": "V1",
-        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png",
+        "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.c7b6c2d9.png",
         "showcaseUrl": null,
         "dirPath": "src/Mel_Roses/Nexus0 Light/V1",
-        "date": "2026-11-14T23:10:47Z",
+        "date": "2026-11-14T17:35:33-06:00",
         "changelog": null,
         "files": [
           {
@@ -1868,7 +1868,11 @@
           },
           {
             "name": "bg.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/bg.76658a5a.png"
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/bg.a5892762.png"
+          },
+          {
+            "name": "preview.png",
+            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.c7b6c2d9.png"
           },
           {
             "name": "fonts/go3v2.ttf",
@@ -1877,18 +1881,14 @@
           {
             "name": "icons/preview.png",
             "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/icons/preview.76658a5a.png"
-          },
-          {
-            "name": "preview.png",
-            "url": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png"
           }
         ],
         "injectsCss": false
       }
     ],
     "latestVersion": "V1",
-    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.f5ece491.png",
-    "date": "2026-11-14T23:10:47Z"
+    "previewUrl": "https://themes.cubiclauncher.org/src/Mel_Roses/Nexus0 Light/V1/preview.c7b6c2d9.png",
+    "date": "2026-11-14T17:35:33-06:00"
   },
   {
     "id": "notstaff-aquablush",
