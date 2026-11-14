@@ -1,0 +1,80 @@
+[colors]
+accent = "#1E90FF"
+"accent-rgb" = "30, 144, 255"
+"accent-hover" = "#1C86EE"
+"accent-text" = "#FFFFFF"
+
+[text]
+primary = "#1A202C"
+secondary = "#4A5568"
+muted = "#718096"
+
+[backgrounds]
+main = "#FFFFFF"
+sidebar = "#F0F4F8"
+card = "#F0F4F8"
+input = "#E2E8F0"
+"item-active" = "#D8E2EC"
+surface = "#F0F4F8"
+overlay = "rgba(0, 0, 0, 0.40)"
+"sidebar-gradient" = "#F0F4F8"
+"card-gradient" = "#F0F4F8"
+"surface-input" = "#E2E8F0"
+"surface-dropdown" = "#F0F4F8"
+"surface-hover" = "rgba(0, 0, 0, 0.04)"
+"surface-active" = "rgba(0, 0, 0, 0.08)"
+"surface-selected" = "rgba(30, 144, 255, 0.12)"
+"surface-card" = "rgba(0, 0, 0, 0.02)"
+
+[borders]
+color = "rgba(30, 144, 255, 0.25)"
+radius = "8px"
+"radius-sm" = "4px"
+"radius-lg" = "12px"
+width = "1px"
+
+[shadows]
+"shadow-sm" = "0 2px 8px rgba(0, 0, 0, 0.06)"
+"shadow-md" = "0 10px 30px rgba(0, 0, 0, 0.10)"
+"shadow-lg" = "0 18px 52px rgba(0, 0, 0, 0.15)"
+"glow-accent" = "0 0 0 1px #1E90FF"
+"glow-error" = "0 0 0 1px #EF4444"
+"glow-success" = "0 0 0 1px #10B981"
+
+[layout]
+"font-family" = "\"Go3V2\", system-ui, sans-serif"
+"font-size-base" = "14px"
+"font-size-sm" = "12px"
+"font-size-lg" = "16px"
+"sidebar-width" = "248px"
+
+[others]
+"surface-rgb" = "0, 0, 0"
+"icon-filter" = "none"
+"icon-filter-error" = "none"
+"color-success" = "#10B981"
+"color-success-rgb" = "16, 185, 129"
+"color-error" = "#EF4444"
+"color-error-rgb" = "239, 68, 68"
+"color-warning" = "#F59E0B"
+"color-warning-rgb" = "245, 158, 11"
+"color-info" = "#1E90FF"
+"color-info-rgb" = "30, 144, 255"
+"color-status-starting" = "#F59E0B"
+"color-status-started" = "#10B981"
+"scrollbar-track" = "#F0F4F8"
+"scrollbar-thumb" = "#CBD5E1"
+
+[backdrop]
+dropdown = 0.2
+modal = 0.4
+
+[[fonts]]
+family = "Go3V2"
+src = "fonts/go3v2.ttf"
+format = "truetype"
+weight = "400"
+style = "normal"
+
+[icons]
+preview = "icons/preview.png"
