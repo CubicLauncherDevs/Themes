@@ -1,3 +1,8 @@
+[background]
+reference_path = "bg.png"
+image_blur = 0.0
+image_opacity = 1.0
+
 [colors]
 accent = "#87CEFA"
 "accent-rgb" = "135, 206, 250"
